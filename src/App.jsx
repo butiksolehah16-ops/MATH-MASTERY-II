@@ -1,10 +1,12 @@
 import { lazy, Suspense } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 import PilihForm from "./screens/PilihForm.jsx";
+import AccessGate from "./screens/AccessGate.jsx";
 import RouteLoading from "./components/RouteLoading.jsx";
 import InstallBanner from "./components/InstallBanner.jsx";
 import { useThemeByRoute } from "./hooks/useThemeByRoute.js";
 import { useDailyReminder } from "./hooks/useDailyReminder.js";
+import { useAccess } from "./state/AccessContext.jsx";
 
 // PilihForm (skrin pertama) dimuat terus supaya first paint pantas. Skrin
 // lain (terutamanya SkrinTopik, yang tarik SEMUA kandungan Form 1/2/3 melalui
@@ -26,6 +28,11 @@ const Notifikasi = lazy(() => import("./screens/Notifikasi.jsx"));
 export default function App() {
   useThemeByRoute();
   useDailyReminder();
+  const { isUnlocked } = useAccess();
+
+  if (!isUnlocked) {
+    return <AccessGate />;
+  }
 
   return (
     <>
