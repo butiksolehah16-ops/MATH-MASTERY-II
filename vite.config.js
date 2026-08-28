@@ -10,9 +10,9 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: ["icon.svg"],
       manifest: {
-        name: "Math Mastery — Tingkatan 1",
+        name: "Math Mastery — KSSM Matematik",
         short_name: "Math Mastery",
-        description: "Penguasaan Matematik KSSM Tingkatan 1 — bukan sekadar bank soalan.",
+        description: "Penguasaan Matematik KSSM Tingkatan 1-3 — bukan sekadar bank soalan.",
         lang: "ms",
         start_url: "/",
         display: "standalone",
