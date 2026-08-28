@@ -1,0 +1,104 @@
+.set-builder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.set-builder__svg {
+  width: 100%;
+  max-width: 240px;
+  height: auto;
+}
+
+.set-builder__circle {
+  fill: color-mix(in srgb, var(--chapter-theme, var(--accent)) 10%, transparent);
+  stroke: var(--chapter-theme, var(--accent));
+  stroke-width: 2.5;
+}
+
+.set-builder__set-label {
+  fill: var(--chapter-theme, var(--accent));
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.set-builder__label {
+  fill: var(--text-0);
+  font-size: 13px;
+  font-weight: 700;
+  animation: set-builder-pop 0.25s var(--ease-premium) both;
+}
+
+@keyframes set-builder-pop {
+  from {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.set-builder__value {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--text-0);
+  text-align: center;
+  word-break: break-word;
+}
+
+.set-builder__controls {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.set-builder__step-btn {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: var(--radius-md);
+  background: var(--chapter-theme, var(--accent));
+  color: #0b1220;
+  font-weight: 800;
+  font-size: 14px;
+  box-shadow: 0 8px 20px -6px color-mix(in srgb, var(--chapter-theme, var(--accent)) 70%, transparent);
+  transition: transform 0.2s var(--ease-premium), box-shadow 0.2s var(--ease-premium), opacity 0.2s ease;
+}
+
+.set-builder__step-btn:not(:disabled):hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px -6px color-mix(in srgb, var(--chapter-theme, var(--accent)) 80%, transparent);
+}
+
+.set-builder__step-btn:not(:disabled):active {
+  transform: translateY(0);
+}
+
+.set-builder__step-btn:disabled {
+  opacity: 0.6;
+  box-shadow: none;
+}
+
+.set-builder__reset-btn {
+  padding: 12px 16px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-1);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.set-builder__reset-btn:disabled {
+  opacity: 0.4;
+}
+
+.set-builder__result {
+  text-align: center;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--success);
+}

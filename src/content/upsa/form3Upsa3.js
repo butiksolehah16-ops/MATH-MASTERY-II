@@ -1,0 +1,210 @@
+// Kertas Ujian UPSA Percubaan #3 — Matematik Tingkatan 3. Format sama seperti
+// Set 1 dan Set 2 (Bahagian A/B/C, 100 markah, 31 soalan, 90 minit, Bab 1–5
+// sahaja), dengan nombor dan konteks BERBEZA lagi.
+export const form3UpsaPaper3 = {
+  id: "form3-upsa-3",
+  formId: "form3",
+  examTypeLabel: "UPSA",
+  title: "Ujian UPSA Percubaan (Set 3)",
+  subtitle: "Matematik · Tingkatan 3 (Pertengahan Tahun · Bab 1–5)",
+  totalMarks: 100,
+  durationMinutes: 90,
+  sections: [
+    {
+      key: "A",
+      label: "Bahagian A",
+      instruction: "Jawab SEMUA soalan. Setiap soalan bernilai 1 markah.",
+      type: "mcq",
+      questions: [
+        { id: "A1", topic: "Bab 1 · Indeks", marks: 1, prompt: "Nilaikan 2⁵.", choices: ["32", "10", "25", "52"], answer: "32" },
+        { id: "A2", topic: "Bab 1 · Indeks", marks: 1, prompt: "Permudahkan 6⁷ ÷ 6⁴ dalam bentuk indeks.", choices: ["6³", "6¹¹", "6²⁸", "6¹"], answer: "6³" },
+        { id: "A3", topic: "Bab 1 · Indeks", marks: 1, prompt: "Nilaikan 12⁰.", choices: ["1", "0", "12", "120"], answer: "1" },
+        { id: "A4", topic: "Bab 1 · Indeks", marks: 1, prompt: "Nilaikan 5⁻¹ dalam bentuk pecahan.", choices: ["1/5", "-5", "5", "-1/5"], answer: "1/5" },
+        { id: "A5", topic: "Bab 2 · Bentuk Piawai", marks: 1, prompt: "Berapakah bilangan angka bererti dalam 8300?", choices: ["2", "4", "3", "1"], answer: "2" },
+        { id: "A6", topic: "Bab 2 · Bentuk Piawai", marks: 1, prompt: "Berapakah bilangan angka bererti dalam 0.02040?", choices: ["4", "2", "3", "1"], answer: "4" },
+        { id: "A7", topic: "Bab 2 · Bentuk Piawai", marks: 1, prompt: "Tulis 6200000 dalam bentuk piawai.", choices: ["6.2 × 10⁶", "6.2 × 10⁵", "62 × 10⁵", "6.2 × 10⁷"], answer: "6.2 × 10⁶" },
+        { id: "A8", topic: "Bab 2 · Bentuk Piawai", marks: 1, prompt: "Tulis 0.000019 dalam bentuk piawai.", choices: ["1.9 × 10⁻⁵", "1.9 × 10⁵", "19 × 10⁻⁶", "1.9 × 10⁻⁴"], answer: "1.9 × 10⁻⁵" },
+        { id: "A9", topic: "Bab 3 · Matematik Pengguna", marks: 1, prompt: "Kirakan faedah mudah bagi P=RM2500, r=6% setahun, t=3 tahun.", choices: ["RM450", "RM150", "RM2950", "RM900"], answer: "RM450" },
+        { id: "A10", topic: "Bab 3 · Matematik Pengguna", marks: 1, prompt: "Pinjaman RM6000 pada faedah sama rata 3% setahun selama 4 tahun. Cari jumlah bayaran balik A.", choices: ["RM6720", "RM720", "RM6000", "RM6700"], answer: "RM6720" },
+        { id: "A11", topic: "Bab 3 · Matematik Pengguna", marks: 1, prompt: "Strategi membeli jumlah RINGGIT TETAP setiap bulan (harga berbeza-beza) dipanggil?", choices: ["Pemurataan kos ringgit", "Faedah kompaun", "Faedah mudah", "Pinjaman ansuran"], answer: "Pemurataan kos ringgit" },
+        { id: "A12", topic: "Bab 3 · Matematik Pengguna", marks: 1, prompt: "Antara berikut, manakah TERMASUK dalam \"kredit\"?", choices: ["Kad kredit dan pinjaman", "Akaun simpanan sahaja", "Wang tunai sahaja", "Hartanah sahaja"], answer: "Kad kredit dan pinjaman" },
+        { id: "A13", topic: "Bab 4 · Lukisan Berskala", marks: 1, prompt: "Skala 1:80. Ukuran lukisan 4 cm. Apakah ukuran sebenar?", choices: ["320 cm", "84 cm", "76 cm", "20 cm"], answer: "320 cm" },
+        { id: "A14", topic: "Bab 4 · Lukisan Berskala", marks: 1, prompt: "Ukuran sebenar 720 cm dilukis sebagai 8 cm. Apakah skala?", choices: ["1:90", "90:1", "1:8", "1:720"], answer: "1:90" },
+        { id: "A15", topic: "Bab 4 · Lukisan Berskala", marks: 1, prompt: "Skala 1:120. Ukuran sebenar 960 cm. Apakah ukuran lukisan?", choices: ["8 cm", "115200 cm", "120 cm", "112 cm"], answer: "8 cm" },
+        { id: "A16", topic: "Bab 4 · Lukisan Berskala", marks: 1, prompt: "Skala 1:n dengan n > 1 bermaksud lukisan itu?", choices: ["Lebih kecil daripada sebenar", "Lebih besar daripada sebenar", "Sama besar dengan sebenar", "Tiada kaitan dengan saiz"], answer: "Lebih kecil daripada sebenar" },
+        { id: "A17", topic: "Bab 5 · Nisbah Trigonometri", marks: 1, prompt: "Segi tiga bersudut tegak: bertentangan θ = 15, hipotenus = 17. Cari sin θ (2 tempat perpuluhan).", choices: ["0.88", "0.47", "1.13", "0.53"], answer: "0.88" },
+        { id: "A18", topic: "Bab 5 · Nisbah Trigonometri", marks: 1, prompt: "Apakah nilai kos 45° (2 tempat perpuluhan)?", choices: ["0.71", "1", "0.5", "1.41"], answer: "0.71" },
+        { id: "A19", topic: "Bab 5 · Nisbah Trigonometri", marks: 1, prompt: "Segi tiga bersudut tegak: bersebelahan θ = 8, hipotenus = 17. Cari kos θ (2 tempat perpuluhan).", choices: ["0.47", "0.88", "1.13", "0.53"], answer: "0.47" },
+        { id: "A20", topic: "Bab 5 · Nisbah Trigonometri", marks: 1, prompt: "Formula tan θ boleh diterbitkan daripada sin θ dan kos θ macam mana?", choices: ["tan θ = sin θ ÷ kos θ", "tan θ = sin θ × kos θ", "tan θ = sin θ + kos θ", "tan θ = kos θ ÷ sin θ"], answer: "tan θ = sin θ ÷ kos θ" },
+      ],
+    },
+    {
+      key: "B",
+      label: "Bahagian B",
+      instruction: "Jawab SEMUA soalan. Tunjukkan kerja mengira kamu sebelum taip jawapan akhir setiap bahagian.",
+      type: "structured",
+      questions: [
+        {
+          id: "B1",
+          topic: "Bab 1 · Indeks",
+          isKbat: false,
+          context: "Diberi ungkapan 7² × 7³, dipermudahkan kepada bentuk indeks 7ⁿ.",
+          parts: [
+            { label: "(a)", prompt: "Apakah nilai n?", answer: "5", marks: 2 },
+            { label: "(b)", prompt: "Nilaikan 7ⁿ.", answer: "16807", marks: 2 },
+          ],
+          solution: ["7² × 7³ = 7²⁺³ = 7⁵, jadi n = 5", "7⁵ = 16807"],
+        },
+        {
+          id: "B2",
+          topic: "Bab 2 · Bentuk Piawai",
+          isKbat: false,
+          context: "Sebuah perpustakaan menyimpan 215000 buah buku, ditulis dalam bentuk piawai A × 10ⁿ.",
+          parts: [
+            { label: "(a)", prompt: "Apakah nilai A?", answer: "2.15", marks: 2 },
+            { label: "(b)", prompt: "Apakah nilai n?", answer: "5", marks: 2 },
+          ],
+          solution: ["215000 = 2.15 × 10⁵", "Jadi A = 2.15 dan n = 5"],
+        },
+        {
+          id: "B3",
+          topic: "Bab 3 · Matematik Pengguna",
+          isKbat: false,
+          context: "Nadia melabur RM1800 pada faedah mudah 7% setahun selama 2 tahun.",
+          parts: [
+            { label: "(a)", prompt: "Cari faedah (RM).", answer: "252", marks: 2 },
+            { label: "(b)", prompt: "Cari jumlah akhir dalam akaunnya (RM).", answer: "2052", marks: 2 },
+          ],
+          solution: ["I = Prt = 1800 × 0.07 × 2 = RM252", "Jumlah akhir = 1800 + 252 = RM2052"],
+        },
+        {
+          id: "B4",
+          topic: "Bab 4 · Lukisan Berskala",
+          isKbat: false,
+          context: "Skala sebuah pelan ialah 1:6000. Jarak pada pelan ialah 11 cm.",
+          parts: [
+            { label: "(a)", prompt: "Cari jarak sebenar (cm).", answer: "66000", marks: 2 },
+            { label: "(b)", prompt: "Tukar jarak sebenar itu kepada m.", answer: "660", marks: 2 },
+          ],
+          solution: ["Jarak sebenar = 11 × 6000 = 66000 cm", "66000 cm = 660 m"],
+        },
+        {
+          id: "B5",
+          topic: "Bab 5 · Nisbah Trigonometri",
+          isKbat: false,
+          context: "Segi tiga bersudut tegak mempunyai sisi bertentangan θ = 16, sisi bersebelahan = 30, hipotenus = 34.",
+          parts: [
+            { label: "(a)", prompt: "Cari sin θ (2 tempat perpuluhan).", answer: "0.47", marks: 2 },
+            { label: "(b)", prompt: "Cari tan θ (2 tempat perpuluhan).", answer: "0.53", marks: 2 },
+          ],
+          solution: ["sin θ = 16 ÷ 34 = 0.4706, dibundarkan = 0.47", "tan θ = 16 ÷ 30 = 0.5333, dibundarkan = 0.53"],
+        },
+      ],
+    },
+    {
+      key: "C",
+      label: "Bahagian C",
+      instruction:
+        "Jawab SEMUA soalan. Bahagian ini soalan KBAT (Kemahiran Berfikir Aras Tinggi) — perlukan penaakulan berbilang langkah, bukan sekadar satu formula.",
+      type: "structured",
+      questions: [
+        {
+          id: "C1",
+          topic: "Bab 1 · Indeks (KBAT)",
+          isKbat: true,
+          context: "Nilai sebuah peralatan menyusut mengikut faktor ⅓ setiap tahun, bermula RM8100 (nilai = 8100 × (⅓)ⁿ, dengan n = bilangan tahun).",
+          parts: [
+            { label: "(a)", prompt: "Cari nilai peralatan (RM) selepas 2 tahun (n = 2).", answer: "900", marks: 4 },
+            { label: "(b)", prompt: "Selepas berapa TAHUN nilai peralatan menjadi RM300?", answer: "3", marks: 3 },
+            { label: "(c)", prompt: "Cari nilai peralatan (RM) selepas 4 tahun.", answer: "100", marks: 3 },
+          ],
+          solution: [
+            "Selepas 2 tahun: nilai = 8100 × (⅓)² = 8100 ÷ 9 = RM900",
+            "(⅓)ⁿ = 300 ÷ 8100 = 1/27 = (⅓)³ → n = 3 tahun",
+            "Selepas 4 tahun: nilai = 8100 × (⅓)⁴ = 8100 ÷ 81 = RM100",
+          ],
+        },
+        {
+          id: "C2",
+          topic: "Bab 2 · Bentuk Piawai (KBAT)",
+          isKbat: true,
+          context: "Jisim Bumi lebih kurang 6 × 10²⁴ kg. Jisim Bulan lebih kurang 7.5 × 10²² kg.",
+          parts: [
+            { label: "(a)", prompt: "Berapa kali ganda jisim Bumi berbanding jisim Bulan?", answer: "80", marks: 4 },
+            { label: "(b)", prompt: "Berapakah bilangan angka bererti dalam 7.5 × 10²² (bahagian A = 7.5 sahaja)?", answer: "2", marks: 3 },
+            { label: "(c)", prompt: "Jisim sebuah asteroid ialah 6 × 10²⁰ kg. Berapa kali ganda jisim Bumi berbanding jisim asteroid itu?", answer: "10000", marks: 3 },
+          ],
+          solution: [
+            "(6 × 10²⁴) ÷ (7.5 × 10²²) = 0.8 × 10² = 80 kali ganda",
+            "7.5 ada 2 angka bererti (7 dan 5)",
+            "(6 × 10²⁴) ÷ (6 × 10²⁰) = 10⁴ = 10000 kali ganda",
+          ],
+        },
+        {
+          id: "C3",
+          topic: "Bab 3 · Matematik Pengguna (KBAT)",
+          isKbat: true,
+          context: "Sebuah kedai meminjam RM24000 pada faedah sama rata 5% setahun selama 4 tahun, dibayar balik secara ansuran bulanan sama.",
+          parts: [
+            { label: "(a)", prompt: "Cari jumlah faedah (RM).", answer: "4800", marks: 3 },
+            { label: "(b)", prompt: "Cari jumlah bayaran balik keseluruhan A (RM).", answer: "28800", marks: 3 },
+            { label: "(c)", prompt: "Cari ansuran bulanan (RM).", answer: "600", marks: 4 },
+          ],
+          solution: [
+            "Faedah = 24000 × 0.05 × 4 = RM4800",
+            "A = 24000 + 4800 = RM28800",
+            "Tempoh 4 tahun = 48 bulan. Ansuran bulanan = 28800 ÷ 48 = RM600",
+          ],
+        },
+        {
+          id: "C4",
+          topic: "Bab 4 · Lukisan Berskala (KBAT)",
+          isKbat: true,
+          context: "Pelan sebuah ladang berskala 1:2000 menunjukkan segi empat tepat 9 cm × 7 cm.",
+          parts: [
+            { label: "(a)", prompt: "Cari panjang sebenar ladang itu (m).", answer: "180", marks: 3 },
+            { label: "(b)", prompt: "Cari lebar sebenar ladang itu (m).", answer: "140", marks: 4 },
+            { label: "(c)", prompt: "Cari luas sebenar ladang itu (m²).", answer: "25200", marks: 3 },
+          ],
+          solution: [
+            "Panjang sebenar = 9 × 2000 = 18000 cm = 180 m",
+            "Lebar sebenar = 7 × 2000 = 14000 cm = 140 m",
+            "Luas = 180 × 140 = 25200 m²",
+          ],
+        },
+        {
+          id: "C5",
+          topic: "Bab 5 · Nisbah Trigonometri (KBAT)",
+          isKbat: true,
+          context: "Sebatang kabel sokongan panjang 13 m menyambungkan puncak sebatang tiang ke tanah, membentuk sudut 50° dengan tanah. (Gunakan sin 50° ≈ 0.77, kos 50° ≈ 0.64)",
+          parts: [
+            { label: "(a)", prompt: "Cari tinggi tiang (m).", answer: "10.01", marks: 4 },
+            { label: "(b)", prompt: "Cari jarak tapak tiang ke titik kabel menyentuh tanah (m).", answer: "8.32", marks: 3 },
+            { label: "(c)", prompt: "Jika kabel dipendekkan kepada 10 m dengan sudut yang sama, cari tinggi tiang baharu (m).", answer: "7.7", marks: 3 },
+          ],
+          solution: [
+            "Tinggi tiang = 13 × sin 50° = 13 × 0.77 = 10.01 m",
+            "Jarak = 13 × kos 50° = 13 × 0.64 = 8.32 m",
+            "Tinggi baharu = 10 × sin 50° = 10 × 0.77 = 7.7 m",
+          ],
+        },
+        {
+          id: "C6",
+          topic: "Bab 1 dan 3 · Indeks & Matematik Pengguna (KBAT)",
+          isKbat: true,
+          context: "Sebuah simpanan bermula RM400 dan berganda mengikut faktor 2 setiap 2 tahun (nilai = 400 × 2ⁿ, dengan n = bilangan kitaran 2 tahun).",
+          parts: [
+            { label: "(a)", prompt: "Cari nilai simpanan (RM) selepas 6 tahun (n = 3).", answer: "3200", marks: 4 },
+            { label: "(b)", prompt: "Selepas berapa TAHUN nilai simpanan mencapai RM6400?", answer: "8", marks: 3 },
+            { label: "(c)", prompt: "Selepas 12 tahun, faktor pendaraban ialah 2ᵏ. Apakah nilai k?", answer: "6", marks: 3 },
+          ],
+          solution: [
+            "Selepas 6 tahun, n = 6 ÷ 2 = 3: nilai = 400 × 2³ = 400 × 8 = RM3200",
+            "RM6400 = 400 × 2ⁿ → 2ⁿ = 16 = 2⁴ → n = 4 → tahun = 4 × 2 = 8 tahun",
+            "Selepas 12 tahun, n = 12 ÷ 2 = 6, jadi k = 6",
+          ],
+        },
+      ],
+    },
+  ],
+};

@@ -1,0 +1,94 @@
+.spotlight-tour {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+}
+
+.spotlight-tour__blocker {
+  position: fixed;
+  inset: 0;
+  background: rgba(6, 9, 16, 0.72);
+}
+
+.spotlight-tour__hole {
+  position: fixed;
+  border-radius: 16px;
+  box-shadow: 0 0 0 9999px rgba(6, 9, 16, 0.72);
+  pointer-events: none;
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  transition: top 0.25s ease, left 0.25s ease, width 0.25s ease, height 0.25s ease;
+}
+
+.spotlight-tour__bubble {
+  position: fixed;
+  z-index: 1002;
+  width: 290px;
+  max-width: calc(100vw - 32px);
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 16px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+  animation: spotlight-bubble-in 0.25s ease both;
+}
+
+@keyframes spotlight-bubble-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.spotlight-tour__title {
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--text-0);
+  margin-bottom: 4px;
+}
+
+.spotlight-tour__body {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-1);
+}
+
+.spotlight-tour__footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.spotlight-tour__skip {
+  background: none;
+  border: none;
+  color: var(--text-2);
+  font-size: 12.5px;
+  font-weight: 600;
+  padding: 4px 0;
+}
+
+.spotlight-tour__progress {
+  font-size: 11.5px;
+  color: var(--text-2);
+  font-variant-numeric: tabular-nums;
+}
+
+.spotlight-tour__next {
+  margin-left: auto;
+}
+
+.spotlight-tour__next {
+  padding: 9px 16px;
+  border: none;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #0b1220;
+  font-weight: 800;
+  font-size: 13px;
+}

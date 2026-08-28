@@ -1,0 +1,562 @@
+.uasa-exam {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* ---------- Intro ---------- */
+
+.uasa-exam__intro {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 24px 20px;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(150deg, color-mix(in srgb, var(--chapter-theme, var(--accent)) 16%, var(--bg-1)), var(--bg-1));
+  border: 1px solid color-mix(in srgb, var(--chapter-theme, var(--accent)) 40%, var(--border));
+  box-shadow: var(--shadow-card);
+}
+
+.uasa-exam__intro-eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--chapter-theme, var(--accent));
+}
+
+.uasa-exam__intro-title {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--text-0);
+}
+
+.uasa-exam__intro-subtitle {
+  font-size: 14px;
+  color: var(--text-2);
+  margin-top: -8px;
+}
+
+.uasa-exam__intro-stats {
+  display: flex;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.uasa-exam__intro-stat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 12px 8px;
+  border-radius: var(--radius-md);
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+}
+
+.uasa-exam__intro-stat-value {
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--text-0);
+  font-variant-numeric: tabular-nums;
+}
+
+.uasa-exam__intro-stat-label {
+  font-size: 10.5px;
+  font-weight: 700;
+  color: var(--text-2);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.uasa-exam__intro-sections {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.uasa-exam__intro-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+}
+
+.uasa-exam__intro-section-key {
+  font-size: 12.5px;
+  font-weight: 800;
+  color: var(--chapter-theme, var(--accent));
+}
+
+.uasa-exam__intro-section-desc {
+  font-size: 12.5px;
+  color: var(--text-1);
+}
+
+.uasa-exam__intro-note {
+  font-size: 12.5px;
+  color: var(--text-2);
+  line-height: 1.5;
+}
+
+/* ---------- Exam topbar & palette ---------- */
+
+.uasa-exam__topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  border-radius: var(--radius-md);
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+}
+
+.uasa-exam__timer {
+  font-size: 15px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-0);
+}
+
+.uasa-exam__timer--low {
+  color: var(--danger);
+  animation: uasa-exam-pulse 1s ease-in-out infinite;
+}
+
+@keyframes uasa-exam-pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.55;
+  }
+}
+
+.uasa-exam__answered {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--text-2);
+}
+
+.uasa-exam__palette {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 10px;
+  border-radius: var(--radius-md);
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+  max-height: 108px;
+  overflow-y: auto;
+}
+
+.uasa-exam__palette-dot {
+  padding: 5px 8px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--bg-2);
+  color: var(--text-2);
+  font-size: 10.5px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.uasa-exam__palette-dot--done {
+  background: color-mix(in srgb, var(--success) 20%, var(--bg-2));
+  border-color: var(--success);
+  color: var(--success);
+}
+
+.uasa-exam__palette-dot--current {
+  border-color: var(--chapter-theme, var(--accent));
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--chapter-theme, var(--accent)) 45%, transparent);
+  color: var(--text-0);
+}
+
+/* ---------- Section banner ---------- */
+
+.uasa-exam__section-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px 14px;
+  border-radius: var(--radius-md);
+  background: color-mix(in srgb, var(--chapter-theme, var(--accent)) 14%, var(--bg-1));
+  border: 1px solid color-mix(in srgb, var(--chapter-theme, var(--accent)) 45%, var(--border));
+  animation: question-set-fade 0.3s var(--ease-premium) both;
+}
+
+.uasa-exam__section-banner-key {
+  font-size: 12.5px;
+  font-weight: 800;
+  color: var(--chapter-theme, var(--accent));
+}
+
+.uasa-exam__section-banner-instruction {
+  font-size: 12.5px;
+  color: var(--text-1);
+}
+
+@keyframes question-set-fade {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ---------- Question card ---------- */
+
+.uasa-exam__card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  border-radius: var(--radius-lg);
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-card);
+  animation: question-set-fade 0.3s var(--ease-premium) both;
+}
+
+.uasa-exam__card-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.uasa-exam__card-id {
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--text-0);
+  font-variant-numeric: tabular-nums;
+}
+
+.uasa-exam__card-topic {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--text-2);
+}
+
+.uasa-exam__kbat-tag {
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--xp) 22%, transparent);
+  color: var(--xp);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  margin-left: auto;
+}
+
+.uasa-exam__card-prompt {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-0);
+  line-height: 1.5;
+}
+
+.uasa-exam__choices {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.uasa-exam__choice {
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--bg-2);
+  color: var(--text-0);
+  font-weight: 600;
+  font-size: 13.5px;
+  text-align: left;
+  transition: border-color 0.2s var(--ease-premium), transform 0.2s var(--ease-premium);
+}
+
+.uasa-exam__choice:hover {
+  border-color: var(--chapter-theme, var(--accent));
+  transform: translateY(-1px);
+}
+
+.uasa-exam__choice--selected {
+  border-color: var(--chapter-theme, var(--accent));
+  background: color-mix(in srgb, var(--chapter-theme, var(--accent)) 18%, var(--bg-2));
+  color: var(--text-0);
+  font-weight: 700;
+}
+
+.uasa-exam__parts {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.uasa-exam__part {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.uasa-exam__part-prompt {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--text-1);
+  line-height: 1.5;
+}
+
+.uasa-exam__part-label {
+  font-weight: 800;
+  color: var(--chapter-theme, var(--accent));
+  margin-right: 4px;
+}
+
+.uasa-exam__part-input {
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--bg-2);
+  color: var(--text-0);
+  font-weight: 700;
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+
+.uasa-exam__part-input:focus {
+  outline: none;
+  border-color: var(--chapter-theme, var(--accent));
+}
+
+/* ---------- Nav ---------- */
+
+.uasa-exam__nav {
+  display: flex;
+  gap: 10px;
+}
+
+.uasa-exam__nav-btn {
+  flex: 1;
+  padding: 14px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: var(--bg-1);
+  color: var(--text-0);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.uasa-exam__nav-btn:disabled {
+  opacity: 0.4;
+}
+
+.uasa-exam__nav-btn--primary {
+  border: none;
+  background: var(--chapter-theme, var(--accent));
+  color: #0b1220;
+  font-weight: 800;
+  box-shadow: 0 8px 20px -6px color-mix(in srgb, var(--chapter-theme, var(--accent)) 70%, transparent);
+}
+
+.uasa-exam__submit-link {
+  align-self: center;
+  padding: 8px;
+  border: none;
+  background: transparent;
+  color: var(--text-2);
+  font-weight: 600;
+  font-size: 12.5px;
+  text-decoration: underline;
+}
+
+/* ---------- CTA (shared intro/review) ---------- */
+
+.uasa-exam__cta {
+  padding: 15px;
+  border: none;
+  border-radius: var(--radius-md);
+  background: var(--chapter-theme, var(--accent));
+  color: #0b1220;
+  font-weight: 800;
+  font-size: 15px;
+  box-shadow: 0 8px 20px -6px color-mix(in srgb, var(--chapter-theme, var(--accent)) 70%, transparent);
+  transition: transform 0.2s var(--ease-premium), box-shadow 0.2s var(--ease-premium);
+}
+
+.uasa-exam__cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px -6px color-mix(in srgb, var(--chapter-theme, var(--accent)) 80%, transparent);
+}
+
+.uasa-exam__cta--submit {
+  flex: 1;
+}
+
+/* ---------- Review ---------- */
+
+.uasa-exam__result-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 28px 20px;
+  border-radius: var(--radius-lg);
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+  text-align: center;
+}
+
+.uasa-exam__result-score {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-2);
+  font-variant-numeric: tabular-nums;
+}
+
+.uasa-exam__result-pct {
+  font-size: 34px;
+  font-weight: 800;
+  color: var(--text-0);
+  font-variant-numeric: tabular-nums;
+}
+
+.uasa-exam__result-sections {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.uasa-exam__result-section-chip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 8px 14px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-1);
+  font-variant-numeric: tabular-nums;
+}
+
+.uasa-exam__result-note {
+  font-size: 13px;
+  color: var(--text-2);
+  margin-top: 6px;
+  max-width: 44ch;
+}
+
+.uasa-exam__review-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.uasa-exam__review-section-title {
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--text-0);
+  margin-bottom: 10px;
+}
+
+.uasa-exam__review-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px;
+  border-radius: var(--radius-md);
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+  margin-bottom: 10px;
+}
+
+.uasa-exam__review-card--correct {
+  border-left: 3px solid var(--success);
+}
+
+.uasa-exam__review-card--wrong {
+  border-left: 3px solid var(--danger);
+}
+
+.uasa-exam__review-card-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.uasa-exam__review-card-id {
+  font-size: 12.5px;
+  font-weight: 800;
+  color: var(--text-0);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.uasa-exam__review-card-marks {
+  margin-left: auto;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-2);
+  font-variant-numeric: tabular-nums;
+}
+
+.uasa-exam__review-card-topic {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-2);
+}
+
+.uasa-exam__review-card-prompt {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--text-0);
+  line-height: 1.5;
+}
+
+.uasa-exam__review-card-answer {
+  font-size: 12.5px;
+  color: var(--text-1);
+  line-height: 1.5;
+}
+
+.uasa-exam__review-card-solution {
+  margin-top: 6px;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+}
+
+.uasa-exam__review-card-solution-label {
+  font-size: 10.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--chapter-theme, var(--accent));
+}
+
+.uasa-exam__review-card-solution ol {
+  margin: 6px 0 0;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.uasa-exam__review-card-solution li {
+  font-size: 12.5px;
+  color: var(--text-1);
+  line-height: 1.5;
+}

@@ -1,0 +1,181 @@
+:root {
+  --bg-0: #0e1420;
+  --bg-1: #141c2c;
+  --bg-2: #1b2537;
+  --bg-3: #232f45;
+  --border: #2c3a52;
+  --text-0: #f1f4f9;
+  --text-1: #c3ccdb;
+  --text-2: #8996ac;
+  --accent: #5b8def;
+  --accent-2: #7c6ef2;
+  --xp: #f2b84b;
+  --streak: #ef7d5b;
+  --success: #43c98a;
+  --danger: #ef5b6f;
+  --locked: #4a5468;
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+
+  --shadow-card: 0 8px 24px rgba(4, 8, 16, 0.35);
+  --shadow-lift: 0 16px 40px rgba(2, 5, 12, 0.45);
+  --header-bg: rgba(14, 20, 32, 0.86);
+  --font-sans: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  --accent-gradient: linear-gradient(135deg, var(--accent), var(--accent-2));
+  --ease-premium: cubic-bezier(0.16, 1, 0.3, 1);
+  --glow-1: 91, 141, 239;
+  --glow-2: 124, 110, 242;
+
+  color-scheme: dark;
+}
+
+/*
+ * Skrin Topik (ruang belajar) guna tema cerah & lembut — selesa untuk sesi
+ * belajar panjang, kurang penat mata berbanding putih tulen. Skrin luar
+ * (Pilih Form, Dashboard, Peta Bab, Profil) kekal tema gelap di atas.
+ * Ditukar automatik ikut laluan — lihat src/hooks/useThemeByRoute.js.
+ */
+:root[data-theme="light"] {
+  --bg-0: #f6f2e9;
+  --bg-1: #ffffff;
+  --bg-2: #f1ecdf;
+  --bg-3: #e6dfcc;
+  --border: #ddd4bd;
+  --text-0: #20242c;
+  --text-1: #4b5261;
+  --text-2: #7b8291;
+  --accent: #3f6fd1;
+  --accent-2: #6a56d6;
+  --xp: #9c6a0a;
+  --streak: #c85a3a;
+  --success: #1c8f5c;
+  --danger: #c93f52;
+  --locked: #a3a9b3;
+
+  --shadow-card: 0 8px 22px rgba(90, 74, 42, 0.1);
+  --shadow-lift: 0 16px 36px rgba(90, 74, 42, 0.16);
+  --header-bg: rgba(246, 242, 233, 0.86);
+  --glow-1: 63, 111, 209;
+  --glow-2: 106, 86, 214;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--bg-0);
+  color: var(--text-0);
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior-y: none;
+  transition: background-color 0.55s ease, color 0.55s ease;
+  position: relative;
+}
+
+/* Ambient glow — kedalaman lembut di belakang kandungan, rasa "premium" tanpa
+   ganggu kebolehbacaan. Warna tukar sekali dengan tema (--glow-1/--glow-2). */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(720px 480px at 12% -8%, rgba(var(--glow-1), 0.16), transparent 62%),
+    radial-gradient(640px 460px at 108% 6%, rgba(var(--glow-2), 0.13), transparent 60%),
+    radial-gradient(560px 420px at 50% 115%, rgba(var(--glow-1), 0.08), transparent 65%);
+  transition: opacity 0.55s ease;
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+}
+
+/* Peralihan gelap → cerah bila masuk Skrin Topik ("masuk pintu" ke ruang belajar) */
+@keyframes screen-enter {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.screen {
+  animation: screen-enter 0.45s ease both;
+}
+
+#root {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--bg-3);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.screen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+}
+
+.screen--wide {
+  max-width: 960px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}

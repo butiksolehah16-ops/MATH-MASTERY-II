@@ -1,0 +1,105 @@
+.senarai-ujian {
+  padding-top: 0;
+  gap: 20px;
+}
+
+.senarai-ujian__intro {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-2);
+  margin-top: 16px;
+}
+
+.senarai-ujian__section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.senarai-ujian__section-title {
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: var(--text-0);
+}
+
+.senarai-ujian__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.senarai-ujian__card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 18px;
+  border-radius: var(--radius-lg);
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-card);
+}
+
+.senarai-ujian__card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.senarai-ujian__card-badge {
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent-2) 20%, transparent);
+  color: var(--accent-2);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+}
+
+.senarai-ujian__card-best {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--xp);
+}
+
+.senarai-ujian__card-title {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--text-0);
+}
+
+.senarai-ujian__card-subtitle {
+  font-size: 12.5px;
+  color: var(--text-2);
+  margin-top: -4px;
+}
+
+.senarai-ujian__card-stats {
+  display: flex;
+  gap: 14px;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--text-1);
+  margin-top: 2px;
+}
+
+.senarai-ujian__card-cta {
+  margin-top: 10px;
+  padding: 12px;
+  border: none;
+  border-radius: var(--radius-md);
+  background: var(--accent-2);
+  color: #0b1220;
+  font-weight: 800;
+  font-size: 14px;
+  transition: transform 0.2s var(--ease-premium), box-shadow 0.2s var(--ease-premium);
+  box-shadow: 0 8px 18px -6px color-mix(in srgb, var(--accent-2) 65%, transparent);
+}
+
+.senarai-ujian__card-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 22px -6px color-mix(in srgb, var(--accent-2) 75%, transparent);
+}

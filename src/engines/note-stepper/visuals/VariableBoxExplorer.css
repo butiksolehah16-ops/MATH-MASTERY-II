@@ -1,0 +1,103 @@
+.variable-box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.variable-box__display {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--text-0);
+  font-variant-numeric: tabular-nums;
+  padding: 12px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+}
+
+.variable-box__history {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-height: 140px;
+  overflow-y: auto;
+}
+
+.variable-box__history-row {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-1);
+  font-variant-numeric: tabular-nums;
+  padding: 6px 10px;
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--chapter-theme, var(--accent)) 10%, transparent);
+  animation: variable-box-pop 0.2s var(--ease-premium) both;
+}
+
+@keyframes variable-box-pop {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.variable-box__controls {
+  display: flex;
+  gap: 10px;
+}
+
+.variable-box__step-btn {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: var(--radius-md);
+  background: var(--chapter-theme, var(--accent));
+  color: #0b1220;
+  font-weight: 800;
+  font-size: 14px;
+  box-shadow: 0 8px 20px -6px color-mix(in srgb, var(--chapter-theme, var(--accent)) 70%, transparent);
+  transition: transform 0.2s var(--ease-premium), box-shadow 0.2s var(--ease-premium), opacity 0.2s ease;
+}
+
+.variable-box__step-btn:not(:disabled):hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px -6px color-mix(in srgb, var(--chapter-theme, var(--accent)) 80%, transparent);
+}
+
+.variable-box__step-btn:not(:disabled):active {
+  transform: translateY(0);
+}
+
+.variable-box__step-btn:disabled {
+  opacity: 0.6;
+  box-shadow: none;
+}
+
+.variable-box__reset-btn {
+  padding: 12px 16px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-1);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.variable-box__reset-btn:disabled {
+  opacity: 0.4;
+}
+
+.variable-box__result {
+  text-align: center;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--success);
+}

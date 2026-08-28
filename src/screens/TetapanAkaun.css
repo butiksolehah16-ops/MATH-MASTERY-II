@@ -1,0 +1,163 @@
+.tetapan-akaun {
+  padding-top: 0;
+  gap: 26px;
+}
+
+.tetapan-akaun__section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 18px;
+  border-radius: var(--radius-lg);
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+}
+
+.tetapan-akaun__section:first-of-type {
+  margin-top: 20px;
+}
+
+.tetapan-akaun__section-title {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-2);
+}
+
+.tetapan-akaun__hint {
+  font-size: 12.5px;
+  color: var(--text-2);
+  line-height: 1.5;
+}
+
+.tetapan-akaun__hint--success {
+  color: var(--success);
+  font-weight: 700;
+}
+
+.tetapan-akaun__hint--error {
+  color: var(--danger);
+  font-weight: 700;
+}
+
+.tetapan-akaun__name-row {
+  display: flex;
+  gap: 10px;
+}
+
+.tetapan-akaun__input {
+  flex: 1;
+  min-width: 0;
+  padding: 11px 14px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: var(--bg-2);
+  color: var(--text-0);
+  font-size: 14px;
+}
+
+.tetapan-akaun__input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.tetapan-akaun__save-btn {
+  flex-shrink: 0;
+  padding: 11px 18px;
+  border: none;
+  border-radius: var(--radius-md);
+  background: var(--accent);
+  color: #0b1220;
+  font-weight: 700;
+  font-size: 13.5px;
+  transition: transform 0.2s var(--ease-premium), opacity 0.2s ease;
+}
+
+.tetapan-akaun__save-btn:disabled {
+  opacity: 0.5;
+}
+
+.tetapan-akaun__save-btn:not(:disabled):hover {
+  transform: translateY(-1px);
+}
+
+.tetapan-akaun__backup-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tetapan-akaun__backup-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 18px;
+  border-radius: var(--radius-md);
+  border: none;
+  background: var(--accent);
+  color: #0b1220;
+  font-weight: 700;
+  font-size: 13.5px;
+  cursor: pointer;
+  transition: transform 0.2s var(--ease-premium);
+}
+
+.tetapan-akaun__backup-btn:hover {
+  transform: translateY(-1px);
+}
+
+.tetapan-akaun__backup-btn--secondary {
+  background: transparent;
+  border: 1.5px solid var(--accent-2);
+  color: var(--accent-2);
+}
+
+.tetapan-akaun__reset-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tetapan-akaun__reset-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: var(--radius-md);
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+}
+
+.tetapan-akaun__reset-row-label {
+  font-size: 13.5px;
+  font-weight: 700;
+}
+
+.tetapan-akaun__reset-btn {
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-1);
+  font-weight: 700;
+  font-size: 12.5px;
+}
+
+.tetapan-akaun__reset-btn--danger {
+  border-color: var(--danger);
+  color: var(--danger);
+}
+
+.tetapan-akaun__reset-confirm {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tetapan-akaun__reset-confirm-text {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--danger);
+}

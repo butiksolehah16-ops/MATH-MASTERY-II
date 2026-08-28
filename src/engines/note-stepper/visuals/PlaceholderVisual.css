@@ -1,0 +1,26 @@
+.placeholder-visual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  padding: 24px 16px;
+  border-radius: var(--radius-md);
+  border: 1px dashed var(--border);
+  text-align: center;
+}
+
+.placeholder-visual__label {
+  font-size: 13px;
+  color: var(--text-2);
+  font-style: italic;
+}
+
+.placeholder-visual__cta {
+  padding: 10px 20px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--bg-2);
+  color: var(--text-0);
+  font-weight: 700;
+  font-size: 13px;
+}
