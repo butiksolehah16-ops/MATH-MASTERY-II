@@ -3,6 +3,37 @@ import "./BarChartExplorer.css";
 
 // Visual carta palang — dedah setiap palang (kategori) satu demi satu,
 // tunjuk kekerapan setiap kategori dan jumlah keseluruhan bertambah.
+const CHART_WIDTH = 220;
+const START_X = 20;
+const RIGHT_MARGIN = 20;
+const MAX_BAR_WIDTH = 34;
+const MAX_GAP = 14;
+const AXIS_Y = 150;
+const CHART_HEIGHT = 130;
+const LABEL_TOP_OFFSET = 15; // jarak dari axis ke baris label pertama
+const LABEL_LINE_HEIGHT = 10;
+const AVG_CHAR_WIDTH = 6.5; // anggaran lebar aksara untuk font-size 10 tebal
+
+// Pecahkan label kategori kepada beberapa baris supaya tak bertindih dengan
+// label bar sebelah bila ruang setiap bar sempit (banyak kategori) atau nama
+// kategori panjang (contoh "Jarak AB (objek)").
+function wrapLabel(text, maxChars) {
+  const words = String(text).split(" ");
+  const lines = [];
+  let current = "";
+  for (const word of words) {
+    const candidate = current ? `${current} ${word}` : word;
+    if (current && candidate.length > maxChars) {
+      lines.push(current);
+      current = word;
+    } else {
+      current = candidate;
+    }
+  }
+  if (current) lines.push(current);
+  return lines;
+}
+
 export default function BarChartExplorer({ categories, values, onFinished }) {
   const [revealed, setRevealed] = useState(0);
   const total = categories.length;
@@ -20,20 +51,29 @@ export default function BarChartExplorer({ categories, values, onFinished }) {
     setRevealed((r) => Math.min(r + 1, total));
   };
 
-  const chartHeight = 130;
-  const barWidth = 34;
-  const gap = 14;
-  const startX = 20;
+  // Kecilkan lebar bar/gap secara berkadar bila kategori terlalu banyak untuk
+  // muat dalam lebar carta yang tetap — elak bar terkeluar/terpotong.
+  const availableWidth = CHART_WIDTH - START_X - RIGHT_MARGIN;
+  const naturalWidth = total * MAX_BAR_WIDTH + (total - 1) * MAX_GAP;
+  const scale = naturalWidth > availableWidth ? availableWidth / naturalWidth : 1;
+  const barWidth = MAX_BAR_WIDTH * scale;
+  const gap = MAX_GAP * scale;
+  const spacing = barWidth + gap;
+  const maxCharsPerLine = Math.max(3, Math.floor(spacing / AVG_CHAR_WIDTH));
+
+  const wrappedLabels = categories.map((cat) => wrapLabel(cat, maxCharsPerLine));
+  const maxLines = Math.max(1, ...wrappedLabels.map((lines) => lines.length));
+  const chartViewBoxHeight = AXIS_Y + LABEL_TOP_OFFSET + maxLines * LABEL_LINE_HEIGHT;
 
   return (
     <div className="bar-chart">
-      <svg viewBox="0 0 220 190" className="bar-chart__svg">
-        <line x1="15" y1="150" x2="210" y2="150" className="bar-chart__axis" />
+      <svg viewBox={`0 0 ${CHART_WIDTH} ${chartViewBoxHeight}`} className="bar-chart__svg">
+        <line x1="15" y1={AXIS_Y} x2={CHART_WIDTH - 10} y2={AXIS_Y} className="bar-chart__axis" />
         {categories.map((cat, i) => {
           const active = i < revealed;
-          const h = active ? (values[i] / maxValue) * chartHeight : 0;
-          const x = startX + i * (barWidth + gap);
-          const y = 150 - h;
+          const h = active ? (values[i] / maxValue) * CHART_HEIGHT : 0;
+          const x = START_X + i * spacing;
+          const y = AXIS_Y - h;
           return (
             <g key={cat}>
               <rect
@@ -48,9 +88,17 @@ export default function BarChartExplorer({ categories, values, onFinished }) {
                   {values[i]}
                 </text>
               )}
-              <text x={x + barWidth / 2} y="165" textAnchor="middle" className="bar-chart__label">
-                {cat}
-              </text>
+              {wrappedLabels[i].map((line, li) => (
+                <text
+                  key={line + li}
+                  x={x + barWidth / 2}
+                  y={AXIS_Y + LABEL_TOP_OFFSET + li * LABEL_LINE_HEIGHT}
+                  textAnchor="middle"
+                  className="bar-chart__label"
+                >
+                  {line}
+                </text>
+              ))}
             </g>
           );
         })}
