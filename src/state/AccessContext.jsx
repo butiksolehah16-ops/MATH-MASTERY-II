@@ -7,6 +7,28 @@ const STORAGE_KEY = "mm_access_v1";
 // mereka tak terkunci tiba-tiba lepas update.
 const PROGRESS_STORAGE_KEY = "mm_progress_v1";
 
+// ProgressProvider menulis rekod "mm_progress_v1" ke localStorage pada SETIAP
+// mula app — walaupun pengguna langsung belum berbuat apa-apa — jadi sekadar
+// KEWUJUDAN key tu bukan bukti pengguna sebenar. Cuma tarikh aktif/XP/topik
+// mastered (yang hanya dicatat lepas praktis SEBENAR berlaku, lihat
+// withStreakBump di ProgressContext.jsx) boleh dipercayai sebagai bukti.
+function hasRealProgress(raw) {
+  if (!raw) return false;
+  let progress;
+  try {
+    progress = JSON.parse(raw);
+  } catch {
+    return false;
+  }
+  if (progress.lastActiveDate || progress.xp > 0 || progress.streak > 0) return true;
+  const forms = progress.forms ?? {};
+  return Object.values(forms).some((form) =>
+    Object.values(form?.chapters ?? {}).some((chapter) =>
+      Object.values(chapter?.topics ?? {}).some((topic) => topic?.status === "mastered")
+    )
+  );
+}
+
 function loadInitialState() {
   if (typeof window === "undefined") return null;
   try {
@@ -16,7 +38,7 @@ function loadInitialState() {
     // storan rosak, teruskan ke fallback di bawah
   }
   try {
-    if (window.localStorage.getItem(PROGRESS_STORAGE_KEY)) {
+    if (hasRealProgress(window.localStorage.getItem(PROGRESS_STORAGE_KEY))) {
       return { code: "GRANDFATHERED", type: "paid", expiresAt: null };
     }
   } catch {
