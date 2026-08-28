@@ -114,7 +114,7 @@
   background: var(--border);
 }
 
-.access-gate__whatsapp {
+.access-gate__buy-link {
   width: 100%;
   display: block;
   padding: 14px;
@@ -128,7 +128,7 @@
   transition: border-color 0.2s var(--ease-premium), transform 0.2s var(--ease-premium);
 }
 
-.access-gate__whatsapp:hover {
+.access-gate__buy-link:hover {
   border-color: var(--success);
   color: var(--success);
   transform: translateY(-2px);

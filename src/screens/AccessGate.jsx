@@ -2,10 +2,7 @@ import { useState } from "react";
 import { useAccess } from "../state/AccessContext.jsx";
 import "./AccessGate.css";
 
-const WHATSAPP_NUMBER = "60139216335";
-const WHATSAPP_MESSAGE = encodeURIComponent(
-  "Hai, saya nak beli akses penuh Math Mastery (Tingkatan 1-3)."
-);
+const TOYYIBPAY_LINK = "https://toyyibpay.com/Math-Mastery-Bundle";
 
 export default function AccessGate() {
   const { isExpired, tryUnlock } = useAccess();
@@ -61,12 +58,12 @@ export default function AccessGate() {
         </div>
 
         <a
-          className="access-gate__whatsapp"
-          href={`https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`}
+          className="access-gate__buy-link"
+          href={TOYYIBPAY_LINK}
           target="_blank"
           rel="noopener noreferrer"
         >
-          Beli Akses Penuh melalui WhatsApp
+          Beli Akses Penuh — Bayar Online
         </a>
       </div>
     </div>

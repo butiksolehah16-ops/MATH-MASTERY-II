@@ -11,6 +11,9 @@ export const ACCESS_CODES = [
   { code: "BETA2026F", type: "beta", expiresAt: "2026-09-27T23:59:59+08:00" },
   { code: "BETA2026G", type: "beta", expiresAt: "2026-09-27T23:59:59+08:00" },
   { code: "BETA2026H", type: "beta", expiresAt: "2026-09-27T23:59:59+08:00" },
+  // Kod tetap untuk pembeli RM39 melalui ToyyibPay — dihantar automatik oleh
+  // ToyyibPay dalam emel resit (medan "Extra Email Content"), bukan manual.
+  { code: "MM2026PAID", type: "paid", expiresAt: null },
 ];
 
 export function findAccessCode(input) {
