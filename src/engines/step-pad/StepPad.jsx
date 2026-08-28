@@ -31,7 +31,7 @@ export default function StepPad({ content, onComplete, onStepMistake, stepMistak
 
   const shuffledChoices = useMemo(
     () => (isInputStep ? [] : shuffleArray(step.choices)),
-    [stepIndex, isInputStep, step.choices]
+    [isInputStep, step.choices]
   );
 
   const isCorrect =

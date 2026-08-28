@@ -32,7 +32,7 @@ export default function QuestionSet({
 
   const shuffledChoices = useMemo(
     () => (isInputQuestion ? [] : shuffleArray(question.choices)),
-    [qIndex, isInputQuestion, question]
+    [isInputQuestion, question]
   );
 
   const isCorrect =

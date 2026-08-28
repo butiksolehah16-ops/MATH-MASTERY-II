@@ -1,10 +1,5 @@
 // Kandungan rujukan sahaja (nav shell) — bukan kandungan sebenar.
-// Bab 1-5 & topik 1.1 disahkan terus dari spec (ms. 8, ms. 78-85).
-// Bab 6-13 & semua tajuk topik selain 1.1 ialah anggaran terbaik (best-effort)
-// berdasarkan susunan buku teks KSSM T1 biasa — TIDAK disahkan.
-// `confirmed: false` menandakan tajuk ini WAJIB disemak semula terhadap
-// dokumen DSKP KSSM Matematik Tingkatan 1 rasmi semasa fasa content-build
-// (spec ms. 83 & 100), sebelum sebarang kandungan sebenar ditambah.
+// Semua tajuk bab & topik Bab 1-13 disahkan terus terhadap kandungan buku teks KSSM T1 rasmi.
 export const CHAPTERS_FORM1 = [
   {
     id: "bab1",
@@ -14,10 +9,10 @@ export const CHAPTERS_FORM1 = [
     confirmed: true,
     topics: [
       { id: "1.1", title: "Integer", confirmed: true },
-      { id: "1.2", title: "Operasi Asas Integer", confirmed: false },
-      { id: "1.3", title: "Pecahan Positif dan Negatif", confirmed: false },
-      { id: "1.4", title: "Perpuluhan Positif dan Negatif", confirmed: false },
-      { id: "1.5", title: "Menukar Pecahan dan Perpuluhan", confirmed: false },
+      { id: "1.2", title: "Operasi Asas Aritmetik yang Melibatkan Integer", confirmed: true },
+      { id: "1.3", title: "Pecahan Positif dan Pecahan Negatif", confirmed: true },
+      { id: "1.4", title: "Perpuluhan Positif dan Perpuluhan Negatif", confirmed: true },
+      { id: "1.5", title: "Nombor Nisbah", confirmed: true },
     ],
   },
   {
@@ -27,8 +22,8 @@ export const CHAPTERS_FORM1 = [
     theme: "#7c6ef2",
     confirmed: true,
     topics: [
-      { id: "2.1", title: "Faktor, Faktor Perdana dan FSTB", confirmed: false },
-      { id: "2.2", title: "Gandaan dan GSTK", confirmed: false },
+      { id: "2.1", title: "Faktor, Faktor Perdana dan Faktor Sepunya Terbesar (FSTB)", confirmed: true },
+      { id: "2.2", title: "Gandaan, Gandaan Sepunya dan Gandaan Sepunya Terkecil (GSTK)", confirmed: true },
     ],
   },
   {

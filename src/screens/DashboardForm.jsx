@@ -3,7 +3,6 @@ import AppHeader from "../components/AppHeader.jsx";
 import ModeSwitch from "../components/ModeSwitch.jsx";
 import ProgressRing from "../components/ProgressRing.jsx";
 import { getForm } from "../data/forms.js";
-import { getChapter } from "../data/chapters.js";
 import { useProgress, getFormStats, getTopicStatus } from "../state/ProgressContext.jsx";
 import "./DashboardForm.css";
 

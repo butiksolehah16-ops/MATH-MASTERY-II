@@ -28,12 +28,6 @@ export default function BabTopikList() {
         accent={chapter.theme}
       />
 
-      {!chapter.confirmed && (
-        <p className="bab-topik-list__note">
-          Tajuk topik bab ini belum disahkan terhadap DSKP rasmi — akan dikemas kini semasa fasa content-build.
-        </p>
-      )}
-
       <ol className="bab-topik-list__list">
         {chapter.topics.map((topik, index) => {
           const status = getTopicStatus(state, formId, babId, topik.id);

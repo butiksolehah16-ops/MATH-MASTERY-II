@@ -121,6 +121,10 @@ export default function CoordinatePlaneExplorer({ pointA, pointB, mode, onFinish
             )}
             {revealed >= 2 && (
               <>
+                <line x1={midOnAxisY.sx} y1={midOnAxisY.sy} x2={midPoint.sx} y2={midOnAxisY.sy} className="coord-plane__guide" />
+                <text x={4} y={midOnAxisY.sy - 4} className="coord-plane__leg-label">
+                  y = {my}
+                </text>
                 <circle cx={midPoint.sx} cy={midPoint.sy} r="5" className="coord-plane__midpoint" />
                 <text x={midPoint.sx + 10} y={midPoint.sy - 8} className="coord-plane__point-label">
                   M({mx}, {my})

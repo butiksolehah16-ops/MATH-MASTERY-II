@@ -14,8 +14,8 @@ const PETA_BAB_TOUR_STEPS = [
     target: '[data-tour="chapter-first"]',
     title: "Peta Bab kau 🗺️",
     body:
-      "Setiap bab ada status: 🔒 dikunci (belum boleh masuk), bulatan progress (sedang belajar), atau ✓ hijau " +
-      "(dikuasai). Habiskan satu bab dulu baru bab lepas ni terbuka.",
+      "Setiap bab ada status: bulatan progress (sedang belajar) atau ✓ hijau (dikuasai). Ni app ulangkaji, jadi " +
+      "semua bab terbuka bila-bila masa — pilih terus mana-mana bab nak rujuk semula.",
   },
   {
     target: '[data-tour="xp-badge"]',

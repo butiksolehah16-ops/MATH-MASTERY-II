@@ -46,10 +46,7 @@ export default function ChapterNode({ chapter, status, masteredTopics, totalTopi
       </div>
 
       <div className="chapter-node__body">
-        <span className="chapter-node__eyebrow">
-          Bab {chapter.number}
-          {!chapter.confirmed && <span className="chapter-node__tbd"> · rujuk DSKP</span>}
-        </span>
+        <span className="chapter-node__eyebrow">Bab {chapter.number}</span>
         <span className="chapter-node__title">{chapter.title}</span>
         <span className={`chapter-node__status chapter-node__status--${status}`}>{STATUS_LABEL[status]}</span>
       </div>

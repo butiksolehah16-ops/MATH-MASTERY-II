@@ -91,13 +91,6 @@
   color: var(--chapter-theme);
 }
 
-.chapter-node__tbd {
-  color: var(--text-2);
-  text-transform: none;
-  font-weight: 500;
-  letter-spacing: normal;
-}
-
 .chapter-node__title {
   font-size: 15px;
   font-weight: 700;

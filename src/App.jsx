@@ -2,6 +2,7 @@ import { lazy, Suspense } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 import PilihForm from "./screens/PilihForm.jsx";
 import RouteLoading from "./components/RouteLoading.jsx";
+import InstallBanner from "./components/InstallBanner.jsx";
 import { useThemeByRoute } from "./hooks/useThemeByRoute.js";
 import { useDailyReminder } from "./hooks/useDailyReminder.js";
 
@@ -27,21 +28,24 @@ export default function App() {
   useDailyReminder();
 
   return (
-    <Suspense fallback={<RouteLoading />}>
-      <Routes>
-        <Route path="/" element={<PilihForm />} />
-        <Route path="/f/:formId" element={<DashboardForm />} />
-        <Route path="/f/:formId/peta" element={<PetaBab />} />
-        <Route path="/f/:formId/bab/:babId" element={<BabTopikList />} />
-        <Route path="/f/:formId/bab/:babId/topik/:topikId" element={<SkrinTopik />} />
-        <Route path="/f/:formId/ujian" element={<SenaraiUjian />} />
-        <Route path="/f/:formId/ujian/:paperId" element={<UjianUasa />} />
-        <Route path="/profil" element={<Profil />} />
-        <Route path="/profil/laporan" element={<LaporanProgress />} />
-        <Route path="/profil/tetapan" element={<TetapanAkaun />} />
-        <Route path="/profil/notifikasi" element={<Notifikasi />} />
-        <Route path="*" element={<Navigate to="/" replace />} />
-      </Routes>
-    </Suspense>
+    <>
+      <Suspense fallback={<RouteLoading />}>
+        <Routes>
+          <Route path="/" element={<PilihForm />} />
+          <Route path="/f/:formId" element={<DashboardForm />} />
+          <Route path="/f/:formId/peta" element={<PetaBab />} />
+          <Route path="/f/:formId/bab/:babId" element={<BabTopikList />} />
+          <Route path="/f/:formId/bab/:babId/topik/:topikId" element={<SkrinTopik />} />
+          <Route path="/f/:formId/ujian" element={<SenaraiUjian />} />
+          <Route path="/f/:formId/ujian/:paperId" element={<UjianUasa />} />
+          <Route path="/profil" element={<Profil />} />
+          <Route path="/profil/laporan" element={<LaporanProgress />} />
+          <Route path="/profil/tetapan" element={<TetapanAkaun />} />
+          <Route path="/profil/notifikasi" element={<Notifikasi />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
+      </Suspense>
+      <InstallBanner />
+    </>
   );
 }

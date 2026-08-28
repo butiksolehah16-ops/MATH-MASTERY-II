@@ -30,6 +30,10 @@ export default function NoteStepper({ content, onComplete }) {
   const subPhase = SUB_PHASES[subIndex];
   const isFirstSub = subIndex === 0;
   const isLastSub = subIndex === SUB_PHASES.length - 1;
+  // VISUAL_REGISTRY (registry.js) is a static module-level lookup, so this
+  // always returns the same component reference for a given visualType —
+  // the linter's "created during render" warning (at the JSX usage below)
+  // is a false positive here.
   const ExplorationVisual = useMemo(
     () => getExplorationVisual(content.visualType),
     [content.visualType]
@@ -94,6 +98,7 @@ export default function NoteStepper({ content, onComplete }) {
         {subPhase === "exploration" && (
           <>
             <p className="note-stepper__body">{content.exploration.prompt}</p>
+            {/* eslint-disable-next-line react/static-components -- ExplorationVisual is memoized off a static registry lookup, not a fresh component per render */}
             <ExplorationVisual
               visualType={content.visualType}
               {...content.exploration}
