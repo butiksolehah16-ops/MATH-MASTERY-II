@@ -42,7 +42,7 @@ export default function AccessGate() {
             type="text"
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder="Contoh: BETA2026A"
+            placeholder="Masukkan kod akses anda"
             className="access-gate__input"
             autoCapitalize="characters"
             autoComplete="off"
