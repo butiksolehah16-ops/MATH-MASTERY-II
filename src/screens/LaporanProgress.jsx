@@ -80,7 +80,10 @@ export default function LaporanProgress() {
                 style={{ "--form-theme": s.theme }}
               >
                 <div className="laporan-progress__form-card-head">
-                  <span className="laporan-progress__form-card-label">{s.form.label}</span>
+                  <span className="laporan-progress__form-card-label">
+                    <span className="laporan-progress__form-card-badge">{s.form.shortLabel}</span>
+                    {s.form.label}
+                  </span>
                   <span className="laporan-progress__form-card-count">
                     {s.babMastered}/{s.babTotal} bab
                   </span>

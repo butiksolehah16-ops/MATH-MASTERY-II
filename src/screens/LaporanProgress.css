@@ -1,18 +1,70 @@
+/* ============================================================
+   Laporan Progress + Progress Anak — reka bentuk putih & moden
+   (dikongsi oleh kedua-dua skrin, sama macam sebelum ni)
+
+   Skop: VISUAL/CSS SAHAJA. Semua kelas & struktur DOM asal dikekalkan
+   supaya JSX tak perlu berubah (kecuali 2 penambahan kecil, additive
+   je, tak sentuh logik): shortLabel badge di form-card, dan
+   data-domain di domain-card untuk ikon.
+
+   Warna semantik (lemah=--danger, sederhana=--xp, kuat=--success)
+   dikekalkan makna asal — token datang dari index.css tema "light"
+   sedia ada, bukan warna baharu diperkenalkan.
+   ============================================================ */
+
 .laporan-progress {
   padding-top: 0;
-  gap: 24px;
+  gap: 22px;
+  background: #f7f6fc;
+  margin: 0 -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
 }
 
+/* ---- header jalur ungu (skop HANYA skrin ni — tak sentuh AppHeader
+   global, jadi skrin lain tak terjejas) ---- */
+.laporan-progress .app-header {
+  background: linear-gradient(135deg, #6a56e8, #5142c9);
+  border-bottom: none;
+  backdrop-filter: none;
+  margin: 0 -20px;
+  padding: 16px 24px 18px;
+}
+
+.laporan-progress .app-header__title {
+  color: #ffffff;
+}
+
+.laporan-progress .app-header__subtitle {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.laporan-progress .app-header__back,
+.laporan-progress .app-header__profile {
+  border-color: rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.14);
+  color: #ffffff;
+}
+
+.laporan-progress .app-header__back:hover,
+.laporan-progress .app-header__profile:hover {
+  border-color: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.22);
+  color: #ffffff;
+}
+
+/* ---- hero (Laporan Progress) ---- */
 .laporan-progress__hero {
   display: flex;
   align-items: center;
   gap: 18px;
   padding: 20px;
   margin-top: 20px;
-  border-radius: var(--radius-lg);
-  background: var(--bg-1);
-  border: 1px solid var(--border);
-  box-shadow: var(--shadow-card);
+  border-radius: 18px;
+  background: #ffffff;
+  border: 1px solid #ece9f8;
+  box-shadow: 0 10px 26px -12px rgba(30, 27, 46, 0.16);
 }
 
 .laporan-progress__hero-text {
@@ -24,6 +76,7 @@
 .laporan-progress__hero-name {
   font-size: 17px;
   font-weight: 800;
+  color: var(--text-0);
 }
 
 .laporan-progress__hero-stat {
@@ -33,8 +86,9 @@
 
 .laporan-progress__empty {
   padding: 20px;
-  border-radius: var(--radius-lg);
-  border: 1px dashed var(--border);
+  border-radius: 18px;
+  border: 1px dashed #ddd6f5;
+  background: #ffffff;
   color: var(--text-2);
   font-size: 13.5px;
   text-align: center;
@@ -47,11 +101,11 @@
 }
 
 .laporan-progress__section-title {
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.03em;
+  font-size: 12.5px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: var(--text-2);
+  color: #8b87a3;
 }
 
 .laporan-progress__section-hint {
@@ -66,12 +120,26 @@
   gap: 10px;
 }
 
+/* ---- kad per-Tingkatan (Laporan Progress) — putih + badge T1/T2/T3 ---- */
 .laporan-progress__form-card {
   --form-theme: var(--accent);
-  padding: 16px;
-  border-radius: var(--radius-md);
-  background: linear-gradient(150deg, color-mix(in srgb, var(--form-theme) 14%, var(--bg-1)), var(--bg-1));
-  border: 1px solid color-mix(in srgb, var(--form-theme) 35%, var(--border));
+  position: relative;
+  padding: 16px 16px 16px 18px;
+  border-radius: 16px;
+  background: #ffffff;
+  border: 1px solid #ece9f8;
+  box-shadow: 0 6px 16px -8px rgba(30, 27, 46, 0.1);
+}
+
+.laporan-progress__form-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 14px;
+  bottom: 14px;
+  width: 4px;
+  border-radius: 999px;
+  background: var(--form-theme);
 }
 
 .laporan-progress__form-card-head {
@@ -83,6 +151,23 @@
 .laporan-progress__form-card-label {
   font-size: 14.5px;
   font-weight: 800;
+  color: var(--text-0);
+}
+
+.laporan-progress__form-card-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 26px;
+  height: 20px;
+  padding: 0 7px;
+  margin-right: 8px;
+  border-radius: 7px;
+  font-size: 10.5px;
+  font-weight: 800;
+  color: #ffffff;
+  background: var(--form-theme);
+  vertical-align: 1px;
 }
 
 .laporan-progress__form-card-count {
@@ -95,7 +180,7 @@
   margin-top: 10px;
   height: 7px;
   border-radius: 999px;
-  background: var(--bg-3);
+  background: #eeecf9;
   overflow: hidden;
 }
 
@@ -113,52 +198,93 @@
   color: var(--text-2);
 }
 
+/* ---- domain list (Progress Anak) — kad putih + ikon bulat per-bidang ---- */
 .laporan-progress__domain-list {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 10px;
 }
 
 .laporan-progress__domain-card {
-  padding: 16px;
-  border-radius: var(--radius-md);
-  background: var(--bg-1);
-  border: 1px solid var(--border);
+  position: relative;
+  padding: 14px 14px 14px 54px;
+  min-height: 82px;
+  border-radius: 15px;
+  background: #ffffff;
+  border: 1px solid #ece9f8;
+  box-shadow: 0 6px 16px -8px rgba(30, 27, 46, 0.1);
+}
+
+.laporan-progress__domain-card::before {
+  position: absolute;
+  left: 14px;
+  top: 14px;
+  width: 28px;
+  height: 28px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+  content: "?";
+  background: #eeecf9;
+  color: #8b87a3;
+}
+
+.laporan-progress__domain-card[data-domain="nombor"]::before { content: "#"; }
+.laporan-progress__domain-card[data-domain="algebra"]::before { content: "x²"; font-size: 11px; }
+.laporan-progress__domain-card[data-domain="geometri"]::before { content: "△"; }
+.laporan-progress__domain-card[data-domain="statistik"]::before { content: "📊"; font-size: 12px; }
+
+.laporan-progress__domain-card:has(.laporan-progress__domain-badge--lemah)::before {
+  background: color-mix(in srgb, var(--danger) 16%, #fff);
+  color: var(--danger);
+}
+.laporan-progress__domain-card:has(.laporan-progress__domain-badge--sederhana)::before {
+  background: color-mix(in srgb, var(--xp) 18%, #fff);
+  color: var(--xp);
+}
+.laporan-progress__domain-card:has(.laporan-progress__domain-badge--kuat)::before {
+  background: color-mix(in srgb, var(--success) 16%, #fff);
+  color: var(--success);
 }
 
 .laporan-progress__domain-head {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
+  gap: 8px;
+  flex-wrap: wrap;
 }
 
 .laporan-progress__domain-label {
-  font-size: 14.5px;
+  font-size: 13.5px;
   font-weight: 800;
+  color: var(--text-0);
 }
 
 .laporan-progress__domain-badge {
   flex-shrink: 0;
   padding: 3px 10px;
   border-radius: 999px;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 800;
   letter-spacing: 0.02em;
 }
 
 .laporan-progress__domain-badge--lemah {
-  background: color-mix(in srgb, var(--danger) 18%, transparent);
+  background: color-mix(in srgb, var(--danger) 14%, transparent);
   color: var(--danger);
 }
 
 .laporan-progress__domain-badge--sederhana {
-  background: color-mix(in srgb, var(--xp) 20%, transparent);
+  background: color-mix(in srgb, var(--xp) 16%, transparent);
   color: var(--xp);
 }
 
 .laporan-progress__domain-badge--kuat {
-  background: color-mix(in srgb, var(--success) 20%, transparent);
+  background: color-mix(in srgb, var(--success) 16%, transparent);
   color: var(--success);
 }
 
@@ -183,10 +309,11 @@
 .laporan-progress__domain-sub {
   display: block;
   margin-top: 8px;
-  font-size: 12px;
+  font-size: 11px;
   color: var(--text-2);
 }
 
+/* ---- senarai ujian & topik perlu perhatian — baris putih ---- */
 .laporan-progress__exam-list,
 .laporan-progress__mistake-list {
   display: flex;
@@ -204,9 +331,10 @@
   justify-content: space-between;
   gap: 12px;
   padding: 13px 15px;
-  border-radius: var(--radius-md);
-  background: var(--bg-1);
-  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: #ffffff;
+  border: 1px solid #ece9f8;
+  box-shadow: 0 6px 16px -8px rgba(30, 27, 46, 0.08);
 }
 
 .laporan-progress__exam-item-text,
@@ -221,6 +349,7 @@
 .laporan-progress__mistake-item-title {
   font-size: 13.5px;
   font-weight: 700;
+  color: var(--text-0);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -246,41 +375,43 @@
   flex-shrink: 0;
   padding: 7px 14px;
   border-radius: 999px;
-  border: 1.5px solid var(--accent-2);
-  background: transparent;
-  color: var(--accent-2);
+  border: none;
+  background: #eeecf9;
+  color: #5b45e0;
   font-weight: 700;
   font-size: 12.5px;
-  transition: transform 0.2s var(--ease-premium), box-shadow 0.2s var(--ease-premium);
+  transition: transform 0.2s var(--ease-premium), background 0.2s var(--ease-premium);
 }
 
 .laporan-progress__mistake-item-cta:hover {
   transform: translateY(-1px);
-  box-shadow: 0 6px 16px -4px color-mix(in srgb, var(--accent-2) 55%, transparent);
+  background: #5b45e0;
+  color: #ffffff;
 }
 
+/* ---- CTA "Progress Anak" (di skrin Laporan Progress) ---- */
 .laporan-progress__anak-cta {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
   padding: 16px 18px;
-  border-radius: var(--radius-lg);
-  border: 1px solid color-mix(in srgb, var(--accent-2) 35%, var(--border));
-  background: linear-gradient(150deg, color-mix(in srgb, var(--accent-2) 14%, var(--bg-1)), var(--bg-1));
-  color: var(--text-0);
+  border-radius: 18px;
+  border: 1px solid #d9d0ff;
+  background: linear-gradient(135deg, #6a56e8, #7c6ef5);
+  color: #ffffff;
   text-align: left;
   transition: transform 0.2s var(--ease-premium), box-shadow 0.2s var(--ease-premium);
 }
 
 .laporan-progress__anak-cta:hover {
   transform: translateY(-1px);
-  box-shadow: 0 8px 20px -6px color-mix(in srgb, var(--accent-2) 45%, transparent);
+  box-shadow: 0 10px 24px -8px rgba(90, 69, 224, 0.45);
 }
 
 .laporan-progress__anak-cta svg {
   flex-shrink: 0;
-  color: var(--accent-2);
+  color: #ffffff;
 }
 
 .laporan-progress__anak-cta-text {
@@ -297,16 +428,17 @@
 
 .laporan-progress__anak-cta-sub {
   font-size: 12px;
-  color: var(--text-2);
+  color: rgba(255, 255, 255, 0.82);
 }
 
+/* ---- tab T1/T2/T3 (Progress Anak) ---- */
 .laporan-progress__form-tabs {
   display: flex;
   gap: 6px;
   padding: 4px;
   border-radius: 999px;
-  background: var(--bg-2);
-  border: 1px solid var(--border);
+  background: #eeecf9;
+  border: none;
 }
 
 .laporan-progress__form-tab {
@@ -315,11 +447,17 @@
   border-radius: 999px;
   font-size: 13px;
   font-weight: 700;
-  color: var(--text-2);
+  color: #8b87a3;
   transition: background 0.2s var(--ease-premium), color 0.2s var(--ease-premium);
 }
 
 .laporan-progress__form-tab--active {
-  background: var(--accent-2);
+  background: linear-gradient(135deg, #6a56e8, #7c6ef5);
   color: #fff;
+}
+
+@media (max-width: 480px) {
+  .laporan-progress__domain-list {
+    grid-template-columns: 1fr;
+  }
 }

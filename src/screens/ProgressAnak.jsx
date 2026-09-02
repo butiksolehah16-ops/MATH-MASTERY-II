@@ -95,7 +95,7 @@ export default function ProgressAnak() {
               {domainSummaries.map((d) => {
                 const level = getMasteryLevel(d.percent);
                 return (
-                  <div key={d.id} className="laporan-progress__domain-card">
+                  <div key={d.id} data-domain={d.id} className="laporan-progress__domain-card">
                     <div className="laporan-progress__domain-head">
                       <span className="laporan-progress__domain-label">{d.label}</span>
                       <span className={`laporan-progress__domain-badge laporan-progress__domain-badge--${level.tone}`}>
