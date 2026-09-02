@@ -6,6 +6,7 @@ import { getChapters, getChapter, getTopic } from "../data/chapters.js";
 import { getExamPaper } from "../content/exams/index.js";
 import { useProgress, getFormProgress } from "../state/ProgressContext.jsx";
 import { useMisconception } from "../state/MisconceptionContext.jsx";
+import { getAllDomainMastery, getMasteryLevel } from "../data/domains.js";
 import "./LaporanProgress.css";
 
 // Laporan Progress untuk Ibu Bapa — ringkasan HANYA-BACA (read-only) yang
@@ -72,6 +73,7 @@ export default function LaporanProgress() {
     .sort((a, b) => a.paper.title.localeCompare(b.paper.title));
 
   const topMistakes = summariseMistakes(log);
+  const domainSummaries = getAllDomainMastery(state);
   const hasAnyActivity = totalTopicsMastered > 0 || examEntries.length > 0 || state.xp > 0;
 
   return (
@@ -121,6 +123,37 @@ export default function LaporanProgress() {
                   </span>
                 </div>
               ))}
+            </div>
+          </section>
+
+          <section className="laporan-progress__section">
+            <h2 className="laporan-progress__section-title">Analisis Mengikut Bidang</h2>
+            <p className="laporan-progress__section-hint">
+              Penguasaan merentasi Tingkatan 1-3, dikumpulkan ikut bidang matematik — bantu kenal pasti bahagian mana perlu diberi tumpuan.
+            </p>
+            <div className="laporan-progress__domain-list">
+              {domainSummaries.map((d) => {
+                const level = getMasteryLevel(d.percent);
+                return (
+                  <div key={d.id} className="laporan-progress__domain-card">
+                    <div className="laporan-progress__domain-head">
+                      <span className="laporan-progress__domain-label">{d.label}</span>
+                      <span className={`laporan-progress__domain-badge laporan-progress__domain-badge--${level.tone}`}>
+                        {level.label}
+                      </span>
+                    </div>
+                    <div className="laporan-progress__bar-track">
+                      <div
+                        className={`laporan-progress__domain-bar-fill laporan-progress__domain-bar-fill--${level.tone}`}
+                        style={{ width: `${d.percent}%` }}
+                      />
+                    </div>
+                    <span className="laporan-progress__domain-sub">
+                      {d.percent}% · {d.masteredTopics}/{d.totalTopics} topik dikuasai
+                    </span>
+                  </div>
+                );
+              })}
             </div>
           </section>
 

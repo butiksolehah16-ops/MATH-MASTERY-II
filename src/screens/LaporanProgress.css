@@ -113,6 +113,80 @@
   color: var(--text-2);
 }
 
+.laporan-progress__domain-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.laporan-progress__domain-card {
+  padding: 16px;
+  border-radius: var(--radius-md);
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+}
+
+.laporan-progress__domain-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.laporan-progress__domain-label {
+  font-size: 14.5px;
+  font-weight: 800;
+}
+
+.laporan-progress__domain-badge {
+  flex-shrink: 0;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.laporan-progress__domain-badge--lemah {
+  background: color-mix(in srgb, var(--danger) 18%, transparent);
+  color: var(--danger);
+}
+
+.laporan-progress__domain-badge--sederhana {
+  background: color-mix(in srgb, var(--xp) 20%, transparent);
+  color: var(--xp);
+}
+
+.laporan-progress__domain-badge--kuat {
+  background: color-mix(in srgb, var(--success) 20%, transparent);
+  color: var(--success);
+}
+
+.laporan-progress__domain-bar-fill {
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.4s var(--ease-premium);
+}
+
+.laporan-progress__domain-bar-fill--lemah {
+  background: var(--danger);
+}
+
+.laporan-progress__domain-bar-fill--sederhana {
+  background: var(--xp);
+}
+
+.laporan-progress__domain-bar-fill--kuat {
+  background: var(--success);
+}
+
+.laporan-progress__domain-sub {
+  display: block;
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--text-2);
+}
+
 .laporan-progress__exam-list,
 .laporan-progress__mistake-list {
   display: flex;
