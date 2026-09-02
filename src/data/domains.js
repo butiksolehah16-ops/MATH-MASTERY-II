@@ -68,37 +68,41 @@ export const DOMAINS = [
 ];
 
 // Peratus penguasaan sesuatu bidang, dikira dari topik yang benar-benar
-// "mastered" merentasi semua bab yang tergolong dalam bidang tersebut —
-// termasuk bab dari Tingkatan yang pelajar belum mula (dikira sebagai 0),
-// supaya peratusan mencerminkan keseluruhan bidang sepanjang T1-3.
-export function getDomainMastery(state, domainId) {
+// "mastered" merentasi bab yang tergolong dalam bidang tersebut. `formId`
+// SKOP kiraan kepada satu Tingkatan sahaja — perlu, sebab kira merentasi
+// T1-3 sekali gus buat bab yang anak belum sampai lagi dikira "0" dan
+// menjadikan hampir semua bidang nampak "Lemah" walaupun anak on-track
+// (isu yang dikesan bila ibu bapa perasan laporan sama je untuk T1/T2/T3).
+export function getDomainMastery(state, domainId, formId) {
   const domain = DOMAINS.find((d) => d.id === domainId);
   if (!domain) return { totalTopics: 0, masteredTopics: 0, percent: 0 };
 
   let totalTopics = 0;
   let masteredTopics = 0;
 
-  domain.chapters.forEach(({ formId, babId }) => {
-    const chapters = getChapters(formId);
-    const bab = chapters.find((b) => b.id === babId);
-    if (!bab) return;
-    const progress = getFormProgress(state, formId);
-    const babState = progress.chapters[babId];
-    bab.topics.forEach((topik) => {
-      totalTopics += 1;
-      if (babState?.topics[topik.id]?.status === "mastered") masteredTopics += 1;
+  domain.chapters
+    .filter((c) => !formId || c.formId === formId)
+    .forEach(({ formId: chapterFormId, babId }) => {
+      const chapters = getChapters(chapterFormId);
+      const bab = chapters.find((b) => b.id === babId);
+      if (!bab) return;
+      const progress = getFormProgress(state, chapterFormId);
+      const babState = progress.chapters[babId];
+      bab.topics.forEach((topik) => {
+        totalTopics += 1;
+        if (babState?.topics[topik.id]?.status === "mastered") masteredTopics += 1;
+      });
     });
-  });
 
   const percent = totalTopics > 0 ? Math.round((masteredTopics / totalTopics) * 100) : 0;
   return { totalTopics, masteredTopics, percent };
 }
 
-export function getAllDomainMastery(state) {
+export function getAllDomainMastery(state, formId) {
   return DOMAINS.map((domain) => ({
     ...domain,
-    ...getDomainMastery(state, domain.id),
-  }));
+    ...getDomainMastery(state, domain.id, formId),
+  })).filter((d) => d.totalTopics > 0);
 }
 
 // Label tahap penguasaan untuk paparan — ambang ikut andaian munasabah

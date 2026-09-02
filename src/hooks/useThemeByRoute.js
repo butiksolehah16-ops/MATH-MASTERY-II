@@ -4,7 +4,9 @@ import { useLocation } from "react-router-dom";
 // Skrin Topik (Nota, Diagnostik, Pad, Latihan Sendiri, Mastery Test) ialah
 // "ruang belajar" — tema cerah supaya selesa untuk sesi belajar panjang.
 // Skrin luar (Pilih Form, Dashboard, Peta Bab, senarai topik, Profil) kekal gelap.
-const LIGHT_THEME_PATTERN = /^\/f\/[^/]+\/bab\/[^/]+\/topik\/[^/]+/;
+// Laporan Progress (untuk ibu bapa) turut tema cerah — kad-kad warna (domain
+// Lemah/Sederhana/Kuat) lebih senang dibaca atas latar putih macam laporan biasa.
+const LIGHT_THEME_PATTERN = /^\/f\/[^/]+\/bab\/[^/]+\/topik\/[^/]+|^\/profil\/laporan/;
 
 export function useThemeByRoute() {
   const { pathname } = useLocation();

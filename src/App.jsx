@@ -22,6 +22,7 @@ const SenaraiUjian = lazy(() => import("./screens/SenaraiUjian.jsx"));
 const UjianUasa = lazy(() => import("./screens/UjianUasa.jsx"));
 const Profil = lazy(() => import("./screens/Profil.jsx"));
 const LaporanProgress = lazy(() => import("./screens/LaporanProgress.jsx"));
+const ProgressAnak = lazy(() => import("./screens/ProgressAnak.jsx"));
 const TetapanAkaun = lazy(() => import("./screens/TetapanAkaun.jsx"));
 const Notifikasi = lazy(() => import("./screens/Notifikasi.jsx"));
 
@@ -47,6 +48,7 @@ export default function App() {
           <Route path="/f/:formId/ujian/:paperId" element={<UjianUasa />} />
           <Route path="/profil" element={<Profil />} />
           <Route path="/profil/laporan" element={<LaporanProgress />} />
+          <Route path="/profil/laporan/anak" element={<ProgressAnak />} />
           <Route path="/profil/tetapan" element={<TetapanAkaun />} />
           <Route path="/profil/notifikasi" element={<Notifikasi />} />
           <Route path="*" element={<Navigate to="/" replace />} />

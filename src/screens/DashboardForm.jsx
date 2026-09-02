@@ -99,6 +99,20 @@ export default function DashboardForm() {
           <path d="M9 6l6 6-6 6" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </button>
+
+      <button
+        type="button"
+        className="dashboard-form__anak-link"
+        onClick={() => navigate(`/profil/laporan/anak?form=${formId}`)}
+      >
+        <span className="dashboard-form__anak-link-text">
+          <span className="dashboard-form__anak-link-title">Progress Anak</span>
+          <span className="dashboard-form__anak-link-sub">Analisis ikut bidang, topik perlu perhatian &amp; keputusan ujian</span>
+        </span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M9 6l6 6-6 6" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      </button>
     </div>
   );
 }
