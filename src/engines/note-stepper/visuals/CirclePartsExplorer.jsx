@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLanguage } from "../../../state/LanguageContext.jsx";
+import { polarToCartesian, describeArc } from "./circleGeometry.js";
 import "./CirclePartsExplorer.css";
 
 const DEFAULT_PARTS = ["center", "radius", "diameter", "chord", "arc", "sector"];
@@ -21,18 +22,6 @@ const PART_LABEL_EN = {
   sector: "Sector",
   segment: "Segment",
 };
-
-function polarToCartesian(cx, cy, r, angleDeg) {
-  const rad = (angleDeg * Math.PI) / 180;
-  return { x: cx + r * Math.cos(rad), y: cy - r * Math.sin(rad) };
-}
-
-function describeArc(cx, cy, r, startAngle, endAngle) {
-  const start = polarToCartesian(cx, cy, r, startAngle);
-  const end = polarToCartesian(cx, cy, r, endAngle);
-  const largeArcFlag = endAngle - startAngle <= 180 ? 0 : 1;
-  return `M ${start.x} ${start.y} A ${r} ${r} 0 ${largeArcFlag} 0 ${end.x} ${end.y}`;
-}
 
 // Visual bahagian bulatan — dedah setiap bahagian (pusat, jejari, diameter,
 // perentas, lengkok, sektor) satu demi satu di atas satu bulatan tetap.

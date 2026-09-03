@@ -31,6 +31,7 @@ export const notaSisiEmpatContent = {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "Jumlah sudut pedalaman sisi empat = 360°",
+    figure: "quadrilateral-types",
     bullets: [
       "JUMLAH SUDUT PEDALAMAN SISI EMPAT = 360°. Jadi kalau kita tahu TIGA sudut, kita boleh cari sudut keempat dengan menolak daripada 360°.",
       "Ini berlaku untuk SEMUA jenis sisi empat — segiempat sama, segiempat tepat, jajar genjang, rombus, trapezium, dan layang-layang.",

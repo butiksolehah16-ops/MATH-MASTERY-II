@@ -1,0 +1,14 @@
+// Helper geometri dikongsi antara CirclePartsExplorer (eksplorasi interaktif)
+// dan CircleAllPartsFigure (rajah rujukan statik) — elak kira semula formula
+// sudut->koordinat dua kali di dua fail berasingan.
+export function polarToCartesian(cx, cy, r, angleDeg) {
+  const rad = (angleDeg * Math.PI) / 180;
+  return { x: cx + r * Math.cos(rad), y: cy - r * Math.sin(rad) };
+}
+
+export function describeArc(cx, cy, r, startAngle, endAngle) {
+  const start = polarToCartesian(cx, cy, r, startAngle);
+  const end = polarToCartesian(cx, cy, r, endAngle);
+  const largeArcFlag = endAngle - startAngle <= 180 ? 0 : 1;
+  return `M ${start.x} ${start.y} A ${r} ${r} 0 ${largeArcFlag} 0 ${end.x} ${end.y}`;
+}

@@ -21,6 +21,7 @@ export const notaSegiTigaContent = {
   insight: {
     mentorLine: "Perasan apa jumlah akhir yang kau dapat?",
     title: "Jumlah Sudut Segi Tiga Sentiasa 180°!",
+    figure: "triangle-types",
     bullets: [
       "Tak kira bentuk atau saiz segi tiga tu — SAMA SISI, SAMA KAKI, atau SESKALA — jumlah SEMUA sudut pedalamannya SENTIASA 180°.",
       "Jadi kalau kita tahu DUA sudut, kita boleh cari sudut ketiga dengan menolak daripada 180°.",

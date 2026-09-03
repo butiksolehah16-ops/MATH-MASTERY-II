@@ -26,6 +26,9 @@ import TangentCircleExplorer from "./TangentCircleExplorer.jsx";
 import PlaceholderVisual from "./PlaceholderVisual.jsx";
 import ShapeGallery3D from "./ShapeGallery3D.jsx";
 import PolygonGallery from "./PolygonGallery.jsx";
+import CircleAllPartsFigure from "./CircleAllPartsFigure.jsx";
+import TriangleTypesGallery from "./TriangleTypesGallery.jsx";
+import QuadrilateralTypesGallery from "./QuadrilateralTypesGallery.jsx";
 
 // Slot visual eksplorasi ikut jenis topik (spec ms. 69-73):
 //   Integer/nombor       -> garis nombor interaktif
@@ -80,6 +83,9 @@ export function getExplorationVisual(visualType) {
 const FIGURE_REGISTRY = {
   "shapes-3d": ShapeGallery3D,
   "polygon-names": PolygonGallery,
+  "circle-all-parts": CircleAllPartsFigure,
+  "triangle-types": TriangleTypesGallery,
+  "quadrilateral-types": QuadrilateralTypesGallery,
 };
 
 export function getFigure(figureKey) {

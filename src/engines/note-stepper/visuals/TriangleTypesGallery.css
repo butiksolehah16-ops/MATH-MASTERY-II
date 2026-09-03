@@ -1,0 +1,44 @@
+.triangle-types {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 8px;
+  margin: 4px 0 2px;
+}
+
+.triangle-types__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  margin: 0;
+  padding: 8px 4px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+}
+
+.triangle-types__svg {
+  width: 100%;
+  max-width: 64px;
+  height: auto;
+}
+
+.triangle-types__svg polygon {
+  fill: color-mix(in srgb, var(--chapter-theme, var(--accent)) 12%, transparent);
+  stroke: var(--chapter-theme, var(--accent));
+  stroke-width: 3;
+  stroke-linejoin: round;
+}
+
+.triangle-types__right-angle {
+  fill: none;
+  stroke: var(--text-1);
+  stroke-width: 2;
+}
+
+.triangle-types__item figcaption {
+  font-size: 10.5px;
+  font-weight: 700;
+  color: var(--text-1);
+  text-align: center;
+}

@@ -1,0 +1,58 @@
+.circle-all-parts {
+  margin: 4px 0 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.circle-all-parts__svg {
+  width: 100%;
+  max-width: 230px;
+  height: auto;
+}
+
+.circle-all-parts__outline {
+  fill: color-mix(in srgb, var(--chapter-theme, var(--accent)) 6%, transparent);
+  stroke: var(--text-2);
+  stroke-width: 2;
+}
+
+.circle-all-parts__sector {
+  fill: color-mix(in srgb, var(--accent-2) 30%, transparent);
+  stroke: var(--accent-2);
+  stroke-width: 1.5;
+}
+
+.circle-all-parts__segment {
+  fill: color-mix(in srgb, var(--danger) 32%, transparent);
+  stroke: var(--danger);
+  stroke-width: 1.5;
+}
+
+.circle-all-parts__arc {
+  stroke: var(--success);
+  stroke-width: 4;
+  stroke-linecap: round;
+}
+
+.circle-all-parts__diameter,
+.circle-all-parts__radius {
+  stroke: var(--chapter-theme, var(--accent));
+  stroke-width: 2.5;
+  stroke-linecap: round;
+}
+
+.circle-all-parts__chord {
+  stroke: var(--xp);
+  stroke-width: 2.5;
+  stroke-linecap: round;
+}
+
+.circle-all-parts__center {
+  fill: var(--text-0);
+}
+
+.circle-all-parts__label {
+  font-size: 9.5px;
+  font-weight: 700;
+  fill: var(--text-1);
+}

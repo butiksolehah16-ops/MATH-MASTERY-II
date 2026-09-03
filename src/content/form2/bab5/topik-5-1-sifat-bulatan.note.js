@@ -25,6 +25,7 @@ export const notaSifatBulatanContent = {
   insight: {
     mentorLine: "Perasan macam mana setiap bahagian ada peranan berbeza?",
     title: "Tujuh Bahagian Utama Bulatan",
+    figure: "circle-all-parts",
     bullets: [
       "PUSAT (centre) — titik tetap di tengah bulatan, SAMA JARAK daripada semua titik pada lilitan (circumference, iaitu sempadan bulatan).",
       "JEJARI (radius) — garis dari pusat ke mana-mana titik pada lilitan; SEMUA jejari dalam bulatan yang sama adalah SAMA PANJANG.",
