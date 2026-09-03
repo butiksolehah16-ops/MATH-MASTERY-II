@@ -110,7 +110,15 @@ export default function NoteStepper({ content, onComplete }) {
         {subPhase === "insight" && (
           <>
             <h3 className="note-stepper__title">{content.insight.title}</h3>
-            <p className="note-stepper__body">{content.insight.body}</p>
+            {content.insight.bullets ? (
+              <ul className="note-stepper__bullet-list">
+                {content.insight.bullets.map((bullet, i) => (
+                  <li key={i}>{bullet}</li>
+                ))}
+              </ul>
+            ) : (
+              <p className="note-stepper__body">{content.insight.body}</p>
+            )}
           </>
         )}
 

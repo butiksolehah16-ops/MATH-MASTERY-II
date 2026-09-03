@@ -16,20 +16,25 @@ export const notaSifatBulatanContent = {
 
   exploration: {
     mentorLine: "Jom kita dedah setiap bahagian bulatan satu demi satu.",
-    prompt: "Klik \"Dedah bahagian seterusnya\" untuk kenali setiap bahagian bulatan: pusat, jejari, diameter, perentas, lengkok, dan sektor.",
+    prompt:
+      "Klik \"Dedah bahagian seterusnya\" untuk kenali setiap bahagian bulatan: pusat, jejari, diameter, " +
+      "perentas, lengkok, sektor, dan tembereng.",
+    parts: ["center", "radius", "diameter", "chord", "arc", "sector", "segment"],
   },
 
   insight: {
     mentorLine: "Perasan macam mana setiap bahagian ada peranan berbeza?",
-    title: "Enam Bahagian Utama Bulatan",
-    body:
-      "PUSAT (center) — titik tetap di tengah bulatan, SAMA JARAK daripada semua titik pada lilitan " +
-      "(circumference, iaitu sempadan bulatan). JEJARI (radius) — garis dari pusat ke mana-mana titik pada " +
-      "lilitan; SEMUA jejari dalam bulatan yang sama adalah SAMA PANJANG. DIAMETER — garis lurus melalui " +
-      "pusat, menyambung dua titik bertentangan pada lilitan (diameter = 2 × jejari). PERENTAS (chord) — " +
-      "garis lurus menyambung DUA titik pada lilitan TANPA melalui pusat (diameter sebenarnya perentas " +
-      "terpanjang yang mungkin). LENGKOK (arc) — sebahagian daripada lilitan bulatan. SEKTOR (sector) — " +
-      "kawasan yang dibatasi oleh DUA jejari dan satu lengkok (macam sekeping pizza).",
+    title: "Tujuh Bahagian Utama Bulatan",
+    bullets: [
+      "PUSAT (centre) — titik tetap di tengah bulatan, SAMA JARAK daripada semua titik pada lilitan (circumference, iaitu sempadan bulatan).",
+      "JEJARI (radius) — garis dari pusat ke mana-mana titik pada lilitan; SEMUA jejari dalam bulatan yang sama adalah SAMA PANJANG.",
+      "DIAMETER — garis lurus melalui pusat, menyambung dua titik bertentangan pada lilitan (diameter = 2 × jejari).",
+      "PERENTAS (chord) — garis lurus menyambung DUA titik pada lilitan TANPA melalui pusat (diameter sebenarnya perentas terpanjang yang mungkin).",
+      "LENGKOK (arc) — sebahagian daripada lilitan bulatan.",
+      "SEKTOR (sector) — kawasan yang dibatasi oleh DUA jejari dan satu lengkok (macam sekeping pizza).",
+      "TEMBERENG (segment) — kawasan yang dibatasi oleh SATU perentas dan SATU lengkok. BEZA dengan sektor: tembereng TAK melalui pusat langsung.",
+      "MINOR vs MAJOR — lengkok, sektor DAN tembereng setiap satu boleh dibahagi kepada bahagian LEBIH KECIL (minor) dan LEBIH BESAR (major) — bandingkan dengan SEPARUH bulatan untuk tentukan mana satu.",
+    ],
   },
 
   formula: {

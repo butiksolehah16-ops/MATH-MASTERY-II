@@ -144,6 +144,26 @@
   line-height: 1.5;
 }
 
+.note-stepper__bullet-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+  padding-left: 20px;
+  font-size: 14px;
+  color: var(--text-1);
+  line-height: 1.5;
+}
+
+.note-stepper__bullet-list li {
+  padding-left: 2px;
+}
+
+.note-stepper__bullet-list li::marker {
+  color: var(--chapter-theme, var(--accent));
+  font-weight: 800;
+}
+
 .note-stepper__choices {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

@@ -9,6 +9,7 @@ const PART_LABEL = {
   chord: "Perentas",
   arc: "Lengkok",
   sector: "Sektor",
+  segment: "Tembereng",
 };
 
 function polarToCartesian(cx, cy, r, angleDeg) {
@@ -64,6 +65,12 @@ export default function CirclePartsExplorer({ parts = DEFAULT_PARTS, onFinished 
         )}
         {shown.includes("arc") && (
           <path d={describeArc(cx, cy, r, 200, 340)} className="circle-parts__arc" fill="none" />
+        )}
+        {shown.includes("segment") && (
+          <path
+            d={`M ${chordA.x} ${chordA.y} A ${r} ${r} 0 0 0 ${chordB.x} ${chordB.y} Z`}
+            className="circle-parts__segment"
+          />
         )}
         {shown.includes("diameter") && (
           <line x1={diameterA.x} y1={diameterA.y} x2={diameterB.x} y2={diameterB.y} className="circle-parts__diameter" />

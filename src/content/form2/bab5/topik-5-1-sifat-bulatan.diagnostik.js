@@ -16,5 +16,15 @@ export const diagnostikSifatBulatanContent = {
       choices: ["10", "5", "15", "25"],
       answer: "10",
     },
+    {
+      prompt: "Apakah nama kawasan yang dibatasi oleh SATU perentas dan SATU lengkok (BUKAN melalui pusat)?",
+      choices: ["Tembereng", "Sektor", "Jejari", "Diameter"],
+      answer: "Tembereng",
+    },
+    {
+      prompt: "Apakah nama sektor yang LEBIH BESAR daripada separuh bulatan?",
+      choices: ["Sektor major", "Sektor minor", "Tembereng major", "Tembereng minor"],
+      answer: "Sektor major",
+    },
   ],
 };
