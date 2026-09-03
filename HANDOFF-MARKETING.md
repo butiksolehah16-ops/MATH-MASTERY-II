@@ -27,7 +27,7 @@ current state and what's next.
   tested end-to-end with a real RM39 payment: payment approved → email arrived within ~1 minute →
   code entered in the app → unlocked successfully.
 - **Beta program**: 8 codes (`BETA2026A`-`BETA2026H`) for a hand-picked group of 8 people, expiring
-  2026-09-27 (30-day trial). Distributed manually via WhatsApp (013-921 6335) — NOT through the
+  2026-09-27 (30-day trial). Distributed manually via WhatsApp (011-5900 6335) — NOT through the
   public checkout flow. As of this handoff, distribution to the 8 testers may still be pending —
   check with the user.
 - **WhatsApp's role now**: kept ONLY for (a) the 8 manual beta testers, and (b) general inquiries
