@@ -9,11 +9,10 @@ export const notaTangenBulatanContent = {
   hook: {
     mentorLine: "Sekarang kita belajar tentang garis yang MENYENTUH bulatan pada SATU titik sahaja.",
     title: "Roda Basikal Menyentuh Jalan",
-    body:
-      "Bila sebuah roda basikal (bulatan) berhenti di atas jalan raya yang rata, roda tu MENYENTUH jalan " +
-      "PADA SATU TITIK sahaja. Garis jalan tu dipanggil TANGEN kepada bulatan (roda). Ada satu perkaitan " +
-      "geometri yang PASTI berlaku antara jejari roda (dari pusat ke titik sentuhan) dengan jalan tu — jom " +
-      "kita siasat.",
+    bullets: [
+      "Bila sebuah roda basikal (bulatan) berhenti di atas jalan raya yang rata, roda tu MENYENTUH jalan PADA SATU TITIK sahaja. Garis jalan tu dipanggil TANGEN kepada bulatan (roda).",
+      "Ada satu perkaitan geometri yang PASTI berlaku antara jejari roda (dari pusat ke titik sentuhan) dengan jalan tu — jom kita siasat.",
+    ],
   },
 
   exploration: {
@@ -24,30 +23,22 @@ export const notaTangenBulatanContent = {
   insight: {
     mentorLine: "Perasan sudut antara jejari dan tangen tu SENTIASA 90°?",
     title: "Jejari SENTIASA Berserenjang dengan Tangen",
-    body:
-      "Kau baru nampak: jejari OP (dari pusat O ke titik sentuhan P) SENTIASA berserenjang (90°) dengan " +
-      "TANGEN pada titik P tersebut. Ini SENTIASA benar tak kira di mana titik sentuhan P berada pada " +
-      "bulatan. Sifat ni sangat berguna — ia bermakna segi tiga yang dibentuk oleh pusat O, titik sentuhan " +
-      "P, dan mana-mana titik LUAR T pada tangen, ialah SEGI TIGA BERSUDUT TEGAK (sudut tegak di P) — jadi " +
-      "kita boleh guna TEOREM PYTHAGORAS untuk cari panjang yang tak diketahui!",
+    bullets: [
+      "Kau baru nampak: jejari OP (dari pusat O ke titik sentuhan P) SENTIASA berserenjang (90°) dengan TANGEN pada titik P tersebut. Ini SENTIASA benar tak kira di mana titik sentuhan P berada pada bulatan.",
+      "Sifat ni sangat berguna — ia bermakna segi tiga yang dibentuk oleh pusat O, titik sentuhan P, dan mana-mana titik LUAR T pada tangen, ialah SEGI TIGA BERSUDUT TEGAK (sudut tegak di P) — jadi kita boleh guna TEOREM PYTHAGORAS untuk cari panjang yang tak diketahui!",
+    ],
   },
 
   formula: {
     mentorLine: "Ini TIGA sifat rasmi tangen kepada bulatan — simpan dalam kepala kamu.",
     title: "Sifat Tangen kepada Bulatan",
     expression: "OP ⊥ Tangen (pada titik sentuhan P)",
-    body:
-      "SIFAT 1 (Tangen-Jejari): Jejari ke titik sentuhan SENTIASA berserenjang (90°) dengan tangen pada " +
-      "titik itu.\n\n" +
-      "SIFAT 2 (Dua Tangen daripada Satu Titik): Jika DUA tangen dilukis daripada SATU titik luar T kepada " +
-      "bulatan yang sama (menyentuh pada titik P dan Q), maka TP = TQ (kedua-dua tangen SAMA panjang), dan " +
-      "garis OT (pusat ke titik luar) membahagi dua sama sudut PTQ (di antara dua tangen) SERTA sudut POQ " +
-      "(di pusat).\n\n" +
-      "SIFAT 3 (Sudut Tangen-Perentas): Sudut di antara TANGEN dengan PERENTAS yang dilukis daripada titik " +
-      "sentuhan SAMA dengan sudut dalam TEMBERENG SELANG-SELI (alternate segment) — iaitu sudut lilitan " +
-      "yang dicangkum oleh perentas itu pada bahagian bulatan yang bertentangan.\n\n" +
-      "TANGEN SEPUNYA (common tangent): satu garis tangen kepada DUA bulatan serentak — jenis masalah ni " +
-      "biasa gabungkan Sifat 1 dengan teorem Pythagoras.",
+    bullets: [
+      "SIFAT 1 (Tangen-Jejari): Jejari ke titik sentuhan SENTIASA berserenjang (90°) dengan tangen pada titik itu.",
+      "SIFAT 2 (Dua Tangen daripada Satu Titik): Jika DUA tangen dilukis daripada SATU titik luar T kepada bulatan yang sama (menyentuh pada titik P dan Q), maka TP = TQ (kedua-dua tangen SAMA panjang), dan garis OT (pusat ke titik luar) membahagi dua sama sudut PTQ (di antara dua tangen) SERTA sudut POQ (di pusat).",
+      "SIFAT 3 (Sudut Tangen-Perentas): Sudut di antara TANGEN dengan PERENTAS yang dilukis daripada titik sentuhan SAMA dengan sudut dalam TEMBERENG SELANG-SELI (alternate segment) — iaitu sudut lilitan yang dicangkum oleh perentas itu pada bahagian bulatan yang bertentangan.",
+      "TANGEN SEPUNYA (common tangent): satu garis tangen kepada DUA bulatan serentak — jenis masalah ni biasa gabungkan Sifat 1 dengan teorem Pythagoras.",
+    ],
   },
 
   example: {

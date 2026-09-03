@@ -26,20 +26,21 @@ export const notaSatuPembolehUbahContent = {
   insight: {
     mentorLine: "Perasan penimbang tu kekal seimbang?",
     title: "Buat Operasi SAMA Pada Kedua-Dua Belah!",
-    body:
-      "Kau baru buang 3 unit dari KEDUA-DUA belah penimbang — dan ia KEKAL SEIMBANG! Ini prinsip PENTING " +
-      "dalam selesaikan persamaan: apa jua yang kita buat pada SATU belah, kita MESTI buat pada belah yang " +
-      "SATU LAGI supaya persamaan kekal BENAR. Berat kucing Aisyah ialah x = 5kg.",
+    bullets: [
+      "Kau baru buang 3 unit dari KEDUA-DUA belah penimbang — dan ia KEKAL SEIMBANG!",
+      "Ini prinsip PENTING dalam selesaikan persamaan: apa jua yang kita buat pada SATU belah, kita MESTI buat pada belah yang SATU LAGI supaya persamaan kekal BENAR.",
+      "Berat kucing Aisyah ialah x = 5kg.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "Tambah ↔ Tolak, Darab ↔ Bahagi (operasi songsang)",
-    body:
-      "Untuk selesaikan persamaan linear satu pemboleh ubah: guna OPERASI SONGSANG (inverse operation) " +
-      "pada KEDUA-DUA belah persamaan sehingga pemboleh ubah bersendirian di satu belah. Tambah dan Tolak " +
-      "ialah pasangan operasi songsang; Darab dan Bahagi ialah pasangan operasi songsang.",
+    bullets: [
+      "Untuk selesaikan persamaan linear satu pemboleh ubah: guna OPERASI SONGSANG (inverse operation) pada KEDUA-DUA belah persamaan sehingga pemboleh ubah bersendirian di satu belah.",
+      "Tambah dan Tolak ialah pasangan operasi songsang; Darab dan Bahagi ialah pasangan operasi songsang.",
+    ],
   },
 
   example: {

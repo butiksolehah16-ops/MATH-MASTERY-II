@@ -34,9 +34,11 @@ export const notaLukisanBerskalaContent = {
     body:
       "LUKISAN BERSKALA (scale drawing) ialah lukisan objek yang saiznya diperkecil atau diperbesar secara " +
       "SEKATA (semua bahagian dikecilkan/dibesarkan dengan NISBAH YANG SAMA), supaya bentuknya kekal tepat " +
-      "— cuma saiz berubah. SKALA (scale) ialah nisbah antara ukuran PADA LUKISAN dengan ukuran SEBENAR, " +
+      "— cuma saiz berubah.\n\n" +
+      "SKALA (scale) ialah nisbah antara ukuran PADA LUKISAN dengan ukuran SEBENAR, " +
       "dipermudahkan SAMA macam nisbah biasa (2:8 → 1:4 di atas), dan biasa ditulis dalam bentuk 1:n (cth. " +
-      "1:100 bermaksud setiap 1 unit pada lukisan mewakili 100 unit sebenar). Rumah arkitek tadi guna skala " +
+      "1:100 bermaksud setiap 1 unit pada lukisan mewakili 100 unit sebenar).\n\n" +
+      "Rumah arkitek tadi guna skala " +
       "1:100 — lukisan 5 cm mewakili sebenar 500 cm (5:500 dipermudahkan = 1:100).",
   },
 
@@ -47,7 +49,8 @@ export const notaLukisanBerskalaContent = {
     body:
       "Jika skala ialah 1:n — UKURAN SEBENAR = Ukuran Lukisan × n. UKURAN LUKISAN = Ukuran Sebenar ÷ n. " +
       "SKALA n = Ukuran Sebenar ÷ Ukuran Lukisan (pastikan KEDUA-DUA ukuran dalam UNIT YANG SAMA sebelum " +
-      "kira nisbah). Skala 1:n dengan n > 1 bermaksud lukisan LEBIH KECIL daripada sebenar (pengecilan). " +
+      "kira nisbah).\n\n" +
+      "Skala 1:n dengan n > 1 bermaksud lukisan LEBIH KECIL daripada sebenar (pengecilan). " +
       "Skala dengan n < 1 (cth. 2:1) bermaksud lukisan LEBIH BESAR daripada sebenar (pembesaran, biasa " +
       "untuk lukis objek kecil seperti komponen jam).",
   },

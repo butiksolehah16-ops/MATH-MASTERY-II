@@ -30,21 +30,21 @@ export const notaIntegerAdditionContent = {
   insight: {
     mentorLine: "Perasan apa yang berlaku pada magnitud dan tanda?",
     title: "Dua Tanda Sama — Magnitud Bertambah",
-    body:
-      "Kamu baru sahaja mengira (−8) + (−5) = −13. Perasan coraknya? Bila DUA nombor mempunyai TANDA YANG " +
-      "SAMA (di sini, kedua-duanya negatif), kita TAMBAH magnitudnya (8 + 5 = 13) dan KEKALKAN tanda tu " +
-      "(negatif). Ini berbeza sama sekali dengan bila tanda kedua-dua nombor BERBEZA — kita akan lihat kes " +
-      "itu dalam contoh seterusnya.",
+    bullets: [
+      "Kamu baru sahaja mengira (−8) + (−5) = −13.",
+      "Perasan coraknya? Bila DUA nombor mempunyai TANDA YANG SAMA (di sini, kedua-duanya negatif), kita TAMBAH magnitudnya (8 + 5 = 13) dan KEKALKAN tanda tu (negatif).",
+      "Ini berbeza sama sekali dengan bila tanda kedua-dua nombor BERBEZA — kita akan lihat kes itu dalam contoh seterusnya.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini rumus rasmi untuk tambah SEBARANG dua integer — simpan dalam kepala kamu.",
     title: "Formula Rasmi",
     expression: "Tanda sama: tambah magnitud · Tanda beza: tolak magnitud",
-    body:
-      "Untuk sebarang dua nombor a dan b: JIKA tanda a dan b SAMA, jawapan = tambah kedua-dua magnitud, " +
-      "kekalkan tanda tu. JIKA tanda a dan b BERBEZA, jawapan = tolak magnitud yang kecil daripada magnitud " +
-      "yang besar, dan jawapan ikut tanda nombor yang magnitudnya lebih besar.",
+    bullets: [
+      "Untuk sebarang dua nombor a dan b: JIKA tanda a dan b SAMA, jawapan = tambah kedua-dua magnitud, kekalkan tanda tu.",
+      "JIKA tanda a dan b BERBEZA, jawapan = tolak magnitud yang kecil daripada magnitud yang besar, dan jawapan ikut tanda nombor yang magnitudnya lebih besar.",
+    ],
   },
 
   example: {

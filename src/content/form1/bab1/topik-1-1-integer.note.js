@@ -31,23 +31,22 @@ export const notaIntegerContent = {
   insight: {
     mentorLine: "Perasan apa yang baru berlaku?",
     title: "10 Langkah — Kenapa Bukan Nombor Kecil?",
-    body:
-      "Kamu baru sahaja mengira 3 − (−7), dan jawapannya 10 — bukan nombor kecil macam yang disangka " +
-      "kebanyakan orang! Ini kerana bila kita TOLAK nombor NEGATIF, kesannya SAMA seperti kita TAMBAH nombor " +
-      "positif tu. Fikirkan macam ni: kalau seseorang \"membatalkan\" hutang RM7 kamu, duit kamu BERTAMBAH " +
-      "RM7, bukan berkurang. \"Tolak (−7)\" ialah macam \"membatalkan\" −7 — kesannya sama seperti \"tambah 7\". " +
-      "Dua tanda negatif yang bertembung (tanda tolak, diikuti nombor negatif) bertukar menjadi tanda positif.",
+    bullets: [
+      "Kamu baru sahaja mengira 3 − (−7), dan jawapannya 10 — bukan nombor kecil macam yang disangka kebanyakan orang! Ini kerana bila kita TOLAK nombor NEGATIF, kesannya SAMA seperti kita TAMBAH nombor positif tu.",
+      "Fikirkan macam ni: kalau seseorang \"membatalkan\" hutang RM7 kamu, duit kamu BERTAMBAH RM7, bukan berkurang.",
+      "\"Tolak (−7)\" ialah macam \"membatalkan\" −7 — kesannya sama seperti \"tambah 7\". Dua tanda negatif yang bertembung (tanda tolak, diikuti nombor negatif) bertukar menjadi tanda positif.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini rumus rasmi yang merangkumi semua kes tolak integer — simpan dalam kepala kamu.",
     title: "Formula Rasmi",
     expression: "a − b = a + (−b)",
-    body:
-      "Untuk sebarang dua nombor a dan b: menolak b sama dengan menambah songsangannya, iaitu (−b). Bila b " +
-      "sendiri sudah negatif (contohnya b = −7), songsangannya (−b) menjadi POSITIF (+7). Itulah sebabnya " +
-      "a − (−7) = a + 7 — dua tanda negatif bertukar jadi satu tanda positif. Kalau b positif macam biasa " +
-      "(cth. b = 7), formula ni tetap berfungsi: a − 7 = a + (−7), iaitu gerak ke KIRI seperti biasa.",
+    bullets: [
+      "Untuk sebarang dua nombor a dan b: menolak b sama dengan menambah songsangannya, iaitu (−b).",
+      "Bila b sendiri sudah negatif (contohnya b = −7), songsangannya (−b) menjadi POSITIF (+7). Itulah sebabnya a − (−7) = a + 7 — dua tanda negatif bertukar jadi satu tanda positif.",
+      "Kalau b positif macam biasa (cth. b = 7), formula ni tetap berfungsi: a − 7 = a + (−7), iaitu gerak ke KIRI seperti biasa.",
+    ],
   },
 
   example: {

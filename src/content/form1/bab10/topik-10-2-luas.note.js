@@ -22,20 +22,24 @@ export const notaLuasContent = {
   insight: {
     mentorLine: "Perasan apa yang jumlah petak tu wakili?",
     title: "Luas = Bilangan Petak Unit Persegi!",
-    body:
-      "LUAS ialah bilangan petak unit persegi (cth 1m × 1m) yang menutupi bentuk itu sepenuhnya. Untuk " +
-      "segiempat tepat: Luas = panjang × lebar. Bentuk LAIN seperti segi tiga, segiempat selari, " +
-      "layang-layang, dan trapezium — formula luasnya SEMUA berasaskan luas segiempat tepat ini.",
+    bullets: [
+      "LUAS ialah bilangan petak unit persegi (cth 1m × 1m) yang menutupi bentuk itu sepenuhnya.",
+      "Untuk segiempat tepat: Luas = panjang × lebar.",
+      "Bentuk LAIN seperti segi tiga, segiempat selari, layang-layang, dan trapezium — formula luasnya SEMUA berasaskan luas segiempat tepat ini.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "Segi Tiga = ½bh, Segiempat Selari = bh, Layang-Layang = ½d₁d₂, Trapezium = ½(a+b)h",
-    body:
-      "LUAS SEGIEMPAT TEPAT = panjang × lebar. LUAS SEGI TIGA = ½ × tapak × tinggi (separuh daripada " +
-      "segiempat tepat sepadan). LUAS SEGIEMPAT SELARI = tapak × tinggi. LUAS LAYANG-LAYANG = ½ × pepenjuru1 " +
-      "× pepenjuru2. LUAS TRAPEZIUM = ½ × (jumlah dua sisi selari) × tinggi.",
+    bullets: [
+      "LUAS SEGIEMPAT TEPAT = panjang × lebar.",
+      "LUAS SEGI TIGA = ½ × tapak × tinggi (separuh daripada segiempat tepat sepadan).",
+      "LUAS SEGIEMPAT SELARI = tapak × tinggi.",
+      "LUAS LAYANG-LAYANG = ½ × pepenjuru1 × pepenjuru2.",
+      "LUAS TRAPEZIUM = ½ × (jumlah dua sisi selari) × tinggi.",
+    ],
   },
 
   example: {

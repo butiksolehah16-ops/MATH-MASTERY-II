@@ -34,22 +34,20 @@ export const notaPutaranContent = {
   insight: {
     mentorLine: "Perasan setiap titik jarak SAMA dari pusat O, sebelum dan selepas diputar?",
     title: "Putaran = Jarak dari Pusat Kekal Sama",
-    body:
-      "A berada pada jarak tertentu dari O, dan A' (imejnya) berada pada jarak yang SAMA dari O — cuma " +
-      "kedudukannya berputar 90° ikut arah jam. Ini berlaku untuk SETIAP titik pada bentuk tu. Tiga perkara " +
-      "perlu untuk terangkan putaran sepenuhnya: PUSAT putaran, SUDUT putaran, dan ARAH putaran (ikut jam / " +
-      "lawan jam).",
+    bullets: [
+      "A berada pada jarak tertentu dari O, dan A' (imejnya) berada pada jarak yang SAMA dari O — cuma kedudukannya berputar 90° ikut arah jam. Ini berlaku untuk SETIAP titik pada bentuk tu.",
+      "Tiga perkara perlu untuk terangkan putaran sepenuhnya: PUSAT putaran, SUDUT putaran, dan ARAH putaran (ikut jam / lawan jam).",
+    ],
   },
 
   formula: {
     mentorLine: "Ini cara terangkan dan selesaikan masalah putaran — simpan dalam kepala kamu.",
     title: "Elemen Putaran",
     expression: "Putaran = Pusat + Sudut + Arah (ikut jam / lawan jam)",
-    body:
-      "Untuk memerihalkan putaran, nyatakan: (1) PUSAT putaran (titik tetap), (2) SUDUT putaran (cth. 90°, " +
-      "180°, 270°), (3) ARAH (ikut jam atau lawan jam). Untuk putaran 180° (kes paling mudah dikira), imej " +
-      "berada di kedudukan bertentangan TERUS dari pusat, pada jarak yang SAMA — kira dengan cara: jarak " +
-      "objek ke pusat pada setiap paksi, kemudian tanda jarak SAMA di sebelah bertentangan pusat.",
+    bullets: [
+      "Untuk memerihalkan putaran, nyatakan: (1) PUSAT putaran (titik tetap), (2) SUDUT putaran (cth. 90°, 180°, 270°), (3) ARAH (ikut jam atau lawan jam).",
+      "Untuk putaran 180° (kes paling mudah dikira), imej berada di kedudukan bertentangan TERUS dari pusat, pada jarak yang SAMA — kira dengan cara: jarak objek ke pusat pada setiap paksi, kemudian tanda jarak SAMA di sebelah bertentangan pusat.",
+    ],
   },
 
   example: {

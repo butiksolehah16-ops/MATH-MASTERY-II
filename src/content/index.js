@@ -225,6 +225,13 @@ import { padSifatBulatanContent } from "./form2/bab5/topik-5-1-sifat-bulatan.pad
 import { diagnostikSifatBulatanContent } from "./form2/bab5/topik-5-1-sifat-bulatan.diagnostik.js";
 import { latihanSifatBulatanContent } from "./form2/bab5/topik-5-1-sifat-bulatan.latihan.js";
 import { masterySifatBulatanContent } from "./form2/bab5/topik-5-1-sifat-bulatan.mastery.js";
+// PILOT dwibahasa — versi English untuk Form 2, Bab 5, Topik 5.1 sahaja.
+// Topik lain belum diterjemah; getter di bawah fallback ke BM secara automatik.
+import { notaSifatBulatanContentEn } from "./form2/bab5/topik-5-1-sifat-bulatan.note.en.js";
+import { padSifatBulatanContentEn } from "./form2/bab5/topik-5-1-sifat-bulatan.pad.en.js";
+import { diagnostikSifatBulatanContentEn } from "./form2/bab5/topik-5-1-sifat-bulatan.diagnostik.en.js";
+import { latihanSifatBulatanContentEn } from "./form2/bab5/topik-5-1-sifat-bulatan.latihan.en.js";
+import { masterySifatBulatanContentEn } from "./form2/bab5/topik-5-1-sifat-bulatan.mastery.en.js";
 import { notaSimetriPerentasContent } from "./form2/bab5/topik-5-2-simetri-perentas.note.js";
 import { padSimetriPerentasContent } from "./form2/bab5/topik-5-2-simetri-perentas.pad.js";
 import { diagnostikSimetriPerentasContent } from "./form2/bab5/topik-5-2-simetri-perentas.diagnostik.js";
@@ -1270,22 +1277,52 @@ const MASTERY_CONTENT = {
   },
 };
 
-export function getNoteContent(formId, babId, topikId) {
+// PILOT dwibahasa — hanya Form 2 / Bab 5 / Topik 5.1 ada versi "en" buat masa
+// ini. Bila `lang === "en"` tapi topik tu tiada terjemahan, getter di bawah
+// fallback senyap ke versi BM (elak skrin kosong untuk topik yang belum
+// diterjemah).
+const NOTE_CONTENT_EN = { form2: { bab5: { "5.1": notaSifatBulatanContentEn } } };
+const PAD_CONTENT_EN = { form2: { bab5: { "5.1": padSifatBulatanContentEn } } };
+const DIAGNOSTIK_CONTENT_EN = { form2: { bab5: { "5.1": diagnostikSifatBulatanContentEn } } };
+const LATIHAN_CONTENT_EN = { form2: { bab5: { "5.1": latihanSifatBulatanContentEn } } };
+const MASTERY_CONTENT_EN = { form2: { bab5: { "5.1": masterySifatBulatanContentEn } } };
+
+export function getNoteContent(formId, babId, topikId, lang = "ms") {
+  if (lang === "en") {
+    const en = NOTE_CONTENT_EN[formId]?.[babId]?.[topikId];
+    if (en) return en;
+  }
   return NOTE_CONTENT[formId]?.[babId]?.[topikId] ?? null;
 }
 
-export function getPadContent(formId, babId, topikId) {
+export function getPadContent(formId, babId, topikId, lang = "ms") {
+  if (lang === "en") {
+    const en = PAD_CONTENT_EN[formId]?.[babId]?.[topikId];
+    if (en) return en;
+  }
   return PAD_CONTENT[formId]?.[babId]?.[topikId] ?? null;
 }
 
-export function getDiagnostikContent(formId, babId, topikId) {
+export function getDiagnostikContent(formId, babId, topikId, lang = "ms") {
+  if (lang === "en") {
+    const en = DIAGNOSTIK_CONTENT_EN[formId]?.[babId]?.[topikId];
+    if (en) return en;
+  }
   return DIAGNOSTIK_CONTENT[formId]?.[babId]?.[topikId] ?? null;
 }
 
-export function getLatihanContent(formId, babId, topikId) {
+export function getLatihanContent(formId, babId, topikId, lang = "ms") {
+  if (lang === "en") {
+    const en = LATIHAN_CONTENT_EN[formId]?.[babId]?.[topikId];
+    if (en) return en;
+  }
   return LATIHAN_CONTENT[formId]?.[babId]?.[topikId] ?? null;
 }
 
-export function getMasteryContent(formId, babId, topikId) {
+export function getMasteryContent(formId, babId, topikId, lang = "ms") {
+  if (lang === "en") {
+    const en = MASTERY_CONTENT_EN[formId]?.[babId]?.[topikId];
+    if (en) return en;
+  }
   return MASTERY_CONTENT[formId]?.[babId]?.[topikId] ?? null;
 }

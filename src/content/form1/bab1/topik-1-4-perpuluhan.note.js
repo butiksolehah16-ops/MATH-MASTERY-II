@@ -31,21 +31,21 @@ export const notaPerpuluhanContent = {
   insight: {
     mentorLine: "Perhatikan bilangan petak yang terisi — ada makna istimewa.",
     title: "Perpuluhan Ialah Pecahan Juga!",
-    body:
-      "Kamu baru kira 0 + (−0.9°C) = −0.9°C, gabungan (−0.6) + (−0.3). Perhatikan bar tu — 9 daripada 10 " +
-      "petak terisi. Itu sebenarnya bermaksud 9/10! Perpuluhan HANYALAH pecahan berpenyebut kuasa 10 (10, " +
-      "100, 1000...). Sebab itu peraturan tanda yang kamu dah kuasai di Topik 1.2 (integer) dan Topik 1.3 " +
-      "(pecahan) terpakai SAMA di sini: tanda sama → tambah magnitud, kekalkan tanda.",
+    bullets: [
+      "Kamu baru kira 0 + (−0.9°C) = −0.9°C, gabungan (−0.6) + (−0.3).",
+      "Perhatikan bar tu — 9 daripada 10 petak terisi. Itu sebenarnya bermaksud 9/10! Perpuluhan HANYALAH pecahan berpenyebut kuasa 10 (10, 100, 1000...).",
+      "Sebab itu peraturan tanda yang kamu dah kuasai di Topik 1.2 (integer) dan Topik 1.3 (pecahan) terpakai SAMA di sini: tanda sama → tambah magnitud, kekalkan tanda.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini rumus rasmi — sama seperti integer dan pecahan, cuma nombor dalam bentuk perpuluhan.",
     title: "Formula Rasmi",
     expression: "Tanda sama: tambah magnitud · Tanda beza: tolak magnitud",
-    body:
-      "Peraturan tanda perpuluhan SAMA seperti integer dan pecahan: tanda sama → tambah magnitud (jajarkan " +
-      "titik perpuluhan dahulu supaya digit sepadan), kekalkan tanda. Tanda berbeza → tolak magnitud kecil " +
-      "daripada magnitud besar, jawapan ikut tanda nombor bermagnitud besar.",
+    bullets: [
+      "Peraturan tanda perpuluhan SAMA seperti integer dan pecahan: tanda sama → tambah magnitud (jajarkan titik perpuluhan dahulu supaya digit sepadan), kekalkan tanda.",
+      "Tanda berbeza → tolak magnitud kecil daripada magnitud besar, jawapan ikut tanda nombor bermagnitud besar.",
+    ],
   },
 
   example: {

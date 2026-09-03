@@ -114,6 +114,12 @@
   font-size: 14px;
   line-height: 1.55;
   color: var(--text-1);
+  /* Banyak kandungan nota ditulis dengan "\n\n" (jarak perenggan) atau "\n"
+     (senarai "• ...") sebab niat asal penulis MEMANG nak pisah — tapi HTML
+     biasa runtuhkan whitespace tu jadi satu ayat panjang berterabur.
+     pre-line hormati newline yang penulis dah letak, tanpa perlu tulis
+     semula 20+ fail kandungan. */
+  white-space: pre-line;
 }
 
 .note-stepper__expression {

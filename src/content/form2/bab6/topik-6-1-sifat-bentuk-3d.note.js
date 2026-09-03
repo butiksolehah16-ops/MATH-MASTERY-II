@@ -23,23 +23,21 @@ export const notaSifatBentuk3dContent = {
   insight: {
     mentorLine: "Perasan macam mana bentuk melengkung (silinder, kon, sfera) berbeza daripada bentuk bersudut tajam?",
     title: "Muka, Tepi, dan Bucu",
-    body:
-      "MUKA (face) ialah permukaan rata ATAU melengkung yang membentuk sempadan luar sesuatu pepejal. TEPI " +
-      "(edge) ialah garis di mana DUA muka bertemu. BUCU (vertex) ialah titik di mana tepi-tepi bertemu. " +
-      "Bentuk bersudut tajam macam KUBOID dan PIRAMID ada muka rata sahaja, dengan tepi dan bucu yang jelas. " +
-      "Bentuk melengkung macam SILINDER, KON, dan SFERA ada sekurang-kurangnya SATU muka melengkung — sfera " +
-      "malah tiada tepi atau bucu langsung, sebab keseluruhan permukaannya melengkung sekata.",
+    bullets: [
+      "MUKA (face) ialah permukaan rata ATAU melengkung yang membentuk sempadan luar sesuatu pepejal. TEPI (edge) ialah garis di mana DUA muka bertemu. BUCU (vertex) ialah titik di mana tepi-tepi bertemu.",
+      "Bentuk bersudut tajam macam KUBOID dan PIRAMID ada muka rata sahaja, dengan tepi dan bucu yang jelas.",
+      "Bentuk melengkung macam SILINDER, KON, dan SFERA ada sekurang-kurangnya SATU muka melengkung — sfera malah tiada tepi atau bucu langsung, sebab keseluruhan permukaannya melengkung sekata.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini fakta menarik yang berfungsi untuk SEMUA pepejal bersudut tajam — simpan dalam kepala kamu.",
     title: "Formula Euler untuk Pepejal Bersudut Tajam",
     expression: "Muka + Bucu − Tepi = 2",
-    body:
-      "Bagi SEBARANG pepejal bersudut tajam (kuboid, piramid, prisma — bukan bentuk melengkung), terdapat " +
-      "perkaitan istimewa: MUKA + BUCU − TEPI SENTIASA bersamaan 2. Cth. kuboid: 6 muka + 8 bucu − 12 tepi = " +
-      "2. Perkaitan ni berguna untuk cari SATU nilai (muka, tepi, atau bucu) apabila DUA nilai yang lain " +
-      "diketahui.",
+    bullets: [
+      "Bagi SEBARANG pepejal bersudut tajam (kuboid, piramid, prisma — bukan bentuk melengkung), terdapat perkaitan istimewa: MUKA + BUCU − TEPI SENTIASA bersamaan 2. Cth. kuboid: 6 muka + 8 bucu − 12 tepi = 2.",
+      "Perkaitan ni berguna untuk cari SATU nilai (muka, tepi, atau bucu) apabila DUA nilai yang lain diketahui.",
+    ],
   },
 
   example: {

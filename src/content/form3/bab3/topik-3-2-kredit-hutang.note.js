@@ -26,32 +26,23 @@ export const notaKreditHutangContent = {
   insight: {
     mentorLine: "Perasan jumlah bertambah SAMA (RM100) setiap tahun? Itu ciri faedah sama rata (flat rate).",
     title: "Kredit, Hutang, dan Pengurusan Bijak",
-    body:
-      "KREDIT (credit) ialah kemudahan meminjam wang atau membeli barang SEKARANG dan bayar KEMUDIAN " +
-      "(termasuk kad kredit dan pinjaman). HUTANG (debt) ialah jumlah wang yang masih perlu dibayar balik. " +
-      "Pengurusan yang BIJAKSANA penting supaya kredit tidak jadi beban.\n\n" +
-      "KAD KREDIT — kelebihan: sistem ganjaran (rewards, cashback, mata ganjaran), kemudahan beli sekarang " +
-      "bayar kemudian, rekod perbelanjaan automatik. Kekurangan/risiko: faedah TINGGI jika baki tak dibayar " +
-      "penuh, mudah tergoda berbelanja lebih (overspend), risiko keselamatan (fraud) jika tidak berhati-hati. " +
-      "Kelayakan memperoleh kad kredit biasanya bergantung pendapatan dan rekod kredit pemohon.\n\n" +
-      "KESAN BAYARAN MINIMUM & BAYARAN LEWAT: jika kamu bayar HANYA jumlah minimum setiap bulan (bukan " +
-      "penuh), BAKI yang tinggal akan DIKENAKAN FAEDAH ATAS BAKI (interest on outstanding balance) — dan " +
-      "faedah ni akan TERUS berkumpul bulan ke bulan, menjadikan kos SEBENAR jauh lebih tinggi berbanding " +
-      "harga asal. Bayaran LEWAT pula selalunya kena CAJ KEWANGAN tambahan (caj lewat bayar). Pengurusan " +
-      "bijak: bayar PENUH setiap bulan (elak faedah atas baki), dan bayar TEPAT masa (elak caj lewat).",
+    bullets: [
+      "KREDIT (credit) ialah kemudahan meminjam wang atau membeli barang SEKARANG dan bayar KEMUDIAN (termasuk kad kredit dan pinjaman). HUTANG (debt) ialah jumlah wang yang masih perlu dibayar balik.",
+      "KAD KREDIT — kelebihan: sistem ganjaran (rewards, cashback, mata ganjaran), kemudahan beli sekarang bayar kemudian, rekod perbelanjaan automatik. Kekurangan/risiko: faedah TINGGI jika baki tak dibayar penuh, mudah tergoda berbelanja lebih (overspend), risiko keselamatan (fraud).",
+      "KESAN BAYARAN MINIMUM & BAYARAN LEWAT: jika kamu bayar HANYA jumlah minimum setiap bulan, BAKI yang tinggal akan DIKENAKAN FAEDAH ATAS BAKI, dan ia akan TERUS berkumpul bulan ke bulan, menjadikan kos SEBENAR jauh lebih tinggi berbanding harga asal.",
+      "Pengurusan bijak: bayar PENUH setiap bulan (elak faedah atas baki), dan bayar TEPAT masa (elak caj lewat).",
+    ],
   },
 
   formula: {
     mentorLine: "Ini rumus rasmi bagi pinjaman dengan faedah sama rata — simpan dalam kepala kamu.",
     title: "Rumus Bayaran Balik Pinjaman (Faedah Sama Rata)",
     expression: "A = P + Prt",
-    body:
-      "A = jumlah bayaran balik keseluruhan, P = prinsipal (jumlah dipinjam), r = kadar faedah setahun " +
-      "(perpuluhan), t = tempoh pinjaman (tahun). Ini SAMA bentuknya dengan I = Prt (faedah mudah) — cuma " +
-      "kita TAMBAH balik prinsipal P untuk dapat JUMLAH keseluruhan A.\n\n" +
-      "BAYARAN ANSURAN BULANAN = A ÷ (t × 12) — jumlah keseluruhan A dibahagi dengan bilangan bulan dalam " +
-      "tempoh pinjaman. Pinjaman faedah sama rata biasa termasuk pinjaman kereta, pinjaman peribadi, dan " +
-      "pinjaman barangan pengguna.",
+    bullets: [
+      "A = jumlah bayaran balik keseluruhan, P = prinsipal (jumlah dipinjam), r = kadar faedah setahun (perpuluhan), t = tempoh pinjaman (tahun).",
+      "Ini SAMA bentuknya dengan I = Prt (faedah mudah) — cuma kita TAMBAH balik prinsipal P untuk dapat JUMLAH keseluruhan A.",
+      "BAYARAN ANSURAN BULANAN = A ÷ (t × 12) — jumlah keseluruhan A dibahagi dengan bilangan bulan dalam tempoh pinjaman.",
+    ],
   },
 
   example: {

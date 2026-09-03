@@ -34,21 +34,22 @@ export const notaTranslasiContent = {
   insight: {
     mentorLine: "Perasan setiap bucu bergerak dengan jarak dan arah yang SAMA?",
     title: "Translasi = Gerakan Sama Rata untuk SEMUA Titik",
-    body:
-      "A(1,1) → A'(5,4): bergerak 4 ke kanan, 3 ke atas. B(3,1) → B'(7,4): bergerak 4 ke kanan, 3 ke atas " +
-      "juga. C(1,3) → C'(5,6): sama juga! SETIAP titik pada objek bergerak dengan jarak DAN arah yang SAMA " +
-      "— itulah TRANSLASI. Bentuk, saiz, dan orientasi imej kekal SAMA seperti objek.",
+    bullets: [
+      "A(1,1) → A'(5,4): bergerak 4 ke kanan, 3 ke atas. B(3,1) → B'(7,4): bergerak 4 ke kanan, 3 ke atas juga. C(1,3) → C'(5,6): sama juga!",
+      "SETIAP titik pada objek bergerak dengan jarak DAN arah yang SAMA — itulah TRANSLASI.",
+      "Bentuk, saiz, dan orientasi imej kekal SAMA seperti objek.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini cara rasmi tulis translasi — simpan dalam kepala kamu.",
     title: "Vektor Translasi",
     expression: "Vektor translasi (a, b): imej-x = objek-x + a,  imej-y = objek-y + b",
-    body:
-      "Translasi diperihalkan menggunakan VEKTOR TRANSLASI (a, b) — a ialah pergerakan MENGUFUK (positif = " +
-      "kanan, negatif = kiri), b ialah pergerakan MENCANCANG (positif = atas, negatif = bawah). Jika objek " +
-      "berada di (x, y), imej selepas translasi (a, b) berada di (x + a, y + b). Untuk cari VEKTOR translasi " +
-      "diberi objek dan imej, kira: a = imej-x − objek-x, dan b = imej-y − objek-y.",
+    bullets: [
+      "Translasi diperihalkan menggunakan VEKTOR TRANSLASI (a, b) — a ialah pergerakan MENGUFUK (positif = kanan, negatif = kiri), b ialah pergerakan MENCANCANG (positif = atas, negatif = bawah).",
+      "Jika objek berada di (x, y), imej selepas translasi (a, b) berada di (x + a, y + b).",
+      "Untuk cari VEKTOR translasi diberi objek dan imej, kira: a = imej-x − objek-x, dan b = imej-y − objek-y.",
+    ],
   },
 
   example: {

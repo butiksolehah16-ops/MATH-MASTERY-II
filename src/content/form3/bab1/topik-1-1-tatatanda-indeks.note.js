@@ -26,25 +26,24 @@ export const notaTatatandaIndeksContent = {
   insight: {
     mentorLine: "Perasan tak setiap nombor tu ialah 2 didarab dengan dirinya sendiri berkali-kali?",
     title: "Tatatanda Indeks = Cara Ringkas Tulis Pendaraban Berulang",
-    body:
-      "Bilangan bakteria pada Jam 5 ialah 2 × 2 × 2 × 2 × 2 = 32 — iaitu 2 didarab dengan DIRINYA SENDIRI " +
-      "sebanyak 5 kali. Daripada tulis \"2 × 2 × 2 × 2 × 2\" yang panjang, kita tulis 2⁵ (baca: \"2 kuasa " +
-      "5\" atau \"2 pangkat 5\"). Dalam 2⁵: nombor 2 dipanggil ASAS (base) — nombor yang didarab berulang; " +
-      "nombor 5 dipanggil INDEKS (index), juga dikenali sebagai EKSPONEN (exponent) atau KUASA (power) — " +
-      "bilangan kali asas tu didarab dengan dirinya sendiri. Selepas 20 jam, bilangan bakteria ditulis " +
-      "ringkas sebagai 2²⁰ — jauh lebih senang daripada tulis 20 nombor 2 didarab bersama!",
+    bullets: [
+      "Bilangan bakteria pada Jam 5 ialah 2 × 2 × 2 × 2 × 2 = 32 — iaitu 2 didarab dengan DIRINYA SENDIRI sebanyak 5 kali.",
+      "Daripada tulis \"2 × 2 × 2 × 2 × 2\" yang panjang, kita tulis 2⁵ (baca: \"2 kuasa 5\" atau \"2 pangkat 5\").",
+      "Dalam 2⁵: nombor 2 dipanggil ASAS (base) — nombor yang didarab berulang; nombor 5 dipanggil INDEKS (index), juga dikenali sebagai EKSPONEN (exponent) atau KUASA (power) — bilangan kali asas tu didarab dengan dirinya sendiri.",
+      "Selepas 20 jam, bilangan bakteria ditulis ringkas sebagai 2²⁰ — jauh lebih senang daripada tulis 20 nombor 2 didarab bersama!",
+    ],
   },
 
   formula: {
     mentorLine: "Ini definisi rasmi tatatanda indeks — simpan dalam kepala kamu.",
     title: "Definisi Tatatanda Indeks",
     expression: "aⁿ = a × a × a × ... × a  (sebanyak n faktor)",
-    body:
-      "aⁿ dibaca \"a kuasa n\", di mana a ialah ASAS dan n ialah INDEKS. Ia bermaksud a didarab dengan " +
-      "dirinya sendiri sebanyak n kali. Kes khas: a¹ = a (mana-mana nombor berkuasa 1 ialah nombor itu " +
-      "sendiri, sebab cuma SATU faktor). Untuk TUKAR nombor biasa kepada bentuk indeks: cari asas yang " +
-      "berulang, dan kira berapa kali ia didarab. Untuk TUKAR bentuk indeks kepada nombor biasa (menilai): " +
-      "darabkan asas dengan dirinya sendiri sebanyak yang ditunjukkan oleh indeks.",
+    bullets: [
+      "aⁿ dibaca \"a kuasa n\", di mana a ialah ASAS dan n ialah INDEKS. Ia bermaksud a didarab dengan dirinya sendiri sebanyak n kali.",
+      "Kes khas: a¹ = a (mana-mana nombor berkuasa 1 ialah nombor itu sendiri, sebab cuma SATU faktor).",
+      "Untuk TUKAR nombor biasa kepada bentuk indeks: cari asas yang berulang, dan kira berapa kali ia didarab.",
+      "Untuk TUKAR bentuk indeks kepada nombor biasa (menilai): darabkan asas dengan dirinya sendiri sebanyak yang ditunjukkan oleh indeks.",
+    ],
   },
 
   example: {

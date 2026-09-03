@@ -33,22 +33,21 @@ export const notaPantulanContent = {
   insight: {
     mentorLine: "Perasan setiap titik dan imejnya jarak SAMA dari garis pantulan, tapi di sebelah bertentangan?",
     title: "Pantulan = Jarak Sama, Sebelah Bertentangan",
-    body:
-      "A(2,5) berada 1 unit DI ATAS garis y=4, dan imejnya A'(2,3) berada 1 unit DI BAWAH garis y=4 — jarak " +
-      "yang SAMA, tapi sebelah bertentangan. C(2,7) berada 3 unit di atas, C'(2,1) berada 3 unit di bawah. " +
+    bullets: [
+      "A(2,5) berada 1 unit DI ATAS garis y=4, dan imejnya A'(2,3) berada 1 unit DI BAWAH garis y=4 — jarak yang SAMA, tapi sebelah bertentangan. C(2,7) berada 3 unit di atas, C'(2,1) berada 3 unit di bawah.",
       "Garis yang sambungkan setiap titik ke imejnya adalah BERSERENJANG (tegak lurus) dengan garis pantulan.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini cara tentukan imej pantulan — simpan dalam kepala kamu.",
     title: "Menentukan Imej Pantulan",
     expression: "Jarak objek ke garis pantulan = Jarak imej ke garis pantulan (sebelah bertentangan)",
-    body:
-      "Untuk cari imej pantulan pada garis MENDATAR (cth. y = k): ukur jarak mencancang titik dari garis tu, " +
-      "kemudian tandakan jarak yang SAMA di sebelah BERTENTANGAN — nilai-x KEKAL sama. Untuk garis pantulan " +
-      "MENEGAK (cth. x = k): ukur jarak mengufuk, tandakan jarak sama di sebelah bertentangan — nilai-y " +
-      "KEKAL sama. Sifat imej pantulan: SAIZ dan BENTUK kekal sama (kongruen), tapi ORIENTASI terbalik " +
-      "(macam cermin).",
+    bullets: [
+      "Untuk cari imej pantulan pada garis MENDATAR (cth. y = k): ukur jarak mencancang titik dari garis tu, kemudian tandakan jarak yang SAMA di sebelah BERTENTANGAN — nilai-x KEKAL sama.",
+      "Untuk garis pantulan MENEGAK (cth. x = k): ukur jarak mengufuk, tandakan jarak sama di sebelah bertentangan — nilai-y KEKAL sama.",
+      "Sifat imej pantulan: SAIZ dan BENTUK kekal sama (kongruen), tapi ORIENTASI terbalik (macam cermin).",
+    ],
   },
 
   example: {

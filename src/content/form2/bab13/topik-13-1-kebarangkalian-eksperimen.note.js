@@ -23,22 +23,21 @@ export const notaKebarangkalianEksperimenContent = {
   insight: {
     mentorLine: "Jumlah keseluruhan (20) itu ialah JUMLAH BILANGAN CUBAAN.",
     title: "Kebarangkalian Eksperimen = Nisbah Kekerapan",
-    body:
-      "Kepala muncul 12 kali daripada 20 cubaan. KEBARANGKALIAN EKSPERIMEN(Kepala) = 12 ÷ 20 = 0.6. Ini BUKAN " +
-      "jawapan 'tetap' — kalau kita ulang eksperimen, nombor boleh berubah sikit. Tapi jika bilangan cubaan " +
-      "SANGAT BESAR (contoh 1000 kali), kebarangkalian eksperimen akan menuju/hampir kepada satu nilai tertentu " +
-      "(iaitu kebarangkalian teori, 0.5 untuk syiling saksama).",
+    bullets: [
+      "Kepala muncul 12 kali daripada 20 cubaan. KEBARANGKALIAN EKSPERIMEN(Kepala) = 12 ÷ 20 = 0.6.",
+      "Ini BUKAN jawapan 'tetap' — kalau kita ulang eksperimen, nombor boleh berubah sikit.",
+      "Tapi jika bilangan cubaan SANGAT BESAR (contoh 1000 kali), kebarangkalian eksperimen akan menuju/hampir kepada satu nilai tertentu (iaitu kebarangkalian teori, 0.5 untuk syiling saksama).",
+    ],
   },
 
   formula: {
     mentorLine: "Ini formula rasmi kebarangkalian eksperimen.",
     title: "Formula Kebarangkalian Eksperimen",
     expression: "Kebarangkalian Eksperimen(A) = Bilangan kali A berlaku ÷ Jumlah bilangan cubaan",
-    body:
-      "KEBARANGKALIAN EKSPERIMEN(A) = (Bilangan kali peristiwa A berlaku) ÷ (Jumlah bilangan cubaan). " +
-      "Nilainya sentiasa antara 0 dan 1. KESIMPULAN PENTING: apabila bilangan cubaan bertambah besar dan " +
-      "besar, kebarangkalian eksperimen akan menuju/menghampiri satu nilai tetap — ini kerana corak sebenar " +
-      "eksperimen semakin jelas apabila banyak data dikumpul.",
+    bullets: [
+      "KEBARANGKALIAN EKSPERIMEN(A) = (Bilangan kali peristiwa A berlaku) ÷ (Jumlah bilangan cubaan). Nilainya sentiasa antara 0 dan 1.",
+      "KESIMPULAN PENTING: apabila bilangan cubaan bertambah besar dan besar, kebarangkalian eksperimen akan menuju/menghampiri satu nilai tetap — ini kerana corak sebenar eksperimen semakin jelas apabila banyak data dikumpul.",
+    ],
   },
 
   example: {

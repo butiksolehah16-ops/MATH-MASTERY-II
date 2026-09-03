@@ -21,21 +21,21 @@ export const notaKuasaDuaContent = {
   insight: {
     mentorLine: "Perasan bentuk yang terbentuk?",
     title: "5 × 5 = KUASA DUA bagi 5!",
-    body:
-      "Kau baru bina petak 5 baris × 5 lajur = 25 petak kesemuanya. Sebab bentuknya PERSEGI (sisi sama " +
-      "panjang), operasi \"darab nombor dengan dirinya sendiri\" ni dipanggil KUASA DUA. Ditulis sebagai " +
-      "5² (baca: \"5 kuasa dua\"), bermaksud 5 × 5 = 25. Cikgu Farah akan ada 25 petak bunga kesemuanya.",
+    bullets: [
+      "Kau baru bina petak 5 baris × 5 lajur = 25 petak kesemuanya.",
+      "Sebab bentuknya PERSEGI (sisi sama panjang), operasi \"darab nombor dengan dirinya sendiri\" ni dipanggil KUASA DUA. Ditulis sebagai 5² (baca: \"5 kuasa dua\"), bermaksud 5 × 5 = 25.",
+      "Cikgu Farah akan ada 25 petak bunga kesemuanya.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "n² = n × n",
-    body:
-      "PUNCA KUASA DUA (simbol √) ialah operasi SEBALIKNYA bagi kuasa dua — ia cari BALIK panjang sisi " +
-      "apabila kita tahu jumlah petak (luas). Cth: √25 = 5, sebab 5 × 5 = 25. Nombor seperti 1, 4, 9, 16, " +
-      "25, 36, 49, 64, 81, 100... dipanggil NOMBOR KUASA DUA SEMPURNA (perfect squares) sebab punca kuasa " +
-      "duanya ialah nombor bulat yang kemas (bukan pecahan/perpuluhan).",
+    bullets: [
+      "PUNCA KUASA DUA (simbol √) ialah operasi SEBALIKNYA bagi kuasa dua — ia cari BALIK panjang sisi apabila kita tahu jumlah petak (luas). Cth: √25 = 5, sebab 5 × 5 = 25.",
+      "Nombor seperti 1, 4, 9, 16, 25, 36, 49, 64, 81, 100... dipanggil NOMBOR KUASA DUA SEMPURNA (perfect squares) sebab punca kuasa duanya ialah nombor bulat yang kemas (bukan pecahan/perpuluhan).",
+    ],
   },
 
   example: {

@@ -26,20 +26,22 @@ export const notaSatuPembolehUbahKetaksamaanContent = {
   insight: {
     mentorLine: "Perasan kaedah ni serupa dengan Bab 6?",
     title: "Sama Kaedah, Kekalkan Simbol Ketaksamaan!",
-    body:
-      "Kau baru buang 3 dari KEDUA-DUA belah — SAMA macam selesaikan persamaan (Bab 6)! Bezanya, simbol " +
-      "yang kita kekalkan ialah < (bukan =). Jadi x < 12. Ini bermakna beg sekolah Aiman MESTI kurang " +
-      "daripada 12kg (boleh jadi 11kg, 10kg, 5kg... — BANYAK nilai yang mungkin, bukan satu jawapan sahaja!)",
+    bullets: [
+      "Kau baru buang 3 dari KEDUA-DUA belah — SAMA macam selesaikan persamaan (Bab 6)!",
+      "Bezanya, simbol yang kita kekalkan ialah < (bukan =). Jadi x < 12.",
+      "Ini bermakna beg sekolah Aiman MESTI kurang daripada 12kg (boleh jadi 11kg, 10kg, 5kg... — BANYAK nilai yang mungkin, bukan satu jawapan sahaja!)",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep PALING PENTING dalam topik ni — jangan lupa!",
     title: "Formula Rasmi",
     expression: "Darab/Bahagi negatif → TERBALIKKAN simbol!",
-    body:
-      "Untuk selesaikan ketaksamaan linear: guna kaedah SAMA macam selesaikan persamaan (operasi songsang " +
-      "pada kedua-dua belah). TAPI — bila kita DARAB atau BAHAGI kedua-dua belah dengan nombor NEGATIF, " +
-      "simbol ketaksamaan MESTI TERBALIK! Cth: −2x > 8 → bahagi dengan −2 → x < −4 (simbol > bertukar jadi <).",
+    bullets: [
+      "Untuk selesaikan ketaksamaan linear: guna kaedah SAMA macam selesaikan persamaan (operasi songsang pada kedua-dua belah).",
+      "TAPI — bila kita DARAB atau BAHAGI kedua-dua belah dengan nombor NEGATIF, simbol ketaksamaan MESTI TERBALIK!",
+      "Cth: −2x > 8 → bahagi dengan −2 → x < −4 (simbol > bertukar jadi <).",
+    ],
   },
 
   example: {

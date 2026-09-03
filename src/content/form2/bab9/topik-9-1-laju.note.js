@@ -25,20 +25,21 @@ export const notaLajuContent = {
   insight: {
     mentorLine: "Perasan jarak yang ditambah SETIAP jam adalah SAMA?",
     title: "Laju Seragam = Jarak Sama Setiap Unit Masa",
-    body:
-      "Kereta tu bergerak 60 km SETIAP jam — tiada perubahan. Ini dipanggil LAJU SERAGAM. Jika jarak yang " +
-      "dilalui berbeza-beza setiap jam (kadang laju, kadang perlahan), itu LAJU TAK SERAGAM — dan kita guna " +
-      "LAJU PURATA (jumlah jarak ÷ jumlah masa) untuk gambarkan pergerakan keseluruhan.",
+    bullets: [
+      "Kereta tu bergerak 60 km SETIAP jam — tiada perubahan. Ini dipanggil LAJU SERAGAM.",
+      "Jika jarak yang dilalui berbeza-beza setiap jam (kadang laju, kadang perlahan), itu LAJU TAK SERAGAM — dan kita guna LAJU PURATA (jumlah jarak ÷ jumlah masa) untuk gambarkan pergerakan keseluruhan.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini formula rasmi laju — simpan dalam kepala kamu.",
     title: "Formula Laju",
     expression: "Laju = Jarak ÷ Masa   |   Laju Purata = Jumlah Jarak ÷ Jumlah Masa",
-    body:
-      "LAJU = JARAK ÷ MASA (unit biasa: km/j atau m/s). Daripada rumus ni, kita juga boleh susun semula: " +
-      "JARAK = Laju × Masa, dan MASA = Jarak ÷ Laju. LAJU PURATA (untuk perjalanan tak seragam) = Jumlah " +
-      "Jarak ÷ Jumlah Masa. PENUKARAN UNIT: km/j → m/s (bahagi dengan 3.6), m/s → km/j (darab dengan 3.6).",
+    bullets: [
+      "LAJU = JARAK ÷ MASA (unit biasa: km/j atau m/s). Daripada rumus ni, kita juga boleh susun semula: JARAK = Laju × Masa, dan MASA = Jarak ÷ Laju.",
+      "LAJU PURATA (untuk perjalanan tak seragam) = Jumlah Jarak ÷ Jumlah Masa.",
+      "PENUKARAN UNIT: km/j → m/s (bahagi dengan 3.6), m/s → km/j (darab dengan 3.6).",
+    ],
   },
 
   example: {

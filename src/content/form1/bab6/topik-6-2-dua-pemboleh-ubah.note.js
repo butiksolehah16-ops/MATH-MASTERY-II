@@ -26,20 +26,20 @@ export const notaDuaPembolehUbahContent = {
   insight: {
     mentorLine: "Perasan berapa banyak kombinasi yang berfungsi?",
     title: "Banyak Pasangan (x, y) Memenuhi Persamaan!",
-    body:
-      "Setiap kali x berubah, y turut berubah SUPAYA x + y tetap = 10. Persamaan x + y = 10 ada BANYAK " +
-      "penyelesaian yang mungkin (x=1,y=9 / x=2,y=8 / x=3,y=7...) — ini dipanggil PERSAMAAN LINEAR DALAM " +
-      "DUA PEMBOLEH UBAH, sebab ada DUA huruf yang tak diketahui (x dan y).",
+    bullets: [
+      "Setiap kali x berubah, y turut berubah SUPAYA x + y tetap = 10.",
+      "Persamaan x + y = 10 ada BANYAK penyelesaian yang mungkin (x=1,y=9 / x=2,y=8 / x=3,y=7...) — ini dipanggil PERSAMAAN LINEAR DALAM DUA PEMBOLEH UBAH, sebab ada DUA huruf yang tak diketahui (x dan y).",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "ax + by = c",
-    body:
-      "Persamaan linear dua pemboleh ubah ditulis dalam bentuk ax + by = c, dengan a, b, c ialah pemalar, " +
-      "dan x, y ialah pemboleh ubah. Setiap PASANGAN nilai (x, y) yang memenuhi persamaan dipanggil " +
-      "PENYELESAIAN (solution) bagi persamaan itu.",
+    bullets: [
+      "Persamaan linear dua pemboleh ubah ditulis dalam bentuk ax + by = c, dengan a, b, c ialah pemalar, dan x, y ialah pemboleh ubah.",
+      "Setiap PASANGAN nilai (x, y) yang memenuhi persamaan dipanggil PENYELESAIAN (solution) bagi persamaan itu.",
+    ],
   },
 
   example: {

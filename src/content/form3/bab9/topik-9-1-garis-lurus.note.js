@@ -33,31 +33,23 @@ export const notaGarisLurusContent = {
   insight: {
     mentorLine: "Perasan setiap kali x naik 1, y naik TEPAT 2? Dan bila x=0, y=3?",
     title: "y = mx + c — Setiap Huruf Ada Makna",
-    body:
-      "Dalam y = mx + c: m ialah KECERUNAN (gradient) — kadar perubahan y bagi SETIAP 1 unit pertambahan x " +
-      "(dalam contoh tadi, m=2 bermaksud setiap +1 GB, bayaran naik RM2). c ialah PINTASAN-Y (y-intercept) " +
-      "— nilai y BILA x=0 (dalam contoh tadi, c=3 ialah yuran tetap bulanan, walaupun x=0 GB digunakan). " +
-      "SETIAP titik (x, y) yang terletak PADA garis tu mesti MEMENUHI persamaan y = 2x + 3 — kalau titik tak " +
-      "memenuhi persamaan, ia TIDAK terletak pada garis tersebut.",
+    bullets: [
+      "Dalam y = mx + c: m ialah KECERUNAN (gradient) — kadar perubahan y bagi SETIAP 1 unit pertambahan x (dalam contoh tadi, m=2 bermaksud setiap +1 GB, bayaran naik RM2). c ialah PINTASAN-Y (y-intercept) — nilai y BILA x=0 (dalam contoh tadi, c=3 ialah yuran tetap bulanan, walaupun x=0 GB digunakan).",
+      "SETIAP titik (x, y) yang terletak PADA garis tu mesti MEMENUHI persamaan y = 2x + 3 — kalau titik tak memenuhi persamaan, ia TIDAK terletak pada garis tersebut.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini SEMUA rumus penting garis lurus — rujuk semula bila perlu, banyak yang perlu diingati!",
     title: "Rumus Garis Lurus",
     expression: "y = mx + c   (m = kecerunan, c = pintasan-y)",
-    body:
-      "BENTUK LAIN persamaan garis lurus: ax + by = c (bentuk am) — TUKAR kepada y=mx+c dengan " +
-      "menyusun-semula: y = (−a/b)x + (c/b), jadi m = −a/b. BENTUK PINTASAN: x/p + y/q = 1 (p = pintasan-x, " +
-      "q = pintasan-y) — kecerunan m = −q/p.\n\n" +
-      "PERKAITAN TITIK DENGAN PERSAMAAN: satu titik (x₁, y₁) terletak PADA garis y=mx+c JIKA DAN HANYA JIKA " +
-      "GANTIKAN x₁ dan y₁ ke dalam persamaan menghasilkan PERNYATAAN BENAR (kiri = kanan).\n\n" +
-      "KECERUNAN GARIS SELARI: DUA garis adalah SELARI JIKA DAN HANYA JIKA kecerunan (m) kedua-duanya SAMA.\n\n" +
-      "MENENTUKAN PERSAMAAN GARIS: (a) Jika diberi KECERUNAN m dan SATU titik (x₁,y₁): guna y − y₁ = " +
-      "m(x − x₁), kemudian susun semula kepada y=mx+c. (b) Jika diberi DUA titik: cari kecerunan dahulu " +
-      "guna m = (y₂−y₁)/(x₂−x₁), kemudian guna kaedah (a).\n\n" +
-      "TITIK PERSILANGAN DUA GARIS: selesaikan KEDUA-DUA persamaan garis SERENTAK (guna penggantian, " +
-      "penghapusan, atau kaedah graf) — jawapannya ialah SATU titik (x,y) yang memenuhi KEDUA-DUA " +
-      "persamaan serentak.",
+    bullets: [
+      "BENTUK LAIN persamaan garis lurus: ax + by = c (bentuk am) — TUKAR kepada y=mx+c dengan menyusun-semula: y = (−a/b)x + (c/b), jadi m = −a/b. BENTUK PINTASAN: x/p + y/q = 1 (p = pintasan-x, q = pintasan-y) — kecerunan m = −q/p.",
+      "PERKAITAN TITIK DENGAN PERSAMAAN: satu titik (x₁, y₁) terletak PADA garis y=mx+c JIKA DAN HANYA JIKA GANTIKAN x₁ dan y₁ ke dalam persamaan menghasilkan PERNYATAAN BENAR (kiri = kanan).",
+      "KECERUNAN GARIS SELARI: DUA garis adalah SELARI JIKA DAN HANYA JIKA kecerunan (m) kedua-duanya SAMA.",
+      "MENENTUKAN PERSAMAAN GARIS: (a) Jika diberi KECERUNAN m dan SATU titik (x₁,y₁): guna y − y₁ = m(x − x₁), kemudian susun semula kepada y=mx+c. (b) Jika diberi DUA titik: cari kecerunan dahulu guna m = (y₂−y₁)/(x₂−x₁), kemudian guna kaedah (a).",
+      "TITIK PERSILANGAN DUA GARIS: selesaikan KEDUA-DUA persamaan garis SERENTAK (guna penggantian, penghapusan, atau kaedah graf) — jawapannya ialah SATU titik (x,y) yang memenuhi KEDUA-DUA persamaan serentak.",
+    ],
   },
 
   example: {

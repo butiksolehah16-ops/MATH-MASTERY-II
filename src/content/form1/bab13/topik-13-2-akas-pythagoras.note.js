@@ -22,19 +22,21 @@ export const notaAkasPythagorasContent = {
   insight: {
     mentorLine: "Perasan macam mana kita boleh SAHKAN sudut tanpa mengukur terus?",
     title: "Akas Teorem Pythagoras!",
-    body:
-      "AKAS TEOREM PYTHAGORAS: Jika kuasa dua sisi TERPANJANG SAMA dengan JUMLAH kuasa dua DUA sisi lain " +
-      "(a² + b² = c²), maka segi tiga itu ADALAH segi tiga bersudut tegak. Untuk rangka almari: 3² + 4² = " +
-      "9 + 16 = 25 = 5² — jadi sudut itu MEMANG 90°!",
+    bullets: [
+      "AKAS TEOREM PYTHAGORAS: Jika kuasa dua sisi TERPANJANG SAMA dengan JUMLAH kuasa dua DUA sisi lain (a² + b² = c²), maka segi tiga itu ADALAH segi tiga bersudut tegak.",
+      "Untuk rangka almari: 3² + 4² = 9 + 16 = 25 = 5² — jadi sudut itu MEMANG 90°!",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "a² + b² = c² → bersudut tegak",
-    body:
-      "Jika a² + b² = c² (c ialah sisi terpanjang) → segi tiga BERSUDUT TEGAK. Jika a² + b² ≠ c² → segi tiga BUKAN " +
-      "bersudut tegak. Kaedah ni membolehkan kita SAHKAN sudut tegak tanpa mengukur sudut secara terus.",
+    bullets: [
+      "Jika a² + b² = c² (c ialah sisi terpanjang) → segi tiga BERSUDUT TEGAK.",
+      "Jika a² + b² ≠ c² → segi tiga BUKAN bersudut tegak.",
+      "Kaedah ni membolehkan kita SAHKAN sudut tegak tanpa mengukur sudut secara terus.",
+    ],
   },
 
   example: {

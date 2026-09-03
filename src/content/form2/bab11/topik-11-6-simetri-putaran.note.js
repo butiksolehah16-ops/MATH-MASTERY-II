@@ -25,22 +25,21 @@ export const notaSimetriPutaranContent = {
   insight: {
     mentorLine: "Perasan bentuk tu sepadan dengan dirinya SEBANYAK 3 kali semasa berputar penuh?",
     title: "Peringkat Simetri Putaran = Bilangan Padanan",
-    body:
-      "Segi tiga sama sisi sepadan dengan bentuk asalnya pada 120°, 240°, dan 360° — SEBANYAK 3 kali. " +
-      "Bilangan kali ni dipanggil PERINGKAT SIMETRI PUTARAN. Jadi segi tiga sama sisi ada peringkat simetri " +
-      "putaran = 3.",
+    bullets: [
+      "Segi tiga sama sisi sepadan dengan bentuk asalnya pada 120°, 240°, dan 360° — SEBANYAK 3 kali.",
+      "Bilangan kali ni dipanggil PERINGKAT SIMETRI PUTARAN. Jadi segi tiga sama sisi ada peringkat simetri putaran = 3.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini cara kira peringkat simetri putaran — simpan dalam kepala kamu.",
     title: "Peringkat Simetri Putaran",
     expression: "Peringkat Simetri Putaran = 360° ÷ Sudut Terkecil untuk Padan Semula",
-    body:
-      "PERINGKAT SIMETRI PUTARAN sesuatu bentuk ialah bilangan kali bentuk tu nampak SAMA (sepadan dengan " +
-      "kedudukan asal) semasa berputar 360° PENUH. Untuk poligon SEKATA (semua sisi & sudut sama) dengan n " +
-      "sisi, peringkat simetri putarannya SENTIASA = n (cth. segi empat sama = 4, segi lima sekata = 5, " +
-      "heksagon sekata = 6). Bentuk yang HANYA sepadan pada 360° (tiada padanan lain) ada peringkat simetri " +
-      "putaran = 1 (dianggap TIADA simetri putaran).",
+    bullets: [
+      "PERINGKAT SIMETRI PUTARAN sesuatu bentuk ialah bilangan kali bentuk tu nampak SAMA (sepadan dengan kedudukan asal) semasa berputar 360° PENUH.",
+      "Untuk poligon SEKATA (semua sisi & sudut sama) dengan n sisi, peringkat simetri putarannya SENTIASA = n (cth. segi empat sama = 4, segi lima sekata = 5, heksagon sekata = 6).",
+      "Bentuk yang HANYA sepadan pada 360° (tiada padanan lain) ada peringkat simetri putaran = 1 (dianggap TIADA simetri putaran).",
+    ],
   },
 
   example: {

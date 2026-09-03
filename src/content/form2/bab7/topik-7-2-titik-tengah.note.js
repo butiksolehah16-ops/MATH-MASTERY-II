@@ -27,20 +27,21 @@ export const notaTitikTengahContent = {
   insight: {
     mentorLine: "Perasan yang titik tengah tu sebenarnya PURATA (min) bagi setiap paksi?",
     title: "Titik Tengah = Purata Setiap Paksi",
-    body:
-      "Nilai-x bagi titik tengah ialah PURATA nilai-x A dan B: (2 + 8) / 2 = 5. Nilai-y bagi titik tengah " +
-      "ialah PURATA nilai-y A dan B: (2 + 6) / 2 = 4. Jadi titik tengah M = (5, 4) — tepat di tengah-tengah " +
-      "garisan AB.",
+    bullets: [
+      "Nilai-x bagi titik tengah ialah PURATA nilai-x A dan B: (2 + 8) / 2 = 5.",
+      "Nilai-y bagi titik tengah ialah PURATA nilai-y A dan B: (2 + 6) / 2 = 4.",
+      "Jadi titik tengah M = (5, 4) — tepat di tengah-tengah garisan AB.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini rumus rasmi titik tengah — simpan dalam kepala kamu.",
     title: "Rumus Titik Tengah",
     expression: "M = ( (x₁ + x₂)/2 , (y₁ + y₂)/2 )",
-    body:
-      "Bagi dua titik A(x₁, y₁) dan B(x₂, y₂), titik tengah M bagi garisan AB ialah " +
-      "( (x₁ + x₂)/2 , (y₁ + y₂)/2 ) — iaitu purata nilai-x sebagai koordinat-x M, dan purata nilai-y " +
-      "sebagai koordinat-y M.",
+    bullets: [
+      "Bagi dua titik A(x₁, y₁) dan B(x₂, y₂), titik tengah M bagi garisan AB ialah ( (x₁ + x₂)/2 , (y₁ + y₂)/2 ).",
+      "Iaitu purata nilai-x sebagai koordinat-x M, dan purata nilai-y sebagai koordinat-y M.",
+    ],
   },
 
   example: {

@@ -26,21 +26,22 @@ export const notaKetaksamaanContent = {
   insight: {
     mentorLine: "Perasan arah pergerakan tu?",
     title: "Kanan = Lebih Besar!",
-    body:
-      "Kau baru bergerak dari −3 ke KANAN (arah positif) untuk sampai ke 2. Dalam garis nombor, nombor di " +
-      "sebelah KANAN sentiasa LEBIH BESAR daripada nombor di sebelah KIRI. Jadi 2 lebih besar daripada −3, " +
-      "ditulis sebagai 2 > −3 (atau −3 < 2). Suhu tengah hari (2°C) lebih tinggi daripada suhu pagi (−3°C).",
+    bullets: [
+      "Kau baru bergerak dari −3 ke KANAN (arah positif) untuk sampai ke 2.",
+      "Dalam garis nombor, nombor di sebelah KANAN sentiasa LEBIH BESAR daripada nombor di sebelah KIRI. Jadi 2 lebih besar daripada −3, ditulis sebagai 2 > −3 (atau −3 < 2).",
+      "Suhu tengah hari (2°C) lebih tinggi daripada suhu pagi (−3°C).",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: ">, <, ≥, ≤",
-    body:
-      "Simbol KETAKSAMAAN: > (lebih besar), < (lebih kecil), ≥ (lebih besar atau sama dengan), ≤ (lebih " +
-      "kecil atau sama dengan). SIFAT SONGSANGAN: jika a < b, maka b > a. SIFAT TRANSITIF: jika a < b dan " +
-      "b < c, maka a < c. PENTING: bila kita DARAB atau BAHAGI kedua-dua belah ketaksamaan dengan nombor " +
-      "NEGATIF, simbol ketaksamaan MESTI TERBALIK (cth: jika a < b, maka −a > −b).",
+    bullets: [
+      "Simbol KETAKSAMAAN: > (lebih besar), < (lebih kecil), ≥ (lebih besar atau sama dengan), ≤ (lebih kecil atau sama dengan).",
+      "SIFAT SONGSANGAN: jika a < b, maka b > a. SIFAT TRANSITIF: jika a < b dan b < c, maka a < c.",
+      "PENTING: bila kita DARAB atau BAHAGI kedua-dua belah ketaksamaan dengan nombor NEGATIF, simbol ketaksamaan MESTI TERBALIK (cth: jika a < b, maka −a > −b).",
+    ],
   },
 
   example: {

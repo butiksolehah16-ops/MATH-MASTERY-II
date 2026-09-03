@@ -26,20 +26,21 @@ export const notaJarakContent = {
   insight: {
     mentorLine: "Perasan segi tiga bersudut tegak yang terbentuk tu?",
     title: "Jarak = Sisi Miring Segi Tiga Bersudut Tegak",
-    body:
-      "dx = beza nilai-x (4 − 1 = 3) dan dy = beza nilai-y (5 − 1 = 4). dx dan dy ni ialah DUA SISI TEGAK bagi " +
-      "segi tiga bersudut tegak, dan jarak AB ialah SISI MIRING (hipotenus) segi tiga tu. Guna Teorem " +
-      "Pythagoras: AB² = dx² + dy² = 3² + 4² = 9 + 16 = 25, jadi AB = √25 = 5.",
+    bullets: [
+      "dx = beza nilai-x (4 − 1 = 3) dan dy = beza nilai-y (5 − 1 = 4).",
+      "dx dan dy ni ialah DUA SISI TEGAK bagi segi tiga bersudut tegak, dan jarak AB ialah SISI MIRING (hipotenus) segi tiga tu.",
+      "Guna Teorem Pythagoras: AB² = dx² + dy² = 3² + 4² = 9 + 16 = 25, jadi AB = √25 = 5.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini rumus rasmi jarak antara dua titik — simpan dalam kepala kamu.",
     title: "Rumus Jarak",
     expression: "Jarak AB = √[(x₂ − x₁)² + (y₂ − y₁)²]",
-    body:
-      "Bagi dua titik A(x₁, y₁) dan B(x₂, y₂) pada satah Cartes, jarak antara A dan B ialah " +
-      "√[(x₂ − x₁)² + (y₂ − y₁)²] — iaitu punca kuasa dua bagi (beza-x)² tambah (beza-y)². Ini sebenarnya " +
-      "Teorem Pythagoras yang kamu dah tahu, cuma dx dan dy diambil daripada koordinat.",
+    bullets: [
+      "Bagi dua titik A(x₁, y₁) dan B(x₂, y₂) pada satah Cartes, jarak antara A dan B ialah √[(x₂ − x₁)² + (y₂ − y₁)²] — iaitu punca kuasa dua bagi (beza-x)² tambah (beza-y)².",
+      "Ini sebenarnya Teorem Pythagoras yang kamu dah tahu, cuma dx dan dy diambil daripada koordinat.",
+    ],
   },
 
   example: {

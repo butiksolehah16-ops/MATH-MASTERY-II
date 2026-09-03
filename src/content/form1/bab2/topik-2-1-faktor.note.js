@@ -26,23 +26,22 @@ export const notaFaktorContent = {
   insight: {
     mentorLine: "Perasan apa yang berlaku bila kita sampai TEPAT?",
     title: "4 Ialah Faktor bagi 12!",
-    body:
-      "Kau baru sahaja lompat dengan saiz 4, sebanyak 3 kali (0→4→8→12), dan sampai TEPAT ke 12 — tiada " +
-      "berlebih atau kurang! Ini bermakna 4 ialah FAKTOR bagi 12: nombor yang boleh membahagi nombor lain " +
-      "secara SAMA RATA (tiada baki). Cikgu Aina BOLEH agih 12 gula-gula kepada 4 orang murid — setiap orang " +
-      "dapat 3 biji (12 ÷ 4 = 3).",
+    bullets: [
+      "Kau baru sahaja lompat dengan saiz 4, sebanyak 3 kali (0→4→8→12), dan sampai TEPAT ke 12 — tiada berlebih atau kurang!",
+      "Ini bermakna 4 ialah FAKTOR bagi 12: nombor yang boleh membahagi nombor lain secara SAMA RATA (tiada baki).",
+      "Cikgu Aina BOLEH agih 12 gula-gula kepada 4 orang murid — setiap orang dapat 3 biji (12 ÷ 4 = 3).",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang bab ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "n ialah faktor m JIKA m ÷ n tiada baki",
-    body:
-      "Faktor Sepunya Terbesar (FSTB) dua nombor ialah faktor PALING BESAR yang dikongsi oleh KEDUA-DUA " +
-      "nombor tersebut. Untuk cari FSTB: senaraikan semua faktor setiap nombor, kenal pasti faktor yang " +
-      "sama (sepunya), pilih yang PALING BESAR. (Nota tambahan: nombor PERDANA cuma ada DUA faktor — 1 dan " +
-      "dirinya sendiri, cth. 2, 3, 5, 7, 11. Faktor perdana bagi sesuatu nombor ialah faktor-faktornya yang " +
-      "juga nombor perdana.)",
+    bullets: [
+      "Faktor Sepunya Terbesar (FSTB) dua nombor ialah faktor PALING BESAR yang dikongsi oleh KEDUA-DUA nombor tersebut.",
+      "Untuk cari FSTB: senaraikan semua faktor setiap nombor, kenal pasti faktor yang sama (sepunya), pilih yang PALING BESAR.",
+      "(Nota tambahan: nombor PERDANA cuma ada DUA faktor — 1 dan dirinya sendiri, cth. 2, 3, 5, 7, 11. Faktor perdana bagi sesuatu nombor ialah faktor-faktornya yang juga nombor perdana.)",
+    ],
   },
 
   example: {

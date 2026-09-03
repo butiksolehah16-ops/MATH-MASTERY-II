@@ -26,34 +26,26 @@ export const notaNisbahTrigonometriContent = {
   insight: {
     mentorLine: "Perasan yang setiap sisi dinamakan RELATIF kepada kedudukan sudut θ?",
     title: "SOH-CAH-TOA",
-    body:
-      "Dalam segi tiga bersudut tegak, RELATIF kepada sudut tirus θ (bukan sudut tegak): SISI BERTENTANGAN " +
-      "(opposite) ialah sisi yang TIDAK menyentuh θ. SISI BERSEBELAHAN (adjacent) ialah sisi yang MENYENTUH " +
-      "θ (tapi BUKAN hipotenus). HIPOTENUS (hypotenuse) ialah sisi TERPANJANG, bertentangan dengan sudut " +
-      "tegak (90°) — sisi ni TETAP sama tak kira sudut θ yang mana kita rujuk.\n\n" +
-      "TIGA NISBAH TRIGONOMETRI ditakrifkan daripada tiga sisi ni — mudah ingat guna singkatan SOH-CAH-TOA: " +
-      "Sin = Opposite/Hypotenuse, Cos = Adjacent/Hypotenuse, Tan = Opposite/Adjacent.",
+    bullets: [
+      "Dalam segi tiga bersudut tegak, RELATIF kepada sudut tirus θ (bukan sudut tegak): SISI BERTENTANGAN (opposite) ialah sisi yang TIDAK menyentuh θ. SISI BERSEBELAHAN (adjacent) ialah sisi yang MENYENTUH θ (tapi BUKAN hipotenus). HIPOTENUS (hypotenuse) ialah sisi TERPANJANG, bertentangan dengan sudut tegak (90°) — sisi ni TETAP sama tak kira sudut θ yang mana kita rujuk.",
+      "TIGA NISBAH TRIGONOMETRI ditakrifkan daripada tiga sisi ni — mudah ingat guna singkatan SOH-CAH-TOA: Sin = Opposite/Hypotenuse, Cos = Adjacent/Hypotenuse, Tan = Opposite/Adjacent.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini definisi rasmi tiga nisbah trigonometri, dan nilai istimewa bagi 30°/45°/60° — rujuk semula bila perlu.",
     title: "Nisbah Trigonometri",
     expression: "sin θ = dtg/hip     kos θ = bsb/hip     tan θ = dtg/bsb",
-    body:
-      "sin θ = (sisi bertentangan) ÷ (hipotenus). kos θ = (sisi bersebelahan) ÷ (hipotenus). tan θ = (sisi " +
-      "bertentangan) ÷ (sisi bersebelahan). PERKAITAN PENTING: tan θ = sin θ ÷ kos θ (boleh diterbitkan " +
-      "terus daripada tiga definisi di atas).\n\n" +
-      "KESAN PERUBAHAN SUDUT: apabila sudut θ MEMBESAR (dari 0° ke 90°), nilai sin θ dan tan θ BERTAMBAH " +
-      "(semakin besar), manakala nilai kos θ BERKURANG (semakin kecil).\n\n" +
-      "NILAI ISTIMEWA (WAJIB HAFAL):\n" +
-      "θ = 30°: sin = 1/2, kos = √3/2, tan = 1/√3 (= √3/3)\n" +
-      "θ = 45°: sin = 1/√2 (= √2/2), kos = 1/√2, tan = 1\n" +
-      "θ = 60°: sin = √3/2, kos = 1/2, tan = √3\n\n" +
-      "SONGSANGAN (inverse): untuk cari SUDUT daripada nilai nisbah, guna kalkulator dengan tatatanda sin⁻¹, " +
-      "kos⁻¹, tan⁻¹. Cth: jika sin θ = 0.5, maka θ = sin⁻¹(0.5) = 30°.\n\n" +
-      "SUDUT DONGAK (angle of elevation) ialah sudut diukur ke ATAS daripada garis mendatar (cth. mata " +
-      "pemerhati ke puncak objek). SUDUT TUNDUK (angle of depression) ialah sudut diukur ke BAWAH daripada " +
-      "garis mendatar (cth. dari tempat tinggi melihat ke objek di bawah).",
+    bullets: [
+      "sin θ = (sisi bertentangan) ÷ (hipotenus). kos θ = (sisi bersebelahan) ÷ (hipotenus). tan θ = (sisi bertentangan) ÷ (sisi bersebelahan).",
+      "PERKAITAN PENTING: tan θ = sin θ ÷ kos θ (boleh diterbitkan terus daripada tiga definisi di atas).",
+      "KESAN PERUBAHAN SUDUT: apabila sudut θ MEMBESAR (dari 0° ke 90°), nilai sin θ dan tan θ BERTAMBAH (semakin besar), manakala nilai kos θ BERKURANG (semakin kecil).",
+      "NILAI ISTIMEWA (WAJIB HAFAL) — θ = 30°: sin = 1/2, kos = √3/2, tan = 1/√3 (= √3/3).",
+      "θ = 45°: sin = 1/√2 (= √2/2), kos = 1/√2, tan = 1.",
+      "θ = 60°: sin = √3/2, kos = 1/2, tan = √3.",
+      "SONGSANGAN (inverse): untuk cari SUDUT daripada nilai nisbah, guna kalkulator dengan tatatanda sin⁻¹, kos⁻¹, tan⁻¹. Cth: jika sin θ = 0.5, maka θ = sin⁻¹(0.5) = 30°.",
+      "SUDUT DONGAK (angle of elevation) ialah sudut diukur ke ATAS daripada garis mendatar. SUDUT TUNDUK (angle of depression) ialah sudut diukur ke BAWAH daripada garis mendatar.",
+    ],
   },
 
   example: {

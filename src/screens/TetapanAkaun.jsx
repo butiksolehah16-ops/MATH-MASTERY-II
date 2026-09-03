@@ -2,6 +2,7 @@ import { useState } from "react";
 import AppHeader from "../components/AppHeader.jsx";
 import { FORMS } from "../data/forms.js";
 import { useProgress } from "../state/ProgressContext.jsx";
+import { useLanguage } from "../state/LanguageContext.jsx";
 import "./TetapanAkaun.css";
 
 // Tetapan Akaun — TEMPATAN sahaja (tiada login/backend). Progress disimpan
@@ -10,6 +11,7 @@ import "./TetapanAkaun.css";
 // Tingkatan, dan backup (eksport/import fail JSON) untuk pindah peranti.
 export default function TetapanAkaun() {
   const { state, setProfileName, resetForm, replaceState } = useProgress();
+  const { language, setLanguage } = useLanguage();
   const [nameInput, setNameInput] = useState(state.profile.name);
   const [nameSaved, setNameSaved] = useState(false);
   const [resetTarget, setResetTarget] = useState(null);
@@ -60,6 +62,30 @@ export default function TetapanAkaun() {
   return (
     <div className="screen tetapan-akaun">
       <AppHeader title="Tetapan Akaun" onBack={true} />
+
+      <section className="tetapan-akaun__section">
+        <h2 className="tetapan-akaun__section-title">Bahasa Kandungan / Content Language</h2>
+        <p className="tetapan-akaun__hint">
+          UJIAN AWAL (pilot) — baru SATU topik ada versi English (Tingkatan 2, Bab 5, Topik 5.1). Topik lain
+          akan terus papar Bahasa Malaysia buat masa ini walaupun English dipilih.
+        </p>
+        <div className="tetapan-akaun__lang-row">
+          <button
+            type="button"
+            className={`tetapan-akaun__lang-btn${language === "ms" ? " tetapan-akaun__lang-btn--active" : ""}`}
+            onClick={() => setLanguage("ms")}
+          >
+            Bahasa Malaysia
+          </button>
+          <button
+            type="button"
+            className={`tetapan-akaun__lang-btn${language === "en" ? " tetapan-akaun__lang-btn--active" : ""}`}
+            onClick={() => setLanguage("en")}
+          >
+            English
+          </button>
+        </div>
+      </section>
 
       <section className="tetapan-akaun__section">
         <h2 className="tetapan-akaun__section-title">Nama Pelajar</h2>

@@ -22,19 +22,21 @@ export const notaTeoremPythagorasContent = {
   insight: {
     mentorLine: "Perasan hubungan antara ketiga-tiga nilai kuasa dua tu?",
     title: "a² + b² = c²!",
-    body:
-      "TEOREM PYTHAGORAS: dalam SEGI TIGA BERSUDUT TEGAK, kuasa dua HIPOTENUS (sisi terpanjang, bertentangan " +
-      "sudut tegak) SAMA dengan JUMLAH kuasa dua dua sisi yang lain. Untuk tangga tadi: 3² + 4² = 9 + 16 = " +
-      "25 = 5². Jadi panjang tangga ialah 5m!",
+    bullets: [
+      "TEOREM PYTHAGORAS: dalam SEGI TIGA BERSUDUT TEGAK, kuasa dua HIPOTENUS (sisi terpanjang, bertentangan sudut tegak) SAMA dengan JUMLAH kuasa dua dua sisi yang lain.",
+      "Untuk tangga tadi: 3² + 4² = 9 + 16 = 25 = 5². Jadi panjang tangga ialah 5m!",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "a² + b² = c²",
-    body:
-      "a² + b² = c² (c ialah hipotenus, sisi terpanjang). Untuk cari HIPOTENUS: c = √(a² + b²). Untuk cari " +
-      "SISI PENDEK: a = √(c² − b²) atau b = √(c² − a²).",
+    bullets: [
+      "a² + b² = c² (c ialah hipotenus, sisi terpanjang).",
+      "Untuk cari HIPOTENUS: c = √(a² + b²).",
+      "Untuk cari SISI PENDEK: a = √(c² − b²) atau b = √(c² − a²).",
+    ],
   },
 
   example: {

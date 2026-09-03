@@ -32,22 +32,22 @@ export const notaTransformasiContent = {
   insight: {
     mentorLine: "Perasan setiap bucu objek ada TEPAT SATU bucu imej sepadan?",
     title: "Padanan Satu-dengan-Satu",
-    body:
-      "A sepadan dengan A', B sepadan dengan B', C sepadan dengan C' — setiap TITIK pada objek memetakan " +
-      "kepada TEPAT SATU titik pada imej. Perasan juga bentuk dan saiz segi tiga ABC dan A'B'C' adalah SAMA, " +
-      "cuma kedudukannya berbeza. Bila bentuk dan saiz kekal sama, objek dan imej dikatakan KONGRUEN.",
+    bullets: [
+      "A sepadan dengan A', B sepadan dengan B', C sepadan dengan C' — setiap TITIK pada objek memetakan kepada TEPAT SATU titik pada imej.",
+      "Perasan juga bentuk dan saiz segi tiga ABC dan A'B'C' adalah SAMA, cuma kedudukannya berbeza.",
+      "Bila bentuk dan saiz kekal sama, objek dan imej dikatakan KONGRUEN.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep dan istilah penting bab ni — simpan dalam kepala kamu.",
     title: "Objek, Imej, dan Kekongruenan",
     expression: "Objek → Transformasi → Imej (kongruen jika bentuk & saiz kekal sama)",
-    body:
-      "OBJEK ialah bentuk asal, IMEJ ialah bentuk terhasil selepas transformasi. Transformasi boleh ubah " +
-      "SAIZ, BENTUK, KEDUDUKAN, dan ORIENTASI (arah menghadap) sesuatu objek. Apabila imej KONGRUEN dengan " +
-      "objek (bentuk dan saiz kekal SAMA, hanya kedudukan/orientasi berubah), transformasi itu dipanggil " +
-      "ISOMETRI — inilah fokus bab ni: TRANSLASI, PANTULAN, dan PUTARAN. (KESERUPAAN pula bila bentuk sama " +
-      "tapi SAIZ berbeza, seperti pembesaran — ini BUKAN isometri.)",
+    bullets: [
+      "OBJEK ialah bentuk asal, IMEJ ialah bentuk terhasil selepas transformasi. Transformasi boleh ubah SAIZ, BENTUK, KEDUDUKAN, dan ORIENTASI (arah menghadap) sesuatu objek.",
+      "Apabila imej KONGRUEN dengan objek (bentuk dan saiz kekal SAMA, hanya kedudukan/orientasi berubah), transformasi itu dipanggil ISOMETRI — inilah fokus bab ni: TRANSLASI, PANTULAN, dan PUTARAN.",
+      "(KESERUPAAN pula bila bentuk sama tapi SAIZ berbeza, seperti pembesaran — ini BUKAN isometri.)",
+    ],
   },
 
   example: {

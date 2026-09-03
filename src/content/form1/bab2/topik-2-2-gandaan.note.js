@@ -26,21 +26,22 @@ export const notaGandaanContent = {
   insight: {
     mentorLine: "Sekarang bayangkan Bas B pula — gandaan 6.",
     title: "Gandaan Sepunya — Bila Kedua-duanya Bertemu?",
-    body:
-      "Kau baru senaraikan gandaan 4: 4, 8, 12, 16. Sekarang bayangkan senarai gandaan 6: 6, 12, 18, 24. " +
-      "Perasan nombor 12 muncul dalam KEDUA-DUA senarai? Itulah GANDAAN SEPUNYA — nombor yang jadi gandaan " +
-      "kepada kedua-dua 4 dan 6. Bas A dan Bas B akan bertolak sama-sama lagi pada minit ke-12!",
+    bullets: [
+      "Kau baru senaraikan gandaan 4: 4, 8, 12, 16. Sekarang bayangkan senarai gandaan 6: 6, 12, 18, 24.",
+      "Perasan nombor 12 muncul dalam KEDUA-DUA senarai? Itulah GANDAAN SEPUNYA — nombor yang jadi gandaan kepada kedua-dua 4 dan 6.",
+      "Bas A dan Bas B akan bertolak sama-sama lagi pada minit ke-12!",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi — lawan kepada FSTB yang kau belajar dalam Topik 2.1.",
     title: "Formula Rasmi",
     expression: "Gandaan n = n × 1, n × 2, n × 3, ...",
-    body:
-      "Gandaan Sepunya Terkecil (GSTK) dua nombor ialah gandaan PALING KECIL yang dikongsi oleh KEDUA-DUA " +
-      "nombor. Untuk cari GSTK: senaraikan gandaan setiap nombor, kenal pasti gandaan sepunya, pilih yang " +
-      "PALING KECIL. (Perbezaan dengan FSTB: FSTB cari faktor PALING BESAR yang sepunya; GSTK cari gandaan " +
-      "PALING KECIL yang sepunya — arah terbalik!)",
+    bullets: [
+      "Gandaan Sepunya Terkecil (GSTK) dua nombor ialah gandaan PALING KECIL yang dikongsi oleh KEDUA-DUA nombor.",
+      "Untuk cari GSTK: senaraikan gandaan setiap nombor, kenal pasti gandaan sepunya, pilih yang PALING KECIL.",
+      "(Perbezaan dengan FSTB: FSTB cari faktor PALING BESAR yang sepunya; GSTK cari gandaan PALING KECIL yang sepunya — arah terbalik!)",
+    ],
   },
 
   example: {

@@ -24,22 +24,22 @@ export const notaOperasiAsasContent = {
   insight: {
     mentorLine: "Perasan macam mana dua kumpulan tu bergabung?",
     title: "3x + 2x = 5x — Sebutan Serupa!",
-    body:
-      "Kau baru gabungkan 3x + 2x = 5x. Sebab KEDUA-DUA sebutan ada pemboleh ubah yang SAMA (x), kita " +
-      "boleh TAMBAH pekali mereka (3 + 2 = 5) dan kekalkan pemboleh ubah. Ini dipanggil SEBUTAN SERUPA " +
-      "(like terms) — sebutan dengan pemboleh ubah yang SAMA boleh digabung macam ni. Farah ada 5x biji " +
-      "strawberi kesemuanya.",
+    bullets: [
+      "Kau baru gabungkan 3x + 2x = 5x. Sebab KEDUA-DUA sebutan ada pemboleh ubah yang SAMA (x), kita boleh TAMBAH pekali mereka (3 + 2 = 5) dan kekalkan pemboleh ubah.",
+      "Ini dipanggil SEBUTAN SERUPA (like terms) — sebutan dengan pemboleh ubah yang SAMA boleh digabung macam ni.",
+      "Farah ada 5x biji strawberi kesemuanya.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "ax + bx = (a + b)x",
-    body:
-      "Untuk tambah/tolak sebutan serupa: tambah/tolak PEKALI sahaja, kekalkan pemboleh ubah. PENTING: " +
-      "sebutan TAK SERUPA (unlike terms, cth. 3x dan 2y) TIDAK BOLEH digabung — kekal berasingan. Untuk " +
-      "darab/bahagi sebutan tunggal dengan nombor: darab/bahagi PEKALI sahaja. Cth: 4x × 3 = 12x, dan " +
-      "12x ÷ 4 = 3x.",
+    bullets: [
+      "Untuk tambah/tolak sebutan serupa: tambah/tolak PEKALI sahaja, kekalkan pemboleh ubah.",
+      "PENTING: sebutan TAK SERUPA (unlike terms, cth. 3x dan 2y) TIDAK BOLEH digabung — kekal berasingan.",
+      "Untuk darab/bahagi sebutan tunggal dengan nombor: darab/bahagi PEKALI sahaja. Cth: 4x × 3 = 12x, dan 12x ÷ 4 = 3x.",
+    ],
   },
 
   example: {

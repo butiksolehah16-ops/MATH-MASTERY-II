@@ -22,22 +22,22 @@ export const notaGarisBersilangContent = {
   insight: {
     mentorLine: "Perasan bila dua garis bersilang, berapa banyak sudut yang terbentuk?",
     title: "Sudut Bertentang Bucu Sentiasa Sama!",
-    body:
-      "Kau baru bina sudut 70°. Bila DUA GARIS BERSILANG, ia membentuk 4 sudut. Sudut yang BERTENTANGAN " +
-      "(di seberang persimpangan) — dipanggil SUDUT BERTENTANG BUCU (vertically opposite angles) — SENTIASA " +
-      "SAMA BESAR. Jadi sudut bertentangan dengan 70° tu juga 70°. Manakala dua sudut BERSEBELAHAN " +
-      "(adjacent) pada garis yang sama akan berjumlah 180° (sebab mereka membentuk garis lurus): " +
-      "180° − 70° = 110°.",
+    bullets: [
+      "Kau baru bina sudut 70°. Bila DUA GARIS BERSILANG, ia membentuk 4 sudut.",
+      "Sudut yang BERTENTANGAN (di seberang persimpangan) — dipanggil SUDUT BERTENTANG BUCU (vertically opposite angles) — SENTIASA SAMA BESAR. Jadi sudut bertentangan dengan 70° tu juga 70°.",
+      "Manakala dua sudut BERSEBELAHAN (adjacent) pada garis yang sama akan berjumlah 180° (sebab mereka membentuk garis lurus): 180° − 70° = 110°.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "Bertentang bucu = SAMA, Bersebelahan = 180°",
-    body:
-      "Bila dua garis lurus bersilang: SUDUT BERTENTANG BUCU adalah SAMA. SUDUT BERSEBELAHAN pada garis " +
-      "yang sama adalah BERSUPLEMEN (jumlah = 180°). Ini bermakna daripada SATU sudut sahaja, kita boleh " +
-      "cari SEMUA 4 sudut di persimpangan tu!",
+    bullets: [
+      "Bila dua garis lurus bersilang: SUDUT BERTENTANG BUCU adalah SAMA.",
+      "SUDUT BERSEBELAHAN pada garis yang sama adalah BERSUPLEMEN (jumlah = 180°).",
+      "Ini bermakna daripada SATU sudut sahaja, kita boleh cari SEMUA 4 sudut di persimpangan tu!",
+    ],
   },
 
   example: {

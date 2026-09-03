@@ -7,6 +7,7 @@ import ErrorBoundary from "./components/ErrorBoundary.jsx";
 import { ProgressProvider } from "./state/ProgressContext.jsx";
 import { MisconceptionProvider } from "./state/MisconceptionContext.jsx";
 import { AccessProvider } from "./state/AccessContext.jsx";
+import { LanguageProvider } from "./state/LanguageContext.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -15,7 +16,9 @@ createRoot(document.getElementById("root")).render(
         <AccessProvider>
           <ProgressProvider>
             <MisconceptionProvider>
-              <App />
+              <LanguageProvider>
+                <App />
+              </LanguageProvider>
             </MisconceptionProvider>
           </ProgressProvider>
         </AccessProvider>

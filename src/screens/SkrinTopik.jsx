@@ -16,6 +16,7 @@ import {
 } from "../content/index.js";
 import { useProgress, getTopicStatus } from "../state/ProgressContext.jsx";
 import { useMisconception, getStepMistakeHistory } from "../state/MisconceptionContext.jsx";
+import { useLanguage } from "../state/LanguageContext.jsx";
 import { hasSeenTour, markTourSeen } from "../state/onboarding.js";
 import "./SkrinTopik.css";
 
@@ -71,6 +72,7 @@ export default function SkrinTopik() {
   const navigate = useNavigate();
   const { state, masterTopic } = useProgress();
   const { log: misconceptionLog, recordMistake } = useMisconception();
+  const { language } = useLanguage();
   const chapter = getChapter(formId, babId);
   const topik = getTopic(formId, babId, topikId);
   const [phaseIndex, setPhaseIndex] = useState(0);
@@ -78,11 +80,11 @@ export default function SkrinTopik() {
   const [padTourDismissed, setPadTourDismissed] = useState(false);
   const [lockedHintRect, setLockedHintRect] = useState(null);
   const status = getTopicStatus(state, formId, babId, topikId);
-  const noteContent = getNoteContent(formId, babId, topikId);
-  const padContent = getPadContent(formId, babId, topikId);
-  const diagnostikContent = getDiagnostikContent(formId, babId, topikId);
-  const latihanContent = getLatihanContent(formId, babId, topikId);
-  const masteryContent = getMasteryContent(formId, babId, topikId);
+  const noteContent = getNoteContent(formId, babId, topikId, language);
+  const padContent = getPadContent(formId, babId, topikId, language);
+  const diagnostikContent = getDiagnostikContent(formId, babId, topikId, language);
+  const latihanContent = getLatihanContent(formId, babId, topikId, language);
+  const masteryContent = getMasteryContent(formId, babId, topikId, language);
 
   const phase = PHASES[phaseIndex];
   const isLastPhase = phaseIndex === PHASES.length - 1;

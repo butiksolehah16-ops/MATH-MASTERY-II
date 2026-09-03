@@ -29,25 +29,21 @@ export const notaPemfaktoranContent = {
   insight: {
     mentorLine: "Perasan macam mana 12x + 16 'terurai' balik kepada bentuk asal?",
     title: "Pemfaktoran = Songsangan Kembangan",
-    body:
-      "12x + 16 sebenarnya terbina daripada 4 kumpulan (3x + 4) — iaitu 4(3x + 4). Proses \"mengurai\" " +
-      "ungkapan yang telah dikembang balik kepada bentuk faktor × kurungan dipanggil PEMFAKTORAN " +
-      "(factorization) — SONGSANGAN tepat kepada kembangan. Untuk faktorkan kax + kb, kita cari nombor " +
-      "TERBESAR yang boleh membahagi tepat KEDUA-DUA sebutan (ka dan kb) — nombor ini dipanggil FAKTOR " +
-      "SEPUNYA TERBESAR (FSTB, atau GCF). Sebaik sahaja FSTB dijumpai, bahagikan setiap sebutan dengan FSTB " +
-      "tersebut untuk dapatkan isi kurungan.",
+    bullets: [
+      "12x + 16 sebenarnya terbina daripada 4 kumpulan (3x + 4) — iaitu 4(3x + 4). Proses \"mengurai\" ungkapan yang telah dikembang balik kepada bentuk faktor × kurungan dipanggil PEMFAKTORAN (factorization) — SONGSANGAN tepat kepada kembangan.",
+      "Untuk faktorkan kax + kb, kita cari nombor TERBESAR yang boleh membahagi tepat KEDUA-DUA sebutan (ka dan kb) — nombor ini dipanggil FAKTOR SEPUNYA TERBESAR (FSTB, atau GCF). Sebaik sahaja FSTB dijumpai, bahagikan setiap sebutan dengan FSTB tersebut untuk dapatkan isi kurungan.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini kaedah rasmi memfaktorkan — simpan dalam kepala kamu.",
     title: "Kaedah FSTB (Faktor Sepunya Terbesar)",
     expression: "kax + kb = k(ax + b)",
-    body:
-      "Langkah memfaktorkan kax + kb: (1) Cari FSTB bagi pekali x (iaitu ka) dan sebutan malar (iaitu kb). " +
-      "(2) Bahagikan KEDUA-DUA sebutan dengan FSTB tersebut untuk dapatkan isi kurungan. (3) Tulis dalam " +
-      "bentuk FSTB(isi kurungan). Contoh: bagi 15x + 20, FSTB(15, 20) = 5, jadi 15x ÷ 5 = 3x dan 20 ÷ 5 = 4, " +
-      "hasilnya 5(3x + 4). Untuk SAHKAN jawapan kamu betul, kembangkan semula bentuk faktor tu — patut kembali " +
-      "kepada ungkapan asal.",
+    bullets: [
+      "Langkah memfaktorkan kax + kb: (1) Cari FSTB bagi pekali x (iaitu ka) dan sebutan malar (iaitu kb). (2) Bahagikan KEDUA-DUA sebutan dengan FSTB tersebut untuk dapatkan isi kurungan. (3) Tulis dalam bentuk FSTB(isi kurungan).",
+      "Contoh: bagi 15x + 20, FSTB(15, 20) = 5, jadi 15x ÷ 5 = 3x dan 20 ÷ 5 = 4, hasilnya 5(3x + 4).",
+      "Untuk SAHKAN jawapan kamu betul, kembangkan semula bentuk faktor tu — patut kembali kepada ungkapan asal.",
+    ],
   },
 
   example: {

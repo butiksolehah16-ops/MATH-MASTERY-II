@@ -24,21 +24,20 @@ export const notaSistemKoordinatCartesContent = {
   insight: {
     mentorLine: "Untuk selesaikan masalah PENUH, kita ulang teknik ni untuk SETIAP sisi, atau gabungkan dengan titik tengah.",
     title: "Gabungkan Rumus Jarak dan Titik Tengah",
-    body:
-      "Masalah sistem koordinat Cartes selalunya perlukan kamu guna rumus jarak DAN rumus titik tengah " +
-      "bersama — contohnya kira PERIMETER bentuk (jumlahkan jarak setiap sisi), atau cari SATU bucu yang " +
-      "hilang apabila diberi titik tengah dan satu bucu lain. Kunci utama: kenal pasti maklumat yang diberi, " +
-      "kemudian pilih rumus yang sesuai.",
+    bullets: [
+      "Masalah sistem koordinat Cartes selalunya perlukan kamu guna rumus jarak DAN rumus titik tengah bersama — contohnya kira PERIMETER bentuk (jumlahkan jarak setiap sisi), atau cari SATU bucu yang hilang apabila diberi titik tengah dan satu bucu lain.",
+      "Kunci utama: kenal pasti maklumat yang diberi, kemudian pilih rumus yang sesuai.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini gabungan kedua-dua rumus — simpan dalam kepala kamu.",
     title: "Rumus Jarak dan Titik Tengah",
     expression: "Jarak = √[(x₂−x₁)² + (y₂−y₁)²],  Titik Tengah = ((x₁+x₂)/2, (y₁+y₂)/2)",
-    body:
-      "JARAK antara dua titik: √[(x₂−x₁)² + (y₂−y₁)²]. TITIK TENGAH antara dua titik: ((x₁+x₂)/2, (y₁+y₂)/2). " +
-      "Jika M(mx, my) ialah titik tengah A(x₁, y₁) dan B, dan A serta M diketahui, kita boleh SUSUN SEMULA " +
-      "rumus titik tengah untuk cari B: x₂ = 2mx − x₁, dan y₂ = 2my − y₁.",
+    bullets: [
+      "JARAK antara dua titik: √[(x₂−x₁)² + (y₂−y₁)²]. TITIK TENGAH antara dua titik: ((x₁+x₂)/2, (y₁+y₂)/2).",
+      "Jika M(mx, my) ialah titik tengah A(x₁, y₁) dan B, dan A serta M diketahui, kita boleh SUSUN SEMULA rumus titik tengah untuk cari B: x₂ = 2mx − x₁, dan y₂ = 2my − y₁.",
+    ],
   },
 
   example: {

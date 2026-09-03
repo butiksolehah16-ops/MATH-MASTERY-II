@@ -25,24 +25,22 @@ export const notaSudutPoligonContent = {
   insight: {
     mentorLine: "Perasan berapa banyak segi tiga yang terbentuk?",
     title: "Setiap Poligon Boleh 'Dipecah' Kepada Segi Tiga",
-    body:
-      "Kau baru lukis 3 pepenjuru daripada 1 bucu heksagon (6 sisi). Pepenjuru-pepenjuru ni membahagikan " +
-      "heksagon kepada 4 SEGI TIGA (3 pepenjuru + 1 = 4 segi tiga). Sebab setiap segi tiga ada jumlah sudut " +
-      "180° (kau dah belajar ni dalam Tingkatan 1), JUMLAH SEMUA sudut pedalaman heksagon = 4 × 180° = 720°. " +
+    bullets: [
+      "Kau baru lukis 3 pepenjuru daripada 1 bucu heksagon (6 sisi). Pepenjuru-pepenjuru ni membahagikan heksagon kepada 4 SEGI TIGA (3 pepenjuru + 1 = 4 segi tiga).",
+      "Sebab setiap segi tiga ada jumlah sudut 180° (kau dah belajar ni dalam Tingkatan 1), JUMLAH SEMUA sudut pedalaman heksagon = 4 × 180° = 720°.",
       "Secara am, poligon n sisi boleh dibahagikan kepada (n − 2) segi tiga daripada satu bucu.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini dua formula rasmi sudut poligon — simpan dalam kepala kamu.",
     title: "Formula Sudut Poligon",
     expression: "Jumlah Sudut Pedalaman = (n − 2) × 180°",
-    body:
-      "JUMLAH SUDUT PEDALAMAN poligon n sisi = (n − 2) × 180° (n ialah bilangan sisi). Bagi POLIGON SEKATA, " +
-      "setiap sudut pedalaman = jumlah ini ÷ n.\n\n" +
-      "JUMLAH SUDUT PELUARAN (exterior angle) bagi MANA-MANA poligon cembung (convex) — TAK KIRA bilangan " +
-      "sisinya — SENTIASA 360°. Ini sebab bila kamu berjalan mengelilingi sempadan poligon sekali penuh, " +
-      "jumlah kesemua \"pusingan kecil\" pada setiap bucu (sudut peluaran) menyamai SATU PUSINGAN PENUH = " +
-      "360°. Bagi poligon sekata, setiap sudut peluaran = 360° ÷ n.",
+    bullets: [
+      "JUMLAH SUDUT PEDALAMAN poligon n sisi = (n − 2) × 180° (n ialah bilangan sisi). Bagi POLIGON SEKATA, setiap sudut pedalaman = jumlah ini ÷ n.",
+      "JUMLAH SUDUT PELUARAN (exterior angle) bagi MANA-MANA poligon cembung (convex) — TAK KIRA bilangan sisinya — SENTIASA 360°. Ini sebab bila kamu berjalan mengelilingi sempadan poligon sekali penuh, jumlah kesemua \"pusingan kecil\" pada setiap bucu (sudut peluaran) menyamai SATU PUSINGAN PENUH = 360°.",
+      "Bagi poligon sekata, setiap sudut peluaran = 360° ÷ n.",
+    ],
   },
 
   example: {

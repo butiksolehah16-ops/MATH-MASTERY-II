@@ -26,21 +26,20 @@ export const notaNomborNisbahContent = {
   insight: {
     mentorLine: "Bayangkan bar yang sama, tapi dibahagi kepada 100 bahagian kecil.",
     title: "Pecahan dan Perpuluhan — Sistem Yang Sama",
-    body:
-      "Kamu baru isi 3/4 daripada bar. Sekarang bayangkan bar yang SAMA saiz dibahagi kepada 100 bahagian " +
-      "kecil (peratus) — 3/4 sebenarnya sama dengan 75 daripada 100 bahagian, iaitu 0.75! Ini kerana " +
-      "3/4 = (3×25)/(4×25) = 75/100. Integer, pecahan, dan perpuluhan bukan tiga benda berasingan — mereka " +
-      "SATU sistem nombor yang sama (nombor nisbah), cuma ditulis dalam bentuk berbeza.",
+    bullets: [
+      "Kamu baru isi 3/4 daripada bar. Sekarang bayangkan bar yang SAMA saiz dibahagi kepada 100 bahagian kecil (peratus) — 3/4 sebenarnya sama dengan 75 daripada 100 bahagian, iaitu 0.75! Ini kerana 3/4 = (3×25)/(4×25) = 75/100.",
+      "Integer, pecahan, dan perpuluhan bukan tiga benda berasingan — mereka SATU sistem nombor yang sama (nombor nisbah), cuma ditulis dalam bentuk berbeza.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini cara rasmi tukar antara pecahan dan perpuluhan — simpan dalam kepala kamu.",
     title: "Formula Rasmi",
     expression: "Pecahan → Perpuluhan: pengangka ÷ penyebut",
-    body:
-      "Untuk tukar PECAHAN kepada PERPULUHAN: bahagikan pengangka dengan penyebut (pengangka ÷ penyebut). " +
-      "Untuk tukar PERPULUHAN kepada PECAHAN: tulis digit selepas titik perpuluhan sebagai pengangka, dan " +
-      "kuasa 10 yang sepadan (10, 100, 1000...) sebagai penyebut, kemudian permudahkan jika boleh.",
+    bullets: [
+      "Untuk tukar PECAHAN kepada PERPULUHAN: bahagikan pengangka dengan penyebut (pengangka ÷ penyebut).",
+      "Untuk tukar PERPULUHAN kepada PECAHAN: tulis digit selepas titik perpuluhan sebagai pengangka, dan kuasa 10 yang sepadan (10, 100, 1000...) sebagai penyebut, kemudian permudahkan jika boleh.",
+    ],
   },
 
   example: {

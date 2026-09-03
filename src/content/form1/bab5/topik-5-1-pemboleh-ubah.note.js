@@ -25,21 +25,22 @@ export const notaPembolehUbahContent = {
   insight: {
     mentorLine: "Perasan corak yang kekal sama?",
     title: "x Ialah Pemboleh Ubah!",
-    body:
-      "Walaupun nilai x berubah (1, 2, 3, 4...), CORAK ungkapan x + 3 tetap sama — kita tambah 3 dengan " +
-      "cara yang SAMA setiap kali. x ialah PEMBOLEH UBAH (variable) — huruf yang mewakili nombor yang " +
-      "BOLEH BERUBAH nilainya. 3 pula PEMALAR (constant) — nilai yang TETAP, tak berubah. x + 3 dipanggil " +
-      "UNGKAPAN ALGEBRA (algebraic expression).",
+    bullets: [
+      "Walaupun nilai x berubah (1, 2, 3, 4...), CORAK ungkapan x + 3 tetap sama — kita tambah 3 dengan cara yang SAMA setiap kali.",
+      "x ialah PEMBOLEH UBAH (variable) — huruf yang mewakili nombor yang BOLEH BERUBAH nilainya.",
+      "3 pula PEMALAR (constant) — nilai yang TETAP, tak berubah. x + 3 dipanggil UNGKAPAN ALGEBRA (algebraic expression).",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "5x + 2 → 5 = pekali, x = pemboleh ubah, 2 = pemalar",
-    body:
-      "Dalam ungkapan algebra macam 5x + 2: 5 dipanggil PEKALI (coefficient) — nombor yang mendarab " +
-      "pemboleh ubah. x ialah PEMBOLEH UBAH. 2 ialah PEMALAR (constant). Setiap bahagian yang dipisahkan " +
-      "oleh tanda + atau − dipanggil SEBUTAN (term).",
+    bullets: [
+      "Dalam ungkapan algebra macam 5x + 2: 5 dipanggil PEKALI (coefficient) — nombor yang mendarab pemboleh ubah.",
+      "x ialah PEMBOLEH UBAH. 2 ialah PEMALAR (constant).",
+      "Setiap bahagian yang dipisahkan oleh tanda + atau − dipanggil SEBUTAN (term).",
+    ],
   },
 
   example: {

@@ -26,24 +26,23 @@ export const notaIsiPaduContent = {
   insight: {
     mentorLine: "Perasan yang setiap lapisan sumbang jumlah yang SAMA?",
     title: "Isi Padu = Luas Tapak × Tinggi",
-    body:
-      "Prisma tu terdiri daripada 5 lapisan, setiap satu menyumbang 20 cm³ (luas tapak × tebal 1 cm), " +
-      "menjadikan jumlah keseluruhan 100 cm³ (20 × 5). Ini sebab SETIAP \"keratan rentas\" prisma atau " +
-      "silinder mempunyai luas yang SAMA sepanjang tingginya — jadi ISI PADU = LUAS TAPAK × TINGGI. Bagi " +
-      "PIRAMID atau KON pula, bentuknya MENGECIL ke satu titik (puncak), jadi ia HANYA mengisi SATU PERTIGA " +
-      "ruang prisma/silinder yang sepadan (tapak dan tinggi yang sama) — fakta yang boleh disahkan secara " +
-      "eksperimen dengan tuang air daripada bekas piramid/kon ke dalam bekas prisma/silinder sepadan " +
-      "sebanyak TIGA kali untuk penuhkannya.",
+    bullets: [
+      "Prisma tu terdiri daripada 5 lapisan, setiap satu menyumbang 20 cm³ (luas tapak × tebal 1 cm), menjadikan jumlah keseluruhan 100 cm³ (20 × 5). Ini sebab SETIAP \"keratan rentas\" prisma atau silinder mempunyai luas yang SAMA sepanjang tingginya — jadi ISI PADU = LUAS TAPAK × TINGGI.",
+      "Bagi PIRAMID atau KON pula, bentuknya MENGECIL ke satu titik (puncak), jadi ia HANYA mengisi SATU PERTIGA ruang prisma/silinder yang sepadan (tapak dan tinggi yang sama) — fakta yang boleh disahkan secara eksperimen dengan tuang air daripada bekas piramid/kon ke dalam bekas prisma/silinder sepadan sebanyak TIGA kali untuk penuhkannya.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini formula rasmi isi padu pelbagai bentuk — simpan dalam kepala kamu.",
     title: "Formula Isi Padu",
     expression: "Prisma/Silinder: Luas Tapak × Tinggi,  Piramid/Kon: ⅓ × Luas Tapak × Tinggi,  Sfera: 4/3 πr³",
-    body:
-      "PRISMA (sebarang bentuk tapak): Isi Padu = Luas Tapak × Tinggi. SILINDER (jejari r): Isi Padu = " +
-      "πr² × tinggi = πr²h. PIRAMID (sebarang bentuk tapak): Isi Padu = ⅓ × Luas Tapak × Tinggi. KON (jejari " +
-      "r): Isi Padu = ⅓ × πr² × tinggi = ⅓πr²h. SFERA (jejari r): Isi Padu = 4/3 πr³.",
+    bullets: [
+      "PRISMA (sebarang bentuk tapak): Isi Padu = Luas Tapak × Tinggi.",
+      "SILINDER (jejari r): Isi Padu = πr² × tinggi = πr²h.",
+      "PIRAMID (sebarang bentuk tapak): Isi Padu = ⅓ × Luas Tapak × Tinggi.",
+      "KON (jejari r): Isi Padu = ⅓ × πr² × tinggi = ⅓πr²h.",
+      "SFERA (jejari r): Isi Padu = 4/3 πr³.",
+    ],
   },
 
   example: {

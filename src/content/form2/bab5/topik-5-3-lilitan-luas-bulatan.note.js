@@ -27,22 +27,22 @@ export const notaLilitanLuasBulatanContent = {
   insight: {
     mentorLine: "Cuba bahagikan setiap lilitan dengan diameternya — apa jawapannya setiap kali?",
     title: "Lilitan ÷ Diameter SENTIASA ≈ 3.14 (iaitu π)",
-    body:
-      "6.28 ÷ 2 = 3.14, 12.56 ÷ 4 = 3.14, 18.84 ÷ 6 = 3.14, 25.12 ÷ 8 = 3.14 — SETIAP kali, nisbah lilitan " +
-      "kepada diameter memberi jawapan yang SAMA, iaitu lebih kurang 3.14! Nombor istimewa ni dipanggil π " +
-      "(\"pi\"), dan ia SENTIASA sama tak kira besar mana bulatan tersebut. Sebab Lilitan ÷ Diameter = π, " +
-      "kita boleh tulis semula sebagai Lilitan = π × Diameter.",
+    bullets: [
+      "6.28 ÷ 2 = 3.14, 12.56 ÷ 4 = 3.14, 18.84 ÷ 6 = 3.14, 25.12 ÷ 8 = 3.14 — SETIAP kali, nisbah lilitan kepada diameter memberi jawapan yang SAMA, iaitu lebih kurang 3.14!",
+      "Nombor istimewa ni dipanggil π (\"pi\"), dan ia SENTIASA sama tak kira besar mana bulatan tersebut.",
+      "Sebab Lilitan ÷ Diameter = π, kita boleh tulis semula sebagai Lilitan = π × Diameter.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini dua formula rasmi bulatan — simpan dalam kepala kamu, ia amat penting.",
     title: "Formula Lilitan dan Luas",
     expression: "Lilitan (C) = πd = 2πr,   Luas (A) = πr²",
-    body:
-      "LILITAN bulatan = πd, atau (sebab d = 2r) boleh ditulis 2πr. LUAS bulatan = πr². Guna π ≈ 3.14 atau " +
-      "π ≈ 22/7 (pilih yang buat pengiraan lebih mudah — 22/7 sesuai bila jejari boleh dibahagi tepat dengan " +
-      "7). Untuk SEBAHAGIAN bulatan (bukan bulatan penuh): PANJANG LENGKOK = (θ ÷ 360°) × 2πr, dan LUAS " +
-      "SEKTOR = (θ ÷ 360°) × πr², dengan θ ialah sudut sektor/lengkok tersebut di pusat.",
+    bullets: [
+      "LILITAN bulatan = πd, atau (sebab d = 2r) boleh ditulis 2πr. LUAS bulatan = πr².",
+      "Guna π ≈ 3.14 atau π ≈ 22/7 (pilih yang buat pengiraan lebih mudah — 22/7 sesuai bila jejari boleh dibahagi tepat dengan 7).",
+      "Untuk SEBAHAGIAN bulatan (bukan bulatan penuh): PANJANG LENGKOK = (θ ÷ 360°) × 2πr, dan LUAS SEKTOR = (θ ÷ 360°) × πr², dengan θ ialah sudut sektor/lengkok tersebut di pusat.",
+    ],
   },
 
   example: {

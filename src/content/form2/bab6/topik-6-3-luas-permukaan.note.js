@@ -27,23 +27,23 @@ export const notaLuasPermukaanContent = {
   insight: {
     mentorLine: "Perasan yang luas permukaan sebenarnya JUMLAH luas SEMUA muka?",
     title: "Luas Permukaan = Jumlah Luas SEMUA Muka",
-    body:
-      "Kuboid ada 3 PASANG muka kongruen: atas+bawah (l×w setiap satu), hadapan+belakang (l×h setiap satu), " +
-      "dan kiri+kanan (w×h setiap satu). Jumlah keseluruhan: 30 + 40 + 24 = 94 cm². Corak am ini berlaku " +
-      "untuk SEMUA bentuk 3D — LUAS PERMUKAAN sentiasa bermaksud JUMLAH luas SETIAP muka (rata atau " +
-      "melengkung) yang membentuk permukaan luar bentuk tersebut.",
+    bullets: [
+      "Kuboid ada 3 PASANG muka kongruen: atas+bawah (l×w setiap satu), hadapan+belakang (l×h setiap satu), dan kiri+kanan (w×h setiap satu). Jumlah keseluruhan: 30 + 40 + 24 = 94 cm².",
+      "Corak am ini berlaku untuk SEMUA bentuk 3D — LUAS PERMUKAAN sentiasa bermaksud JUMLAH luas SETIAP muka (rata atau melengkung) yang membentuk permukaan luar bentuk tersebut.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini formula rasmi luas permukaan pelbagai bentuk — simpan dalam kepala kamu.",
     title: "Formula Luas Permukaan",
     expression: "Kubus: 6s²,  Kuboid: 2(lw+lh+wh),  Silinder: 2πr(r+h),  Kon: πr(r+l),  Sfera: 4πr²",
-    body:
-      "KUBUS (sisi s): LP = 6s² (6 muka segi empat sama kongruen). KUBOID (panjang l, lebar w, tinggi h): " +
-      "LP = 2(lw + lh + wh). SILINDER (jejari r, tinggi h): LP = 2πr² + 2πrh = 2πr(r + h) (dua bulatan tapak " +
-      "+ satu segi empat tepat melengkung). KON (jejari r, pelurus l — jarak dari puncak ke tepi tapak): " +
-      "LP = πr² + πrl = πr(r + l). SFERA (jejari r): LP = 4πr². Bagi PRISMA dan PIRAMID lain, kira luas " +
-      "SETIAP muka secara berasingan kemudian jumlahkan (tiada satu formula ringkas untuk semua kes).",
+    bullets: [
+      "KUBUS (sisi s): LP = 6s² (6 muka segi empat sama kongruen).",
+      "KUBOID (panjang l, lebar w, tinggi h): LP = 2(lw + lh + wh).",
+      "SILINDER (jejari r, tinggi h): LP = 2πr² + 2πrh = 2πr(r + h) (dua bulatan tapak + satu segi empat tepat melengkung).",
+      "KON (jejari r, pelurus l — jarak dari puncak ke tepi tapak): LP = πr² + πrl = πr(r + l).",
+      "SFERA (jejari r): LP = 4πr². Bagi PRISMA dan PIRAMID lain, kira luas SETIAP muka secara berasingan kemudian jumlahkan (tiada satu formula ringkas untuk semua kes).",
+    ],
   },
 
   example: {

@@ -8,12 +8,11 @@ export const notaPolaJujukanContent = {
   hook: {
     mentorLine: "Ingat susunan kerusi majlis dalam Topik 1.1? Sekarang kita nak jawab soalan yang lebih mencabar.",
     title: "Berapa Kerusi pada Baris ke-50?",
-    body:
-      "Kilang perabot menghasilkan susunan kerusi mengikut jujukan 4, 7, 10, 13, ... — setiap baris tambah 3 " +
-      "kerusi berbanding baris sebelumnya (macam yang kita jumpa dalam Topik 1.1). Sekarang bayangkan pelanggan " +
-      "tanya: \"Berapa kerusi pada baris ke-50?\" Nak kira satu-satu sampai baris ke-50 mengambil masa yang " +
-      "sangat lama! Kita perlukan satu CARA PINTAS — satu peraturan am yang boleh terus beri jawapan untuk " +
-      "MANA-MANA kedudukan, tanpa perlu senaraikan semua sebutan sebelumnya.",
+    bullets: [
+      "Kilang perabot menghasilkan susunan kerusi mengikut jujukan 4, 7, 10, 13, ... — setiap baris tambah 3 kerusi berbanding baris sebelumnya (macam yang kita jumpa dalam Topik 1.1).",
+      "Sekarang bayangkan pelanggan tanya: \"Berapa kerusi pada baris ke-50?\" Nak kira satu-satu sampai baris ke-50 mengambil masa yang sangat lama!",
+      "Kita perlukan satu CARA PINTAS — satu peraturan am yang boleh terus beri jawapan untuk MANA-MANA kedudukan, tanpa perlu senaraikan semua sebutan sebelumnya.",
+    ],
   },
 
   exploration: {
@@ -28,33 +27,24 @@ export const notaPolaJujukanContent = {
   insight: {
     mentorLine: "Perasan hubungan antara kedudukan sebutan (n) dan nilainya?",
     title: "Generalisasi: Peraturan Am untuk Sebarang Kedudukan",
-    body:
-      "Mari kita semak: T1 = 4 (0 kali tambah 3), T2 = 4 + 1×3 = 7, T3 = 4 + 2×3 = 10, T4 = 4 + 3×3 = 13, " +
-      "T5 = 4 + 4×3 = 16. Perasan corak tu? Bilangan kali beza tetap (3) ditambah SENTIASA SATU KURANG " +
-      "daripada kedudukan sebutan (n). Sebagai contoh, untuk T5 (n = 5), beza tetap ditambah sebanyak 4 kali " +
-      "(iaitu 5 − 1 = 4 kali).\n\n" +
-      "Membuat kesimpulan tentang corak sesuatu jujukan macam ni dipanggil GENERALISASI — kita nyatakan " +
-      "peraturan itu dalam bentuk yang berfungsi untuk SEBARANG kedudukan n, bukan hanya untuk beberapa " +
-      "sebutan pertama sahaja. Generalisasi boleh dinyatakan dalam PERKATAAN (\"sebutan pertama tambah beza " +
-      "tetap didarab dengan satu kurang daripada kedudukannya\"), atau dalam UNGKAPAN ALGEBRA yang lebih " +
-      "ringkas menggunakan simbol.",
+    bullets: [
+      "Mari kita semak: T1 = 4 (0 kali tambah 3), T2 = 4 + 1×3 = 7, T3 = 4 + 2×3 = 10, T4 = 4 + 3×3 = 13, T5 = 4 + 4×3 = 16.",
+      "Perasan corak tu? Bilangan kali beza tetap (3) ditambah SENTIASA SATU KURANG daripada kedudukan sebutan (n). Sebagai contoh, untuk T5 (n = 5), beza tetap ditambah sebanyak 4 kali (iaitu 5 − 1 = 4 kali).",
+      "Membuat kesimpulan tentang corak sesuatu jujukan macam ni dipanggil GENERALISASI — kita nyatakan peraturan itu dalam bentuk yang berfungsi untuk SEBARANG kedudukan n, bukan hanya untuk beberapa sebutan pertama sahaja.",
+      "Generalisasi boleh dinyatakan dalam PERKATAAN (\"sebutan pertama tambah beza tetap didarab dengan satu kurang daripada kedudukannya\"), atau dalam UNGKAPAN ALGEBRA yang lebih ringkas menggunakan simbol.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini rumus rasmi sebutan am — simpan dalam kepala kamu, ia amat berguna.",
     title: "Formula Sebutan Am (Jenis Tambah/Tolak Tetap)",
     expression: "Tn = a + (n − 1)d",
-    body:
-      "Untuk jujukan yang dibentuk dengan MENAMBAH atau MENOLAK nombor tetap setiap kali: Tn ialah nilai " +
-      "sebutan pada kedudukan ke-n, a ialah SEBUTAN PERTAMA (T1), d ialah BEZA SEPUNYA (nilai tetap yang " +
-      "ditambah/ditolak setiap kali — boleh positif atau negatif), dan n ialah KEDUDUKAN sebutan yang kita " +
-      "nak cari. Untuk jujukan 4, 7, 10, 13, ...: a = 4, d = 3. Maka T50 = 4 + (50 − 1)(3) = 4 + 147 = 151 " +
-      "— tanpa perlu senaraikan 50 sebutan!\n\n" +
-      "Nota tambahan (pengayaan): bagi jujukan yang dibentuk dengan MENDARAB atau MEMBAHAGI nombor tetap " +
-      "setiap kali (cth. 2, 4, 8, 16, ... di mana setiap sebutan ×2), formula sebutan amnya berbeza sedikit: " +
-      "Tn = a × r^(n−1), di mana r ialah NISBAH SEPUNYA (nombor tetap yang didarab/dibahagi setiap kali). " +
-      "Formula Tn = a + (n−1)d HANYA sah untuk jujukan jenis tambah/tolak tetap — sentiasa kenal pasti dahulu " +
-      "jenis peraturan jujukan tersebut sebelum memilih formula yang sesuai.",
+    bullets: [
+      "Untuk jujukan yang dibentuk dengan MENAMBAH atau MENOLAK nombor tetap setiap kali: Tn ialah nilai sebutan pada kedudukan ke-n, a ialah SEBUTAN PERTAMA (T1), d ialah BEZA SEPUNYA (nilai tetap yang ditambah/ditolak setiap kali — boleh positif atau negatif), dan n ialah KEDUDUKAN sebutan yang kita nak cari.",
+      "Untuk jujukan 4, 7, 10, 13, ...: a = 4, d = 3. Maka T50 = 4 + (50 − 1)(3) = 4 + 147 = 151 — tanpa perlu senaraikan 50 sebutan!",
+      "Nota tambahan (pengayaan): bagi jujukan yang dibentuk dengan MENDARAB atau MEMBAHAGI nombor tetap setiap kali (cth. 2, 4, 8, 16, ... di mana setiap sebutan ×2), formula sebutan amnya berbeza sedikit: Tn = a × r^(n−1), di mana r ialah NISBAH SEPUNYA (nombor tetap yang didarab/dibahagi setiap kali).",
+      "Formula Tn = a + (n−1)d HANYA sah untuk jujukan jenis tambah/tolak tetap — sentiasa kenal pasti dahulu jenis peraturan jujukan tersebut sebelum memilih formula yang sesuai.",
+    ],
   },
 
   example: {

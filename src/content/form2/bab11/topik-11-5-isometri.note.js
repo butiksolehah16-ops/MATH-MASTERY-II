@@ -27,10 +27,11 @@ export const notaIsometriContent = {
   insight: {
     mentorLine: "Perasan jarak AB dan A'B' adalah SAMA?",
     title: "Isometri = Jarak Dikekalkan",
-    body:
-      "Jarak AB = 5 unit, dan selepas translasi, jarak A'B' JUGA 5 unit — jarak antara dua titik TIDAK " +
-      "berubah. Ini berlaku untuk TRANSLASI, PANTULAN, dan PUTARAN — ketiga-tiganya mengekalkan jarak antara " +
-      "sebarang dua titik. Transformasi yang mengekalkan jarak macam ni dipanggil ISOMETRI.",
+    bullets: [
+      "Jarak AB = 5 unit, dan selepas translasi, jarak A'B' JUGA 5 unit — jarak antara dua titik TIDAK berubah.",
+      "Ini berlaku untuk TRANSLASI, PANTULAN, dan PUTARAN — ketiga-tiganya mengekalkan jarak antara sebarang dua titik.",
+      "Transformasi yang mengekalkan jarak macam ni dipanggil ISOMETRI.",
+    ],
   },
 
   formula: {
@@ -39,7 +40,8 @@ export const notaIsometriContent = {
     expression: "Isometri = Transformasi yang mengekalkan jarak antara sebarang dua titik",
     body:
       "ISOMETRI ialah transformasi yang MENGEKALKAN jarak antara sebarang dua titik pada objek dan imej. " +
-      "TRANSLASI, PANTULAN, dan PUTARAN semuanya ISOMETRI. Sebab jarak (dan dengan itu, semua panjang sisi " +
+      "TRANSLASI, PANTULAN, dan PUTARAN semuanya ISOMETRI.\n\n" +
+      "Sebab jarak (dan dengan itu, semua panjang sisi " +
       "dan sudut) dikekalkan, objek dan imej bagi isometri SENTIASA KONGRUEN. PEMBESARAN/PENGECILAN pula " +
       "BUKAN isometri — ia UBAH jarak (dan saiz keseluruhan), jadi objek dan imejnya TIDAK kongruen (cuma " +
       "serupa).",

@@ -21,20 +21,22 @@ export const notaSetContent = {
   insight: {
     mentorLine: "Perasan macam mana set tu terbina?",
     title: "Set = Koleksi Unsur yang Jelas!",
-    body:
-      "SET ialah koleksi objek atau unsur (element) yang JELAS dan TERSUSUN. Setiap objek dalam set " +
-      "dipanggil UNSUR. Bilangan unsur dalam sesuatu set A ditulis n(A). Untuk set P = {Ali, Bakar, Chong}, " +
-      "n(P) = 3.",
+    bullets: [
+      "SET ialah koleksi objek atau unsur (element) yang JELAS dan TERSUSUN.",
+      "Setiap objek dalam set dipanggil UNSUR.",
+      "Bilangan unsur dalam sesuatu set A ditulis n(A). Untuk set P = {Ali, Bakar, Chong}, n(P) = 3.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "n(A) = bilangan unsur dalam set A",
-    body:
-      "SET boleh ditulis dengan DUA cara: (1) KAEDAH PENYENARAIAN — senaraikan semua unsur dalam kurungan " +
-      "dakwarsa { }, cth P = {2, 4, 6, 8}; (2) KAEDAH HURAIAN — huraikan ciri unsur, cth P = {nombor genap " +
-      "kurang daripada 10}. n(A) ialah bilangan unsur dalam set A.",
+    bullets: [
+      "SET boleh ditulis dengan DUA cara: (1) KAEDAH PENYENARAIAN — senaraikan semua unsur dalam kurungan dakwarsa { }, cth P = {2, 4, 6, 8}.",
+      "(2) KAEDAH HURAIAN — huraikan ciri unsur, cth P = {nombor genap kurang daripada 10}.",
+      "n(A) ialah bilangan unsur dalam set A.",
+    ],
   },
 
   example: {

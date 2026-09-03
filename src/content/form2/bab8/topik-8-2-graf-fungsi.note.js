@@ -30,22 +30,21 @@ export const notaGrafFungsiContent = {
   insight: {
     mentorLine: "Perasan bentuk yang terhasil bila semua titik disambungkan?",
     title: "Fungsi Linear = Garis Lurus",
-    body:
-      "Semua titik bagi y = 2x + 1 tu jatuh atas SATU garis lurus. Ini berlaku untuk SEMUA fungsi LINEAR " +
-      "(berbentuk y = ax + b). Fungsi BUKAN LINEAR pula (seperti y = x², y = ax³, y = a/x) akan hasilkan " +
-      "LENGKUNG apabila diplot — BUKAN garis lurus.",
+    bullets: [
+      "Semua titik bagi y = 2x + 1 tu jatuh atas SATU garis lurus. Ini berlaku untuk SEMUA fungsi LINEAR (berbentuk y = ax + b).",
+      "Fungsi BUKAN LINEAR pula (seperti y = x², y = ax³, y = a/x) akan hasilkan LENGKUNG apabila diplot — BUKAN garis lurus.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini corak am bentuk graf ikut jenis fungsi — simpan dalam kepala kamu.",
     title: "Bentuk Graf Ikut Jenis Fungsi",
     expression: "Linear (y = ax + b): garis lurus.  Bukan linear (y = ax², ax³, a/x): lengkung.",
-    body:
-      "Fungsi LINEAR (y = ax + b, a ≠ 0) sentiasa hasilkan GARIS LURUS bila diplot. Fungsi KUADRATIK " +
-      "(y = ax²) hasilkan lengkung berbentuk U (parabola). Fungsi KUBIK (y = ax³) dan SONGSANGAN (y = a/x) " +
-      "hasilkan lengkung dengan bentuk lain. Langkah melukis graf fungsi: (1) bina jadual nilai (pilih x, " +
-      "kira y), (2) plot setiap titik (x, y) atas grid, (3) sambungkan titik-titik tu mengikut bentuk " +
-      "semula jadi (garis lurus untuk linear, lengkung licin untuk bukan linear).",
+    bullets: [
+      "Fungsi LINEAR (y = ax + b, a ≠ 0) sentiasa hasilkan GARIS LURUS bila diplot.",
+      "Fungsi KUADRATIK (y = ax²) hasilkan lengkung berbentuk U (parabola). Fungsi KUBIK (y = ax³) dan SONGSANGAN (y = a/x) hasilkan lengkung dengan bentuk lain.",
+      "Langkah melukis graf fungsi: (1) bina jadual nilai (pilih x, kira y), (2) plot setiap titik (x, y) atas grid, (3) sambungkan titik-titik tu mengikut bentuk semula jadi (garis lurus untuk linear, lengkung licin untuk bukan linear).",
+    ],
   },
 
   example: {

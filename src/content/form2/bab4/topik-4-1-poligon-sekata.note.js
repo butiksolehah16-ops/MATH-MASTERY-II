@@ -24,23 +24,21 @@ export const notaPoligonSekataContent = {
   insight: {
     mentorLine: "Perasan yang bentuk ni nampak SAMA tak kira dari bucu mana kau tengok?",
     title: "Poligon Sekata = Semua Sisi DAN Semua Sudut Sama",
-    body:
-      "Heksagon yang kau lihat tu ialah POLIGON SEKATA (regular polygon) — SEMUA sisinya sama panjang, DAN " +
-      "SEMUA sudut pedalamannya sama besar. KEDUA-DUA syarat ni perlu dipenuhi serentak — kalau hanya SATU " +
-      "syarat sahaja dipenuhi (cth. segi empat tepat ada semua sudut sama 90° tetapi sisi TAK semua sama " +
-      "panjang), bentuk itu masih POLIGON TAK SEKATA (irregular polygon). Poligon sekata juga mempunyai " +
-      "PAKSI SIMETRI sebanyak bilangan sisinya — sebab bentuknya simetri sempurna di sekeliling.",
+    bullets: [
+      "Heksagon yang kau lihat tu ialah POLIGON SEKATA (regular polygon) — SEMUA sisinya sama panjang, DAN SEMUA sudut pedalamannya sama besar.",
+      "KEDUA-DUA syarat ni perlu dipenuhi serentak — kalau hanya SATU syarat sahaja dipenuhi (cth. segi empat tepat ada semua sudut sama 90° tetapi sisi TAK semua sama panjang), bentuk itu masih POLIGON TAK SEKATA (irregular polygon).",
+      "Poligon sekata juga mempunyai PAKSI SIMETRI sebanyak bilangan sisinya — sebab bentuknya simetri sempurna di sekeliling.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini fakta rasmi poligon sekata — simpan dalam kepala kamu.",
     title: "Sifat Poligon Sekata",
     expression: "Bilangan sisi = Bilangan sudut = Bilangan paksi simetri = n",
-    body:
-      "Bagi poligon sekata bersisi n: bilangan SISI = bilangan SUDUT (sebab setiap bucu ada satu sudut) = " +
-      "bilangan PAKSI SIMETRI (garis yang membahagi bentuk kepada dua bahagian cermin sama). Untuk sahkan " +
-      "sesuatu poligon itu sekata, SEMAK DUA PERKARA: (1) ukur semua sisi — mesti sama panjang, dan (2) ukur " +
-      "semua sudut pedalaman — mesti sama besar. Kedua-dua syarat WAJIB dipenuhi.",
+    bullets: [
+      "Bagi poligon sekata bersisi n: bilangan SISI = bilangan SUDUT (sebab setiap bucu ada satu sudut) = bilangan PAKSI SIMETRI (garis yang membahagi bentuk kepada dua bahagian cermin sama).",
+      "Untuk sahkan sesuatu poligon itu sekata, SEMAK DUA PERKARA: (1) ukur semua sisi — mesti sama panjang, dan (2) ukur semua sudut pedalaman — mesti sama besar. Kedua-dua syarat WAJIB dipenuhi.",
+    ],
   },
 
   example: {

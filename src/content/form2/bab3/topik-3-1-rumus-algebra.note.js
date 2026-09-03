@@ -28,28 +28,21 @@ export const notaRumusAlgebraContent = {
   insight: {
     mentorLine: "Perasan corak yang kekal sama walaupun umur Ahmad berubah?",
     title: "Rumus = Perkaitan yang Berfungsi untuk SEBARANG Nilai",
-    body:
-      "Tak kira umur Ahmad (a) berapa, umur adiknya (b) SENTIASA a − 5. Persamaan b = a − 5 dipanggil RUMUS " +
-      "(formula) — satu persamaan yang menyatakan PERKAITAN tetap antara dua atau lebih pemboleh ubah, dan " +
-      "boleh digunakan untuk cari satu nilai apabila nilai yang lain diketahui. Rumus digunakan dengan meluas " +
-      "dalam kehidupan sebenar — cth. rumus luas, rumus kos, rumus penukaran unit — semuanya menyatakan " +
-      "perkaitan tetap antara pemboleh ubah yang berkaitan.",
+    bullets: [
+      "Tak kira umur Ahmad (a) berapa, umur adiknya (b) SENTIASA a − 5. Persamaan b = a − 5 dipanggil RUMUS (formula) — satu persamaan yang menyatakan PERKAITAN tetap antara dua atau lebih pemboleh ubah, dan boleh digunakan untuk cari satu nilai apabila nilai yang lain diketahui.",
+      "Rumus digunakan dengan meluas dalam kehidupan sebenar — cth. rumus luas, rumus kos, rumus penukaran unit — semuanya menyatakan perkaitan tetap antara pemboleh ubah yang berkaitan.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini tiga kemahiran rasmi yang kau perlukan untuk topik ni — simpan dalam kepala kamu.",
     title: "Tiga Kemahiran Utama Rumus",
     expression: "Bentuk → Gantikan → Ubah Perkara",
-    body:
-      "(1) MEMBENTUK RUMUS daripada situasi: tukar penerangan perkataan kepada persamaan algebra. Cth. " +
-      "\"kuasa dua suatu nombor ialah sembilan\" → x² = 9.\n\n" +
-      "(2) MENGGANTIKAN NILAI untuk cari pemboleh ubah lain: jika rumus dan SATU nilai pemboleh ubah " +
-      "diketahui, gantikan terus untuk cari nilai yang satu lagi. Cth. bagi K = 3n + 10, jika n = 5, maka " +
-      "K = 3(5) + 10 = 25.\n\n" +
-      "(3) MENGUBAH PERKARA RUMUS (mencari pemboleh ubah yang \"tersorok\" di sebalik pekali/pemalar): guna " +
-      "OPERASI SONGSANGAN pada KEDUA-DUA BELAH persamaan — sama macam kaedah penimbang yang kau dah belajar " +
-      "untuk selesaikan persamaan linear. Cth. bagi K = 3n + 10, jika K = 40: tolak 10 dari kedua-dua belah " +
-      "(30 = 3n), kemudian bahagi kedua-dua belah dengan 3 (n = 10).",
+    bullets: [
+      "(1) MEMBENTUK RUMUS daripada situasi: tukar penerangan perkataan kepada persamaan algebra. Cth. \"kuasa dua suatu nombor ialah sembilan\" → x² = 9.",
+      "(2) MENGGANTIKAN NILAI untuk cari pemboleh ubah lain: jika rumus dan SATU nilai pemboleh ubah diketahui, gantikan terus untuk cari nilai yang satu lagi. Cth. bagi K = 3n + 10, jika n = 5, maka K = 3(5) + 10 = 25.",
+      "(3) MENGUBAH PERKARA RUMUS (mencari pemboleh ubah yang \"tersorok\" di sebalik pekali/pemalar): guna OPERASI SONGSANGAN pada KEDUA-DUA BELAH persamaan — sama macam kaedah penimbang yang kau dah belajar untuk selesaikan persamaan linear. Cth. bagi K = 3n + 10, jika K = 40: tolak 10 dari kedua-dua belah (30 = 3n), kemudian bahagi kedua-dua belah dengan 3 (n = 10).",
+    ],
   },
 
   example: {

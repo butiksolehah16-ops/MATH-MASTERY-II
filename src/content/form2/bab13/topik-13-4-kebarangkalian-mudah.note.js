@@ -24,22 +24,22 @@ export const notaKebarangkalianMudahContent = {
   insight: {
     mentorLine: "Jumlah keseluruhan (30) itulah n(S) — jumlah SEMUA murid dalam kelas.",
     title: "Kenal Pasti n(S) dan n(A) Daripada Konteks",
-    body:
-      "n(S) = 30 (jumlah murid). Jika A = 'murid suka Badminton', maka n(A) = 10. Kebarangkalian murid yang " +
-      "dipilih secara rawak suka Badminton = P(A) = 10 ÷ 30 = 0.33 (2 tempat perpuluhan). Untuk masalah lebih " +
-      "kompleks, kita mungkin perlu cari n(A) dengan TOLAK daripada jumlah (macam peristiwa pelengkap) apabila " +
-      "data yang diberi bukan terus nilai yang kita mahu.",
+    bullets: [
+      "n(S) = 30 (jumlah murid). Jika A = 'murid suka Badminton', maka n(A) = 10.",
+      "Kebarangkalian murid yang dipilih secara rawak suka Badminton = P(A) = 10 ÷ 30 = 0.33 (2 tempat perpuluhan).",
+      "Untuk masalah lebih kompleks, kita mungkin perlu cari n(A) dengan TOLAK daripada jumlah (macam peristiwa pelengkap) apabila data yang diberi bukan terus nilai yang kita mahu.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini langkah strategi untuk selesaikan sebarang masalah kebarangkalian.",
     title: "Strategi Menyelesaikan Masalah Kebarangkalian",
     expression: "P(peristiwa) = Bilangan kesudahan memenuhi peristiwa ÷ Jumlah keseluruhan kesudahan, n(S)",
-    body:
-      "LANGKAH 1: Kenal pasti n(S) — jumlah KESELURUHAN kesudahan/item daripada konteks soalan (jadual, carta, " +
-      "atau perenggan). LANGKAH 2: Kenal pasti n(A) — bilangan kesudahan yang MEMENUHI peristiwa yang " +
-      "ditanya (kadang perlu TOLAK daripada jumlah jika diberi bilangan yang TIDAK memenuhi). LANGKAH 3: Kira " +
-      "P(A) = n(A) ÷ n(S). LANGKAH 4 (jika perlu): guna P(A′) = 1 − P(A) untuk peristiwa lawan.",
+    bullets: [
+      "LANGKAH 1: Kenal pasti n(S) — jumlah KESELURUHAN kesudahan/item daripada konteks soalan (jadual, carta, atau perenggan).",
+      "LANGKAH 2: Kenal pasti n(A) — bilangan kesudahan yang MEMENUHI peristiwa yang ditanya (kadang perlu TOLAK daripada jumlah jika diberi bilangan yang TIDAK memenuhi).",
+      "LANGKAH 3: Kira P(A) = n(A) ÷ n(S). LANGKAH 4 (jika perlu): guna P(A′) = 1 − P(A) untuk peristiwa lawan.",
+    ],
   },
 
   example: {

@@ -26,21 +26,21 @@ export const notaKecerunanContent = {
   insight: {
     mentorLine: "Perasan kecerunan tu sebenarnya nisbah dy berbanding dx?",
     title: "Kecerunan = Jarak Mencancang ÷ Jarak Mengufuk",
-    body:
-      "Garis AB naik 4 unit (dy) untuk setiap 4 unit ke kanan (dx), jadi kecerunannya = 4 ÷ 4 = 1. Semakin " +
-      "BESAR nilai mutlak kecerunan, semakin CURAM garis tu. TANDA kecerunan (positif/negatif) tunjukkan " +
-      "ARAH kecondongan: POSITIF = garis naik dari kiri ke kanan, NEGATIF = garis turun dari kiri ke kanan.",
+    bullets: [
+      "Garis AB naik 4 unit (dy) untuk setiap 4 unit ke kanan (dx), jadi kecerunannya = 4 ÷ 4 = 1. Semakin BESAR nilai mutlak kecerunan, semakin CURAM garis tu.",
+      "TANDA kecerunan (positif/negatif) tunjukkan ARAH kecondongan: POSITIF = garis naik dari kiri ke kanan, NEGATIF = garis turun dari kiri ke kanan.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini rumus rasmi kecerunan — simpan dalam kepala kamu.",
     title: "Rumus Kecerunan",
     expression: "m = (y₂ − y₁) ÷ (x₂ − x₁)",
-    body:
-      "Bagi garis lurus melalui A(x₁, y₁) dan B(x₂, y₂), kecerunan m = (y₂ − y₁) ÷ (x₂ − x₁). KES KHAS: " +
-      "garis MENDATAR (selari paksi-x) ada kecerunan m = 0 (tiada perubahan-y). Garis MENCANCANG (selari " +
-      "paksi-y) kecerunannya TIDAK TERTAKRIF (dx = 0, tak boleh bahagi dengan sifar). Garis melalui ASALAN " +
-      "(0,0) ringkaskan pengiraan sebab x₁ = y₁ = 0.",
+    bullets: [
+      "Bagi garis lurus melalui A(x₁, y₁) dan B(x₂, y₂), kecerunan m = (y₂ − y₁) ÷ (x₂ − x₁).",
+      "KES KHAS: garis MENDATAR (selari paksi-x) ada kecerunan m = 0 (tiada perubahan-y). Garis MENCANCANG (selari paksi-y) kecerunannya TIDAK TERTAKRIF (dx = 0, tak boleh bahagi dengan sifar).",
+      "Garis melalui ASALAN (0,0) ringkaskan pengiraan sebab x₁ = y₁ = 0.",
+    ],
   },
 
   example: {

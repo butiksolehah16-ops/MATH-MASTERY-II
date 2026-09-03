@@ -26,21 +26,21 @@ export const notaKadarContent = {
   insight: {
     mentorLine: "Perasan berapa lompatan yang diperlukan?",
     title: "60 km/j Ialah Kadar Kereta Tu!",
-    body:
-      "Kau baru lompat 3 kali dengan saiz 60 untuk sampai ke 180 (0→60→120→180). Ini bermakna kereta " +
-      "bergerak 60 km SETIAP 1 jam — kadarnya ialah 60 km/j (dibaca \"60 kilometer sejam\"). KADAR ialah " +
-      "perbandingan dua kuantiti dengan UNIT BERBEZA (cth: km dengan jam, atau ringgit dengan kilogram) — " +
-      "berbeza daripada nisbah yang membandingkan kuantiti dengan unit SAMA.",
+    bullets: [
+      "Kau baru lompat 3 kali dengan saiz 60 untuk sampai ke 180 (0→60→120→180). Ini bermakna kereta bergerak 60 km SETIAP 1 jam — kadarnya ialah 60 km/j (dibaca \"60 kilometer sejam\").",
+      "KADAR ialah perbandingan dua kuantiti dengan UNIT BERBEZA (cth: km dengan jam, atau ringgit dengan kilogram) — berbeza daripada nisbah yang membandingkan kuantiti dengan unit SAMA.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "Kadar = Kuantiti Pertama ÷ Kuantiti Kedua",
-    body:
-      "Cth: Kadar (km/j) = Jarak (km) ÷ Masa (jam). KADAR UNIT ialah kadar bagi SATU unit kuantiti kedua " +
-      "(cth: harga bagi 1 kg, jarak bagi 1 jam). Kadar unit memudahkan kita banding dan selesaikan pelbagai " +
-      "masalah harian — macam harga runcit atau kelajuan.",
+    bullets: [
+      "Cth: Kadar (km/j) = Jarak (km) ÷ Masa (jam).",
+      "KADAR UNIT ialah kadar bagi SATU unit kuantiti kedua (cth: harga bagi 1 kg, jarak bagi 1 jam).",
+      "Kadar unit memudahkan kita banding dan selesaikan pelbagai masalah harian — macam harga runcit atau kelajuan.",
+    ],
   },
 
   example: {

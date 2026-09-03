@@ -8,11 +8,10 @@ export const notaSisiEmpatKitaranContent = {
   hook: {
     mentorLine: "Sekarang kita gabungkan EMPAT titik pada bulatan untuk bentuk satu sisi empat istimewa.",
     title: "Bendera Segi Empat dalam Gelung Bulat",
-    body:
-      "Sekumpulan pengibar bendera memasang EMPAT tiang kecil, SEMUANYA tepat pada tepi sebuah gelung bulat " +
-      "besar, kemudian sambungkan keempat-empat tiang dengan tali membentuk sisi empat. Sisi empat yang " +
-      "keempat-empat bucunya terletak PADA lilitan bulatan yang sama ni dipanggil SISI EMPAT KITARAN (cyclic " +
-      "quadrilateral). Ada hubungan istimewa antara sudut-sudut bertentangannya — jom kita siasat.",
+    bullets: [
+      "Sekumpulan pengibar bendera memasang EMPAT tiang kecil, SEMUANYA tepat pada tepi sebuah gelung bulat besar, kemudian sambungkan keempat-empat tiang dengan tali membentuk sisi empat.",
+      "Sisi empat yang keempat-empat bucunya terletak PADA lilitan bulatan yang sama ni dipanggil SISI EMPAT KITARAN (cyclic quadrilateral). Ada hubungan istimewa antara sudut-sudut bertentangannya — jom kita siasat.",
+    ],
   },
 
   exploration: {
@@ -27,25 +26,20 @@ export const notaSisiEmpatKitaranContent = {
   insight: {
     mentorLine: "Perasan jumlah dua sudut bertentangan tu SENTIASA 180°?",
     title: "Sudut Bertentangan Sisi Empat Kitaran = 180°",
-    body:
-      "SISI EMPAT KITARAN ialah sisi empat yang KEEMPAT-EMPAT bucunya terletak PADA lilitan bulatan yang " +
-      "sama. Sifat istimewanya: JUMLAH sepasang sudut PEDALAMAN BERTENTANGAN (opposite interior angles) " +
-      "SENTIASA 180° (bersuplemen). Ini berlaku untuk KEDUA-DUA pasangan sudut bertentangan dalam sisi " +
-      "empat tersebut.",
+    bullets: [
+      "SISI EMPAT KITARAN ialah sisi empat yang KEEMPAT-EMPAT bucunya terletak PADA lilitan bulatan yang sama.",
+      "Sifat istimewanya: JUMLAH sepasang sudut PEDALAMAN BERTENTANGAN (opposite interior angles) SENTIASA 180° (bersuplemen). Ini berlaku untuk KEDUA-DUA pasangan sudut bertentangan dalam sisi empat tersebut.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini DUA sifat rasmi sisi empat kitaran — simpan dalam kepala kamu.",
     title: "Sifat Sisi Empat Kitaran",
     expression: "∠A + ∠C = 180°,  ∠B + ∠D = 180°",
-    body:
-      "SIFAT 1 (Sudut Bertentangan): Dalam sisi empat kitaran ABCD, ∠A + ∠C = 180° DAN ∠B + ∠D = 180° " +
-      "(kedua-dua pasangan sudut bertentangan bersuplemen).\n\n" +
-      "SIFAT 2 (Sudut Peluaran): SUDUT PELUARAN (exterior angle) pada mana-mana bucu sisi empat kitaran " +
-      "SAMA dengan SUDUT PEDALAMAN pada bucu BERTENTANGANNYA. (Ini sebenarnya akibat terus daripada Sifat " +
-      "1 — sebab sudut peluaran + sudut pedalaman bersebelahan = 180° pada garis lurus, DAN sudut pedalaman " +
-      "bertentangan + sudut pedalaman bersebelahan pun = 180°, jadi sudut peluaran mesti sama dengan sudut " +
-      "pedalaman bertentangan.)",
+    bullets: [
+      "SIFAT 1 (Sudut Bertentangan): Dalam sisi empat kitaran ABCD, ∠A + ∠C = 180° DAN ∠B + ∠D = 180° (kedua-dua pasangan sudut bertentangan bersuplemen).",
+      "SIFAT 2 (Sudut Peluaran): SUDUT PELUARAN (exterior angle) pada mana-mana bucu sisi empat kitaran SAMA dengan SUDUT PEDALAMAN pada bucu BERTENTANGANNYA. (Ini sebenarnya akibat terus daripada Sifat 1 — sebab sudut peluaran + sudut pedalaman bersebelahan = 180° pada garis lurus, DAN sudut pedalaman bertentangan + sudut pedalaman bersebelahan pun = 180°, jadi sudut peluaran mesti sama dengan sudut pedalaman bertentangan.)",
+    ],
   },
 
   example: {

@@ -25,36 +25,24 @@ export const notaSimpananPelaburanContent = {
   insight: {
     mentorLine: "Perasan tambahan tu SAMA (RM50) setiap tahun? Itu ciri faedah MUDAH.",
     title: "Faedah Mudah vs Faedah Kompaun",
-    body:
-      "FAEDAH MUDAH (simple interest) dikira HANYA berdasarkan PRINSIPAL asal — jumlah faedah setiap tahun " +
-      "SAMA (macam simpanan RM1000 di atas, bertambah tepat RM50 setiap tahun). FAEDAH KOMPAUN (compound " +
-      "interest) pula dikira berdasarkan prinsipal + faedah TERKUMPUL sebelumnya — jadi faedah setiap tahun " +
-      "SEMAKIN BESAR (\"faedah atas faedah\"), menghasilkan pertumbuhan yang lebih pantas dalam jangka masa " +
-      "panjang.\n\n" +
-      "JENIS SIMPANAN: akaun simpanan (savings account), akaun simpanan tetap/fixed deposit (faedah lebih " +
-      "tinggi tapi wang terikat tempoh tertentu), akaun semasa (current account, biasanya tiada/faedah " +
-      "rendah tapi paling mudah dikeluarkan). JENIS PELABURAN: saham (shares), amanah saham (unit trust), " +
-      "hartanah (property) — biasanya pulangan lebih tinggi tapi RISIKO juga lebih tinggi berbanding " +
-      "simpanan.",
+    bullets: [
+      "FAEDAH MUDAH (simple interest) dikira HANYA berdasarkan PRINSIPAL asal — jumlah faedah setiap tahun SAMA (macam simpanan RM1000 di atas, bertambah tepat RM50 setiap tahun).",
+      "FAEDAH KOMPAUN (compound interest) pula dikira berdasarkan prinsipal + faedah TERKUMPUL sebelumnya — jadi faedah setiap tahun SEMAKIN BESAR (\"faedah atas faedah\"), menghasilkan pertumbuhan yang lebih pantas dalam jangka masa panjang.",
+      "JENIS SIMPANAN: akaun simpanan (savings account), akaun simpanan tetap/fixed deposit (faedah lebih tinggi tapi wang terikat tempoh tertentu), akaun semasa (current account, biasanya tiada/faedah rendah tapi paling mudah dikeluarkan).",
+      "JENIS PELABURAN: saham (shares), amanah saham (unit trust), hartanah (property) — biasanya pulangan lebih tinggi tapi RISIKO juga lebih tinggi berbanding simpanan.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini rumus rasmi faedah mudah dan faedah kompaun — simpan dalam kepala kamu.",
     title: "Rumus Faedah Mudah dan Kompaun",
     expression: "I = Prt      MV = P(1 + r/n)ⁿᵗ",
-    body:
-      "FAEDAH MUDAH: I = Prt, dengan I = faedah, P = prinsipal, r = kadar faedah setahun (dalam PERPULUHAN, " +
-      "cth. 4% = 0.04), t = tempoh (dalam TAHUN). Jumlah akhir = P + I.\n\n" +
-      "NILAI MATANG (faedah kompaun): MV = P(1 + r/n)ⁿᵗ, dengan MV = nilai matang (prinsipal + faedah), n = " +
-      "bilangan kali faedah dikompaun SETAHUN (cth. n=1 tahunan, n=12 bulanan), t = tempoh (tahun). Faedah " +
-      "kompaun = MV − P.\n\n" +
-      "PERBANDINGAN RISIKO, PULANGAN DAN KECAIRAN: umumnya, SEMAKIN TINGGI potensi pulangan sesuatu pelaburan " +
-      "(cth. saham), SEMAKIN TINGGI jugak risikonya, dan selalunya KURANG cair (susah tunaikan cepat " +
-      "berbanding akaun simpanan biasa). Simpanan (savings account) risiko RENDAH, pulangan RENDAH, tapi " +
-      "SANGAT cair (senang keluarkan bila-bila masa).\n\n" +
-      "PURATA KOS SESYER (strategi pemurataan kos ringgit): jika kamu labur jumlah RINGGIT TETAP setiap kali " +
-      "(bukan bilangan syer tetap) pada harga berbeza-beza, purata kos SESYER = (Jumlah wang dilaburkan) ÷ " +
-      "(Jumlah syer diperoleh). Strategi ni mengurangkan risiko beli pada harga PUNCAK sahaja.",
+    bullets: [
+      "FAEDAH MUDAH: I = Prt, dengan I = faedah, P = prinsipal, r = kadar faedah setahun (dalam PERPULUHAN, cth. 4% = 0.04), t = tempoh (dalam TAHUN). Jumlah akhir = P + I.",
+      "NILAI MATANG (faedah kompaun): MV = P(1 + r/n)ⁿᵗ, dengan MV = nilai matang (prinsipal + faedah), n = bilangan kali faedah dikompaun SETAHUN (cth. n=1 tahunan, n=12 bulanan), t = tempoh (tahun). Faedah kompaun = MV − P.",
+      "PERBANDINGAN RISIKO, PULANGAN DAN KECAIRAN: umumnya, SEMAKIN TINGGI potensi pulangan sesuatu pelaburan (cth. saham), SEMAKIN TINGGI jugak risikonya, dan selalunya KURANG cair. Simpanan (savings account) risiko RENDAH, pulangan RENDAH, tapi SANGAT cair (senang keluarkan bila-bila masa).",
+      "PURATA KOS SESYER (strategi pemurataan kos ringgit): jika kamu labur jumlah RINGGIT TETAP setiap kali (bukan bilangan syer tetap) pada harga berbeza-beza, purata kos SESYER = (Jumlah wang dilaburkan) ÷ (Jumlah syer diperoleh). Strategi ni mengurangkan risiko beli pada harga PUNCAK sahaja.",
+    ],
   },
 
   example: {

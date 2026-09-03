@@ -21,22 +21,23 @@ export const notaSimetriPerentasContent = {
   insight: {
     mentorLine: "Perasan apa yang berlaku pada titik M?",
     title: "Serenjang dari Pusat SENTIASA Membahagi Dua Sama Perentas",
-    body:
-      "Kau baru nampak: garis serenjang dari pusat O ke perentas AB bertemu AB tepat di titik tengahnya, M " +
-      "— jadi AM = MB. Ini bermakna jurutera boleh cari titik tengah kabel dengan lukis garis SERENJANG dari " +
-      "pusat lengkuk ke kabel tersebut, TANPA perlu ukur sepanjang kabel itu sendiri!",
+    bullets: [
+      "Kau baru nampak: garis serenjang dari pusat O ke perentas AB bertemu AB tepat di titik tengahnya, M — jadi AM = MB.",
+      "Ini bermakna jurutera boleh cari titik tengah kabel dengan lukis garis SERENJANG dari pusat lengkuk ke kabel tersebut, TANPA perlu ukur sepanjang kabel itu sendiri!",
+    ],
   },
 
   formula: {
     mentorLine: "Ini kelima-lima sifat rasmi simetri perentas — simpan dalam kepala kamu.",
     title: "Sifat Simetri Perentas",
     expression: "Serenjang dari pusat ke perentas → membahagi dua sama perentas itu",
-    body:
-      "(i) DIAMETER ialah paksi simetri bulatan. (ii) JEJARI yang BERSERENJANG dengan perentas MEMBAHAGI DUA " +
-      "SAMA perentas itu, dan sebaliknya (garis dari pusat yang membahagi dua sama perentas MESTI berserenjang " +
-      "dengannya). (iii) PEMBAHAGI DUA SAMA SERENJANG bagi DUA perentas berbeza akan BERTEMU di PUSAT bulatan. " +
-      "(iv) Perentas yang SAMA PANJANG menghasilkan LENGKOK yang sama panjang (sudut lengkok yang sama). " +
+    bullets: [
+      "(i) DIAMETER ialah paksi simetri bulatan.",
+      "(ii) JEJARI yang BERSERENJANG dengan perentas MEMBAHAGI DUA SAMA perentas itu, dan sebaliknya (garis dari pusat yang membahagi dua sama perentas MESTI berserenjang dengannya).",
+      "(iii) PEMBAHAGI DUA SAMA SERENJANG bagi DUA perentas berbeza akan BERTEMU di PUSAT bulatan.",
+      "(iv) Perentas yang SAMA PANJANG menghasilkan LENGKOK yang sama panjang (sudut lengkok yang sama).",
       "(v) Perentas yang SAMA PANJANG adalah SAMA JARAK daripada pusat bulatan, dan sebaliknya.",
+    ],
   },
 
   example: {

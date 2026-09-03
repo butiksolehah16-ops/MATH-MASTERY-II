@@ -34,24 +34,15 @@ export const notaLokusDuaDimensiContent = {
     mentorLine: "Ini KELIMA-LIMA jenis lokus asas — rujuk semula bila perlu, sebab ini SANGAT kerap keluar dalam peperiksaan.",
     title: "Lima Jenis Lokus Asas",
     expression: "Lokus bergantung SYARAT: titik / dua titik / garis / dua garis",
-    body:
-      "(i) JARAK TETAP daripada SATU titik tetap → BULATAN (jejari = jarak tetap tu, berpusat pada titik " +
-      "tetap).\n" +
-      "(ii) SAMA JARAK daripada DUA titik tetap → PEMBAHAGI DUA SAMA SERENJANG bagi garis yang menyambung " +
-      "kedua-dua titik itu.\n" +
-      "(iii) JARAK TETAP daripada SATU garis lurus → DUA garis SELARI dengan garis asal (satu pada SETIAP " +
-      "belah, masing-masing pada jarak tetap tersebut).\n" +
-      "(iv) SAMA JARAK daripada DUA garis lurus SELARI → SATU garis SELARI, tepat di TENGAH-TENGAH kedua-dua " +
-      "garis asal.\n" +
-      "(v) SAMA JARAK daripada DUA garis lurus BERSILANG → PEMBAHAGI DUA SAMA SUDUT (angle bisector) bagi " +
-      "sudut-sudut yang dibentuk kedua-dua garis — sebenarnya DUA garis pembahagi sudut yang saling " +
-      "berserenjang (membahagi kesemua 4 sudut yang terbentuk).\n\n" +
-      "LOKUS MEMENUHI DUA SYARAT: bina/lukis KEDUA-DUA lokus secara berasingan (ikut syarat masing-masing), " +
-      "kemudian titik yang memenuhi KEDUA-DUA syarat ialah TITIK PERSILANGAN antara dua lokus tersebut.\n\n" +
-      "SYARAT \"KURANG/LEBIH DARIPADA\" jarak tertentu (bukan \"tepat sama dengan\"): ini menghasilkan " +
-      "SATU KAWASAN (region), bukan hanya satu garis/lengkung. Cth. \"jarak KURANG daripada 5 cm daripada " +
-      "titik P\" ialah KAWASAN DI DALAM bulatan jejari 5 cm berpusat P (tidak termasuk garis lilitan itu " +
-      "sendiri).",
+    bullets: [
+      "(i) JARAK TETAP daripada SATU titik tetap → BULATAN (jejari = jarak tetap tu, berpusat pada titik tetap).",
+      "(ii) SAMA JARAK daripada DUA titik tetap → PEMBAHAGI DUA SAMA SERENJANG bagi garis yang menyambung kedua-dua titik itu.",
+      "(iii) JARAK TETAP daripada SATU garis lurus → DUA garis SELARI dengan garis asal (satu pada SETIAP belah, masing-masing pada jarak tetap tersebut).",
+      "(iv) SAMA JARAK daripada DUA garis lurus SELARI → SATU garis SELARI, tepat di TENGAH-TENGAH kedua-dua garis asal.",
+      "(v) SAMA JARAK daripada DUA garis lurus BERSILANG → PEMBAHAGI DUA SAMA SUDUT (angle bisector) bagi sudut-sudut yang dibentuk kedua-dua garis — sebenarnya DUA garis pembahagi sudut yang saling berserenjang (membahagi kesemua 4 sudut yang terbentuk).",
+      "LOKUS MEMENUHI DUA SYARAT: bina/lukis KEDUA-DUA lokus secara berasingan (ikut syarat masing-masing), kemudian titik yang memenuhi KEDUA-DUA syarat ialah TITIK PERSILANGAN antara dua lokus tersebut.",
+      "SYARAT \"KURANG/LEBIH DARIPADA\" jarak tertentu (bukan \"tepat sama dengan\"): ini menghasilkan SATU KAWASAN (region), bukan hanya satu garis/lengkung. Cth. \"jarak KURANG daripada 5 cm daripada titik P\" ialah KAWASAN DI DALAM bulatan jejari 5 cm berpusat P (tidak termasuk garis lilitan itu sendiri).",
+    ],
   },
 
   example: {

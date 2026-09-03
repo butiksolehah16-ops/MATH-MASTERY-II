@@ -21,20 +21,20 @@ export const notaSegiTigaContent = {
   insight: {
     mentorLine: "Perasan apa jumlah akhir yang kau dapat?",
     title: "Jumlah Sudut Segi Tiga Sentiasa 180°!",
-    body:
-      "Tak kira bentuk atau saiz segi tiga tu — SAMA SISI, SAMA KAKI, atau SESKALA — jumlah SEMUA sudut " +
-      "pedalamannya SENTIASA 180°. Jadi kalau kita tahu DUA sudut, kita boleh cari sudut ketiga dengan " +
-      "menolak daripada 180°.",
+    bullets: [
+      "Tak kira bentuk atau saiz segi tiga tu — SAMA SISI, SAMA KAKI, atau SESKALA — jumlah SEMUA sudut pedalamannya SENTIASA 180°.",
+      "Jadi kalau kita tahu DUA sudut, kita boleh cari sudut ketiga dengan menolak daripada 180°.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "Jumlah sudut pedalaman segi tiga = 180°",
-    body:
-      "JUMLAH SUDUT PEDALAMAN SEGI TIGA = 180°. SUDUT PELUARAN (exterior angle) pada satu bucu bersuplemen " +
-      "dengan sudut pedalaman bersebelahannya (jumlah = 180°), dan ia SAMA dengan jumlah DUA sudut pedalaman " +
-      "yang tidak bersebelahan dengannya.",
+    bullets: [
+      "JUMLAH SUDUT PEDALAMAN SEGI TIGA = 180°.",
+      "SUDUT PELUARAN (exterior angle) pada satu bucu bersuplemen dengan sudut pedalaman bersebelahannya (jumlah = 180°), dan ia SAMA dengan jumlah DUA sudut pedalaman yang tidak bersebelahan dengannya.",
+    ],
   },
 
   example: {

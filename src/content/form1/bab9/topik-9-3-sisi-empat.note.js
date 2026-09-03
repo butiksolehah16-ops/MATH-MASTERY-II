@@ -21,19 +21,20 @@ export const notaSisiEmpatContent = {
   insight: {
     mentorLine: "Perasan apa jumlah akhir yang kau dapat?",
     title: "Jumlah Sudut Sisi Empat Sentiasa 360°!",
-    body:
-      "Sisi empat boleh dibahagikan kepada 2 SEGI TIGA oleh satu pepenjuru. Setiap segi tiga = 180°, jadi " +
-      "2 × 180° = 360°. Ini bermakna jumlah SEMUA sudut pedalaman sebarang sisi empat SENTIASA 360°.",
+    bullets: [
+      "Sisi empat boleh dibahagikan kepada 2 SEGI TIGA oleh satu pepenjuru. Setiap segi tiga = 180°, jadi 2 × 180° = 360°.",
+      "Ini bermakna jumlah SEMUA sudut pedalaman sebarang sisi empat SENTIASA 360°.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "Jumlah sudut pedalaman sisi empat = 360°",
-    body:
-      "JUMLAH SUDUT PEDALAMAN SISI EMPAT = 360°. Jadi kalau kita tahu TIGA sudut, kita boleh cari sudut " +
-      "keempat dengan menolak daripada 360°. Ini berlaku untuk SEMUA jenis sisi empat — segiempat sama, " +
-      "segiempat tepat, jajar genjang, rombus, trapezium, dan layang-layang.",
+    bullets: [
+      "JUMLAH SUDUT PEDALAMAN SISI EMPAT = 360°. Jadi kalau kita tahu TIGA sudut, kita boleh cari sudut keempat dengan menolak daripada 360°.",
+      "Ini berlaku untuk SEMUA jenis sisi empat — segiempat sama, segiempat tepat, jajar genjang, rombus, trapezium, dan layang-layang.",
+    ],
   },
 
   example: {

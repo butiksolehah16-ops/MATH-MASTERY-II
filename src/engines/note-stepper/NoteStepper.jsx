@@ -18,6 +18,21 @@ function getMentorLine(content, subPhase) {
   return content[subPhase]?.mentorLine;
 }
 
+// Paparkan `bullets` (point-form, keutamaan) atau fallback ke `body` (satu
+// perenggan) — kandungan lama yang belum ditukar ke bullets terus berfungsi.
+function BodyContent({ bullets, body }) {
+  if (bullets) {
+    return (
+      <ul className="note-stepper__bullet-list">
+        {bullets.map((bullet, i) => (
+          <li key={i}>{bullet}</li>
+        ))}
+      </ul>
+    );
+  }
+  return <p className="note-stepper__body">{body}</p>;
+}
+
 // Note Stepper Engine — orkestrat aliran "cikgu terangkan" (spec ms. 40-46):
 // hook -> eksplorasi interaktif -> insight -> formula rasmi -> contoh -> check pantas.
 // Engine ini generik; kandungan & jenis visual dibekalkan melalui prop `content`
@@ -91,7 +106,7 @@ export default function NoteStepper({ content, onComplete }) {
         {subPhase === "hook" && (
           <>
             <h3 className="note-stepper__title">{content.hook.title}</h3>
-            <p className="note-stepper__body">{content.hook.body}</p>
+            <BodyContent bullets={content.hook.bullets} body={content.hook.body} />
           </>
         )}
 
@@ -110,15 +125,7 @@ export default function NoteStepper({ content, onComplete }) {
         {subPhase === "insight" && (
           <>
             <h3 className="note-stepper__title">{content.insight.title}</h3>
-            {content.insight.bullets ? (
-              <ul className="note-stepper__bullet-list">
-                {content.insight.bullets.map((bullet, i) => (
-                  <li key={i}>{bullet}</li>
-                ))}
-              </ul>
-            ) : (
-              <p className="note-stepper__body">{content.insight.body}</p>
-            )}
+            <BodyContent bullets={content.insight.bullets} body={content.insight.body} />
           </>
         )}
 
@@ -126,7 +133,7 @@ export default function NoteStepper({ content, onComplete }) {
           <>
             <h3 className="note-stepper__title">{content.formula.title}</h3>
             <p className="note-stepper__expression">{content.formula.expression}</p>
-            <p className="note-stepper__body">{content.formula.body}</p>
+            <BodyContent bullets={content.formula.bullets} body={content.formula.body} />
           </>
         )}
 

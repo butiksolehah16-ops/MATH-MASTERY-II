@@ -21,20 +21,21 @@ export const notaPerkaitanContent = {
   insight: {
     mentorLine: "Sekarang bandingkan dengan segiempat TEPAT yang perimeternya sama...",
     title: "Perimeter Sama TAK Semestinya Luas Sama!",
-    body:
-      "Segiempat SAMA 6m × 6m ini ada perimeter 24m DAN luas 36m². Tapi cuba fikir segiempat TEPAT 8m × 4m — " +
-      "perimeternya JUGA 24m (2 × (8 + 4) = 24), tapi luasnya cuma 32m² (8 × 4 = 32)! Bentuk paling 'padat' " +
-      "(segiempat SAMA) beri luas MAKSIMUM untuk perimeter tertentu.",
+    bullets: [
+      "Segiempat SAMA 6m × 6m ini ada perimeter 24m DAN luas 36m².",
+      "Tapi cuba fikir segiempat TEPAT 8m × 4m — perimeternya JUGA 24m (2 × (8 + 4) = 24), tapi luasnya cuma 32m² (8 × 4 = 32)!",
+      "Bentuk paling 'padat' (segiempat SAMA) beri luas MAKSIMUM untuk perimeter tertentu.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "Perimeter tetap → segiempat sama beri luas maksimum",
-    body:
-      "Untuk PERIMETER TETAP, bentuk segiempat SAMA (bukan segiempat tepat yang panjang dan kurus) memberi " +
-      "LUAS MAKSIMUM. Untuk LUAS TETAP, bentuk segiempat SAMA memberi PERIMETER MINIMUM (paling sedikit " +
-      "bahan pagar diperlukan).",
+    bullets: [
+      "Untuk PERIMETER TETAP, bentuk segiempat SAMA (bukan segiempat tepat yang panjang dan kurus) memberi LUAS MAKSIMUM.",
+      "Untuk LUAS TETAP, bentuk segiempat SAMA memberi PERIMETER MINIMUM (paling sedikit bahan pagar diperlukan).",
+    ],
   },
 
   example: {

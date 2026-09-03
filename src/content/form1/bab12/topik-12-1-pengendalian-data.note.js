@@ -22,20 +22,22 @@ export const notaPengendalianDataContent = {
   insight: {
     mentorLine: "Perasan apa yang setiap palang tu wakili?",
     title: "Carta Palang = Perwakilan Data!",
-    body:
-      "Carta macam ni dipanggil CARTA PALANG (bar chart) — satu cara PERWAKILAN DATA. Setiap palang mewakili " +
-      "KEKERAPAN (frequency) — bilangan kali sesuatu kategori muncul. JUMLAH KESELURUHAN bilangan data = " +
-      "jumlah SEMUA kekerapan.",
+    bullets: [
+      "Carta macam ni dipanggil CARTA PALANG (bar chart) — satu cara PERWAKILAN DATA.",
+      "Setiap palang mewakili KEKERAPAN (frequency) — bilangan kali sesuatu kategori muncul.",
+      "JUMLAH KESELURUHAN bilangan data = jumlah SEMUA kekerapan.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "Mod = kategori dengan kekerapan tertinggi",
-    body:
-      "DATA KATEGORI (categorical) — data yang diklasifikasikan mengikut kategori/label, cth warna, jenis " +
-      "sukan. DATA NUMERIK (numerical) — data berbentuk nombor yang boleh diukur, cth tinggi, berat. MOD " +
-      "(mode) ialah kategori dengan KEKERAPAN TERTINGGI dalam set data.",
+    bullets: [
+      "DATA KATEGORI (categorical) — data yang diklasifikasikan mengikut kategori/label, cth warna, jenis sukan.",
+      "DATA NUMERIK (numerical) — data berbentuk nombor yang boleh diukur, cth tinggi, berat.",
+      "MOD (mode) ialah kategori dengan KEKERAPAN TERTINGGI dalam set data.",
+    ],
   },
 
   example: {

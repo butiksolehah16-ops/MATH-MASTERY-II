@@ -22,25 +22,23 @@ export const notaBentanganBentuk3dContent = {
   insight: {
     mentorLine: "Perasan yang bentangan tu sebenarnya SEMUA muka kubus, cuma disusun rata?",
     title: "Bentangan = Bentuk 3D 'Dibuka Rata'",
-    body:
-      "BENTANGAN (net) ialah bentuk DUA DIMENSI yang, apabila DILIPAT sepanjang garis-garis tertentu, " +
-      "membentuk semula bentuk TIGA DIMENSI asal. Bentangan kubus yang kau lihat tu terdiri daripada 6 " +
-      "kepingan segi empat sama — SAMA dengan bilangan muka kubus. Ini corak am: BILANGAN KEPINGAN dalam " +
-      "sesuatu bentangan SENTIASA sama dengan BILANGAN MUKA bentuk 3D asalnya. Terdapat BEBERAPA susunan " +
-      "bentangan yang sah untuk bentuk yang sama (bukan hanya satu) — asalkan semua muka disertakan dan " +
-      "boleh dilipat kembali dengan betul.",
+    bullets: [
+      "BENTANGAN (net) ialah bentuk DUA DIMENSI yang, apabila DILIPAT sepanjang garis-garis tertentu, membentuk semula bentuk TIGA DIMENSI asal. Bentangan kubus yang kau lihat tu terdiri daripada 6 kepingan segi empat sama — SAMA dengan bilangan muka kubus.",
+      "Ini corak am: BILANGAN KEPINGAN dalam sesuatu bentangan SENTIASA sama dengan BILANGAN MUKA bentuk 3D asalnya.",
+      "Terdapat BEBERAPA susunan bentangan yang sah untuk bentuk yang sama (bukan hanya satu) — asalkan semua muka disertakan dan boleh dilipat kembali dengan betul.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini corak am bentangan untuk pelbagai bentuk — simpan dalam kepala kamu.",
     title: "Bentangan Pelbagai Bentuk",
     expression: "Bilangan kepingan bentangan = Bilangan muka bentuk asal",
-    body:
-      "PRISMA: bentangannya terdiri daripada DUA muka tapak (kongruen) + beberapa muka sisi segi empat " +
-      "tepat (bilangan bergantung bilangan sisi tapak). PIRAMID: SATU muka tapak + beberapa muka sisi segi " +
-      "tiga (bilangan sama dengan bilangan sisi tapak). SILINDER: DUA bulatan (tapak atas & bawah) + SATU " +
-      "segi empat tepat (permukaan melengkung dibuka rata). KON: SATU bulatan (tapak) + SATU sektor " +
-      "(permukaan melengkung dibuka rata).",
+    bullets: [
+      "PRISMA: bentangannya terdiri daripada DUA muka tapak (kongruen) + beberapa muka sisi segi empat tepat (bilangan bergantung bilangan sisi tapak).",
+      "PIRAMID: SATU muka tapak + beberapa muka sisi segi tiga (bilangan sama dengan bilangan sisi tapak).",
+      "SILINDER: DUA bulatan (tapak atas & bawah) + SATU segi empat tepat (permukaan melengkung dibuka rata).",
+      "KON: SATU bulatan (tapak) + SATU sektor (permukaan melengkung dibuka rata).",
+    ],
   },
 
   example: {

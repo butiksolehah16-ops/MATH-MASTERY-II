@@ -22,29 +22,21 @@ export const notaUnjuranOrtogonContent = {
   insight: {
     mentorLine: "Perasan setiap 'muka' 2D tu mewakili SATU pandangan sahaja daripada bentuk 3D asal?",
     title: "Unjuran Ortogon = Pandangan Rata dari SATU Arah",
-    body:
-      "UNJURAN ORTOGON ialah pandangan DUA DIMENSI (rata) bagi sesuatu objek TIGA DIMENSI, dihasilkan dengan " +
-      "\"mengunjur\" (project) SETIAP titik pada objek secara SERENJANG (tegak lurus, 90°) ke atas satu " +
-      "SATAH (permukaan rata) pandangan. Terdapat dua jenis satah utama: SATAH MENCANCANG (vertical plane — " +
-      "untuk pandangan HADAPAN dan SISI) dan SATAH MENGUFUK (horizontal plane — untuk pandangan ATAS/pelan).\n\n" +
-      "MEMBANDING objek 3D dengan unjuran ortogonnya: objek SEBENAR ada TIGA dimensi (panjang, lebar, " +
-      "tinggi) dan kelihatan berbeza bentuk ikut arah kita pandang. Unjuran ortogon pula HANYA tunjukkan DUA " +
-      "daripada tiga dimensi tu (dimensi \"kedalaman\" ke arah pandangan HILANG/dimampatkan menjadi rata). " +
-      "Itu sebab kita perlukan LEBIH DARIPADA SATU unjuran (cth. pandangan hadapan + pandangan atas) untuk " +
-      "gambarkan bentuk 3D SEPENUHNYA di atas kertas rata.",
+    bullets: [
+      "UNJURAN ORTOGON ialah pandangan DUA DIMENSI (rata) bagi sesuatu objek TIGA DIMENSI, dihasilkan dengan \"mengunjur\" (project) SETIAP titik pada objek secara SERENJANG (tegak lurus, 90°) ke atas satu SATAH (permukaan rata) pandangan. Terdapat dua jenis satah utama: SATAH MENCANCANG (vertical plane — untuk pandangan HADAPAN dan SISI) dan SATAH MENGUFUK (horizontal plane — untuk pandangan ATAS/pelan).",
+      "MEMBANDING objek 3D dengan unjuran ortogonnya: objek SEBENAR ada TIGA dimensi (panjang, lebar, tinggi) dan kelihatan berbeza bentuk ikut arah kita pandang. Unjuran ortogon pula HANYA tunjukkan DUA daripada tiga dimensi tu (dimensi \"kedalaman\" ke arah pandangan HILANG/dimampatkan menjadi rata).",
+      "Itu sebab kita perlukan LEBIH DARIPADA SATU unjuran (cth. pandangan hadapan + pandangan atas) untuk gambarkan bentuk 3D SEPENUHNYA di atas kertas rata.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini prinsip rasmi unjuran ortogon — simpan dalam kepala kamu.",
     title: "Prinsip Unjuran Ortogon",
     expression: "Unjuran = Pandangan objek diunjur SERENJANG ke satah pandangan",
-    body:
-      "Untuk lukis unjuran ortogon: (1) Tentukan ARAH pandangan (cth. dari hadapan, dari atas, dari sisi). " +
-      "(2) Unjurkan SETIAP bucu/tepi objek secara SERENJANG ke satah pandangan tersebut (bayangkan garis " +
-      "lurus 90° daripada setiap titik objek terus ke satah). (3) Sambungkan titik-titik yang terunjur untuk " +
-      "bentuk rangka 2D. Panjang dan sudut YANG SELARI dengan satah pandangan dikekalkan TEPAT dalam " +
-      "unjuran; dimensi yang TEGAK LURUS dengan satah pandangan (\"kedalaman\") TIDAK kelihatan dalam " +
-      "unjuran tersebut.",
+    bullets: [
+      "Untuk lukis unjuran ortogon: (1) Tentukan ARAH pandangan (cth. dari hadapan, dari atas, dari sisi). (2) Unjurkan SETIAP bucu/tepi objek secara SERENJANG ke satah pandangan tersebut (bayangkan garis lurus 90° daripada setiap titik objek terus ke satah). (3) Sambungkan titik-titik yang terunjur untuk bentuk rangka 2D.",
+      "Panjang dan sudut YANG SELARI dengan satah pandangan dikekalkan TEPAT dalam unjuran; dimensi yang TEGAK LURUS dengan satah pandangan (\"kedalaman\") TIDAK kelihatan dalam unjuran tersebut.",
+    ],
   },
 
   example: {

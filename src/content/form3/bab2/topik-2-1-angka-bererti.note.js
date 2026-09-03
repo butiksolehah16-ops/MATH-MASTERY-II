@@ -11,7 +11,8 @@ export const notaAngkaBerertiContent = {
     body:
       "Doktor mengukur suhu badan pesakit dengan termometer digital canggih: 37.50°C. Jururawat lain guna " +
       "termometer ringkas dan catat: 37.5°C. Nampak macam nombor yang \"sama\" — tapi sebenarnya TIDAK sama " +
-      "tepatnya! 37.50°C menunjukkan alat tu boleh ukur sehingga dua tempat perpuluhan (lebih TEPAT), " +
+      "tepatnya!\n\n" +
+      "37.50°C menunjukkan alat tu boleh ukur sehingga dua tempat perpuluhan (lebih TEPAT), " +
       "manakala 37.5°C cuma sehingga satu tempat perpuluhan. Cara kita nyatakan ketepatan ni dipanggil " +
       "ANGKA BERERTI (significant figures).",
   },
@@ -28,14 +29,13 @@ export const notaAngkaBerertiContent = {
   insight: {
     mentorLine: "Perasan tak bilangan sifar dalam nombor tu tak semestinya \"bererti\"?",
     title: "Bukan Semua Digit Adalah \"Bererti\"",
-    body:
-      "ANGKA BERERTI (significant figures) ialah digit dalam sesuatu nombor yang membawa maklumat tentang " +
-      "KETEPATAN ukuran tersebut. Contoh di atas: 2.5 ada 2 angka bererti (kedua-dua digit bukan sifar). " +
-      "0.0056 ada 2 angka bererti SAHAJA (5 dan 6) — sifar-sifar SEBELUM digit bukan sifar cuma menunjukkan " +
-      "kedudukan nilai tempat, BUKAN ketepatan. 3.070 ada 4 angka bererti (3, 0, 7, 0) — sifar SELEPAS titik " +
-      "perpuluhan yang ditulis dengan sengaja MENUNJUKKAN ketepatan, jadi ia bererti. 1200 (tanpa titik " +
-      "perpuluhan) biasanya dianggap 2 angka bererti (1 dan 2) — dua sifar di belakang tu kabur (ambiguous), " +
-      "boleh jadi sekadar nilai tempat sahaja melainkan dinyatakan lain.",
+    bullets: [
+      "ANGKA BERERTI (significant figures) ialah digit dalam sesuatu nombor yang membawa maklumat tentang KETEPATAN ukuran tersebut.",
+      "2.5 ada 2 angka bererti (kedua-dua digit bukan sifar).",
+      "0.0056 ada 2 angka bererti SAHAJA (5 dan 6) — sifar-sifar SEBELUM digit bukan sifar cuma menunjukkan kedudukan nilai tempat, BUKAN ketepatan.",
+      "3.070 ada 4 angka bererti (3, 0, 7, 0) — sifar SELEPAS titik perpuluhan yang ditulis dengan sengaja MENUNJUKKAN ketepatan, jadi ia bererti.",
+      "1200 (tanpa titik perpuluhan) biasanya dianggap 2 angka bererti (1 dan 2) — dua sifar di belakang tu kabur (ambiguous), boleh jadi sekadar nilai tempat sahaja melainkan dinyatakan lain.",
+    ],
   },
 
   formula: {

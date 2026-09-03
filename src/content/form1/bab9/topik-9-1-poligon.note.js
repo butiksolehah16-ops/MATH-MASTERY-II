@@ -20,20 +20,20 @@ export const notaPoligonContent = {
   insight: {
     mentorLine: "Perasan kenapa kita TAK boleh sambung ke SEMUA bucu lain?",
     title: "Bukan Semua Bucu Boleh Disambung!",
-    body:
-      "Daripada SATU bucu, kita TIDAK boleh lukis pepenjuru ke DIRI SENDIRI, dan TIDAK boleh ke DUA bucu " +
-      "JIRAN (sebab itu sudah jadi SISI poligon, bukan pepenjuru). Untuk poligon n sisi, bilangan bucu yang " +
-      "boleh disambung ialah n − 3 (tolak diri sendiri dan 2 jiran).",
+    bullets: [
+      "Daripada SATU bucu, kita TIDAK boleh lukis pepenjuru ke DIRI SENDIRI, dan TIDAK boleh ke DUA bucu JIRAN (sebab itu sudah jadi SISI poligon, bukan pepenjuru).",
+      "Untuk poligon n sisi, bilangan bucu yang boleh disambung ialah n − 3 (tolak diri sendiri dan 2 jiran).",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "Pepenjuru dari 1 bucu = n − 3, Jumlah pepenjuru = n(n − 3) ÷ 2",
-    body:
-      "BILANGAN PEPENJURU DARI SATU BUCU = n − 3 (n ialah bilangan sisi). JUMLAH KESELURUHAN PEPENJURU dalam " +
-      "poligon = n(n − 3) ÷ 2, sebab setiap pepenjuru dikira dua kali (dari kedua-dua hujungnya) jika kita " +
-      "kira dari semua bucu.",
+    bullets: [
+      "BILANGAN PEPENJURU DARI SATU BUCU = n − 3 (n ialah bilangan sisi).",
+      "JUMLAH KESELURUHAN PEPENJURU dalam poligon = n(n − 3) ÷ 2, sebab setiap pepenjuru dikira dua kali (dari kedua-dua hujungnya) jika kita kira dari semua bucu.",
+    ],
   },
 
   example: {

@@ -23,20 +23,22 @@ export const notaPeristiwaPelengkapContent = {
   insight: {
     mentorLine: "Perasan n(A) + n(A′) = n(ξ)? Prinsip yang sama berlaku untuk KEBARANGKALIAN.",
     title: "P(A) + P(A′) = 1",
-    body:
-      "n(A) = 3 (nombor genap: 2,4,6), n(A′) = 3 (nombor ganjil: 1,3,5), n(ξ) = 6. Jadi P(A) = 3/6 = 0.5 dan " +
-      "P(A′) = 3/6 = 0.5. Perhatikan P(A) + P(A′) = 0.5 + 0.5 = 1 — SENTIASA benar untuk mana-mana peristiwa! " +
+    bullets: [
+      "n(A) = 3 (nombor genap: 2,4,6), n(A′) = 3 (nombor ganjil: 1,3,5), n(ξ) = 6. Jadi P(A) = 3/6 = 0.5 dan P(A′) = 3/6 = 0.5.",
+      "Perhatikan P(A) + P(A′) = 0.5 + 0.5 = 1 — SENTIASA benar untuk mana-mana peristiwa!",
       "Ini bermakna kita boleh cari P(A′) tanpa kira semula daripada awal — cukup guna P(A′) = 1 − P(A).",
+    ],
   },
 
   formula: {
     mentorLine: "Ini formula rasmi peristiwa pelengkap — sangat berguna untuk jimat masa!",
     title: "Formula Peristiwa Pelengkap",
     expression: "P(A) + P(A′) = 1   |   P(A′) = 1 − P(A)",
-    body:
-      "P(A) + P(A′) = 1 untuk SEMUA peristiwa A. Susun semula: P(A′) = 1 − P(A). Juga ingat 0 ≤ P(A) ≤ 1 — " +
-      "kebarangkalian tak boleh negatif atau lebih daripada 1. Dalam tatatanda set, A′ mewakili semua unsur " +
-      "dalam set semesta ξ yang TIDAK berada dalam A.",
+    bullets: [
+      "P(A) + P(A′) = 1 untuk SEMUA peristiwa A. Susun semula: P(A′) = 1 − P(A).",
+      "Juga ingat 0 ≤ P(A) ≤ 1 — kebarangkalian tak boleh negatif atau lebih daripada 1.",
+      "Dalam tatatanda set, A′ mewakili semua unsur dalam set semesta ξ yang TIDAK berada dalam A.",
+    ],
   },
 
   example: {

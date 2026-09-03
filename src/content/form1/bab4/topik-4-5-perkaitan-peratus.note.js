@@ -24,21 +24,22 @@ export const notaPerkaitanPeratusContent = {
   insight: {
     mentorLine: "Perasan berapa banyak bar yang terisi?",
     title: "18/20 = 90% — Tiga Cara, Nilai Sama!",
-    body:
-      "Kau baru isi 18 daripada 20 bahagian bar (18/20). Untuk tukar PECAHAN kepada PERATUS, kita darab " +
-      "dengan 100%: 18/20 × 100% = 90%. Ini menunjukkan NISBAH (18:20), PECAHAN (18/20) dan PERATUS (90%) " +
-      "semuanya cara BERBEZA untuk nyatakan PERKADARAN yang SAMA — cuma bentuk penulisan yang lain.",
+    bullets: [
+      "Kau baru isi 18 daripada 20 bahagian bar (18/20). Untuk tukar PECAHAN kepada PERATUS, kita darab dengan 100%: 18/20 × 100% = 90%.",
+      "Ini menunjukkan NISBAH (18:20), PECAHAN (18/20) dan PERATUS (90%) semuanya cara BERBEZA untuk nyatakan PERKADARAN yang SAMA — cuma bentuk penulisan yang lain.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "Peratus = Pecahan × 100%",
-    body:
-      "PECAHAN → PERATUS: darab dengan 100%. PERATUS → PECAHAN: bahagi dengan 100 (jadikan pecahan/100), " +
-      "kemudian permudahkan. PECAHAN → PERPULUHAN: bahagi pengangka dengan penyebut. Nisbah a:b boleh " +
-      "ditulis sebagai pecahan a/(a+b) berbanding jumlah, kemudian ditukar kepada peratus atau perpuluhan " +
-      "ikut keperluan.",
+    bullets: [
+      "PECAHAN → PERATUS: darab dengan 100%.",
+      "PERATUS → PECAHAN: bahagi dengan 100 (jadikan pecahan/100), kemudian permudahkan.",
+      "PECAHAN → PERPULUHAN: bahagi pengangka dengan penyebut.",
+      "Nisbah a:b boleh ditulis sebagai pecahan a/(a+b) berbanding jumlah, kemudian ditukar kepada peratus atau perpuluhan ikut keperluan.",
+    ],
   },
 
   example: {

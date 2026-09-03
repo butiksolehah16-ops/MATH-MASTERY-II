@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
+import { useLanguage } from "../../../state/LanguageContext.jsx";
 import "./CirclePartsExplorer.css";
 
 const DEFAULT_PARTS = ["center", "radius", "diameter", "chord", "arc", "sector"];
-const PART_LABEL = {
+const PART_LABEL_MS = {
   center: "Pusat",
   radius: "Jejari",
   diameter: "Diameter",
@@ -10,6 +11,15 @@ const PART_LABEL = {
   arc: "Lengkok",
   sector: "Sektor",
   segment: "Tembereng",
+};
+const PART_LABEL_EN = {
+  center: "Centre",
+  radius: "Radius",
+  diameter: "Diameter",
+  chord: "Chord",
+  arc: "Arc",
+  sector: "Sector",
+  segment: "Segment",
 };
 
 function polarToCartesian(cx, cy, r, angleDeg) {
@@ -27,6 +37,8 @@ function describeArc(cx, cy, r, startAngle, endAngle) {
 // Visual bahagian bulatan — dedah setiap bahagian (pusat, jejari, diameter,
 // perentas, lengkok, sektor) satu demi satu di atas satu bulatan tetap.
 export default function CirclePartsExplorer({ parts = DEFAULT_PARTS, onFinished }) {
+  const { language } = useLanguage();
+  const PART_LABEL = language === "en" ? PART_LABEL_EN : PART_LABEL_MS;
   const [revealed, setRevealed] = useState(0);
   const done = revealed >= parts.length;
 
@@ -86,7 +98,11 @@ export default function CirclePartsExplorer({ parts = DEFAULT_PARTS, onFinished 
       <div className="circle-parts__value">{revealed > 0 ? PART_LABEL[parts[revealed - 1]] : "—"}</div>
       <div className="circle-parts__controls">
         <button type="button" className="circle-parts__step-btn" onClick={handleClick} disabled={done}>
-          {done ? "Selesai" : `Dedah bahagian seterusnya (${revealed}/${parts.length})`}
+          {done
+            ? language === "en" ? "Done" : "Selesai"
+            : language === "en"
+              ? `Reveal next part (${revealed}/${parts.length})`
+              : `Dedah bahagian seterusnya (${revealed}/${parts.length})`}
         </button>
         <button
           type="button"
@@ -94,11 +110,15 @@ export default function CirclePartsExplorer({ parts = DEFAULT_PARTS, onFinished 
           onClick={() => setRevealed(0)}
           disabled={revealed === 0}
         >
-          Ulang semula
+          {language === "en" ? "Reset" : "Ulang semula"}
         </button>
       </div>
       {done && (
-        <p className="circle-parts__result">Sampai! Kamu dah kenal semua {parts.length} bahagian bulatan.</p>
+        <p className="circle-parts__result">
+          {language === "en"
+            ? `Done! You've identified all ${parts.length} parts of the circle.`
+            : `Sampai! Kamu dah kenal semua ${parts.length} bahagian bulatan.`}
+        </p>
       )}
     </div>
   );

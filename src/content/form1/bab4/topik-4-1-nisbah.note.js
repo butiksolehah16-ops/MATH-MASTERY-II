@@ -26,20 +26,21 @@ export const notaNisbahContent = {
   insight: {
     mentorLine: "Perasan berapa kali blok tu mengecil?",
     title: "12:18 = 2:3 — Nisbah Termudah!",
-    body:
-      "Kau baru bahagikan KEDUA-DUA belah (12 dan 18) dengan HCF mereka, iaitu 6, dan dapat 2:3. Bilangan " +
-      "blok berkurang tetapi PERBANDINGAN antara dua kumpulan tu KEKAL SAMA — sebab tu ia dipanggil nisbah " +
-      "\"termudah\", bukan nisbah \"berbeza\". Kelas 1 Bestari ada nisbah lelaki kepada perempuan 2:3.",
+    bullets: [
+      "Kau baru bahagikan KEDUA-DUA belah (12 dan 18) dengan HCF mereka, iaitu 6, dan dapat 2:3.",
+      "Bilangan blok berkurang tetapi PERBANDINGAN antara dua kumpulan tu KEKAL SAMA — sebab tu ia dipanggil nisbah \"termudah\", bukan nisbah \"berbeza\".",
+      "Kelas 1 Bestari ada nisbah lelaki kepada perempuan 2:3.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "Nisbah a:b termudah apabila HCF(a, b) = 1",
-    body:
-      "Untuk permudahkan nisbah a:b: cari HCF (Hasil bahagi Sepunya Terbesar) bagi a dan b, kemudian bahagi " +
-      "KEDUA-DUA belah dengan HCF tersebut. Nisbah yang dipermudahkan tetap mewakili PERBANDINGAN yang sama " +
-      "— cuma ditulis dalam nombor yang lebih kecil dan mudah difahami.",
+    bullets: [
+      "Untuk permudahkan nisbah a:b: cari HCF (Hasil bahagi Sepunya Terbesar) bagi a dan b, kemudian bahagi KEDUA-DUA belah dengan HCF tersebut.",
+      "Nisbah yang dipermudahkan tetap mewakili PERBANDINGAN yang sama — cuma ditulis dalam nombor yang lebih kecil dan mudah difahami.",
+    ],
   },
 
   example: {

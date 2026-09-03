@@ -9,11 +9,10 @@ export const notaSudutTangenBulatanContent = {
   hook: {
     mentorLine: "Kita sampai ke penghujung bab bulatan — jom gabungkan SEMUA yang dah dipelajari dalam SATU soalan!",
     title: "Soalan Gabungan SPM",
-    body:
-      "Soalan SPM sebenar selalunya GABUNGKAN pelbagai fakta bulatan dalam SATU rajah — sudut lilitan, " +
-      "sisi empat kitaran, DAN tangen sekali gus. Ada SATU teorem penting berkaitan tangen yang belum kita " +
-      "tunjuk contoh penuh lagi: TEOREM SUDUT TEMBERENG SELANG-SELI (alternate segment theorem). Jom kita " +
-      "kuasai teorem ni, dan latih gabungkan semuanya.",
+    bullets: [
+      "Soalan SPM sebenar selalunya GABUNGKAN pelbagai fakta bulatan dalam SATU rajah — sudut lilitan, sisi empat kitaran, DAN tangen sekali gus.",
+      "Ada SATU teorem penting berkaitan tangen yang belum kita tunjuk contoh penuh lagi: TEOREM SUDUT TEMBERENG SELANG-SELI (alternate segment theorem). Jom kita kuasai teorem ni, dan latih gabungkan semuanya.",
+    ],
   },
 
   exploration: {
@@ -24,28 +23,27 @@ export const notaSudutTangenBulatanContent = {
   insight: {
     mentorLine: "Ini teorem yang menghubungkan TANGEN dengan sudut LILITAN — sangat berguna untuk soalan gabungan.",
     title: "Teorem Sudut Tembereng Selang-Seli",
-    body:
-      "Bila TANGEN bertemu bulatan pada titik A, dan PERENTAS AB dilukis daripada titik sentuhan A tu, " +
-      "sudut ANTARA tangen dan perentas (di A) SAMA dengan sudut LILITAN yang dicangkum oleh perentas AB " +
-      "pada TEMBERENG SELANG-SELI (segmen di sebelah BERTENTANGAN). \"Selang-seli\" bermaksud kita rujuk " +
-      "sudut di bahagian bulatan yang BERSEBERANGAN daripada sudut tangen-perentas asal.",
+    bullets: [
+      "Bila TANGEN bertemu bulatan pada titik A, dan PERENTAS AB dilukis daripada titik sentuhan A tu, sudut ANTARA tangen dan perentas (di A) SAMA dengan sudut LILITAN yang dicangkum oleh perentas AB pada TEMBERENG SELANG-SELI (segmen di sebelah BERTENTANGAN).",
+      "\"Selang-seli\" bermaksud kita rujuk sudut di bahagian bulatan yang BERSEBERANGAN daripada sudut tangen-perentas asal.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini rumus teorem tembereng selang-seli, digabung dengan fakta-fakta dari 6.1-6.3 — rujuk semula bila perlu.",
     title: "Strategi Soalan Gabungan",
     expression: "Sudut Tangen-Perentas = Sudut Tembereng Selang-Seli",
-    body:
-      "Untuk soalan GABUNGAN, kenal pasti fakta yang RELEVAN dan gunakan SATU DEMI SATU:\n" +
-      "• Jejari ⊥ tangen pada titik sentuhan (6.3)\n" +
-      "• Sudut pusat = 2 × sudut lilitan, lengkok sama (6.1)\n" +
-      "• Sudut lilitan dalam segmen sama adalah SAMA (6.1)\n" +
-      "• Sudut dalam semibulatan = 90° (6.1)\n" +
-      "• Sudut bertentangan sisi empat kitaran = 180° (6.2)\n" +
-      "• Sudut tangen-perentas = sudut tembereng selang-seli (6.4, teorem baharu di atas)\n" +
-      "• Jumlah sudut segi tiga = 180° (asas Tingkatan 1)\n\n" +
-      "Lukis rajah, LABEL semua sudut diketahui, kemudian cari sudut yang berkait RAPAT dengan yang " +
-      "dikehendaki — selalunya perlu 2-3 langkah menggunakan fakta berbeza secara BERURUTAN.",
+    bullets: [
+      "Untuk soalan GABUNGAN, kenal pasti fakta yang RELEVAN dan gunakan SATU DEMI SATU:",
+      "Jejari ⊥ tangen pada titik sentuhan (6.3)",
+      "Sudut pusat = 2 × sudut lilitan, lengkok sama (6.1)",
+      "Sudut lilitan dalam segmen sama adalah SAMA (6.1)",
+      "Sudut dalam semibulatan = 90° (6.1)",
+      "Sudut bertentangan sisi empat kitaran = 180° (6.2)",
+      "Sudut tangen-perentas = sudut tembereng selang-seli (6.4, teorem baharu di atas)",
+      "Jumlah sudut segi tiga = 180° (asas Tingkatan 1)",
+      "Lukis rajah, LABEL semua sudut diketahui, kemudian cari sudut yang berkait RAPAT dengan yang dikehendaki — selalunya perlu 2-3 langkah menggunakan fakta berbeza secara BERURUTAN.",
+    ],
   },
 
   example: {

@@ -26,21 +26,22 @@ export const notaNisbahKadarKadaranContent = {
   insight: {
     mentorLine: "Perasan macam mana ketiga-tiga konsep tu digunakan sekali gus?",
     title: "RM30 Sebahagian — Gabungan Nisbah, Kadar & Kadaran!",
-    body:
-      "Kau baru lompat 8 kali dengan saiz 30 untuk sampai ke 240 (3 bahagian + 5 bahagian = 8 bahagian " +
-      "kesemuanya). Ini bermakna SETIAP bahagian bernilai RM30 (ini KADAR). Aiman dapat 5 bahagian = " +
-      "5 × RM30 = RM150 (ini KADARAN — skalakan nilai sebahagian kepada bilangan bahagian). Faridah pula " +
-      "dapat 3 bahagian = RM90. Perasan macam mana NISBAH (3:5) tentukan berapa bahagian setiap orang dapat?",
+    bullets: [
+      "Kau baru lompat 8 kali dengan saiz 30 untuk sampai ke 240 (3 bahagian + 5 bahagian = 8 bahagian kesemuanya). Ini bermakna SETIAP bahagian bernilai RM30 (ini KADAR).",
+      "Aiman dapat 5 bahagian = 5 × RM30 = RM150 (ini KADARAN — skalakan nilai sebahagian kepada bilangan bahagian). Faridah pula dapat 3 bahagian = RM90.",
+      "Perasan macam mana NISBAH (3:5) tentukan berapa bahagian setiap orang dapat?",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "Nilai sebahagian = Jumlah ÷ (a + b)",
-    body:
-      "Untuk KONGSI jumlah ikut nisbah a:b: (1) Jumlahkan bahagian (a + b), (2) Cari nilai SATU bahagian — " +
-      "Jumlah ÷ (a + b) — ini KADAR, (3) Darab nilai sebahagian dengan bilangan bahagian yang dikehendaki — " +
-      "ini KADARAN. Kaedah ni gabungkan ketiga-tiga konsep bab ni dalam SATU penyelesaian.",
+    bullets: [
+      "Untuk KONGSI jumlah ikut nisbah a:b: (1) Jumlahkan bahagian (a + b).",
+      "(2) Cari nilai SATU bahagian — Jumlah ÷ (a + b) — ini KADAR.",
+      "(3) Darab nilai sebahagian dengan bilangan bahagian yang dikehendaki — ini KADARAN. Kaedah ni gabungkan ketiga-tiga konsep bab ni dalam SATU penyelesaian.",
+    ],
   },
 
   example: {

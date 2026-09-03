@@ -26,22 +26,21 @@ export const notaSerentakContent = {
   insight: {
     mentorLine: "Perasan macam mana 2x = 14 muncul daripada DUA persamaan berasingan?",
     title: "Pemboleh Ubah y Termansuh!",
-    body:
-      "Kau baru selesaikan 2x = 14 dan dapat x = 7. Macam mana 2x=14 muncul? Bila kita TAMBAH dua persamaan " +
-      "(x+y=10) dan (x−y=4) SECARA TERUS: (x+x) + (y−y) = 10+4 → 2x + 0 = 14 → 2x = 14. Pemboleh ubah y " +
-      "TERMANSUH (dihapuskan) sebab +y dan −y batalkan satu sama lain! Selepas dapat x=7, ganti balik ke " +
-      "x+y=10: 7+y=10, jadi y=3. Kotak A = 7kg, kotak B = 3kg.",
+    bullets: [
+      "Kau baru selesaikan 2x = 14 dan dapat x = 7. Macam mana 2x=14 muncul? Bila kita TAMBAH dua persamaan (x+y=10) dan (x−y=4) SECARA TERUS: (x+x) + (y−y) = 10+4 → 2x + 0 = 14 → 2x = 14.",
+      "Pemboleh ubah y TERMANSUH (dihapuskan) sebab +y dan −y batalkan satu sama lain!",
+      "Selepas dapat x=7, ganti balik ke x+y=10: 7+y=10, jadi y=3. Kotak A = 7kg, kotak B = 3kg.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "Kaedah Penghapusan (Elimination)",
-    body:
-      "PERSAMAAN LINEAR SERENTAK (simultaneous equations) ialah DUA persamaan dengan DUA pemboleh ubah yang " +
-      "SAMA, diselesaikan BERSAMA untuk cari SATU pasangan (x,y) yang memenuhi KEDUA-DUA persamaan. KAEDAH " +
-      "PENGHAPUSAN: tambah/tolak dua persamaan untuk hapuskan SATU pemboleh ubah, selesaikan yang tinggal, " +
-      "kemudian ganti balik untuk cari pemboleh ubah kedua.",
+    bullets: [
+      "PERSAMAAN LINEAR SERENTAK (simultaneous equations) ialah DUA persamaan dengan DUA pemboleh ubah yang SAMA, diselesaikan BERSAMA untuk cari SATU pasangan (x,y) yang memenuhi KEDUA-DUA persamaan.",
+      "KAEDAH PENGHAPUSAN: tambah/tolak dua persamaan untuk hapuskan SATU pemboleh ubah, selesaikan yang tinggal, kemudian ganti balik untuk cari pemboleh ubah kedua.",
+    ],
   },
 
   example: {

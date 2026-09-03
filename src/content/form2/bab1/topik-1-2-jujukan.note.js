@@ -26,28 +26,23 @@ export const notaJujukanContent = {
   insight: {
     mentorLine: "Sekarang kita namakan apa yang kita nampak tu.",
     title: "Jujukan = Senarai Nombor Tersusun",
-    body:
-      "Senarai simpanan Aisyah — 5, 7, 9, 11, 13, ... — dipanggil JUJUKAN (sequence): satu set nombor yang " +
-      "disusun mengikut susunan TERTENTU, iaitu setiap nombor mempunyai kedudukan yang tetap (pertama, kedua, " +
-      "ketiga, dan seterusnya). Setiap nombor dalam jujukan dipanggil SEBUTAN (term). Sebutan pertama " +
-      "ditulis T1, sebutan kedua T2, sebutan ketiga T3, dan seterusnya — secara am, sebutan ke-n ditulis Tn. " +
-      "Bagi jujukan Aisyah: T1 = 5, T2 = 7, T3 = 9, T4 = 11, T5 = 13.\n\n" +
-      "Jujukan boleh TERHINGGA (finite) — ada bilangan sebutan yang tetap dan berakhir, atau TAK TERHINGGA " +
-      "(infinite) — diteruskan tanpa had, biasanya ditunjukkan dengan tiga titik \"...\" pada penghujung " +
-      "senarai. Untuk MELENGKAPKAN atau MELANJUTKAN sesuatu jujukan, kita perlu kenal pasti dahulu pola atau " +
-      "peraturan yang menghubungkan sebutan-sebutan berturutan, kemudian gunakan peraturan itu berulang kali.",
+    bullets: [
+      "Senarai simpanan Aisyah — 5, 7, 9, 11, 13, ... — dipanggil JUJUKAN (sequence): satu set nombor yang disusun mengikut susunan TERTENTU, iaitu setiap nombor mempunyai kedudukan yang tetap (pertama, kedua, ketiga, dan seterusnya).",
+      "Setiap nombor dalam jujukan dipanggil SEBUTAN (term). Sebutan pertama ditulis T1, sebutan kedua T2, sebutan ketiga T3, dan seterusnya — secara am, sebutan ke-n ditulis Tn. Bagi jujukan Aisyah: T1 = 5, T2 = 7, T3 = 9, T4 = 11, T5 = 13.",
+      "Jujukan boleh TERHINGGA (finite) — ada bilangan sebutan yang tetap dan berakhir, atau TAK TERHINGGA (infinite) — diteruskan tanpa had, biasanya ditunjukkan dengan tiga titik \"...\" pada penghujung senarai.",
+      "Untuk MELENGKAPKAN atau MELANJUTKAN sesuatu jujukan, kita perlu kenal pasti dahulu pola atau peraturan yang menghubungkan sebutan-sebutan berturutan, kemudian gunakan peraturan itu berulang kali.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini cara rasmi untuk lanjutkan sebarang jujukan — simpan dalam kepala kamu.",
     title: "Cara Melanjutkan Jujukan",
     expression: "Tn+1 = Tn (kenakan peraturan tetap)",
-    body:
-      "Untuk melanjutkan jujukan: (1) Bandingkan sebutan berturutan (T2 berbanding T1, T3 berbanding T2, dan " +
-      "seterusnya) untuk cari peraturan tetap (beza tetap bagi jenis tambah/tolak, atau nisbah tetap bagi " +
-      "jenis darab/bahagi). (2) Sahkan peraturan itu konsisten pada SEMUA pasangan sebutan yang diketahui. " +
-      "(3) Kenakan peraturan yang sama pada sebutan terakhir untuk dapatkan sebutan seterusnya, dan ulang " +
-      "proses ini untuk melanjutkan jujukan sejauh mana yang diperlukan.",
+    bullets: [
+      "Untuk melanjutkan jujukan: (1) Bandingkan sebutan berturutan (T2 berbanding T1, T3 berbanding T2, dan seterusnya) untuk cari peraturan tetap (beza tetap bagi jenis tambah/tolak, atau nisbah tetap bagi jenis darab/bahagi).",
+      "(2) Sahkan peraturan itu konsisten pada SEMUA pasangan sebutan yang diketahui.",
+      "(3) Kenakan peraturan yang sama pada sebutan terakhir untuk dapatkan sebutan seterusnya, dan ulang proses ini untuk melanjutkan jujukan sejauh mana yang diperlukan.",
+    ],
   },
 
   example: {

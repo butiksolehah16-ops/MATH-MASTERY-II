@@ -29,26 +29,22 @@ export const notaOperasiGabunganContent = {
   insight: {
     mentorLine: "Perasan kenapa kita boleh terus gabungkan macam tu?",
     title: "Kembang Dahulu, Baru Gabungkan Sebutan Serupa",
-    body:
-      "2(x + 4) + 3(x − 1): pertama, kembangkan KEDUA-DUA bahagian secara berasingan — 2(x + 4) = 2x + 8, " +
-      "dan 3(x − 1) = 3x − 3. Selepas dikembang, kita ada EMPAT sebutan: 2x, 8, 3x, dan −3. Sekarang " +
-      "kumpulkan SEBUTAN SERUPA — sebutan x dengan sebutan x (2x + 3x = 5x), dan sebutan malar dengan " +
-      "sebutan malar (8 + (−3) = 5). Jumlah keseluruhan perbelanjaan Aiman ialah 5x + 5 ringgit.",
+    bullets: [
+      "2(x + 4) + 3(x − 1): pertama, kembangkan KEDUA-DUA bahagian secara berasingan — 2(x + 4) = 2x + 8, dan 3(x − 1) = 3x − 3.",
+      "Selepas dikembang, kita ada EMPAT sebutan: 2x, 8, 3x, dan −3.",
+      "Sekarang kumpulkan SEBUTAN SERUPA — sebutan x dengan sebutan x (2x + 3x = 5x), dan sebutan malar dengan sebutan malar (8 + (−3) = 5). Jumlah keseluruhan perbelanjaan Aiman ialah 5x + 5 ringgit.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini prosedur rasmi untuk operasi gabungan ungkapan algebra — simpan dalam kepala kamu.",
     title: "Prosedur Operasi Gabungan",
     expression: "kembang → kumpul sebutan serupa → jumlah/tolak",
-    body:
-      "Untuk permudahkan ungkapan yang melibatkan beberapa kurungan: (1) KEMBANGKAN setiap kurungan dahulu " +
-      "(guna kaedah Topik 2.1). (2) KUMPULKAN sebutan serupa — semua sebutan-x bersama, semua sebutan malar " +
-      "bersama. (3) TAMBAH atau TOLAK ikut tanda masing-masing.\n\n" +
-      "PERHATIAN KHAS bila ada TANDA TOLAK di depan kurungan (cth. a − k(bx + c)): tanda tolak itu perlu " +
-      "diagihkan sekali kepada SETIAP sebutan dalam kurungan tersebut, sama macam kembangan biasa tapi guna " +
-      "pendarab NEGATIF. Contoh: −2(x − 4) = (−2)(x) + (−2)(−4) = −2x + 8 — dua tanda negatif (−2 didarab " +
-      "dengan −4) bertukar jadi positif +8. Ini kesilapan paling biasa dalam topik ni — sentiasa semak semula " +
-      "tanda selepas mendarab.",
+    bullets: [
+      "Untuk permudahkan ungkapan yang melibatkan beberapa kurungan: (1) KEMBANGKAN setiap kurungan dahulu (guna kaedah Topik 2.1). (2) KUMPULKAN sebutan serupa — semua sebutan-x bersama, semua sebutan malar bersama. (3) TAMBAH atau TOLAK ikut tanda masing-masing.",
+      "PERHATIAN KHAS bila ada TANDA TOLAK di depan kurungan (cth. a − k(bx + c)): tanda tolak itu perlu diagihkan sekali kepada SETIAP sebutan dalam kurungan tersebut, sama macam kembangan biasa tapi guna pendarab NEGATIF.",
+      "Contoh: −2(x − 4) = (−2)(x) + (−2)(−4) = −2x + 8 — dua tanda negatif (−2 didarab dengan −4) bertukar jadi positif +8. Ini kesilapan paling biasa dalam topik ni — sentiasa semak semula tanda selepas mendarab.",
+    ],
   },
 
   example: {

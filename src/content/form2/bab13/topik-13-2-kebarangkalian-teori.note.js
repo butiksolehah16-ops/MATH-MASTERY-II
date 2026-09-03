@@ -23,22 +23,21 @@ export const notaKebarangkalianTeoriContent = {
   insight: {
     mentorLine: "n(S) = 6 sekarang. Jom kita tentukan satu PERISTIWA daripada ruang sampel ini.",
     title: "Peristiwa A ialah Subset Ruang Sampel",
-    body:
-      "Katakan PERISTIWA A = 'mendapat nombor genap'. Daripada S = {1,2,3,4,5,6}, unsur yang memenuhi A ialah " +
-      "{2,4,6} — jadi n(A) = 3. KEBARANGKALIAN TEORI peristiwa A ialah nisbah n(A) berbanding n(S): P(A) = " +
-      "3 ÷ 6 = 0.5. Apabila bilangan cubaan sebenar (eksperimen) sangat besar, kebarangkalian eksperimen akan " +
-      "menghampiri nilai kebarangkalian teori ini.",
+    bullets: [
+      "Katakan PERISTIWA A = 'mendapat nombor genap'. Daripada S = {1,2,3,4,5,6}, unsur yang memenuhi A ialah {2,4,6} — jadi n(A) = 3.",
+      "KEBARANGKALIAN TEORI peristiwa A ialah nisbah n(A) berbanding n(S): P(A) = 3 ÷ 6 = 0.5.",
+      "Apabila bilangan cubaan sebenar (eksperimen) sangat besar, kebarangkalian eksperimen akan menghampiri nilai kebarangkalian teori ini.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini formula rasmi kebarangkalian teori — sangat penting!",
     title: "Formula Kebarangkalian Teori",
     expression: "P(A) = n(A) ÷ n(S)",
-    body:
-      "P(A) = n(A) ÷ n(S), dengan n(S) = jumlah bilangan kesudahan SAMA BOLEH JADI dalam ruang sampel, dan " +
-      "n(A) = bilangan kesudahan yang memenuhi peristiwa A. Untuk eksperimen gabungan (contoh lambung 2 " +
-      "syiling), gambar rajah pokok atau set boleh digunakan untuk senaraikan semua kesudahan ruang sampel " +
-      "(cth: S = {HH, HT, TH, TT}, n(S) = 4).",
+    bullets: [
+      "P(A) = n(A) ÷ n(S), dengan n(S) = jumlah bilangan kesudahan SAMA BOLEH JADI dalam ruang sampel, dan n(A) = bilangan kesudahan yang memenuhi peristiwa A.",
+      "Untuk eksperimen gabungan (contoh lambung 2 syiling), gambar rajah pokok atau set boleh digunakan untuk senaraikan semua kesudahan ruang sampel (cth: S = {HH, HT, TH, TT}, n(S) = 4).",
+    ],
   },
 
   example: {

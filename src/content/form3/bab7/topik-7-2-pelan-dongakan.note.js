@@ -23,33 +23,22 @@ export const notaPelanDongakanContent = {
   insight: {
     mentorLine: "Perasan PELAN dan DONGAKAN sebenarnya ialah unjuran ortogon, tapi dengan NAMA dan ARAH khusus?",
     title: "Pelan (Atas) dan Dongakan (Hadapan/Sisi)",
-    body:
-      "PELAN (plan) ialah unjuran ortogon objek dipandang TEGAK LURUS DARI ATAS (ke satah mengufuk). " +
-      "DONGAKAN HADAPAN (front elevation) ialah unjuran dipandang dari HADAPAN (ke satah mencancang). " +
-      "DONGAKAN SISI (side elevation) ialah unjuran dipandang dari SISI (ke satah mencancang yang lain, " +
-      "biasanya berserenjang dengan arah dongakan hadapan). Ketiga-tiga pandangan ni, bila digabungkan, " +
-      "beri gambaran LENGKAP bentuk 3D — walaupun setiap satu cuma lukisan 2D.\n\n" +
-      "JENIS GARIS dalam lukisan pelan/dongakan (penting untuk kejelasan): GARIS PADU TEBAL untuk sisi yang " +
-      "NAMPAK (visible edges). GARIS SEMPANG (putus-putus) untuk sisi TERLINDUNG (hidden edges, di sebalik " +
-      "objek). GARIS PADU HALUS (nipis) untuk GARIS BINAAN (construction lines) — garis bantu untuk " +
-      "selaraskan pelan dan dongakan semasa melukis, BUKAN sebahagian bentuk sebenar.",
+    bullets: [
+      "PELAN (plan) ialah unjuran ortogon objek dipandang TEGAK LURUS DARI ATAS (ke satah mengufuk). DONGAKAN HADAPAN (front elevation) ialah unjuran dipandang dari HADAPAN (ke satah mencancang). DONGAKAN SISI (side elevation) ialah unjuran dipandang dari SISI (ke satah mencancang yang lain, biasanya berserenjang dengan arah dongakan hadapan). Ketiga-tiga pandangan ni, bila digabungkan, beri gambaran LENGKAP bentuk 3D — walaupun setiap satu cuma lukisan 2D.",
+      "JENIS GARIS dalam lukisan pelan/dongakan (penting untuk kejelasan): GARIS PADU TEBAL untuk sisi yang NAMPAK (visible edges). GARIS SEMPANG (putus-putus) untuk sisi TERLINDUNG (hidden edges, di sebalik objek). GARIS PADU HALUS (nipis) untuk GARIS BINAAN (construction lines) — garis bantu untuk selaraskan pelan dan dongakan semasa melukis, BUKAN sebahagian bentuk sebenar.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini langkah rasmi melukis pelan dan dongakan mengikut skala — simpan dalam kepala kamu.",
     title: "Langkah Melukis Pelan dan Dongakan",
     expression: "Pelan = pandangan atas.  Dongakan = pandangan hadapan/sisi.",
-    body:
-      "(1) Tentukan skala yang sesuai (cth. 1:100). (2) Lukis PELAN dahulu (pandangan dari atas), dengan " +
-      "SEMUA panjang mendatar dan lebar ditukar mengikut skala. (3) Lukis DONGAKAN HADAPAN tepat DI BAWAH " +
-      "pelan, selaraskan lebar menggunakan GARIS BINAAN menegak daripada pelan — pastikan tinggi objek juga " +
-      "ditukar ikut skala. (4) Lukis DONGAKAN SISI (jika perlu) di sebelah, selaras tinggi dengan dongakan " +
-      "hadapan. (5) UNTUK OBJEK GABUNGAN (cth. kuboid + piramid): lukis pelan dan dongakan bagi SETIAP " +
-      "bahagian objek secara berasingan, kemudian GABUNGKAN dalam satu rajah, pastikan kedudukan relatifnya " +
-      "betul.\n\n" +
-      "MENSINTESIS (bina semula bentuk 3D daripada pelan+dongakan yang diberi): bandingkan bentuk pelan " +
-      "(atas) dengan bentuk dongakan (hadapan/sisi) — pelan beri maklumat \"tapak\" objek, dongakan beri " +
-      "maklumat \"profil menegak\"nya; gabungkan mental kedua-dua maklumat ni untuk bayangkan bentuk 3D asal.",
+    bullets: [
+      "(1) Tentukan skala yang sesuai (cth. 1:100). (2) Lukis PELAN dahulu (pandangan dari atas), dengan SEMUA panjang mendatar dan lebar ditukar mengikut skala.",
+      "(3) Lukis DONGAKAN HADAPAN tepat DI BAWAH pelan, selaraskan lebar menggunakan GARIS BINAAN menegak daripada pelan — pastikan tinggi objek juga ditukar ikut skala. (4) Lukis DONGAKAN SISI (jika perlu) di sebelah, selaras tinggi dengan dongakan hadapan.",
+      "(5) UNTUK OBJEK GABUNGAN (cth. kuboid + piramid): lukis pelan dan dongakan bagi SETIAP bahagian objek secara berasingan, kemudian GABUNGKAN dalam satu rajah, pastikan kedudukan relatifnya betul.",
+      "MENSINTESIS (bina semula bentuk 3D daripada pelan+dongakan yang diberi): bandingkan bentuk pelan (atas) dengan bentuk dongakan (hadapan/sisi) — pelan beri maklumat \"tapak\" objek, dongakan beri maklumat \"profil menegak\"nya; gabungkan mental kedua-dua maklumat ni untuk bayangkan bentuk 3D asal.",
+    ],
   },
 
   example: {

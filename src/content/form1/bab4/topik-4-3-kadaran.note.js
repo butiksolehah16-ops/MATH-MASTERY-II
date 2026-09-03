@@ -26,21 +26,22 @@ export const notaKadaranContent = {
   insight: {
     mentorLine: "Perasan berapa lompatan yang diperlukan untuk sampai ke 200?",
     title: "50g Seorang — Ini Kadaran!",
-    body:
-      "Kau baru lompat 4 kali dengan saiz 50 untuk sampai ke 200 (guna 4 orang). Ini bermakna SETIAP orang " +
-      "perlukan 50g tepung. Sebab nisbah tepung:orang mesti KEKAL SAMA (berkadar terus), untuk 6 orang kita " +
-      "perlukan 50 × 6 = 300g tepung. Ini dipanggil KADARAN (proportion) — dua nisbah yang bernilai SAMA.",
+    bullets: [
+      "Kau baru lompat 4 kali dengan saiz 50 untuk sampai ke 200 (guna 4 orang). Ini bermakna SETIAP orang perlukan 50g tepung.",
+      "Sebab nisbah tepung:orang mesti KEKAL SAMA (berkadar terus), untuk 6 orang kita perlukan 50 × 6 = 300g tepung.",
+      "Ini dipanggil KADARAN (proportion) — dua nisbah yang bernilai SAMA.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "a:b = c:d bermaksud a × d = b × c",
-    body:
-      "Dua nisbah a:b dan c:d dikatakan BERKADARAN jika nilainya SAMA apabila dipermudahkan. KAEDAH UNIT: " +
-      "cari nilai SATU unit dahulu (bahagi), kemudian darab dengan bilangan unit yang dikehendaki. KAEDAH " +
-      "PENDARABAN SILANG: jika a:b = c:d, maka a × d = b × c — berguna bila kita perlu cari nilai yang tak " +
-      "diketahui terus tanpa cari nilai unit dahulu.",
+    bullets: [
+      "Dua nisbah a:b dan c:d dikatakan BERKADARAN jika nilainya SAMA apabila dipermudahkan.",
+      "KAEDAH UNIT: cari nilai SATU unit dahulu (bahagi), kemudian darab dengan bilangan unit yang dikehendaki.",
+      "KAEDAH PENDARABAN SILANG: jika a:b = c:d, maka a × d = b × c — berguna bila kita perlu cari nilai yang tak diketahui terus tanpa cari nilai unit dahulu.",
+    ],
   },
 
   example: {

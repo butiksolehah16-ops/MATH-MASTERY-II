@@ -25,11 +25,12 @@ export const notaSukatanKecenderunganMemusatContent = {
   insight: {
     mentorLine: "Susun data ni menaik: 5, 5, 6, 8, 16 — sekarang senang nak cari tiga sukatan tu.",
     title: "Mod, Median, Min — Tiga Cara Lihat 'Purata'",
-    body:
-      "MOD = nilai paling KERAP muncul = 5 (muncul 2 kali). MEDIAN = nilai TENGAH bila disusun menaik = 6 " +
-      "(tengah-tengah 5 data). MIN = jumlah semua nilai ÷ bilangan data = 40 ÷ 5 = 8. Perasan MIN (8) lebih " +
-      "tinggi drpd MOD dan MEDIAN sebab RM16 itu NILAI EKSTREM yang 'tarik' min ke atas — tapi mod dan " +
-      "median tak terjejas banyak. Sebab tu bila ada nilai ekstrem, MEDIAN selalunya sukatan yang lebih adil.",
+    bullets: [
+      "MOD = nilai paling KERAP muncul = 5 (muncul 2 kali).",
+      "MEDIAN = nilai TENGAH bila disusun menaik = 6 (tengah-tengah 5 data).",
+      "MIN = jumlah semua nilai ÷ bilangan data = 40 ÷ 5 = 8.",
+      "Perasan MIN (8) lebih tinggi drpd MOD dan MEDIAN sebab RM16 itu NILAI EKSTREM yang 'tarik' min ke atas — tapi mod dan median tak terjejas banyak. Sebab tu bila ada nilai ekstrem, MEDIAN selalunya sukatan yang lebih adil.",
+    ],
   },
 
   formula: {
@@ -39,9 +40,11 @@ export const notaSukatanKecenderunganMemusatContent = {
     body:
       "DATA TAK TERKUMPUL: MOD = nilai dgn kekerapan tertinggi. MEDIAN = nilai tengah selepas disusun menaik " +
       "(bilangan data GANJIL: ambil nilai tengah terus; bilangan data GENAP: purata DUA nilai tengah). " +
-      "MIN = Σx ÷ n (jumlah semua nilai ÷ bilangan data). DATA TERKUMPUL (jadual kekerapan/kelas): KELAS MOD " +
+      "MIN = Σx ÷ n (jumlah semua nilai ÷ bilangan data).\n\n" +
+      "DATA TERKUMPUL (jadual kekerapan/kelas): KELAS MOD " +
       "= kelas dgn kekerapan (f) tertinggi. TITIK TENGAH kelas (x) = (had bawah + had atas) ÷ 2. ANGGARAN MIN " +
-      "= Σ(f × x) ÷ Σf. MEMILIH SUKATAN SESUAI: guna MIN bila data seimbang tanpa nilai ekstrem; guna MEDIAN " +
+      "= Σ(f × x) ÷ Σf.\n\n" +
+      "MEMILIH SUKATAN SESUAI: guna MIN bila data seimbang tanpa nilai ekstrem; guna MEDIAN " +
       "bila data ada nilai ekstrem (median tak mudah terjejas); guna MOD bila nak tahu nilai/kategori paling " +
       "popular.",
   },

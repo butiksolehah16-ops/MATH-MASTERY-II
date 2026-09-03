@@ -23,22 +23,20 @@ export const notaGarisSelariContent = {
   insight: {
     mentorLine: "Perasan berapa banyak sudut lain yang boleh kita cari daripada SATU sudut sahaja?",
     title: "Tiga Jenis Hubungan Sudut!",
-    body:
-      "Kau baru bina sudut 75°. Bila garis rentas lintang memotong DUA GARIS SELARI, ada TIGA jenis " +
-      "hubungan sudut: SUDUT SEPADAN (corresponding, kedudukan sama pada setiap persilangan) — SAMA BESAR; " +
-      "SUDUT IKAT SILANG (alternate, bersilang antara dua garis selari) — SAMA BESAR; SUDUT PEDALAMAN " +
-      "(co-interior, sama sebelah antara dua garis selari) — BERJUMLAH 180°. Jadi banyak sudut lain " +
-      "automatik SAMA dengan 75°, dan sudut pedalamannya ialah 180° − 75° = 105°.",
+    bullets: [
+      "Kau baru bina sudut 75°. Bila garis rentas lintang memotong DUA GARIS SELARI, ada TIGA jenis hubungan sudut: SUDUT SEPADAN (corresponding, kedudukan sama pada setiap persilangan) — SAMA BESAR; SUDUT IKAT SILANG (alternate, bersilang antara dua garis selari) — SAMA BESAR; SUDUT PEDALAMAN (co-interior, sama sebelah antara dua garis selari) — BERJUMLAH 180°.",
+      "Jadi banyak sudut lain automatik SAMA dengan 75°, dan sudut pedalamannya ialah 180° − 75° = 105°.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "Sepadan = Sama, Ikat Silang = Sama, Pedalaman = 180°",
-    body:
-      "GARIS SELARI + GARIS RENTAS LINTANG → 3 jenis hubungan: SUDUT SEPADAN (sama), SUDUT IKAT SILANG " +
-      "(sama), SUDUT PEDALAMAN (jumlah 180°). Petua mudah: kedudukan SAMA bentuk (F, Z, C) pada gambar " +
-      "rajah membantu kenal pasti jenis sudut.",
+    bullets: [
+      "GARIS SELARI + GARIS RENTAS LINTANG → 3 jenis hubungan: SUDUT SEPADAN (sama), SUDUT IKAT SILANG (sama), SUDUT PEDALAMAN (jumlah 180°).",
+      "Petua mudah: kedudukan SAMA bentuk (F, Z, C) pada gambar rajah membantu kenal pasti jenis sudut.",
+    ],
   },
 
   example: {

@@ -25,22 +25,22 @@ export const notaPecutanContent = {
   insight: {
     mentorLine: "Perasan yang laju bertambah dengan jumlah yang SAMA setiap saat?",
     title: "Pecutan = Kadar Pertambahan Laju",
-    body:
-      "Laju kereta tu bertambah 5 m/s SETIAP saat — sama banyak setiap kali (0 → 5 → 10 → 15). Jumlah " +
-      "keseluruhan pertambahan laju selepas 3 saat ialah 15 m/s. Sebab pertambahan tu SAMA setiap saat, " +
-      "PECUTAN kereta ialah 5 m/s SETIAP SAAT, ditulis sebagai 5 m/s². Pecutan ialah KADAR PERUBAHAN LAJU " +
-      "berbanding masa — sama konsep macam laju (kadar perubahan JARAK), tapi ni kadar perubahan LAJU pula.",
+    bullets: [
+      "Laju kereta tu bertambah 5 m/s SETIAP saat — sama banyak setiap kali (0 → 5 → 10 → 15). Jumlah keseluruhan pertambahan laju selepas 3 saat ialah 15 m/s.",
+      "Sebab pertambahan tu SAMA setiap saat, PECUTAN kereta ialah 5 m/s SETIAP SAAT, ditulis sebagai 5 m/s².",
+      "Pecutan ialah KADAR PERUBAHAN LAJU berbanding masa — sama konsep macam laju (kadar perubahan JARAK), tapi ni kadar perubahan LAJU pula.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini formula rasmi pecutan — simpan dalam kepala kamu.",
     title: "Formula Pecutan",
     expression: "Pecutan = (Laju Akhir − Laju Awal) ÷ Masa   |   Laju Akhir = Laju Awal + (Pecutan × Masa)",
-    body:
-      "PECUTAN = (v − u) ÷ t, dengan v = laju akhir, u = laju awal, t = masa (unit: m/s²). Jika laju " +
-      "BERKURANGAN (v < u), nilai tu ialah NYAHPECUTAN — kita laporkan sebagai MAGNITUD (nilai positif) " +
-      "kadar perlambatan. Daripada rumus ni, kita boleh susun semula: LAJU AKHIR (v) = Laju Awal (u) + " +
-      "(Pecutan × Masa) — berguna untuk cari laju akhir apabila pecutan diketahui.",
+    bullets: [
+      "PECUTAN = (v − u) ÷ t, dengan v = laju akhir, u = laju awal, t = masa (unit: m/s²).",
+      "Jika laju BERKURANGAN (v < u), nilai tu ialah NYAHPECUTAN — kita laporkan sebagai MAGNITUD (nilai positif) kadar perlambatan.",
+      "Daripada rumus ni, kita boleh susun semula: LAJU AKHIR (v) = Laju Awal (u) + (Pecutan × Masa) — berguna untuk cari laju akhir apabila pecutan diketahui.",
+    ],
   },
 
   example: {

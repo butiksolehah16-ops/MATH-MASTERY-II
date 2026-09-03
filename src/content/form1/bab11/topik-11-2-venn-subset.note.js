@@ -22,19 +22,21 @@ export const notaVennSubsetContent = {
   insight: {
     mentorLine: "Perasan macam mana unsur yang BUKAN ahli A terletak di luar bulatan?",
     title: "Gambar Rajah Venn!",
-    body:
-      "Rajah macam ni dipanggil GAMBAR RAJAH VENN. SET SEMESTA (ξ) ialah set yang mengandungi SEMUA unsur " +
-      "yang dibincangkan (segi empat besar). PELENGKAP bagi set A (ditulis A′) ialah SEMUA unsur dalam ξ " +
-      "yang TIDAK berada dalam A (kawasan luar bulatan).",
+    bullets: [
+      "Rajah macam ni dipanggil GAMBAR RAJAH VENN.",
+      "SET SEMESTA (ξ) ialah set yang mengandungi SEMUA unsur yang dibincangkan (segi empat besar).",
+      "PELENGKAP bagi set A (ditulis A′) ialah SEMUA unsur dalam ξ yang TIDAK berada dalam A (kawasan luar bulatan).",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "n(ξ) = n(A) + n(A′)",
-    body:
-      "n(ξ) = n(A) + n(A′) — jumlah unsur set semesta ialah jumlah unsur A dan pelengkapnya. SUBSET: Set P " +
-      "ialah SUBSET bagi set Q (ditulis P ⊆ Q) jika SETIAP unsur P juga unsur Q.",
+    bullets: [
+      "n(ξ) = n(A) + n(A′) — jumlah unsur set semesta ialah jumlah unsur A dan pelengkapnya.",
+      "SUBSET: Set P ialah SUBSET bagi set Q (ditulis P ⊆ Q) jika SETIAP unsur P juga unsur Q.",
+    ],
   },
 
   example: {

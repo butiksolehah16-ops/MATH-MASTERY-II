@@ -22,28 +22,21 @@ export const notaLokusContent = {
   insight: {
     mentorLine: "Perasan SEMUA kedudukan yang mungkin (jarak tetap 5 m daripada pancang) membentuk bulatan?",
     title: "Lokus = Set Titik Memenuhi Syarat Tertentu",
-    body:
-      "LOKUS (locus) ialah SET SEMUA titik yang kedudukannya memenuhi SATU (atau lebih) SYARAT tertentu. " +
-      "Bagi kambing tadi, syaratnya ialah \"jarak TETAP 5 m daripada pancang\" — dan set SEMUA titik yang " +
-      "memenuhi syarat ni membentuk BULATAN berjejari 5 m, berpusat pada pancang. Lokus BOLEH jadi pelbagai " +
-      "bentuk bergantung SYARAT yang diberi — bulatan (jarak tetap dari SATU titik), garis lurus (jarak " +
-      "tetap dari SATU garis), atau bentuk lain — kita akan terokai lebih lanjut dalam topik seterusnya.\n\n" +
-      "CONTOH LOKUS DALAM KEHIDUPAN SEBENAR: laluan hujung jarum jam (lokus = bulatan, jarak tetap dari " +
-      "pusat jam), laluan buaian yang berayun (lokus = lengkok bulatan), kawasan litupan isyarat menara " +
-      "telefon (lokus = bulatan, jarak tetap dari menara), orbit bulan mengelilingi bumi (lokus = lengkung " +
-      "hampir bulatan).",
+    bullets: [
+      "LOKUS (locus) ialah SET SEMUA titik yang kedudukannya memenuhi SATU (atau lebih) SYARAT tertentu. Bagi kambing tadi, syaratnya ialah \"jarak TETAP 5 m daripada pancang\" — dan set SEMUA titik yang memenuhi syarat ni membentuk BULATAN berjejari 5 m, berpusat pada pancang.",
+      "Lokus BOLEH jadi pelbagai bentuk bergantung SYARAT yang diberi — bulatan (jarak tetap dari SATU titik), garis lurus (jarak tetap dari SATU garis), atau bentuk lain — kita akan terokai lebih lanjut dalam topik seterusnya.",
+      "CONTOH LOKUS DALAM KEHIDUPAN SEBENAR: laluan hujung jarum jam (lokus = bulatan, jarak tetap dari pusat jam), laluan buaian yang berayun (lokus = lengkok bulatan), kawasan litupan isyarat menara telefon (lokus = bulatan, jarak tetap dari menara), orbit bulan mengelilingi bumi (lokus = lengkung hampir bulatan).",
+    ],
   },
 
   formula: {
     mentorLine: "Ini definisi rasmi lokus — simpan dalam kepala kamu.",
     title: "Definisi Lokus",
     expression: "Lokus = {titik : titik memenuhi syarat tertentu}",
-    body:
-      "Untuk KENAL PASTI lokus sesuatu situasi: (1) Kenal pasti SYARAT yang perlu dipenuhi (cth. jarak " +
-      "tetap, sama jarak daripada dua objek). (2) Bayangkan atau lukis BEBERAPA titik contoh yang memenuhi " +
-      "syarat tu. (3) Kenal pasti BENTUK yang terhasil apabila SEMUA titik yang mungkin disambungkan. Lokus " +
-      "\"jarak TETAP r daripada satu titik tetap\" SENTIASA membentuk BULATAN berjejari r, berpusat pada " +
-      "titik tetap tersebut.",
+    bullets: [
+      "Untuk KENAL PASTI lokus sesuatu situasi: (1) Kenal pasti SYARAT yang perlu dipenuhi (cth. jarak tetap, sama jarak daripada dua objek). (2) Bayangkan atau lukis BEBERAPA titik contoh yang memenuhi syarat tu. (3) Kenal pasti BENTUK yang terhasil apabila SEMUA titik yang mungkin disambungkan.",
+      "Lokus \"jarak TETAP r daripada satu titik tetap\" SENTIASA membentuk BULATAN berjejari r, berpusat pada titik tetap tersebut.",
+    ],
   },
 
   example: {

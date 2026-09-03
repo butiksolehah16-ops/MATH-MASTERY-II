@@ -1,0 +1,924 @@
+
+=== src\content\form1\bab10\topik-10-1-perimeter.note.js ===
+--hook.body (bullets:false)--
+Sebuah taman berbentuk segiempat tepat dengan panjang 8m dan lebar 5m. Berapa panjang pagar yang diperlukan untuk mengelilingi taman itu sepenuhnya?
+--insight.body--
+PERIMETER ialah jumlah ukuran panjang SEMUA sisi sesuatu bentuk. Untuk segiempat tepat, ada 2 pasang sisi yang sama panjang, jadi kita boleh guna jalan pintas: Perimeter = 2 × (panjang + lebar), bukannya jumlahkan satu-satu.
+--formula.body--
+PERIMETER SEGIEMPAT TEPAT = 2 × (panjang + lebar). PERIMETER SEGIEMPAT SAMA = 4 × sisi. Untuk bentuk LAIN (segi tiga, poligon tak sekata, dan lain-lain), hanya JUMLAHKAN SEMUA sisi terus.
+
+=== src\content\form1\bab10\topik-10-2-luas.note.js ===
+--hook.body (bullets:false)--
+Sebuah kolam renang berbentuk segiempat tepat 6m panjang dan 4m lebar. Berapa banyak jubin 1m × 1m diperlukan untuk menutup dasar kolam itu sepenuhnya?
+--insight.body--
+LUAS ialah bilangan petak unit persegi (cth 1m × 1m) yang menutupi bentuk itu sepenuhnya. Untuk segiempat tepat: Luas = panjang × lebar. Bentuk LAIN seperti segi tiga, segiempat selari, layang-layang, dan trapezium — formula luasnya SEMUA berasaskan luas segiempat tepat ini.
+--formula.body--
+LUAS SEGIEMPAT TEPAT = panjang × lebar. LUAS SEGI TIGA = ½ × tapak × tinggi (separuh daripada segiempat tepat sepadan). LUAS SEGIEMPAT SELARI = tapak × tinggi. LUAS LAYANG-LAYANG = ½ × pepenjuru1 × pepenjuru2. LUAS TRAPEZIUM = ½ × (jumlah dua sisi selari) × tinggi.
+
+=== src\content\form1\bab10\topik-10-3-perkaitan.note.js ===
+--hook.body (bullets:false)--
+Kamu ada seutas tali sepanjang 24m untuk buat pagar kandang ayam berbentuk segiempat tepat. Adakah SEMUA bentuk segiempat tepat dengan perimeter 24m mempunyai luas yang SAMA?
+--insight.body--
+Segiempat SAMA 6m × 6m ini ada perimeter 24m DAN luas 36m². Tapi cuba fikir segiempat TEPAT 8m × 4m — perimeternya JUGA 24m (2 × (8 + 4) = 24), tapi luasnya cuma 32m² (8 × 4 = 32)! Bentuk paling 'padat' (segiempat SAMA) beri luas MAKSIMUM untuk perimeter tertentu.
+--formula.body--
+Untuk PERIMETER TETAP, bentuk segiempat SAMA (bukan segiempat tepat yang panjang dan kurus) memberi LUAS MAKSIMUM. Untuk LUAS TETAP, bentuk segiempat SAMA memberi PERIMETER MINIMUM (paling sedikit bahan pagar diperlukan).
+
+=== src\content\form1\bab11\topik-11-1-set.note.js ===
+--hook.body (bullets:false)--
+Cikgu nak kumpulkan nama pelajar yang suka Matematik dalam satu senarai khas dipanggil SET: P = {Ali, Bakar, Chong}. Berapa ramai pelajar dalam set P?
+--insight.body--
+SET ialah koleksi objek atau unsur (element) yang JELAS dan TERSUSUN. Setiap objek dalam set dipanggil UNSUR. Bilangan unsur dalam sesuatu set A ditulis n(A). Untuk set P = {Ali, Bakar, Chong}, n(P) = 3.
+--formula.body--
+SET boleh ditulis dengan DUA cara: (1) KAEDAH PENYENARAIAN — senaraikan semua unsur dalam kurungan dakwarsa { }, cth P = {2, 4, 6, 8}; (2) KAEDAH HURAIAN — huraikan ciri unsur, cth P = {nombor genap kurang daripada 10}. n(A) ialah bilangan unsur dalam set A.
+
+=== src\content\form1\bab11\topik-11-2-venn-subset.note.js ===
+--hook.body (bullets:false)--
+Set semesta ξ = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}. Set A = {nombor genap dalam ξ} = {2, 4, 6, 8, 10}. Apakah unsur-unsur yang TIADA dalam A?
+--insight.body--
+Rajah macam ni dipanggil GAMBAR RAJAH VENN. SET SEMESTA (ξ) ialah set yang mengandungi SEMUA unsur yang dibincangkan (segi empat besar). PELENGKAP bagi set A (ditulis A′) ialah SEMUA unsur dalam ξ yang TIDAK berada dalam A (kawasan luar bulatan).
+--formula.body--
+n(ξ) = n(A) + n(A′) — jumlah unsur set semesta ialah jumlah unsur A dan pelengkapnya. SUBSET: Set P ialah SUBSET bagi set Q (ditulis P ⊆ Q) jika SETIAP unsur P juga unsur Q.
+
+=== src\content\form1\bab12\topik-12-1-pengendalian-data.note.js ===
+--hook.body (bullets:false)--
+Cikgu jalankan tinjauan warna kegemaran murid dalam kelas. Keputusan: Merah = 5, Biru = 8, Hijau = 3, Kuning = 4. Berapa ramai murid semuanya yang ditinjau?
+--insight.body--
+Carta macam ni dipanggil CARTA PALANG (bar chart) — satu cara PERWAKILAN DATA. Setiap palang mewakili KEKERAPAN (frequency) — bilangan kali sesuatu kategori muncul. JUMLAH KESELURUHAN bilangan data = jumlah SEMUA kekerapan.
+--formula.body--
+DATA KATEGORI (categorical) — data yang diklasifikasikan mengikut kategori/label, cth warna, jenis sukan. DATA NUMERIK (numerical) — data berbentuk nombor yang boleh diukur, cth tinggi, berat. MOD (mode) ialah kategori dengan KEKERAPAN TERTINGGI dalam set data.
+
+=== src\content\form1\bab13\topik-13-1-teorem-pythagoras.note.js ===
+--hook.body (bullets:false)--
+Sebuah tangga bersandar pada dinding. Kaki tangga 3m dari dinding, dan tangga itu mencecah dinding pada ketinggian 4m. Berapa panjang tangga itu (hipotenus)?
+--insight.body--
+TEOREM PYTHAGORAS: dalam SEGI TIGA BERSUDUT TEGAK, kuasa dua HIPOTENUS (sisi terpanjang, bertentangan sudut tegak) SAMA dengan JUMLAH kuasa dua dua sisi yang lain. Untuk tangga tadi: 3² + 4² = 9 + 16 = 25 = 5². Jadi panjang tangga ialah 5m!
+--formula.body--
+a² + b² = c² (c ialah hipotenus, sisi terpanjang). Untuk cari HIPOTENUS: c = √(a² + b²). Untuk cari SISI PENDEK: a = √(c² − b²) atau b = √(c² − a²).
+
+=== src\content\form1\bab13\topik-13-2-akas-pythagoras.note.js ===
+--hook.body (bullets:false)--
+Tukang kayu nak pastikan sudut almari tepat 90°. Dia ukur tiga sisi rangka: 3m, 4m, dan 5m. Adakah sudut itu betul-betul 90° tanpa perlu mengukur terus dengan alat sudut?
+--insight.body--
+AKAS TEOREM PYTHAGORAS: Jika kuasa dua sisi TERPANJANG SAMA dengan JUMLAH kuasa dua DUA sisi lain (a² + b² = c²), maka segi tiga itu ADALAH segi tiga bersudut tegak. Untuk rangka almari: 3² + 4² = 9 + 16 = 25 = 5² — jadi sudut itu MEMANG 90°!
+--formula.body--
+Jika a² + b² = c² (c ialah sisi terpanjang) → segi tiga BERSUDUT TEGAK. Jika a² + b² ≠ c² → segi tiga BUKAN bersudut tegak. Kaedah ni membolehkan kita SAHKAN sudut tegak tanpa mengukur sudut secara terus.
+
+=== src\content\form1\bab1\topik-1-1-integer.note.js ===
+--hook.body (bullets:false)--
+Semalam, satu kawasan pergunungan mencatatkan suhu malam yang sangat sejuk: −7°C. Tapi bila matahari terbit pagi ni, suhu melonjak naik kepada 3°C. Ramai yang tertanya-tanya: berapa BESAR sebenarnya perubahan suhu ni? Nampak senang kan — tapi bila salah satu suhu tu negatif, ramai jadi keliru macam mana nak kira bezanya. Jom kita selesaikan sendiri, langkah demi langkah.
+--insight.body--
+Kamu baru sahaja mengira 3 − (−7), dan jawapannya 10 — bukan nombor kecil macam yang disangka kebanyakan orang! Ini kerana bila kita TOLAK nombor NEGATIF, kesannya SAMA seperti kita TAMBAH nombor positif tu.
+
+Fikirkan macam ni: kalau seseorang "membatalkan" hutang RM7 kamu, duit kamu BERTAMBAH RM7, bukan berkurang. "Tolak (−7)" ialah macam "membatalkan" −7 — kesannya sama seperti "tambah 7". Dua tanda negatif yang bertembung (tanda tolak, diikuti nombor negatif) bertukar menjadi tanda positif.
+--formula.body--
+Untuk sebarang dua nombor a dan b: menolak b sama dengan menambah songsangannya, iaitu (−b). Bila b sendiri sudah negatif (contohnya b = −7), songsangannya (−b) menjadi POSITIF (+7). Itulah sebabnya a − (−7) = a + 7 — dua tanda negatif bertukar jadi satu tanda positif.
+
+Kalau b positif macam biasa (cth. b = 7), formula ni tetap berfungsi: a − 7 = a + (−7), iaitu gerak ke KIRI seperti biasa.
+
+=== src\content\form1\bab1\topik-1-2-integer.note.js ===
+--hook.body (bullets:false)--
+Baki akaun bank Aiman ialah −RM8 (dia berhutang RM8). Minggu ni, dia terpaksa berhutang LAGI RM5 untuk beli buku sekolah. Berapakah baki akaun Aiman sekarang? Ramai pelajar tersilap sangka bila "tambah" nombor negatif dengan nombor negatif lagi, jawapannya jadi "kurang negatif" — sebenarnya sebaliknya. Jom kita selesaikan sendiri.
+--insight.body--
+Kamu baru sahaja mengira (−8) + (−5) = −13. Perasan coraknya? Bila DUA nombor mempunyai TANDA YANG SAMA (di sini, kedua-duanya negatif), kita TAMBAH magnitudnya (8 + 5 = 13) dan KEKALKAN tanda tu (negatif). Ini berbeza sama sekali dengan bila tanda kedua-dua nombor BERBEZA — kita akan lihat kes itu dalam contoh seterusnya.
+--formula.body--
+Untuk sebarang dua nombor a dan b: JIKA tanda a dan b SAMA, jawapan = tambah kedua-dua magnitud, kekalkan tanda tu. JIKA tanda a dan b BERBEZA, jawapan = tolak magnitud yang kecil daripada magnitud yang besar, dan jawapan ikut tanda nombor yang magnitudnya lebih besar.
+
+=== src\content\form1\bab1\topik-1-3-pecahan.note.js ===
+--hook.body (bullets:false)--
+Paras air dalam tangki Pak Karim berkurang 3/8 bahagian pada waktu pagi (ada kebocoran). Pada sebelah petang, ia berkurang lagi 2/8 bahagian. Berapakah JUMLAH kekurangan paras air, sebagai pecahan? Kamu dah tahu peraturan tanda untuk integer — jom kita tengok sama ada peraturan yang sama terpakai untuk pecahan.
+--insight.body--
+Kamu baru kira 0 + (−5/8) = −5/8, gabungan (−3/8) + (−2/8). Perasan? Ini SAMA PERSIS dengan peraturan tanda integer yang kamu belajar di Topik 1.2: bila TANDA SAMA (kedua-dua negatif), kita TAMBAH magnitud pecahan (3/8 + 2/8 = 5/8) dan KEKALKAN tanda tu.
+
+Peraturan tanda yang kamu dah kuasai untuk integer terpakai SAMA untuk pecahan — kamu cuma perlu tambah SATU kemahiran baharu: apa buat bila penyebut (denominator) berbeza.
+--formula.body--
+Peraturan tanda pecahan SAMA seperti integer: tanda sama → tambah magnitud, kekalkan tanda; tanda berbeza → tolak magnitud kecil daripada magnitud besar, ikut tanda magnitud besar. TETAPI, jika penyebut kedua-dua pecahan BERBEZA, kamu WAJIB tukar kedua-duanya kepada penyebut sepunya (LCD — gandaan sepunya terkecil) dahulu, sebelum boleh tambah/tolak magnitud.
+
+=== src\content\form1\bab1\topik-1-4-perpuluhan.note.js ===
+--hook.body (bullets:false)--
+Bacaan termometer menunjukkan suhu berkurang 0.6°C pada waktu subuh, kemudian berkurang lagi 0.3°C menjelang pagi. Berapakah jumlah PENURUNAN suhu, sebagai perpuluhan? Kamu akan perasan sesuatu yang sangat berguna dalam nota ini.
+--insight.body--
+Kamu baru kira 0 + (−0.9°C) = −0.9°C, gabungan (−0.6) + (−0.3). Perhatikan bar tu — 9 daripada 10 petak terisi. Itu sebenarnya bermaksud 9/10! Perpuluhan HANYALAH pecahan berpenyebut kuasa 10 (10, 100, 1000...). Sebab itu peraturan tanda yang kamu dah kuasai di Topik 1.2 (integer) dan Topik 1.3 (pecahan) terpakai SAMA di sini: tanda sama → tambah magnitud, kekalkan tanda.
+--formula.body--
+Peraturan tanda perpuluhan SAMA seperti integer dan pecahan: tanda sama → tambah magnitud (jajarkan titik perpuluhan dahulu supaya digit sepadan), kekalkan tanda. Tanda berbeza → tolak magnitud kecil daripada magnitud besar, jawapan ikut tanda nombor bermagnitud besar.
+
+=== src\content\form1\bab1\topik-1-5-nombor-nisbah.note.js ===
+--hook.body (bullets:false)--
+Resepi kek makcik Timah perlukan 3/4 cawan tepung. Tapi cawan penyukat di rumahnya cuma bertanda perpuluhan: 0.25, 0.50, 0.75, 1.00 — tiada tanda pecahan! Berapakah 3/4 dalam bentuk perpuluhan, supaya makcik Timah boleh terus guna cawan tu?
+--insight.body--
+Kamu baru isi 3/4 daripada bar. Sekarang bayangkan bar yang SAMA saiz dibahagi kepada 100 bahagian kecil (peratus) — 3/4 sebenarnya sama dengan 75 daripada 100 bahagian, iaitu 0.75! Ini kerana 3/4 = (3×25)/(4×25) = 75/100. Integer, pecahan, dan perpuluhan bukan tiga benda berasingan — mereka SATU sistem nombor yang sama (nombor nisbah), cuma ditulis dalam bentuk berbeza.
+--formula.body--
+Untuk tukar PECAHAN kepada PERPULUHAN: bahagikan pengangka dengan penyebut (pengangka ÷ penyebut). Untuk tukar PERPULUHAN kepada PECAHAN: tulis digit selepas titik perpuluhan sebagai pengangka, dan kuasa 10 yang sepadan (10, 100, 1000...) sebagai penyebut, kemudian permudahkan jika boleh.
+
+=== src\content\form1\bab2\topik-2-1-faktor.note.js ===
+--hook.body (bullets:false)--
+Cikgu Aina ada 12 biji gula-gula. Dia nak agih SAMA RATA kepada 4 orang murid, tiada baki tertinggal. Bolehkah dia buat macam tu? Kalau boleh, berapa biji setiap orang murid akan dapat?
+--insight.body--
+Kau baru sahaja lompat dengan saiz 4, sebanyak 3 kali (0→4→8→12), dan sampai TEPAT ke 12 — tiada berlebih atau kurang! Ini bermakna 4 ialah FAKTOR bagi 12: nombor yang boleh membahagi nombor lain secara SAMA RATA (tiada baki). Cikgu Aina BOLEH agih 12 gula-gula kepada 4 orang murid — setiap orang dapat 3 biji (12 ÷ 4 = 3).
+--formula.body--
+Faktor Sepunya Terbesar (FSTB) dua nombor ialah faktor PALING BESAR yang dikongsi oleh KEDUA-DUA nombor tersebut. Untuk cari FSTB: senaraikan semua faktor setiap nombor, kenal pasti faktor yang sama (sepunya), pilih yang PALING BESAR.
+
+(Nota tambahan: nombor PERDANA cuma ada DUA faktor — 1 dan dirinya sendiri, cth. 2, 3, 5, 7, 11. Faktor perdana bagi sesuatu nombor ialah faktor-faktornya yang juga nombor perdana.)
+
+=== src\content\form1\bab2\topik-2-2-gandaan.note.js ===
+--hook.body (bullets:false)--
+Bas A datang ke stesen setiap 4 minit. Bas B datang setiap 6 minit. Kalau kedua-dua bas bertolak SAMA-SAMA sekarang (minit ke-0), bilakah kali PERTAMA kedua-dua bas akan bertolak sama-sama lagi?
+--insight.body--
+Kau baru senaraikan gandaan 4: 4, 8, 12, 16. Sekarang bayangkan senarai gandaan 6: 6, 12, 18, 24. Perasan nombor 12 muncul dalam KEDUA-DUA senarai? Itulah GANDAAN SEPUNYA — nombor yang jadi gandaan kepada kedua-dua 4 dan 6. Bas A dan Bas B akan bertolak sama-sama lagi pada minit ke-12!
+--formula.body--
+Gandaan Sepunya Terkecil (GSTK) dua nombor ialah gandaan PALING KECIL yang dikongsi oleh KEDUA-DUA nombor. Untuk cari GSTK: senaraikan gandaan setiap nombor, kenal pasti gandaan sepunya, pilih yang PALING KECIL. (Perbezaan dengan FSTB: FSTB cari faktor PALING BESAR yang sepunya; GSTK cari gandaan PALING KECIL yang sepunya — arah terbalik!)
+
+=== src\content\form1\bab3\topik-3-1-kuasa-dua.note.js ===
+--hook.body (bullets:false)--
+Cikgu Farah nak bina taman bunga berbentuk PERSEGI (semua sisi sama panjang). Dia susun petak bunga dalam 5 baris dan 5 lajur. Berapakah JUMLAH petak bunga kesemuanya?
+--insight.body--
+Kau baru bina petak 5 baris × 5 lajur = 25 petak kesemuanya. Sebab bentuknya PERSEGI (sisi sama panjang), operasi "darab nombor dengan dirinya sendiri" ni dipanggil KUASA DUA. Ditulis sebagai 5² (baca: "5 kuasa dua"), bermaksud 5 × 5 = 25. Cikgu Farah akan ada 25 petak bunga kesemuanya.
+--formula.body--
+PUNCA KUASA DUA (simbol √) ialah operasi SEBALIKNYA bagi kuasa dua — ia cari BALIK panjang sisi apabila kita tahu jumlah petak (luas). Cth: √25 = 5, sebab 5 × 5 = 25. Nombor seperti 1, 4, 9, 16, 25, 36, 49, 64, 81, 100... dipanggil NOMBOR KUASA DUA SEMPURNA (perfect squares) sebab punca kuasa duanya ialah nombor bulat yang kemas (bukan pecahan/perpuluhan).
+
+=== src\content\form1\bab3\topik-3-2-kuasa-tiga.note.js ===
+--hook.body (bullets:false)--
+Abang Zul nak isi kotak penuh dengan kiub ais kecil bersaiz 1cm. Kotak tu berbentuk KIUB (macam dadu — semua sisi sama panjang), dengan setiap sisi 3cm. Berapakah JUMLAH kiub ais kecil yang diperlukan untuk isi kotak tu sepenuhnya?
+--insight.body--
+Kau baru bina SATU lapisan: 3 × 3 = 9 kiub kecil. Tapi kotak KIUB tu ada TINGGI juga — dan sebab semua sisi kiub SAMA PANJANG (3cm), kita perlukan 3 lapisan macam ni, bertindan antara satu sama lain. Jumlah kiub kecil = 9 × 3 = 27.
+
+Operasi "darab nombor dengan dirinya sendiri, TIGA kali" ni dipanggil KUASA TIGA. Ditulis sebagai 3³ (baca: "3 kuasa tiga"), bermaksud 3 × 3 × 3 = 27. Abang Zul perlukan 27 kiub ais kecil.
+--formula.body--
+PUNCA KUASA TIGA (simbol ∛) ialah operasi SEBALIKNYA bagi kuasa tiga — ia cari BALIK panjang sisi kiub apabila kita tahu jumlah isipadu (bilangan kiub kecil). Cth: ∛27 = 3, sebab 3 × 3 × 3 = 27. Nombor seperti 1, 8, 27, 64, 125, 216... dipanggil NOMBOR KUASA TIGA SEMPURNA (perfect cubes) sebab punca kuasa tiganya ialah nombor bulat yang kemas.
+
+=== src\content\form1\bab4\topik-4-1-nisbah.note.js ===
+--hook.body (bullets:false)--
+Kelas 1 Bestari ada 12 pelajar lelaki dan 18 pelajar perempuan. Nyatakan nisbah bilangan pelajar lelaki kepada perempuan dalam bentuk PALING RINGKAS (termudah).
+--insight.body--
+Kau baru bahagikan KEDUA-DUA belah (12 dan 18) dengan HCF mereka, iaitu 6, dan dapat 2:3. Bilangan blok berkurang tetapi PERBANDINGAN antara dua kumpulan tu KEKAL SAMA — sebab tu ia dipanggil nisbah "termudah", bukan nisbah "berbeza". Kelas 1 Bestari ada nisbah lelaki kepada perempuan 2:3.
+--formula.body--
+Untuk permudahkan nisbah a:b: cari HCF (Hasil bahagi Sepunya Terbesar) bagi a dan b, kemudian bahagi KEDUA-DUA belah dengan HCF tersebut. Nisbah yang dipermudahkan tetap mewakili PERBANDINGAN yang sama — cuma ditulis dalam nombor yang lebih kecil dan mudah difahami.
+
+=== src\content\form1\bab4\topik-4-2-kadar.note.js ===
+--hook.body (bullets:false)--
+Sebuah kereta bergerak 180 km dalam masa 3 jam pada kelajuan malar (tetap). Berapakah jarak yang kereta itu akan tempuh dalam SATU jam?
+--insight.body--
+Kau baru lompat 3 kali dengan saiz 60 untuk sampai ke 180 (0→60→120→180). Ini bermakna kereta bergerak 60 km SETIAP 1 jam — kadarnya ialah 60 km/j (dibaca "60 kilometer sejam"). KADAR ialah perbandingan dua kuantiti dengan UNIT BERBEZA (cth: km dengan jam, atau ringgit dengan kilogram) — berbeza daripada nisbah yang membandingkan kuantiti dengan unit SAMA.
+--formula.body--
+Cth: Kadar (km/j) = Jarak (km) ÷ Masa (jam). KADAR UNIT ialah kadar bagi SATU unit kuantiti kedua (cth: harga bagi 1 kg, jarak bagi 1 jam). Kadar unit memudahkan kita banding dan selesaikan pelbagai masalah harian — macam harga runcit atau kelajuan.
+
+=== src\content\form1\bab4\topik-4-3-kadaran.note.js ===
+--hook.body (bullets:false)--
+Sebuah resipi kek untuk 4 orang perlukan 200g tepung. Kalau Aisyah nak masak untuk 6 orang, berapa gram tepung yang diperlukan (nisbah tepung:orang kekal sama)?
+--insight.body--
+Kau baru lompat 4 kali dengan saiz 50 untuk sampai ke 200 (guna 4 orang). Ini bermakna SETIAP orang perlukan 50g tepung. Sebab nisbah tepung:orang mesti KEKAL SAMA (berkadar terus), untuk 6 orang kita perlukan 50 × 6 = 300g tepung. Ini dipanggil KADARAN (proportion) — dua nisbah yang bernilai SAMA.
+--formula.body--
+Dua nisbah a:b dan c:d dikatakan BERKADARAN jika nilainya SAMA apabila dipermudahkan. KAEDAH UNIT: cari nilai SATU unit dahulu (bahagi), kemudian darab dengan bilangan unit yang dikehendaki. KAEDAH PENDARABAN SILANG: jika a:b = c:d, maka a × d = b × c — berguna bila kita perlu cari nilai yang tak diketahui terus tanpa cari nilai unit dahulu.
+
+=== src\content\form1\bab4\topik-4-4-nisbah-kadar-kadaran.note.js ===
+--hook.body (bullets:false)--
+Faridah dan Aiman berkongsi hadiah wang tunai RM240 mengikut nisbah 3:5. Berapakah wang yang Aiman akan terima?
+--insight.body--
+Kau baru lompat 8 kali dengan saiz 30 untuk sampai ke 240 (3 bahagian + 5 bahagian = 8 bahagian kesemuanya). Ini bermakna SETIAP bahagian bernilai RM30 (ini KADAR).
+
+Aiman dapat 5 bahagian = 5 × RM30 = RM150 (ini KADARAN — skalakan nilai sebahagian kepada bilangan bahagian). Faridah pula dapat 3 bahagian = RM90. Perasan macam mana NISBAH (3:5) tentukan berapa bahagian setiap orang dapat?
+--formula.body--
+Untuk KONGSI jumlah ikut nisbah a:b: (1) Jumlahkan bahagian (a + b), (2) Cari nilai SATU bahagian — Jumlah ÷ (a + b) — ini KADAR, (3) Darab nilai sebahagian dengan bilangan bahagian yang dikehendaki — ini KADARAN. Kaedah ni gabungkan ketiga-tiga konsep bab ni dalam SATU penyelesaian.
+
+=== src\content\form1\bab4\topik-4-5-perkaitan-peratus.note.js ===
+--hook.body (bullets:false)--
+Dalam kelas Aiman, nisbah pelajar yang lulus ujian kepada jumlah pelajar ialah 18:20. Berapakah PERATUS pelajar yang lulus?
+--insight.body--
+Kau baru isi 18 daripada 20 bahagian bar (18/20). Untuk tukar PECAHAN kepada PERATUS, kita darab dengan 100%: 18/20 × 100% = 90%. Ini menunjukkan NISBAH (18:20), PECAHAN (18/20) dan PERATUS (90%) semuanya cara BERBEZA untuk nyatakan PERKADARAN yang SAMA — cuma bentuk penulisan yang lain.
+--formula.body--
+PECAHAN → PERATUS: darab dengan 100%. PERATUS → PECAHAN: bahagi dengan 100 (jadikan pecahan/100), kemudian permudahkan. PECAHAN → PERPULUHAN: bahagi pengangka dengan penyebut. Nisbah a:b boleh ditulis sebagai pecahan a/(a+b) berbanding jumlah, kemudian ditukar kepada peratus atau perpuluhan ikut keperluan.
+
+=== src\content\form1\bab5\topik-5-1-pemboleh-ubah.note.js ===
+--hook.body (bullets:false)--
+Aiman ada beberapa biji guli dalam sebuah beg (kita TAK TAHU berapa banyak — boleh berubah-ubah), dan 3 biji guli lagi di luar beg. Macam mana kita nak tulis JUMLAH guli Aiman dalam bentuk matematik, walaupun kita tak tahu bilangan dalam beg tu?
+--insight.body--
+Walaupun nilai x berubah (1, 2, 3, 4...), CORAK ungkapan x + 3 tetap sama — kita tambah 3 dengan cara yang SAMA setiap kali. x ialah PEMBOLEH UBAH (variable) — huruf yang mewakili nombor yang BOLEH BERUBAH nilainya. 3 pula PEMALAR (constant) — nilai yang TETAP, tak berubah. x + 3 dipanggil UNGKAPAN ALGEBRA (algebraic expression).
+--formula.body--
+Dalam ungkapan algebra macam 5x + 2: 5 dipanggil PEKALI (coefficient) — nombor yang mendarab pemboleh ubah. x ialah PEMBOLEH UBAH. 2 ialah PEMALAR (constant). Setiap bahagian yang dipisahkan oleh tanda + atau − dipanggil SEBUTAN (term).
+
+=== src\content\form1\bab5\topik-5-2-operasi-asas.note.js ===
+--hook.body (bullets:false)--
+Farah ada 3x biji strawberi dalam bekas A dan 2x biji strawberi dalam bekas B (x mewakili bilangan strawberi dalam SETIAP kumpulan kecil, sama untuk kedua-dua bekas). Berapakah JUMLAH strawberi Farah, dalam bentuk ungkapan termudah?
+--insight.body--
+Kau baru gabungkan 3x + 2x = 5x. Sebab KEDUA-DUA sebutan ada pemboleh ubah yang SAMA (x), kita boleh TAMBAH pekali mereka (3 + 2 = 5) dan kekalkan pemboleh ubah. Ini dipanggil SEBUTAN SERUPA (like terms) — sebutan dengan pemboleh ubah yang SAMA boleh digabung macam ni. Farah ada 5x biji strawberi kesemuanya.
+--formula.body--
+Untuk tambah/tolak sebutan serupa: tambah/tolak PEKALI sahaja, kekalkan pemboleh ubah. PENTING: sebutan TAK SERUPA (unlike terms, cth. 3x dan 2y) TIDAK BOLEH digabung — kekal berasingan. Untuk darab/bahagi sebutan tunggal dengan nombor: darab/bahagi PEKALI sahaja. Cth: 4x × 3 = 12x, dan 12x ÷ 4 = 3x.
+
+=== src\content\form1\bab6\topik-6-1-satu-pemboleh-ubah.note.js ===
+--hook.body (bullets:false)--
+Aisyah timbang kucingnya guna penimbang dua pinggan. Berat kucing (x) tambah 3kg pemberat berada SEIMBANG dengan 8kg pemberat di sebelah lagi (x + 3 = 8). Berapakah berat sebenar kucing tu?
+--insight.body--
+Kau baru buang 3 unit dari KEDUA-DUA belah penimbang — dan ia KEKAL SEIMBANG! Ini prinsip PENTING dalam selesaikan persamaan: apa jua yang kita buat pada SATU belah, kita MESTI buat pada belah yang SATU LAGI supaya persamaan kekal BENAR. Berat kucing Aisyah ialah x = 5kg.
+--formula.body--
+Untuk selesaikan persamaan linear satu pemboleh ubah: guna OPERASI SONGSANG (inverse operation) pada KEDUA-DUA belah persamaan sehingga pemboleh ubah bersendirian di satu belah. Tambah dan Tolak ialah pasangan operasi songsang; Darab dan Bahagi ialah pasangan operasi songsang.
+
+=== src\content\form1\bab6\topik-6-2-dua-pemboleh-ubah.note.js ===
+--hook.body (bullets:false)--
+Aiman ada RM10 untuk beli epal (x biji, RM1 sebiji) dan oren (y biji, RM1 sebiji), dan dia habiskan SEMUA RM10 tu. Kalau x + y = 10, apakah beberapa kombinasi bilangan epal dan oren yang mungkin?
+--insight.body--
+Setiap kali x berubah, y turut berubah SUPAYA x + y tetap = 10. Persamaan x + y = 10 ada BANYAK penyelesaian yang mungkin (x=1,y=9 / x=2,y=8 / x=3,y=7...) — ini dipanggil PERSAMAAN LINEAR DALAM DUA PEMBOLEH UBAH, sebab ada DUA huruf yang tak diketahui (x dan y).
+--formula.body--
+Persamaan linear dua pemboleh ubah ditulis dalam bentuk ax + by = c, dengan a, b, c ialah pemalar, dan x, y ialah pemboleh ubah. Setiap PASANGAN nilai (x, y) yang memenuhi persamaan dipanggil PENYELESAIAN (solution) bagi persamaan itu.
+
+=== src\content\form1\bab6\topik-6-3-serentak.note.js ===
+--hook.body (bullets:false)--
+Jumlah berat kotak A dan B ialah 10kg (x + y = 10). Beza berat antara kotak A dan B ialah 4kg (x − y = 4). Berapakah berat SETIAP kotak?
+--insight.body--
+Kau baru selesaikan 2x = 14 dan dapat x = 7. Macam mana 2x=14 muncul? Bila kita TAMBAH dua persamaan (x+y=10) dan (x−y=4) SECARA TERUS: (x+x) + (y−y) = 10+4 → 2x + 0 = 14 → 2x = 14. Pemboleh ubah y TERMANSUH (dihapuskan) sebab +y dan −y batalkan satu sama lain! Selepas dapat x=7, ganti balik ke x+y=10: 7+y=10, jadi y=3. Kotak A = 7kg, kotak B = 3kg.
+--formula.body--
+PERSAMAAN LINEAR SERENTAK (simultaneous equations) ialah DUA persamaan dengan DUA pemboleh ubah yang SAMA, diselesaikan BERSAMA untuk cari SATU pasangan (x,y) yang memenuhi KEDUA-DUA persamaan. KAEDAH PENGHAPUSAN: tambah/tolak dua persamaan untuk hapuskan SATU pemboleh ubah, selesaikan yang tinggal, kemudian ganti balik untuk cari pemboleh ubah kedua.
+
+=== src\content\form1\bab7\topik-7-1-ketaksamaan.note.js ===
+--hook.body (bullets:false)--
+Suhu di Cameron Highlands ialah −3°C pada waktu pagi, dan naik ke 2°C pada tengah hari. Mana satu suhu yang lebih TINGGI (lebih besar)?
+--insight.body--
+Kau baru bergerak dari −3 ke KANAN (arah positif) untuk sampai ke 2. Dalam garis nombor, nombor di sebelah KANAN sentiasa LEBIH BESAR daripada nombor di sebelah KIRI. Jadi 2 lebih besar daripada −3, ditulis sebagai 2 > −3 (atau −3 < 2). Suhu tengah hari (2°C) lebih tinggi daripada suhu pagi (−3°C).
+--formula.body--
+Simbol KETAKSAMAAN: > (lebih besar), < (lebih kecil), ≥ (lebih besar atau sama dengan), ≤ (lebih kecil atau sama dengan). SIFAT SONGSANGAN: jika a < b, maka b > a. SIFAT TRANSITIF: jika a < b dan b < c, maka a < c. PENTING: bila kita DARAB atau BAHAGI kedua-dua belah ketaksamaan dengan nombor NEGATIF, simbol ketaksamaan MESTI TERBALIK (cth: jika a < b, maka −a > −b).
+
+=== src\content\form1\bab7\topik-7-2-satu-pemboleh-ubah.note.js ===
+--hook.body (bullets:false)--
+Berat beg sekolah Aiman (x kg) tambah 3kg buku MESTI kurang daripada 15kg (had berat yang dibenarkan): x + 3 < 15. Berapakah berat MAKSIMUM beg sekolah Aiman (x) sebelum tambah buku?
+--insight.body--
+Kau baru buang 3 dari KEDUA-DUA belah — SAMA macam selesaikan persamaan (Bab 6)! Bezanya, simbol yang kita kekalkan ialah < (bukan =). Jadi x < 12. Ini bermakna beg sekolah Aiman MESTI kurang daripada 12kg (boleh jadi 11kg, 10kg, 5kg... — BANYAK nilai yang mungkin, bukan satu jawapan sahaja!)
+--formula.body--
+Untuk selesaikan ketaksamaan linear: guna kaedah SAMA macam selesaikan persamaan (operasi songsang pada kedua-dua belah). TAPI — bila kita DARAB atau BAHAGI kedua-dua belah dengan nombor NEGATIF, simbol ketaksamaan MESTI TERBALIK! Cth: −2x > 8 → bahagi dengan −2 → x < −4 (simbol > bertukar jadi <).
+
+=== src\content\form1\bab8\topik-8-1-garis-dan-sudut.note.js ===
+--hook.body (bullets:false)--
+Farah sedang berdiri menghadap ke hadapan (0°). Dia berpusing ke kanan sebanyak beberapa darjah sehingga dia menghadap TEPAT ke belakang — satu GARIS LURUS. Berapa darjahkah dia berpusing?
+--insight.body--
+Kau baru bina sudut sehingga 180° — bila jejari tu tepat BERTENTANGAN dengan garis asal, ia membentuk SATU GARIS LURUS. Ini bermakna JUMLAH sudut pada satu garis lurus SENTIASA 180°. Farah berpusing 180° untuk menghadap tepat ke belakang.
+--formula.body--
+SUDUT PADA GARIS LURUS = 180°. SUDUT PADA PUSAT (satu pusingan penuh) = 360°. SUDUT REFLEKS ialah sudut yang LEBIH BESAR daripada 180° tetapi KURANG daripada 360°. SUDUT BERKOMPLEMEN: dua sudut yang jumlahnya 90°. SUDUT BERSUPLEMEN: dua sudut yang jumlahnya 180°.
+
+=== src\content\form1\bab8\topik-8-2-garis-bersilang.note.js ===
+--hook.body (bullets:false)--
+Dua jalan bersilang membentuk 4 sudut di persimpangan. Salah satu sudut ialah 70°. Sudut manakah yang SAMA (sudut bertentang bucu) dan sudut manakah yang BERBEZA?
+--insight.body--
+Kau baru bina sudut 70°. Bila DUA GARIS BERSILANG, ia membentuk 4 sudut. Sudut yang BERTENTANGAN (di seberang persimpangan) — dipanggil SUDUT BERTENTANG BUCU (vertically opposite angles) — SENTIASA SAMA BESAR. Jadi sudut bertentangan dengan 70° tu juga 70°.
+
+Manakala dua sudut BERSEBELAHAN (adjacent) pada garis yang sama akan berjumlah 180° (sebab mereka membentuk garis lurus): 180° − 70° = 110°.
+--formula.body--
+Bila dua garis lurus bersilang: SUDUT BERTENTANG BUCU adalah SAMA. SUDUT BERSEBELAHAN pada garis yang sama adalah BERSUPLEMEN (jumlah = 180°). Ini bermakna daripada SATU sudut sahaja, kita boleh cari SEMUA 4 sudut di persimpangan tu!
+
+=== src\content\form1\bab8\topik-8-3-garis-selari.note.js ===
+--hook.body (bullets:false)--
+Dua garis SELARI (parallel) dipotong oleh satu garis rentas lintang (transversal), membentuk 8 sudut kesemuanya. Salah satu sudut ialah 75°. Bagaimana kita boleh cari sudut-sudut yang lain TANPA mengukur?
+--insight.body--
+Kau baru bina sudut 75°. Bila garis rentas lintang memotong DUA GARIS SELARI, ada TIGA jenis hubungan sudut: SUDUT SEPADAN (corresponding, kedudukan sama pada setiap persilangan) — SAMA BESAR; SUDUT IKAT SILANG (alternate, bersilang antara dua garis selari) — SAMA BESAR; SUDUT PEDALAMAN (co-interior, sama sebelah antara dua garis selari) — BERJUMLAH 180°.
+
+Jadi banyak sudut lain automatik SAMA dengan 75°, dan sudut pedalamannya ialah 180° − 75° = 105°.
+--formula.body--
+GARIS SELARI + GARIS RENTAS LINTANG → 3 jenis hubungan: SUDUT SEPADAN (sama), SUDUT IKAT SILANG (sama), SUDUT PEDALAMAN (jumlah 180°). Petua mudah: kedudukan SAMA bentuk (F, Z, C) pada gambar rajah membantu kenal pasti jenis sudut.
+
+=== src\content\form1\bab9\topik-9-1-poligon.note.js ===
+--hook.body (bullets:false)--
+Papan tanda 'BERHENTI' berbentuk OKTAGON — bentuk tertutup dengan 8 sisi lurus. Dari SATU bucu sahaja, berapa banyak garis pepenjuru (diagonal) boleh dilukis ke bucu-bucu lain?
+--insight.body--
+Daripada SATU bucu, kita TIDAK boleh lukis pepenjuru ke DIRI SENDIRI, dan TIDAK boleh ke DUA bucu JIRAN (sebab itu sudah jadi SISI poligon, bukan pepenjuru). Untuk poligon n sisi, bilangan bucu yang boleh disambung ialah n − 3 (tolak diri sendiri dan 2 jiran).
+--formula.body--
+BILANGAN PEPENJURU DARI SATU BUCU = n − 3 (n ialah bilangan sisi). JUMLAH KESELURUHAN PEPENJURU dalam poligon = n(n − 3) ÷ 2, sebab setiap pepenjuru dikira dua kali (dari kedua-dua hujungnya) jika kita kira dari semua bucu.
+
+=== src\content\form1\bab9\topik-9-2-segi-tiga.note.js ===
+--hook.body (bullets:false)--
+Bumbung sebuah rumah berbentuk segi tiga. Dua sudutnya diketahui: 50° dan 70°. Tanpa mengukur, boleh tak kita cari sudut ketiga?
+--insight.body--
+Tak kira bentuk atau saiz segi tiga tu — SAMA SISI, SAMA KAKI, atau SESKALA — jumlah SEMUA sudut pedalamannya SENTIASA 180°. Jadi kalau kita tahu DUA sudut, kita boleh cari sudut ketiga dengan menolak daripada 180°.
+--formula.body--
+JUMLAH SUDUT PEDALAMAN SEGI TIGA = 180°. SUDUT PELUARAN (exterior angle) pada satu bucu bersuplemen dengan sudut pedalaman bersebelahannya (jumlah = 180°), dan ia SAMA dengan jumlah DUA sudut pedalaman yang tidak bersebelahan dengannya.
+
+=== src\content\form1\bab9\topik-9-3-sisi-empat.note.js ===
+--hook.body (bullets:false)--
+Sebuah tingkap rumah berbentuk segiempat tepat. Ahmad tahu tiga sudutnya masing-masing 90°. Tanpa mengukur, boleh tak kita cari sudut keempat?
+--insight.body--
+Sisi empat boleh dibahagikan kepada 2 SEGI TIGA oleh satu pepenjuru. Setiap segi tiga = 180°, jadi 2 × 180° = 360°. Ini bermakna jumlah SEMUA sudut pedalaman sebarang sisi empat SENTIASA 360°.
+--formula.body--
+JUMLAH SUDUT PEDALAMAN SISI EMPAT = 360°. Jadi kalau kita tahu TIGA sudut, kita boleh cari sudut keempat dengan menolak daripada 360°. Ini berlaku untuk SEMUA jenis sisi empat — segiempat sama, segiempat tepat, jajar genjang, rombus, trapezium, dan layang-layang.
+
+=== src\content\form2\bab10\topik-10-1-kecerunan.note.js ===
+--hook.body (bullets:false)--
+Sebuah tanjakan (ramp) dibina untuk kerusi roda. Untuk pastikan ia selamat digunakan, jurutera perlu ukur betapa CURAM tanjakan tu — iaitu KECERUNANnya. Kecerunan ialah nisbah jarak MENCANCANG (naik) kepada jarak MENGUFUK (mendatar).
+--insight.body--
+Garis AB naik 4 unit (dy) untuk setiap 4 unit ke kanan (dx), jadi kecerunannya = 4 ÷ 4 = 1. Semakin BESAR nilai mutlak kecerunan, semakin CURAM garis tu. TANDA kecerunan (positif/negatif) tunjukkan ARAH kecondongan: POSITIF = garis naik dari kiri ke kanan, NEGATIF = garis turun dari kiri ke kanan.
+--formula.body--
+Bagi garis lurus melalui A(x₁, y₁) dan B(x₂, y₂), kecerunan m = (y₂ − y₁) ÷ (x₂ − x₁). KES KHAS: garis MENDATAR (selari paksi-x) ada kecerunan m = 0 (tiada perubahan-y). Garis MENCANCANG (selari paksi-y) kecerunannya TIDAK TERTAKRIF (dx = 0, tak boleh bahagi dengan sifar). Garis melalui ASALAN (0,0) ringkaskan pengiraan sebab x₁ = y₁ = 0.
+
+=== src\content\form2\bab11\topik-11-1-transformasi.note.js ===
+--hook.body (bullets:false)--
+Bila kamu tekan cop getah berbentuk bintang atas kertas, cetakan yang terhasil ADALAH bentuk bintang yang SAMA — cuma kedudukannya berbeza. Bentuk asal (cop) dipanggil OBJEK, dan bentuk terhasil (cetakan) dipanggil IMEJ. Proses menukar objek kepada imej dipanggil TRANSFORMASI.
+--insight.body--
+A sepadan dengan A', B sepadan dengan B', C sepadan dengan C' — setiap TITIK pada objek memetakan kepada TEPAT SATU titik pada imej. Perasan juga bentuk dan saiz segi tiga ABC dan A'B'C' adalah SAMA, cuma kedudukannya berbeza. Bila bentuk dan saiz kekal sama, objek dan imej dikatakan KONGRUEN.
+--formula.body--
+OBJEK ialah bentuk asal, IMEJ ialah bentuk terhasil selepas transformasi. Transformasi boleh ubah SAIZ, BENTUK, KEDUDUKAN, dan ORIENTASI (arah menghadap) sesuatu objek.
+
+Apabila imej KONGRUEN dengan objek (bentuk dan saiz kekal SAMA, hanya kedudukan/orientasi berubah), transformasi itu dipanggil ISOMETRI — inilah fokus bab ni: TRANSLASI, PANTULAN, dan PUTARAN. (KESERUPAAN pula bila bentuk sama tapi SAIZ berbeza, seperti pembesaran — ini BUKAN isometri.)
+
+=== src\content\form2\bab11\topik-11-2-translasi.note.js ===
+--hook.body (bullets:false)--
+Bila kamu gelongsorkan buah catur dari satu petak ke petak lain (tanpa putar atau terbalik), itu TRANSLASI. Setiap titik pada buah catur bergerak dengan jarak dan arah yang SAMA — 3 petak ke kanan dan 2 petak ke atas, contohnya.
+--insight.body--
+A(1,1) → A'(5,4): bergerak 4 ke kanan, 3 ke atas. B(3,1) → B'(7,4): bergerak 4 ke kanan, 3 ke atas juga. C(1,3) → C'(5,6): sama juga! SETIAP titik pada objek bergerak dengan jarak DAN arah yang SAMA — itulah TRANSLASI. Bentuk, saiz, dan orientasi imej kekal SAMA seperti objek.
+--formula.body--
+Translasi diperihalkan menggunakan VEKTOR TRANSLASI (a, b) — a ialah pergerakan MENGUFUK (positif = kanan, negatif = kiri), b ialah pergerakan MENCANCANG (positif = atas, negatif = bawah). Jika objek berada di (x, y), imej selepas translasi (a, b) berada di (x + a, y + b). Untuk cari VEKTOR translasi diberi objek dan imej, kira: a = imej-x − objek-x, dan b = imej-y − objek-y.
+
+=== src\content\form2\bab11\topik-11-3-pantulan.note.js ===
+--hook.body (bullets:false)--
+Bila kamu berdiri depan cermin, bayangan kamu nampak SAMA saiz dan bentuk, tapi 'terbalik' — kiri jadi kanan. Ini dipanggil PANTULAN. Garis cermin (garis pantulan) berada tepat di TENGAH antara kamu dan bayangan kamu.
+--insight.body--
+A(2,5) berada 1 unit DI ATAS garis y=4, dan imejnya A'(2,3) berada 1 unit DI BAWAH garis y=4 — jarak yang SAMA, tapi sebelah bertentangan. C(2,7) berada 3 unit di atas, C'(2,1) berada 3 unit di bawah. Garis yang sambungkan setiap titik ke imejnya adalah BERSERENJANG (tegak lurus) dengan garis pantulan.
+--formula.body--
+Untuk cari imej pantulan pada garis MENDATAR (cth. y = k): ukur jarak mencancang titik dari garis tu, kemudian tandakan jarak yang SAMA di sebelah BERTENTANGAN — nilai-x KEKAL sama.
+
+Untuk garis pantulan MENEGAK (cth. x = k): ukur jarak mengufuk, tandakan jarak sama di sebelah bertentangan — nilai-y KEKAL sama. Sifat imej pantulan: SAIZ dan BENTUK kekal sama (kongruen), tapi ORIENTASI terbalik (macam cermin).
+
+=== src\content\form2\bab11\topik-11-4-putaran.note.js ===
+--hook.body (bullets:false)--
+Bilah kincir angin berpusing mengelilingi SATU titik tetap (paksi tengah). Setiap titik pada bilah bergerak melalui SUDUT yang SAMA, mengelilingi PUSAT yang sama. Ini dipanggil PUTARAN.
+--insight.body--
+A berada pada jarak tertentu dari O, dan A' (imejnya) berada pada jarak yang SAMA dari O — cuma kedudukannya berputar 90° ikut arah jam. Ini berlaku untuk SETIAP titik pada bentuk tu. Tiga perkara perlu untuk terangkan putaran sepenuhnya: PUSAT putaran, SUDUT putaran, dan ARAH putaran (ikut jam / lawan jam).
+--formula.body--
+Untuk memerihalkan putaran, nyatakan: (1) PUSAT putaran (titik tetap), (2) SUDUT putaran (cth. 90°, 180°, 270°), (3) ARAH (ikut jam atau lawan jam).
+
+Untuk putaran 180° (kes paling mudah dikira), imej berada di kedudukan bertentangan TERUS dari pusat, pada jarak yang SAMA — kira dengan cara: jarak objek ke pusat pada setiap paksi, kemudian tanda jarak SAMA di sebelah bertentangan pusat.
+
+=== src\content\form2\bab11\topik-11-5-isometri.note.js ===
+--hook.body (bullets:false)--
+Bila kamu fotostat dokumen pada 100% (saiz sama), jarak antara mana-mana dua titik pada dokumen KEKAL SAMA. Tapi bila kamu fotostat pada 150% (diperbesar), jarak tu BERUBAH (jadi lebih jauh). Fotostat saiz sama ialah contoh ISOMETRI; fotostat diperbesar BUKAN isometri.
+--insight.body--
+Jarak AB = 5 unit, dan selepas translasi, jarak A'B' JUGA 5 unit — jarak antara dua titik TIDAK berubah. Ini berlaku untuk TRANSLASI, PANTULAN, dan PUTARAN — ketiga-tiganya mengekalkan jarak antara sebarang dua titik. Transformasi yang mengekalkan jarak macam ni dipanggil ISOMETRI.
+--formula.body--
+ISOMETRI ialah transformasi yang MENGEKALKAN jarak antara sebarang dua titik pada objek dan imej. TRANSLASI, PANTULAN, dan PUTARAN semuanya ISOMETRI.
+
+Sebab jarak (dan dengan itu, semua panjang sisi dan sudut) dikekalkan, objek dan imej bagi isometri SENTIASA KONGRUEN. PEMBESARAN/PENGECILAN pula BUKAN isometri — ia UBAH jarak (dan saiz keseluruhan), jadi objek dan imejnya TIDAK kongruen (cuma serupa).
+
+=== src\content\form2\bab11\topik-11-6-simetri-putaran.note.js ===
+--hook.body (bullets:false)--
+Sebuah kipas dengan 3 bilah nampak SAMA setiap kali ia berputar 120° — kamu tak dapat bezakan sama ada ia dah berputar atau tidak! Bentuk yang nampak sama pada beberapa kedudukan semasa berputar penuh (360°) mempunyai SIMETRI PUTARAN.
+--insight.body--
+Segi tiga sama sisi sepadan dengan bentuk asalnya pada 120°, 240°, dan 360° — SEBANYAK 3 kali. Bilangan kali ni dipanggil PERINGKAT SIMETRI PUTARAN. Jadi segi tiga sama sisi ada peringkat simetri putaran = 3.
+--formula.body--
+PERINGKAT SIMETRI PUTARAN sesuatu bentuk ialah bilangan kali bentuk tu nampak SAMA (sepadan dengan kedudukan asal) semasa berputar 360° PENUH.
+
+Untuk poligon SEKATA (semua sisi & sudut sama) dengan n sisi, peringkat simetri putarannya SENTIASA = n (cth. segi empat sama = 4, segi lima sekata = 5, heksagon sekata = 6). Bentuk yang HANYA sepadan pada 360° (tiada padanan lain) ada peringkat simetri putaran = 1 (dianggap TIADA simetri putaran).
+
+=== src\content\form2\bab12\topik-12-1-sukatan-kecenderungan-memusat.note.js ===
+--hook.body (bullets:false)--
+5 orang murid ditanya jumlah wang saku (RM) sehari mereka. Kita nak cari SATU nombor yang boleh wakili keseluruhan kumpulan ini — inilah tujuan SUKATAN KECENDERUNGAN MEMUSAT (mod, min, median).
+--insight.bullets(already)--
+["MOD = nilai paling KERAP muncul = 5 (muncul 2 kali).","MEDIAN = nilai TENGAH bila disusun menaik = 6 (tengah-tengah 5 data).","MIN = jumlah semua nilai ÷ bilangan data = 40 ÷ 5 = 8.","Perasan MIN (8) lebih tinggi drpd MOD dan MEDIAN sebab RM16 itu NILAI EKSTREM yang 'tarik' min ke atas — tapi mod dan median tak terjejas banyak. Sebab tu bila ada nilai ekstrem, MEDIAN selalunya sukatan yang lebih adil."]
+--formula.body--
+DATA TAK TERKUMPUL: MOD = nilai dgn kekerapan tertinggi. MEDIAN = nilai tengah selepas disusun menaik (bilangan data GANJIL: ambil nilai tengah terus; bilangan data GENAP: purata DUA nilai tengah). MIN = Σx ÷ n (jumlah semua nilai ÷ bilangan data).
+
+DATA TERKUMPUL (jadual kekerapan/kelas): KELAS MOD = kelas dgn kekerapan (f) tertinggi. TITIK TENGAH kelas (x) = (had bawah + had atas) ÷ 2. ANGGARAN MIN = Σ(f × x) ÷ Σf.
+
+MEMILIH SUKATAN SESUAI: guna MIN bila data seimbang tanpa nilai ekstrem; guna MEDIAN bila data ada nilai ekstrem (median tak mudah terjejas); guna MOD bila nak tahu nilai/kategori paling popular.
+
+=== src\content\form2\bab13\topik-13-1-kebarangkalian-eksperimen.note.js ===
+--hook.body (bullets:false)--
+Seorang murid melambung syiling 20 kali dan mencatat keputusan. Daripada CUBAAN SEBENAR ini, kita boleh anggarkan KEBARANGKALIAN EKSPERIMEN — iaitu peluang berdasarkan data yang benar-benar berlaku.
+--insight.body--
+Kepala muncul 12 kali daripada 20 cubaan. KEBARANGKALIAN EKSPERIMEN(Kepala) = 12 ÷ 20 = 0.6. Ini BUKAN jawapan 'tetap' — kalau kita ulang eksperimen, nombor boleh berubah sikit. Tapi jika bilangan cubaan SANGAT BESAR (contoh 1000 kali), kebarangkalian eksperimen akan menuju/hampir kepada satu nilai tertentu (iaitu kebarangkalian teori, 0.5 untuk syiling saksama).
+--formula.body--
+KEBARANGKALIAN EKSPERIMEN(A) = (Bilangan kali peristiwa A berlaku) ÷ (Jumlah bilangan cubaan). Nilainya sentiasa antara 0 dan 1. KESIMPULAN PENTING: apabila bilangan cubaan bertambah besar dan besar, kebarangkalian eksperimen akan menuju/menghampiri satu nilai tetap — ini kerana corak sebenar eksperimen semakin jelas apabila banyak data dikumpul.
+
+=== src\content\form2\bab13\topik-13-2-kebarangkalian-teori.note.js ===
+--hook.body (bullets:false)--
+Sebiji dadu bersisi 6 dibaling sekali. Setiap nombor (1 hingga 6) mempunyai peluang SAMA untuk muncul — ini dipanggil KESUDAHAN SAMA BOLEH JADI. Set semua kesudahan yang mungkin dipanggil RUANG SAMPEL, S.
+--insight.body--
+Katakan PERISTIWA A = 'mendapat nombor genap'. Daripada S = {1,2,3,4,5,6}, unsur yang memenuhi A ialah {2,4,6} — jadi n(A) = 3. KEBARANGKALIAN TEORI peristiwa A ialah nisbah n(A) berbanding n(S): P(A) = 3 ÷ 6 = 0.5. Apabila bilangan cubaan sebenar (eksperimen) sangat besar, kebarangkalian eksperimen akan menghampiri nilai kebarangkalian teori ini.
+--formula.body--
+P(A) = n(A) ÷ n(S), dengan n(S) = jumlah bilangan kesudahan SAMA BOLEH JADI dalam ruang sampel, dan n(A) = bilangan kesudahan yang memenuhi peristiwa A. Untuk eksperimen gabungan (contoh lambung 2 syiling), gambar rajah pokok atau set boleh digunakan untuk senaraikan semua kesudahan ruang sampel (cth: S = {HH, HT, TH, TT}, n(S) = 4).
+
+=== src\content\form2\bab13\topik-13-3-peristiwa-pelengkap.note.js ===
+--hook.body (bullets:false)--
+Untuk setiap peristiwa A, ada satu peristiwa lawan yang dipanggil PERISTIWA PELENGKAP, ditulis A′ — iaitu 'A TIDAK berlaku'. Contoh: A = 'dapat nombor genap' apabila dadu dibaling, maka A′ = 'dapat nombor ganjil'.
+--insight.body--
+n(A) = 3 (nombor genap: 2,4,6), n(A′) = 3 (nombor ganjil: 1,3,5), n(ξ) = 6. Jadi P(A) = 3/6 = 0.5 dan P(A′) = 3/6 = 0.5. Perhatikan P(A) + P(A′) = 0.5 + 0.5 = 1 — SENTIASA benar untuk mana-mana peristiwa! Ini bermakna kita boleh cari P(A′) tanpa kira semula daripada awal — cukup guna P(A′) = 1 − P(A).
+--formula.body--
+P(A) + P(A′) = 1 untuk SEMUA peristiwa A. Susun semula: P(A′) = 1 − P(A). Juga ingat 0 ≤ P(A) ≤ 1 — kebarangkalian tak boleh negatif atau lebih daripada 1. Dalam tatatanda set, A′ mewakili semua unsur dalam set semesta ξ yang TIDAK berada dalam A.
+
+=== src\content\form2\bab13\topik-13-4-kebarangkalian-mudah.note.js ===
+--hook.body (bullets:false)--
+Sebuah kelas ada 30 murid dengan sukan kegemaran berbeza. Jika SEORANG murid dipilih secara rawak, apakah kebarangkalian dia suka sukan tertentu? Kita perlu kenal pasti n(S) dan n(A) daripada DATA SEBENAR (jadual/carta) dahulu.
+--insight.body--
+n(S) = 30 (jumlah murid). Jika A = 'murid suka Badminton', maka n(A) = 10. Kebarangkalian murid yang dipilih secara rawak suka Badminton = P(A) = 10 ÷ 30 = 0.33 (2 tempat perpuluhan). Untuk masalah lebih kompleks, kita mungkin perlu cari n(A) dengan TOLAK daripada jumlah (macam peristiwa pelengkap) apabila data yang diberi bukan terus nilai yang kita mahu.
+--formula.body--
+LANGKAH 1: Kenal pasti n(S) — jumlah KESELURUHAN kesudahan/item daripada konteks soalan (jadual, carta, atau perenggan). LANGKAH 2: Kenal pasti n(A) — bilangan kesudahan yang MEMENUHI peristiwa yang ditanya (kadang perlu TOLAK daripada jumlah jika diberi bilangan yang TIDAK memenuhi).
+
+LANGKAH 3: Kira P(A) = n(A) ÷ n(S). LANGKAH 4 (jika perlu): guna P(A′) = 1 − P(A) untuk peristiwa lawan.
+
+=== src\content\form2\bab1\topik-1-1-pola.note.js ===
+--hook.body (bullets:false)--
+Sebuah keluarga menyusun kerusi untuk majlis kenduri dalam beberapa baris menghala pentas. Baris pertama (paling dekat dengan pentas) ada 4 kerusi. Setiap baris seterusnya ditambah kerusi mengikut kadar yang SAMA berbanding baris sebelumnya, supaya susunan nampak kemas dan seimbang.
+
+Kalau kita tahu corak penambahan ni, kita boleh teka terus berapa kerusi pada baris ke-10 tanpa perlu susun semuanya satu-satu!
+--insight.body--
+Bilangan kerusi tadi ialah 4, 7, 10, 13, 16 — setiap baris bertambah TEPAT 3 kerusi berbanding baris sebelumnya. Susunan nombor atau objek yang dibentuk mengikut peraturan tetap macam ni dipanggil POLA (pattern). Bagi POLA NOMBOR, peraturan tetap tu biasanya salah satu daripada: tambah nombor tetap, tolak nombor tetap, darab nombor tetap, atau bahagi nombor tetap. Bagi POLA OBJEK (rajah, bentuk), kita perhatikan macam mana susunan objek berubah dari satu peringkat ke peringkat seterusnya (cth. bilangan petak, bucu, atau sisi yang bertambah).
+
+Beberapa pola nombor klasik yang penting untuk dikenali:
+• Nombor genap: 2, 4, 6, 8, 10, ... (setiap sebutan tambah 2, semuanya boleh dibahagi tepat dengan 2)
+• Nombor ganjil: 1, 3, 5, 7, 9, ... (setiap sebutan tambah 2, tiada satu pun boleh dibahagi tepat dengan 2)
+• Nombor Fibonacci: 1, 1, 2, 3, 5, 8, 13, ... (setiap sebutan = jumlah DUA sebutan sebelumnya — 1+1=2, 1+2=3, 2+3=5, 3+5=8, dan seterusnya; peraturan ni BUKAN tambah/tolak/darab/bahagi nombor tetap, tapi tetap satu pola sebab ada peraturan yang konsisten)
+• Segitiga Pascal: susunan nombor berbentuk segitiga di mana setiap nombor (kecuali nombor 1 di setiap hujung baris) ialah jumlah DUA nombor tepat di atasnya pada baris sebelum — Baris 1: 1, Baris 2: 1 1, Baris 3: 1 2 1, Baris 4: 1 3 3 1, dan seterusnya.
+--formula.body--
+Untuk kenal pasti pola nombor: (1) Kira beza atau nisbah antara SETIAP pasangan sebutan berturutan. (2) Sahkan sama ada beza/nisbah itu SAMA (tetap) sepanjang jujukan — kalau ya, itu peraturan pola tersebut. (3) Guna peraturan tetap tu untuk teruskan pola ke sebutan seterusnya.
+
+Untuk pola objek pula, bandingkan bilangan bahagian (petak, garis, bucu) antara peringkat berturutan untuk cari corak pertambahannya. Ingat: sebahagian pola (seperti Fibonacci) tidak dibentuk oleh SATU operasi tetap sahaja — sentiasa semak beberapa pasang sebutan dahulu sebelum membuat kesimpulan.
+
+=== src\content\form2\bab1\topik-1-2-jujukan.note.js ===
+--hook.body (bullets:false)--
+Aisyah bermula menabung RM5 pada minggu pertama. Setiap minggu seterusnya, dia menabung RM2 lebih berbanding minggu sebelumnya. Kalau kita senaraikan jumlah simpanan setiap minggu secara tersusun (minggu 1, minggu 2, minggu 3, ...), kita akan dapat satu senarai nombor yang ada susunan yang jelas. Senarai tersusun macam ni ada nama khas dalam Matematik — jom kita kenali!
+--insight.body--
+Senarai simpanan Aisyah — 5, 7, 9, 11, 13, ... — dipanggil JUJUKAN (sequence): satu set nombor yang disusun mengikut susunan TERTENTU, iaitu setiap nombor mempunyai kedudukan yang tetap (pertama, kedua, ketiga, dan seterusnya). Setiap nombor dalam jujukan dipanggil SEBUTAN (term). Sebutan pertama ditulis T1, sebutan kedua T2, sebutan ketiga T3, dan seterusnya — secara am, sebutan ke-n ditulis Tn. Bagi jujukan Aisyah: T1 = 5, T2 = 7, T3 = 9, T4 = 11, T5 = 13.
+
+Jujukan boleh TERHINGGA (finite) — ada bilangan sebutan yang tetap dan berakhir, atau TAK TERHINGGA (infinite) — diteruskan tanpa had, biasanya ditunjukkan dengan tiga titik "..." pada penghujung senarai. Untuk MELENGKAPKAN atau MELANJUTKAN sesuatu jujukan, kita perlu kenal pasti dahulu pola atau peraturan yang menghubungkan sebutan-sebutan berturutan, kemudian gunakan peraturan itu berulang kali.
+--formula.body--
+Untuk melanjutkan jujukan: (1) Bandingkan sebutan berturutan (T2 berbanding T1, T3 berbanding T2, dan seterusnya) untuk cari peraturan tetap (beza tetap bagi jenis tambah/tolak, atau nisbah tetap bagi jenis darab/bahagi). (2) Sahkan peraturan itu konsisten pada SEMUA pasangan sebutan yang diketahui.
+
+(3) Kenakan peraturan yang sama pada sebutan terakhir untuk dapatkan sebutan seterusnya, dan ulang proses ini untuk melanjutkan jujukan sejauh mana yang diperlukan.
+
+=== src\content\form2\bab1\topik-1-3-pola-jujukan.note.js ===
+--hook.body (bullets:false)--
+Kilang perabot menghasilkan susunan kerusi mengikut jujukan 4, 7, 10, 13, ... — setiap baris tambah 3 kerusi berbanding baris sebelumnya (macam yang kita jumpa dalam Topik 1.1).
+
+Sekarang bayangkan pelanggan tanya: "Berapa kerusi pada baris ke-50?" Nak kira satu-satu sampai baris ke-50 mengambil masa yang sangat lama! Kita perlukan satu CARA PINTAS — satu peraturan am yang boleh terus beri jawapan untuk MANA-MANA kedudukan, tanpa perlu senaraikan semua sebutan sebelumnya.
+--insight.body--
+Mari kita semak: T1 = 4 (0 kali tambah 3), T2 = 4 + 1×3 = 7, T3 = 4 + 2×3 = 10, T4 = 4 + 3×3 = 13, T5 = 4 + 4×3 = 16. Perasan corak tu? Bilangan kali beza tetap (3) ditambah SENTIASA SATU KURANG daripada kedudukan sebutan (n). Sebagai contoh, untuk T5 (n = 5), beza tetap ditambah sebanyak 4 kali (iaitu 5 − 1 = 4 kali).
+
+Membuat kesimpulan tentang corak sesuatu jujukan macam ni dipanggil GENERALISASI — kita nyatakan peraturan itu dalam bentuk yang berfungsi untuk SEBARANG kedudukan n, bukan hanya untuk beberapa sebutan pertama sahaja. Generalisasi boleh dinyatakan dalam PERKATAAN ("sebutan pertama tambah beza tetap didarab dengan satu kurang daripada kedudukannya"), atau dalam UNGKAPAN ALGEBRA yang lebih ringkas menggunakan simbol.
+--formula.body--
+Untuk jujukan yang dibentuk dengan MENAMBAH atau MENOLAK nombor tetap setiap kali: Tn ialah nilai sebutan pada kedudukan ke-n, a ialah SEBUTAN PERTAMA (T1), d ialah BEZA SEPUNYA (nilai tetap yang ditambah/ditolak setiap kali — boleh positif atau negatif), dan n ialah KEDUDUKAN sebutan yang kita nak cari. Untuk jujukan 4, 7, 10, 13, ...: a = 4, d = 3. Maka T50 = 4 + (50 − 1)(3) = 4 + 147 = 151 — tanpa perlu senaraikan 50 sebutan!
+
+Nota tambahan (pengayaan): bagi jujukan yang dibentuk dengan MENDARAB atau MEMBAHAGI nombor tetap setiap kali (cth. 2, 4, 8, 16, ... di mana setiap sebutan ×2), formula sebutan amnya berbeza sedikit: Tn = a × r^(n−1), di mana r ialah NISBAH SEPUNYA (nombor tetap yang didarab/dibahagi setiap kali). Formula Tn = a + (n−1)d HANYA sah untuk jujukan jenis tambah/tolak tetap — sentiasa kenal pasti dahulu jenis peraturan jujukan tersebut sebelum memilih formula yang sesuai.
+
+=== src\content\form2\bab2\topik-2-1-kembangan.note.js ===
+--hook.body (bullets:false)--
+Sekolah menganjurkan 4 bengkel seni. SETIAP bengkel memerlukan bekalan yang sama: (3x + 4) set warna, di mana x mewakili bilangan pelajar berdaftar bagi bengkel tersebut (sama untuk keempat-empat bengkel, sebab pendaftaran ditutup pada bilangan yang sama).
+
+Jumlah keseluruhan set warna untuk kesemua 4 bengkel boleh ditulis sebagai 4(3x + 4). Tapi macam mana nak 'buka' kurungan tu untuk dapat bentuk yang lebih mudah dikira?
+--insight.body--
+Kau baru nampak 4(3x + 4) = 12x + 16. Nombor 4 di luar kurungan DIDARABKAN dengan SETIAP sebutan di dalam kurungan secara berasingan: 4 × 3x = 12x, dan 4 × 4 = 16, kemudian kedua-dua hasil itu digabungkan.
+
+Proses ini dipanggil KEMBANGAN (expansion), dan ia berdasarkan SIFAT KALIS SAGIHAN (distributive property) dalam Matematik — sifat yang sama yang kau guna bila kira 3 × (4 + 2) dengan cara 3×4 + 3×2 = 12 + 6 = 18, sama je jawapannya dengan 3 × 6 = 18.
+--formula.body--
+Untuk kembangkan k(ax + b): darabkan k dengan SETIAP sebutan di dalam kurungan secara berasingan (darab dengan ax dahulu, kemudian darab dengan b), kemudian gabungkan kedua-dua hasil dengan tanda yang betul.
+
+Formula ni tetap sah walaupun b negatif — cth. k(ax − b) = kax − kb, sebab k(ax − b) sama dengan k(ax + (−b)) = kax + k(−b) = kax − kb. Sentiasa jaga TANDA setiap sebutan (positif/negatif) semasa mendarab.
+
+=== src\content\form2\bab2\topik-2-2-pemfaktoran.note.js ===
+--hook.body (bullets:false)--
+Ingat resit set warna untuk bengkel seni tadi? Katakan kau cuma nampak jumlah AKHIR: 12x + 16 set warna — tanpa nyatakan berapa banyak bengkel, atau berapa set asal setiap bengkel perlukan. Macam mana nak 'balikkan' proses kembangan tadi untuk cari balik struktur asal (bilangan bengkel × bekalan setiap bengkel)?
+--insight.body--
+12x + 16 sebenarnya terbina daripada 4 kumpulan (3x + 4) — iaitu 4(3x + 4). Proses "mengurai" ungkapan yang telah dikembang balik kepada bentuk faktor × kurungan dipanggil PEMFAKTORAN (factorization) — SONGSANGAN tepat kepada kembangan.
+
+Untuk faktorkan kax + kb, kita cari nombor TERBESAR yang boleh membahagi tepat KEDUA-DUA sebutan (ka dan kb) — nombor ini dipanggil FAKTOR SEPUNYA TERBESAR (FSTB, atau GCF). Sebaik sahaja FSTB dijumpai, bahagikan setiap sebutan dengan FSTB tersebut untuk dapatkan isi kurungan.
+--formula.body--
+Langkah memfaktorkan kax + kb: (1) Cari FSTB bagi pekali x (iaitu ka) dan sebutan malar (iaitu kb). (2) Bahagikan KEDUA-DUA sebutan dengan FSTB tersebut untuk dapatkan isi kurungan. (3) Tulis dalam bentuk FSTB(isi kurungan).
+
+Contoh: bagi 15x + 20, FSTB(15, 20) = 5, jadi 15x ÷ 5 = 3x dan 20 ÷ 5 = 4, hasilnya 5(3x + 4). Untuk SAHKAN jawapan kamu betul, kembangkan semula bentuk faktor tu — patut kembali kepada ungkapan asal.
+
+=== src\content\form2\bab2\topik-2-3-operasi-gabungan-algebra.note.js ===
+--hook.body (bullets:false)--
+Aiman beli barang keperluan projek sekolah di dua kedai berbeza. Kedai A kenakan (2x + 8) ringgit, dan Kedai B kenakan (3x − 3) ringgit, di mana x mewakili bilangan set yang sama dibeli di kedua-dua kedai. Berapakah JUMLAH KESELURUHAN perbelanjaan Aiman, dalam bentuk ungkapan yang paling ringkas?
+--insight.body--
+2(x + 4) + 3(x − 1): pertama, kembangkan KEDUA-DUA bahagian secara berasingan — 2(x + 4) = 2x + 8, dan 3(x − 1) = 3x − 3. Selepas dikembang, kita ada EMPAT sebutan: 2x, 8, 3x, dan −3. Sekarang kumpulkan SEBUTAN SERUPA — sebutan x dengan sebutan x (2x + 3x = 5x), dan sebutan malar dengan sebutan malar (8 + (−3) = 5). Jumlah keseluruhan perbelanjaan Aiman ialah 5x + 5 ringgit.
+--formula.body--
+Untuk permudahkan ungkapan yang melibatkan beberapa kurungan: (1) KEMBANGKAN setiap kurungan dahulu (guna kaedah Topik 2.1). (2) KUMPULKAN sebutan serupa — semua sebutan-x bersama, semua sebutan malar bersama. (3) TAMBAH atau TOLAK ikut tanda masing-masing.
+
+PERHATIAN KHAS bila ada TANDA TOLAK di depan kurungan (cth. a − k(bx + c)): tanda tolak itu perlu diagihkan sekali kepada SETIAP sebutan dalam kurungan tersebut, sama macam kembangan biasa tapi guna pendarab NEGATIF. Contoh: −2(x − 4) = (−2)(x) + (−2)(−4) = −2x + 8 — dua tanda negatif (−2 didarab dengan −4) bertukar jadi positif +8. Ini kesilapan paling biasa dalam topik ni — sentiasa semak semula tanda selepas mendarab.
+
+=== src\content\form2\bab3\topik-3-1-rumus-algebra.note.js ===
+--hook.body (bullets:false)--
+Adik Ahmad SENTIASA 5 tahun lebih muda daripada Ahmad — tak kira umur Ahmad berapa pun sekarang, beza umur mereka kekal sama. Kalau umur Ahmad ialah a, macam mana kita tulis umur adiknya (b) dalam SATU persamaan ringkas yang berfungsi untuk SEBARANG umur Ahmad?
+--insight.body--
+Tak kira umur Ahmad (a) berapa, umur adiknya (b) SENTIASA a − 5. Persamaan b = a − 5 dipanggil RUMUS (formula) — satu persamaan yang menyatakan PERKAITAN tetap antara dua atau lebih pemboleh ubah, dan boleh digunakan untuk cari satu nilai apabila nilai yang lain diketahui.
+
+Rumus digunakan dengan meluas dalam kehidupan sebenar — cth. rumus luas, rumus kos, rumus penukaran unit — semuanya menyatakan perkaitan tetap antara pemboleh ubah yang berkaitan.
+--formula.body--
+(1) MEMBENTUK RUMUS daripada situasi: tukar penerangan perkataan kepada persamaan algebra. Cth. "kuasa dua suatu nombor ialah sembilan" → x² = 9.
+
+(2) MENGGANTIKAN NILAI untuk cari pemboleh ubah lain: jika rumus dan SATU nilai pemboleh ubah diketahui, gantikan terus untuk cari nilai yang satu lagi. Cth. bagi K = 3n + 10, jika n = 5, maka K = 3(5) + 10 = 25.
+
+(3) MENGUBAH PERKARA RUMUS (mencari pemboleh ubah yang "tersorok" di sebalik pekali/pemalar): guna OPERASI SONGSANGAN pada KEDUA-DUA BELAH persamaan — sama macam kaedah penimbang yang kau dah belajar untuk selesaikan persamaan linear. Cth. bagi K = 3n + 10, jika K = 40: tolak 10 dari kedua-dua belah (30 = 3n), kemudian bahagi kedua-dua belah dengan 3 (n = 10).
+
+=== src\content\form2\bab4\topik-4-1-poligon-sekata.note.js ===
+--hook.body (bullets:false)--
+Encik Razak nak pasang ubin lantai berbentuk heksagon (6 sisi) supaya setiap keping ubin bertepatan kemas antara satu sama lain tanpa lompang. Untuk pastikan semua ubin muat sekata, SETIAP keping mesti ada sisi dan sudut yang SAMA. Apakah nama khas untuk bentuk yang semua sisi dan sudutnya sama?
+--insight.body--
+Heksagon yang kau lihat tu ialah POLIGON SEKATA (regular polygon) — SEMUA sisinya sama panjang, DAN SEMUA sudut pedalamannya sama besar.
+
+KEDUA-DUA syarat ni perlu dipenuhi serentak — kalau hanya SATU syarat sahaja dipenuhi (cth. segi empat tepat ada semua sudut sama 90° tetapi sisi TAK semua sama panjang), bentuk itu masih POLIGON TAK SEKATA (irregular polygon). Poligon sekata juga mempunyai PAKSI SIMETRI sebanyak bilangan sisinya — sebab bentuknya simetri sempurna di sekeliling.
+--formula.body--
+Bagi poligon sekata bersisi n: bilangan SISI = bilangan SUDUT (sebab setiap bucu ada satu sudut) = bilangan PAKSI SIMETRI (garis yang membahagi bentuk kepada dua bahagian cermin sama). Untuk sahkan sesuatu poligon itu sekata, SEMAK DUA PERKARA: (1) ukur semua sisi — mesti sama panjang, dan (2) ukur semua sudut pedalaman — mesti sama besar. Kedua-dua syarat WAJIB dipenuhi.
+
+=== src\content\form2\bab4\topik-4-2-sudut-poligon.note.js ===
+--hook.body (bullets:false)--
+Seorang kontraktor nak bina kolam renang berbentuk heksagon (6 sisi). Untuk potong jubin bucu dengan tepat, dia perlu tahu JUMLAH SEMUA sudut pedalaman heksagon tersebut. Boleh ke kita cari jumlah ni tanpa mengukur setiap sudut satu-satu?
+--insight.body--
+Kau baru lukis 3 pepenjuru daripada 1 bucu heksagon (6 sisi). Pepenjuru-pepenjuru ni membahagikan heksagon kepada 4 SEGI TIGA (3 pepenjuru + 1 = 4 segi tiga).
+
+Sebab setiap segi tiga ada jumlah sudut 180° (kau dah belajar ni dalam Tingkatan 1), JUMLAH SEMUA sudut pedalaman heksagon = 4 × 180° = 720°. Secara am, poligon n sisi boleh dibahagikan kepada (n − 2) segi tiga daripada satu bucu.
+--formula.body--
+JUMLAH SUDUT PEDALAMAN poligon n sisi = (n − 2) × 180° (n ialah bilangan sisi). Bagi POLIGON SEKATA, setiap sudut pedalaman = jumlah ini ÷ n.
+
+JUMLAH SUDUT PELUARAN (exterior angle) bagi MANA-MANA poligon cembung (convex) — TAK KIRA bilangan sisinya — SENTIASA 360°. Ini sebab bila kamu berjalan mengelilingi sempadan poligon sekali penuh, jumlah kesemua "pusingan kecil" pada setiap bucu (sudut peluaran) menyamai SATU PUSINGAN PENUH = 360°. Bagi poligon sekata, setiap sudut peluaran = 360° ÷ n.
+
+=== src\content\form2\bab5\topik-5-1-sifat-bulatan.note.js ===
+--hook.body (bullets:false)--
+Pihak berkuasa nak bina taman berbentuk bulatan lengkap dengan pancutan air tepat di tengah, laluan berjalan mengelilingi taman, dan beberapa kawasan rumput berbentuk "sekeping pizza" untuk aktiviti berbeza. Untuk rancang semua ni dengan tepat, kita perlu kenal NAMA setiap bahagian dalam sebuah bulatan dahulu.
+--insight.bullets(already)--
+["PUSAT (centre) — titik tetap di tengah bulatan, SAMA JARAK daripada semua titik pada lilitan (circumference, iaitu sempadan bulatan).","JEJARI (radius) — garis dari pusat ke mana-mana titik pada lilitan; SEMUA jejari dalam bulatan yang sama adalah SAMA PANJANG.","DIAMETER — garis lurus melalui pusat, menyambung dua titik bertentangan pada lilitan (diameter = 2 × jejari).","PERENTAS (chord) — garis lurus menyambung DUA titik pada lilitan TANPA melalui pusat (diameter sebenarnya perentas terpanjang yang mungkin).","LENGKOK (arc) — sebahagian daripada lilitan bulatan.","SEKTOR (sector) — kawasan yang dibatasi oleh DUA jejari dan satu lengkok (macam sekeping pizza).","TEMBERENG (segment) — kawasan yang dibatasi oleh SATU perentas dan SATU lengkok. BEZA dengan sektor: tembereng TAK melalui pusat langsung.","MINOR vs MAJOR — lengkok, sektor DAN tembereng setiap satu boleh dibahagi kepada bahagian LEBIH KECIL (minor) dan LEBIH BESAR (major) — bandingkan dengan SEPARUH bulatan untuk tentukan mana satu."]
+--formula.body--
+Sebab diameter merentasi bulatan MELALUI pusat, ia sebenarnya terdiri daripada DUA jejari yang disambung (satu ke setiap arah daripada pusat). Jadi diameter SENTIASA dua kali ganda jejari, tak kira besar mana bulatan tersebut. Songsangannya: Jejari = Diameter ÷ 2.
+
+=== src\content\form2\bab5\topik-5-2-simetri-perentas.note.js ===
+--hook.body (bullets:false)--
+Seorang jurutera nak pasang tiang penyokong tepat di TENGAH-TENGAH kabel (perentas) yang melintasi lengkuk bulatan sebuah jambatan, supaya beban seimbang di kedua-dua belah. Tapi kabel tu sangat panjang dan sukar diukur terus. Adakah ada cara lain untuk cari titik tengah kabel dengan tepat?
+--insight.body--
+Kau baru nampak: garis serenjang dari pusat O ke perentas AB bertemu AB tepat di titik tengahnya, M — jadi AM = MB. Ini bermakna jurutera boleh cari titik tengah kabel dengan lukis garis SERENJANG dari pusat lengkuk ke kabel tersebut, TANPA perlu ukur sepanjang kabel itu sendiri!
+--formula.body--
+(i) DIAMETER ialah paksi simetri bulatan.
+
+(ii) JEJARI yang BERSERENJANG dengan perentas MEMBAHAGI DUA SAMA perentas itu, dan sebaliknya (garis dari pusat yang membahagi dua sama perentas MESTI berserenjang dengannya).
+
+(iii) PEMBAHAGI DUA SAMA SERENJANG bagi DUA perentas berbeza akan BERTEMU di PUSAT bulatan.
+
+(iv) Perentas yang SAMA PANJANG menghasilkan LENGKOK yang sama panjang (sudut lengkok yang sama).
+
+(v) Perentas yang SAMA PANJANG adalah SAMA JARAK daripada pusat bulatan, dan sebaliknya.
+
+=== src\content\form2\bab5\topik-5-3-lilitan-luas-bulatan.note.js ===
+--hook.body (bullets:false)--
+Pengurus sebuah stadium nak tahu DUA perkara: berapa PANJANG landasan lumba yang berbentuk bulatan (supaya boleh cetak jarak lumbaan dengan tepat), dan berapa LUAS padang bulatan di tengah (untuk kira jumlah rumput sintetik diperlukan). Macam mana nak kira kedua-duanya hanya dengan tahu jejari bulatan tersebut?
+--insight.body--
+6.28 ÷ 2 = 3.14, 12.56 ÷ 4 = 3.14, 18.84 ÷ 6 = 3.14, 25.12 ÷ 8 = 3.14 — SETIAP kali, nisbah lilitan kepada diameter memberi jawapan yang SAMA, iaitu lebih kurang 3.14! Nombor istimewa ni dipanggil π ("pi"), dan ia SENTIASA sama tak kira besar mana bulatan tersebut. Sebab Lilitan ÷ Diameter = π, kita boleh tulis semula sebagai Lilitan = π × Diameter.
+--formula.body--
+LILITAN bulatan = πd, atau (sebab d = 2r) boleh ditulis 2πr. LUAS bulatan = πr². Guna π ≈ 3.14 atau π ≈ 22/7 (pilih yang buat pengiraan lebih mudah — 22/7 sesuai bila jejari boleh dibahagi tepat dengan 7). Untuk SEBAHAGIAN bulatan (bukan bulatan penuh): PANJANG LENGKOK = (θ ÷ 360°) × 2πr, dan LUAS SEKTOR = (θ ÷ 360°) × πr², dengan θ ialah sudut sektor/lengkok tersebut di pusat.
+
+=== src\content\form2\bab6\topik-6-1-sifat-bentuk-3d.note.js ===
+--hook.body (bullets:false)--
+Seorang tukang kayu membuat pelbagai hiasan: kotak berbentuk kuboid, bumbung rumah miniatur berbentuk piramid, tin simpanan berbentuk silinder, corong berbentuk kon, dan bola hiasan berbentuk sfera. Untuk kira bahan yang diperlukan bagi setiap bentuk, dia perlu kenal pasti berapa banyak MUKA, TEPI, dan BUCU yang dimiliki setiap satu.
+--insight.body--
+MUKA (face) ialah permukaan rata ATAU melengkung yang membentuk sempadan luar sesuatu pepejal. TEPI (edge) ialah garis di mana DUA muka bertemu. BUCU (vertex) ialah titik di mana tepi-tepi bertemu.
+
+Bentuk bersudut tajam macam KUBOID dan PIRAMID ada muka rata sahaja, dengan tepi dan bucu yang jelas. Bentuk melengkung macam SILINDER, KON, dan SFERA ada sekurang-kurangnya SATU muka melengkung — sfera malah tiada tepi atau bucu langsung, sebab keseluruhan permukaannya melengkung sekata.
+--formula.body--
+Bagi SEBARANG pepejal bersudut tajam (kuboid, piramid, prisma — bukan bentuk melengkung), terdapat perkaitan istimewa: MUKA + BUCU − TEPI SENTIASA bersamaan 2. Cth. kuboid: 6 muka + 8 bucu − 12 tepi = 2. Perkaitan ni berguna untuk cari SATU nilai (muka, tepi, atau bucu) apabila DUA nilai yang lain diketahui.
+
+=== src\content\form2\bab6\topik-6-2-bentangan-bentuk-3d.note.js ===
+--hook.body (bullets:false)--
+Sebuah kilang percetakan nak cetak corak RATA (bentangan) atas kadbod, yang kemudian akan dipotong dan dilipat untuk membentuk kotak hadiah berbentuk kubus. Berapa banyak kepingan segi empat sama diperlukan, dan macam mana susunannya supaya boleh dilipat dengan kemas?
+--insight.body--
+BENTANGAN (net) ialah bentuk DUA DIMENSI yang, apabila DILIPAT sepanjang garis-garis tertentu, membentuk semula bentuk TIGA DIMENSI asal. Bentangan kubus yang kau lihat tu terdiri daripada 6 kepingan segi empat sama — SAMA dengan bilangan muka kubus.
+
+Ini corak am: BILANGAN KEPINGAN dalam sesuatu bentangan SENTIASA sama dengan BILANGAN MUKA bentuk 3D asalnya. Terdapat BEBERAPA susunan bentangan yang sah untuk bentuk yang sama (bukan hanya satu) — asalkan semua muka disertakan dan boleh dilipat kembali dengan betul.
+--formula.body--
+PRISMA: bentangannya terdiri daripada DUA muka tapak (kongruen) + beberapa muka sisi segi empat tepat (bilangan bergantung bilangan sisi tapak).
+
+PIRAMID: SATU muka tapak + beberapa muka sisi segi tiga (bilangan sama dengan bilangan sisi tapak).
+
+SILINDER: DUA bulatan (tapak atas & bawah) + SATU segi empat tepat (permukaan melengkung dibuka rata).
+
+KON: SATU bulatan (tapak) + SATU sektor (permukaan melengkung dibuka rata).
+
+=== src\content\form2\bab6\topik-6-3-luas-permukaan.note.js ===
+--hook.body (bullets:false)--
+Seorang pekerja perlu mengecat SELURUH permukaan luar sebuah tangki air berbentuk silinder. Untuk kira berapa tin cat diperlukan, dia perlu tahu JUMLAH luas permukaan tangki tersebut — bukan hanya satu bahagian sahaja, tapi SEMUA muka luar termasuk bahagian atas, bawah, dan sisi melengkung.
+--insight.body--
+Kuboid ada 3 PASANG muka kongruen: atas+bawah (l×w setiap satu), hadapan+belakang (l×h setiap satu), dan kiri+kanan (w×h setiap satu). Jumlah keseluruhan: 30 + 40 + 24 = 94 cm². Corak am ini berlaku untuk SEMUA bentuk 3D — LUAS PERMUKAAN sentiasa bermaksud JUMLAH luas SETIAP muka (rata atau melengkung) yang membentuk permukaan luar bentuk tersebut.
+--formula.body--
+KUBUS (sisi s): LP = 6s² (6 muka segi empat sama kongruen).
+
+KUBOID (panjang l, lebar w, tinggi h): LP = 2(lw + lh + wh).
+
+SILINDER (jejari r, tinggi h): LP = 2πr² + 2πrh = 2πr(r + h) (dua bulatan tapak + satu segi empat tepat melengkung).
+
+KON (jejari r, pelurus l — jarak dari puncak ke tepi tapak): LP = πr² + πrl = πr(r + l).
+
+SFERA (jejari r): LP = 4πr². Bagi PRISMA dan PIRAMID lain, kira luas SETIAP muka secara berasingan kemudian jumlahkan (tiada satu formula ringkas untuk semua kes).
+
+=== src\content\form2\bab6\topik-6-4-isi-padu.note.js ===
+--hook.body (bullets:false)--
+Seorang jurutera nak tahu berapa banyak air (dalam cm³ atau liter) boleh diisi ke dalam sebuah tangki berbentuk silinder. Ini BUKAN soalan luas permukaan — dia perlukan ISI PADU, iaitu jumlah RUANG di dalam bentuk tersebut.
+--insight.body--
+Prisma tu terdiri daripada 5 lapisan, setiap satu menyumbang 20 cm³ (luas tapak × tebal 1 cm), menjadikan jumlah keseluruhan 100 cm³ (20 × 5). Ini sebab SETIAP "keratan rentas" prisma atau silinder mempunyai luas yang SAMA sepanjang tingginya — jadi ISI PADU = LUAS TAPAK × TINGGI.
+
+Bagi PIRAMID atau KON pula, bentuknya MENGECIL ke satu titik (puncak), jadi ia HANYA mengisi SATU PERTIGA ruang prisma/silinder yang sepadan (tapak dan tinggi yang sama) — fakta yang boleh disahkan secara eksperimen dengan tuang air daripada bekas piramid/kon ke dalam bekas prisma/silinder sepadan sebanyak TIGA kali untuk penuhkannya.
+--formula.body--
+PRISMA (sebarang bentuk tapak): Isi Padu = Luas Tapak × Tinggi. SILINDER (jejari r): Isi Padu = πr² × tinggi = πr²h. PIRAMID (sebarang bentuk tapak): Isi Padu = ⅓ × Luas Tapak × Tinggi. KON (jejari r): Isi Padu = ⅓ × πr² × tinggi = ⅓πr²h. SFERA (jejari r): Isi Padu = 4/3 πr³.
+
+=== src\content\form2\bab7\topik-7-1-jarak.note.js ===
+--hook.body (bullets:false)--
+Dua buah rumah ditandakan sebagai titik A dan B atas peta grid (satah Cartes). Untuk tahu berapa jauh jarak SEBENAR antara kedua-dua rumah tu (bukan sekadar bilangan petak), kita perlukan RUMUS JARAK.
+--insight.body--
+dx = beza nilai-x (4 − 1 = 3) dan dy = beza nilai-y (5 − 1 = 4). dx dan dy ni ialah DUA SISI TEGAK bagi segi tiga bersudut tegak, dan jarak AB ialah SISI MIRING (hipotenus) segi tiga tu. Guna Teorem Pythagoras: AB² = dx² + dy² = 3² + 4² = 9 + 16 = 25, jadi AB = √25 = 5.
+--formula.body--
+Bagi dua titik A(x₁, y₁) dan B(x₂, y₂) pada satah Cartes, jarak antara A dan B ialah √[(x₂ − x₁)² + (y₂ − y₁)²] — iaitu punca kuasa dua bagi (beza-x)² tambah (beza-y)². Ini sebenarnya Teorem Pythagoras yang kamu dah tahu, cuma dx dan dy diambil daripada koordinat.
+
+=== src\content\form2\bab7\topik-7-2-titik-tengah.note.js ===
+--hook.body (bullets:false)--
+Ali di titik A dan Bob di titik B atas peta grid. Mereka nak bertemu di tempat yang jaraknya SAMA daripada kedua-dua rumah — iaitu TITIK TENGAH antara A dan B. Macam mana nak cari koordinat titik tu?
+--insight.body--
+Nilai-x bagi titik tengah ialah PURATA nilai-x A dan B: (2 + 8) / 2 = 5. Nilai-y bagi titik tengah ialah PURATA nilai-y A dan B: (2 + 6) / 2 = 4. Jadi titik tengah M = (5, 4) — tepat di tengah-tengah garisan AB.
+--formula.body--
+Bagi dua titik A(x₁, y₁) dan B(x₂, y₂), titik tengah M bagi garisan AB ialah ( (x₁ + x₂)/2 , (y₁ + y₂)/2 ) — iaitu purata nilai-x sebagai koordinat-x M, dan purata nilai-y sebagai koordinat-y M.
+
+=== src\content\form2\bab7\topik-7-3-sistem-koordinat-cartes.note.js ===
+--hook.body (bullets:false)--
+Sebuah plot tanah berbentuk segi tiga ditanda dengan tiga bucu atas peta grid koordinat. Untuk kira berapa panjang pagar diperlukan (PERIMETER), kita perlu cari jarak SETIAP pasang bucu, kemudian jumlahkan.
+--insight.body--
+Masalah sistem koordinat Cartes selalunya perlukan kamu guna rumus jarak DAN rumus titik tengah bersama — contohnya kira PERIMETER bentuk (jumlahkan jarak setiap sisi), atau cari SATU bucu yang hilang apabila diberi titik tengah dan satu bucu lain. Kunci utama: kenal pasti maklumat yang diberi, kemudian pilih rumus yang sesuai.
+--formula.body--
+JARAK antara dua titik: √[(x₂−x₁)² + (y₂−y₁)²]. TITIK TENGAH antara dua titik: ((x₁+x₂)/2, (y₁+y₂)/2). Jika M(mx, my) ialah titik tengah A(x₁, y₁) dan B, dan A serta M diketahui, kita boleh SUSUN SEMULA rumus titik tengah untuk cari B: x₂ = 2mx − x₁, dan y₂ = 2my − y₁.
+
+=== src\content\form2\bab8\topik-8-1-fungsi.note.js ===
+--hook.body (bullets:false)--
+Sebuah mesin layan diri terima kod produk dan keluarkan SATU snek sahaja untuk setiap kod. Kalau kod yang SAMA kadang-kadang keluarkan snek berbeza-beza, mesin tu RUSAK! Dalam matematik, hubungan macam mesin yang boleh dipercayai ni (setiap input → SATU output sahaja) dipanggil FUNGSI.
+--insight.body--
+Walaupun x berubah (1, 2, 3, 4), setiap satu nilai x tu HANYA memberi SATU nilai f(x) — tiada x yang bagi dua jawapan berbeza. Itulah syarat sesuatu perkaitan dipanggil FUNGSI: setiap input mesti ada TEPAT SATU output (boleh jadi banyak input bagi SATU output yang sama — itu masih fungsi — tapi SATU input TAK BOLEH bagi lebih daripada satu output).
+--formula.body--
+Fungsi ditulis sebagai f(x), dibaca "f bagi x" atau "f pada x". Contohnya f(x) = 2x + 1 bermaksud "gandakan x, kemudian tambah 1". Untuk cari f(4), gantikan x dengan 4: f(4) = 2(4) + 1 = 9.
+
+Sesuatu perkaitan ADALAH fungsi jika setiap input (x) ada TEPAT SATU output (satu-kepada-satu ATAU banyak-kepada-satu). Ia BUKAN fungsi jika ada satu input dengan LEBIH daripada satu output (satu-kepada-banyak).
+
+=== src\content\form2\bab8\topik-8-2-graf-fungsi.note.js ===
+--hook.body (bullets:false)--
+Untuk lukis graf sesuatu fungsi, kita bina JADUAL NILAI dahulu — pilih beberapa nilai x, kira f(x) bagi setiap satu, kemudian plot titik-titik (x, f(x)) tu atas grid dan sambungkan.
+--insight.body--
+Semua titik bagi y = 2x + 1 tu jatuh atas SATU garis lurus. Ini berlaku untuk SEMUA fungsi LINEAR (berbentuk y = ax + b). Fungsi BUKAN LINEAR pula (seperti y = x², y = ax³, y = a/x) akan hasilkan LENGKUNG apabila diplot — BUKAN garis lurus.
+--formula.body--
+Fungsi LINEAR (y = ax + b, a ≠ 0) sentiasa hasilkan GARIS LURUS bila diplot. Fungsi KUADRATIK (y = ax²) hasilkan lengkung berbentuk U (parabola). Fungsi KUBIK (y = ax³) dan SONGSANGAN (y = a/x) hasilkan lengkung dengan bentuk lain.
+
+Langkah melukis graf fungsi: (1) bina jadual nilai (pilih x, kira y), (2) plot setiap titik (x, y) atas grid, (3) sambungkan titik-titik tu mengikut bentuk semula jadi (garis lurus untuk linear, lengkung licin untuk bukan linear).
+
+=== src\content\form2\bab9\topik-9-1-laju.note.js ===
+--hook.body (bullets:false)--
+Sebuah keluarga memandu dari satu bandar ke bandar lain. Untuk anggarkan berapa lama perjalanan akan ambil masa, mereka perlu tahu LAJU kereta — iaitu berapa jauh kereta bergerak untuk setiap SEJAM.
+--insight.body--
+Kereta tu bergerak 60 km SETIAP jam — tiada perubahan. Ini dipanggil LAJU SERAGAM. Jika jarak yang dilalui berbeza-beza setiap jam (kadang laju, kadang perlahan), itu LAJU TAK SERAGAM — dan kita guna LAJU PURATA (jumlah jarak ÷ jumlah masa) untuk gambarkan pergerakan keseluruhan.
+--formula.body--
+LAJU = JARAK ÷ MASA (unit biasa: km/j atau m/s). Daripada rumus ni, kita juga boleh susun semula: JARAK = Laju × Masa, dan MASA = Jarak ÷ Laju. LAJU PURATA (untuk perjalanan tak seragam) = Jumlah Jarak ÷ Jumlah Masa. PENUKARAN UNIT: km/j → m/s (bahagi dengan 3.6), m/s → km/j (darab dengan 3.6).
+
+=== src\content\form2\bab9\topik-9-2-pecutan.note.js ===
+--hook.body (bullets:false)--
+Bila kereta mula bergerak dari diam, lajunya BERTAMBAH saat demi saat. Kadar PERTAMBAHAN laju ni dipanggil PECUTAN. Kalau laju BERKURANGAN pula, itu dipanggil NYAHPECUTAN.
+--insight.body--
+Laju kereta tu bertambah 5 m/s SETIAP saat — sama banyak setiap kali (0 → 5 → 10 → 15). Jumlah keseluruhan pertambahan laju selepas 3 saat ialah 15 m/s.
+
+Sebab pertambahan tu SAMA setiap saat, PECUTAN kereta ialah 5 m/s SETIAP SAAT, ditulis sebagai 5 m/s². Pecutan ialah KADAR PERUBAHAN LAJU berbanding masa — sama konsep macam laju (kadar perubahan JARAK), tapi ni kadar perubahan LAJU pula.
+--formula.body--
+PECUTAN = (v − u) ÷ t, dengan v = laju akhir, u = laju awal, t = masa (unit: m/s²). Jika laju BERKURANGAN (v < u), nilai tu ialah NYAHPECUTAN — kita laporkan sebagai MAGNITUD (nilai positif) kadar perlambatan. Daripada rumus ni, kita boleh susun semula: LAJU AKHIR (v) = Laju Awal (u) + (Pecutan × Masa) — berguna untuk cari laju akhir apabila pecutan diketahui.
+
+=== src\content\form3\bab1\topik-1-1-tatatanda-indeks.note.js ===
+--hook.body (bullets:false)--
+Seekor bakteria membelah kepada 2 setiap jam. Selepas 1 jam, ada 2 bakteria. Selepas 2 jam, setiap daripada 2 bakteria itu membelah lagi jadi 4. Kalau kita nak tahu bilangan bakteria selepas 20 jam, kita kena tulis "2 × 2 × 2 × ... × 2" sebanyak 20 kali — sangat panjang dan menyusahkan! Mesti ada cara yang lebih ringkas untuk tulis pendaraban berulang macam ni.
+--insight.body--
+Bilangan bakteria pada Jam 5 ialah 2 × 2 × 2 × 2 × 2 = 32 — iaitu 2 didarab dengan DIRINYA SENDIRI sebanyak 5 kali.
+
+Daripada tulis "2 × 2 × 2 × 2 × 2" yang panjang, kita tulis 2⁵ (baca: "2 kuasa 5" atau "2 pangkat 5"). Dalam 2⁵: nombor 2 dipanggil ASAS (base) — nombor yang didarab berulang; nombor 5 dipanggil INDEKS (index), juga dikenali sebagai EKSPONEN (exponent) atau KUASA (power) — bilangan kali asas tu didarab dengan dirinya sendiri.
+
+Selepas 20 jam, bilangan bakteria ditulis ringkas sebagai 2²⁰ — jauh lebih senang daripada tulis 20 nombor 2 didarab bersama!
+--formula.body--
+aⁿ dibaca "a kuasa n", di mana a ialah ASAS dan n ialah INDEKS. Ia bermaksud a didarab dengan dirinya sendiri sebanyak n kali. Kes khas: a¹ = a (mana-mana nombor berkuasa 1 ialah nombor itu sendiri, sebab cuma SATU faktor).
+
+Untuk TUKAR nombor biasa kepada bentuk indeks: cari asas yang berulang, dan kira berapa kali ia didarab. Untuk TUKAR bentuk indeks kepada nombor biasa (menilai): darabkan asas dengan dirinya sendiri sebanyak yang ditunjukkan oleh indeks.
+
+=== src\content\form3\bab1\topik-1-2-hukum-indeks.note.js ===
+--hook.body (bullets:false)--
+Ingat bakteria yang membelah dua tadi? Katakan pada PERINGKAT PERTAMA, bilangan bakteria berkembang sebanyak 2³ kali ganda. Pada PERINGKAT KEDUA (susulan), ia berkembang LAGI sebanyak 2² kali ganda daripada peringkat pertama.
+
+Berapa kali gandakah pertumbuhan KESELURUHAN (kedua-dua peringkat digabung)? Adakah kita perlu kira 2³ = 8 dan 2² = 4 dahulu, kemudian darab 8 × 4? Atau ada cara lebih pantas terus dalam bentuk indeks?
+--insight.body--
+2³ × 2² = (2×2×2) × (2×2) = 2×2×2×2×2 = 2⁵ — jumlah faktor 2 KESELURUHANNYA ialah 3 + 2 = 5. Ini menunjukkan bila kita DARAB dua bentuk indeks yang ASASNYA SAMA, kita cukup TAMBAH indeksnya: 2³ × 2² = 2³⁺² = 2⁵ = 32. Pertumbuhan keseluruhan bakteria tadi ialah 2⁵ = 32 kali ganda.
+--formula.body--
+HUKUM 1 (Pendaraban): aᵐ × aⁿ = aᵐ⁺ⁿ — asas sama, TAMBAH indeks.
+HUKUM 2 (Pembahagian): aᵐ ÷ aⁿ = aᵐ⁻ⁿ — asas sama, TOLAK indeks (m − n).
+HUKUM 3 (Kuasa bagi Kuasa): (aᵐ)ⁿ = aᵐˣⁿ — DARAB kedua-dua indeks.
+HUKUM 4 (Indeks Sifar): a⁰ = 1, dengan syarat a ≠ 0 — SEBARANG asas (bukan sifar) berkuasa 0 sentiasa bersamaan 1. (Boleh disahkan daripada Hukum 2: aⁿ ÷ aⁿ = aⁿ⁻ⁿ = a⁰, tetapi aⁿ ÷ aⁿ = 1 juga — jadi a⁰ mesti = 1.)
+HUKUM 5 (Indeks Negatif): a⁻ⁿ = 1/aⁿ, dengan a ≠ 0 — indeks negatif bermaksud SONGSANGAN (reciprocal). Cth: 2⁻³ = 1/2³ = 1/8. Sebaliknya, 1/a⁻ⁿ = aⁿ.
+HUKUM 6 (Indeks Pecahan): a^(1/n) = ⁿ√a (punca ke-n bagi a), dan a^(m/n) = ⁿ√(aᵐ) = (ⁿ√a)ᵐ. Cth: 8^(1/3) = ³√8 = 2 (punca kubus bagi 8), dan 8^(2/3) = (³√8)² = 2² = 4.
+
+PENTING: Hukum 1, 2 dan 3 HANYA sah apabila ASAS kedua-dua bentuk indeks tu SAMA. Kalau asas berbeza (cth. 2³ × 3²), hukum ni TIDAK boleh digunakan — kena kira nilai sebenar dahulu.
+
+=== src\content\form3\bab2\topik-2-1-angka-bererti.note.js ===
+--hook.body (bullets:false)--
+Doktor mengukur suhu badan pesakit dengan termometer digital canggih: 37.50°C. Jururawat lain guna termometer ringkas dan catat: 37.5°C. Nampak macam nombor yang "sama" — tapi sebenarnya TIDAK sama tepatnya!
+
+37.50°C menunjukkan alat tu boleh ukur sehingga dua tempat perpuluhan (lebih TEPAT), manakala 37.5°C cuma sehingga satu tempat perpuluhan. Cara kita nyatakan ketepatan ni dipanggil ANGKA BERERTI (significant figures).
+--insight.bullets(already)--
+["ANGKA BERERTI (significant figures) ialah digit dalam sesuatu nombor yang membawa maklumat tentang KETEPATAN ukuran tersebut.","2.5 ada 2 angka bererti (kedua-dua digit bukan sifar).","0.0056 ada 2 angka bererti SAHAJA (5 dan 6) — sifar-sifar SEBELUM digit bukan sifar cuma menunjukkan kedudukan nilai tempat, BUKAN ketepatan.","3.070 ada 4 angka bererti (3, 0, 7, 0) — sifar SELEPAS titik perpuluhan yang ditulis dengan sengaja MENUNJUKKAN ketepatan, jadi ia bererti.","1200 (tanpa titik perpuluhan) biasanya dianggap 2 angka bererti (1 dan 2) — dua sifar di belakang tu kabur (ambiguous), boleh jadi sekadar nilai tempat sahaja melainkan dinyatakan lain."]
+--formula.body--
+PERATURAN 1: SEMUA digit BUKAN SIFAR sentiasa bererti. Cth: 246 ada 3 angka bererti.
+PERATURAN 2: Sifar DI ANTARA dua digit bukan sifar (sifar "terperangkap") sentiasa bererti. Cth: 205 ada 3 angka bererti (2, 0, 5).
+PERATURAN 3: Sifar DI HADAPAN (sebelum digit bukan sifar pertama) TIDAK bererti — ia cuma penanda nilai tempat. Cth: 0.0056 ada 2 angka bererti sahaja (5, 6).
+PERATURAN 4: Sifar DI BELAKANG (selepas titik perpuluhan) SENTIASA bererti. Cth: 3.070 ada 4 angka bererti; 5.00 ada 3 angka bererti.
+PERATURAN 5: Sifar DI BELAKANG bagi nombor BULAT (TANPA titik perpuluhan) biasanya TIDAK dikira bererti (kabur/ambiguous), kecuali dinyatakan sebaliknya. Cth: 1200 dianggap 2 angka bererti.
+
+MEMBUNDARKAN kepada bilangan angka bererti tertentu: kenal pasti digit angka bererti terakhir yang dikehendaki, lihat digit SETERUSNYA (di sebelah kanan) — jika 5 atau lebih, BULATKAN NAIK; jika kurang daripada 5, KEKALKAN. Gantikan digit selepasnya dengan sifar (bagi nombor bulat) atau buang (bagi perpuluhan).
+
+=== src\content\form3\bab2\topik-2-2-bentuk-piawai.note.js ===
+--hook.body (bullets:false)--
+Jarak dari Bumi ke Matahari lebih kurang 150 000 000 km — sembilan digit! Diameter sebiji virus pula lebih kurang 0.00000009 m — banyak sifar selepas titik perpuluhan. Kedua-dua nombor ni SANGAT senang tersalah kira sifar bila ditulis penuh. Ahli sains guna satu cara ringkas untuk tulis nombor macam ni — dipanggil BENTUK PIAWAI (standard form).
+--insight.body--
+Inilah sebab BENTUK PIAWAI sangat berguna — ia tukar nombor yang PANJANG (banyak sifar) kepada satu digit bererti (A) didarab dengan kuasa 10 (10ⁿ) SAHAJA. 150 000 000 ditulis sebagai 1.5 × 10⁸ — jauh lebih pendek dan senang dibaca! 0.00000009 ditulis sebagai 9 × 10⁻⁸ — kuasa NEGATIF digunakan untuk nombor yang KURANG daripada 1.
+--formula.body--
+Sesuatu nombor dalam BENTUK PIAWAI ditulis sebagai A × 10ⁿ, dengan A ialah nombor perpuluhan di antara 1 dan 10 (1 ≤ A < 10, iaitu SATU digit bukan sifar sebelum titik perpuluhan), dan n ialah INTEGER (boleh positif, negatif, atau sifar).
+
+TUKAR NOMBOR BESAR (≥ 10) kepada bentuk piawai: gerakkan titik perpuluhan ke KIRI sehingga tinggal SATU digit bukan sifar di hadapan; n = bilangan tempat titik perpuluhan digerakkan (POSITIF).
+TUKAR NOMBOR KECIL (di antara 0 dan 1) kepada bentuk piawai: gerakkan titik perpuluhan ke KANAN sehingga tinggal SATU digit bukan sifar di hadapan; n = bilangan tempat digerakkan, tetapi ditulis sebagai NEGATIF.
+
+OPERASI ARITMETIK dalam bentuk piawai: untuk DARAB/BAHAGI, darab/bahagi bahagian A, dan guna hukum indeks pada 10ⁿ (tambah/tolak kuasa). Untuk TAMBAH/TOLAK, tukar KEDUA-DUA nombor kepada kuasa 10 yang SAMA dahulu, kemudian tambah/tolak bahagian A sahaja.
+
+=== src\content\form3\bab3\topik-3-1-simpanan-pelaburan.note.js ===
+--hook.body (bullets:false)--
+Ali menyimpan RM5000 dalam akaun simpanan tetap yang memberi faedah MUDAH 4% setahun. Selepas 3 tahun, berapakah JUMLAH faedah yang Ali perolehi, dan berapakah jumlah keseluruhan dalam akaunnya?
+--insight.body--
+FAEDAH MUDAH (simple interest) dikira HANYA berdasarkan PRINSIPAL asal — jumlah faedah setiap tahun SAMA (macam simpanan RM1000 di atas, bertambah tepat RM50 setiap tahun). FAEDAH KOMPAUN (compound interest) pula dikira berdasarkan prinsipal + faedah TERKUMPUL sebelumnya — jadi faedah setiap tahun SEMAKIN BESAR ("faedah atas faedah"), menghasilkan pertumbuhan yang lebih pantas dalam jangka masa panjang.
+
+JENIS SIMPANAN: akaun simpanan (savings account), akaun simpanan tetap/fixed deposit (faedah lebih tinggi tapi wang terikat tempoh tertentu), akaun semasa (current account, biasanya tiada/faedah rendah tapi paling mudah dikeluarkan). JENIS PELABURAN: saham (shares), amanah saham (unit trust), hartanah (property) — biasanya pulangan lebih tinggi tapi RISIKO juga lebih tinggi berbanding simpanan.
+--formula.body--
+FAEDAH MUDAH: I = Prt, dengan I = faedah, P = prinsipal, r = kadar faedah setahun (dalam PERPULUHAN, cth. 4% = 0.04), t = tempoh (dalam TAHUN). Jumlah akhir = P + I.
+
+NILAI MATANG (faedah kompaun): MV = P(1 + r/n)ⁿᵗ, dengan MV = nilai matang (prinsipal + faedah), n = bilangan kali faedah dikompaun SETAHUN (cth. n=1 tahunan, n=12 bulanan), t = tempoh (tahun). Faedah kompaun = MV − P.
+
+PERBANDINGAN RISIKO, PULANGAN DAN KECAIRAN: umumnya, SEMAKIN TINGGI potensi pulangan sesuatu pelaburan (cth. saham), SEMAKIN TINGGI jugak risikonya, dan selalunya KURANG cair (susah tunaikan cepat berbanding akaun simpanan biasa). Simpanan (savings account) risiko RENDAH, pulangan RENDAH, tapi SANGAT cair (senang keluarkan bila-bila masa).
+
+PURATA KOS SESYER (strategi pemurataan kos ringgit): jika kamu labur jumlah RINGGIT TETAP setiap kali (bukan bilangan syer tetap) pada harga berbeza-beza, purata kos SESYER = (Jumlah wang dilaburkan) ÷ (Jumlah syer diperoleh). Strategi ni mengurangkan risiko beli pada harga PUNCAK sahaja.
+
+=== src\content\form3\bab3\topik-3-2-kredit-hutang.note.js ===
+--hook.body (bullets:false)--
+Halim ambil pinjaman RM6000 untuk beli kereta terpakai, pada kadar faedah SAMA RATA (flat rate) 6% setahun selama 4 tahun. Berapakah JUMLAH sebenar yang perlu dia bayar balik — dan berapakah bayaran ansuran BULANAN dia?
+--insight.body--
+KREDIT (credit) ialah kemudahan meminjam wang atau membeli barang SEKARANG dan bayar KEMUDIAN (termasuk kad kredit dan pinjaman). HUTANG (debt) ialah jumlah wang yang masih perlu dibayar balik. Pengurusan yang BIJAKSANA penting supaya kredit tidak jadi beban.
+
+KAD KREDIT — kelebihan: sistem ganjaran (rewards, cashback, mata ganjaran), kemudahan beli sekarang bayar kemudian, rekod perbelanjaan automatik. Kekurangan/risiko: faedah TINGGI jika baki tak dibayar penuh, mudah tergoda berbelanja lebih (overspend), risiko keselamatan (fraud) jika tidak berhati-hati. Kelayakan memperoleh kad kredit biasanya bergantung pendapatan dan rekod kredit pemohon.
+
+KESAN BAYARAN MINIMUM & BAYARAN LEWAT: jika kamu bayar HANYA jumlah minimum setiap bulan (bukan penuh), BAKI yang tinggal akan DIKENAKAN FAEDAH ATAS BAKI (interest on outstanding balance) — dan faedah ni akan TERUS berkumpul bulan ke bulan, menjadikan kos SEBENAR jauh lebih tinggi berbanding harga asal. Bayaran LEWAT pula selalunya kena CAJ KEWANGAN tambahan (caj lewat bayar). Pengurusan bijak: bayar PENUH setiap bulan (elak faedah atas baki), dan bayar TEPAT masa (elak caj lewat).
+--formula.body--
+A = jumlah bayaran balik keseluruhan, P = prinsipal (jumlah dipinjam), r = kadar faedah setahun (perpuluhan), t = tempoh pinjaman (tahun). Ini SAMA bentuknya dengan I = Prt (faedah mudah) — cuma kita TAMBAH balik prinsipal P untuk dapat JUMLAH keseluruhan A.
+
+BAYARAN ANSURAN BULANAN = A ÷ (t × 12) — jumlah keseluruhan A dibahagi dengan bilangan bulan dalam tempoh pinjaman. Pinjaman faedah sama rata biasa termasuk pinjaman kereta, pinjaman peribadi, dan pinjaman barangan pengguna.
+
+=== src\content\form3\bab4\topik-4-1-lukisan-berskala.note.js ===
+--hook.body (bullets:false)--
+Seorang arkitek nak lukis pelan sebuah rumah yang sebenarnya panjang 500 cm (5 meter) di atas kertas A4 yang kecil. Dia tak boleh lukis 500 cm terus atas kertas — jadi dia lukis versi KECIL yang sepadan, dengan setiap 1 cm atas kertas mewakili 100 cm SEBENAR. Bagaimana kita nyatakan perkaitan ni secara matematik?
+--insight.body--
+LUKISAN BERSKALA (scale drawing) ialah lukisan objek yang saiznya diperkecil atau diperbesar secara SEKATA (semua bahagian dikecilkan/dibesarkan dengan NISBAH YANG SAMA), supaya bentuknya kekal tepat — cuma saiz berubah.
+
+SKALA (scale) ialah nisbah antara ukuran PADA LUKISAN dengan ukuran SEBENAR, dipermudahkan SAMA macam nisbah biasa (2:8 → 1:4 di atas), dan biasa ditulis dalam bentuk 1:n (cth. 1:100 bermaksud setiap 1 unit pada lukisan mewakili 100 unit sebenar).
+
+Rumah arkitek tadi guna skala 1:100 — lukisan 5 cm mewakili sebenar 500 cm (5:500 dipermudahkan = 1:100).
+--formula.body--
+Jika skala ialah 1:n — UKURAN SEBENAR = Ukuran Lukisan × n. UKURAN LUKISAN = Ukuran Sebenar ÷ n. SKALA n = Ukuran Sebenar ÷ Ukuran Lukisan (pastikan KEDUA-DUA ukuran dalam UNIT YANG SAMA sebelum kira nisbah).
+
+Skala 1:n dengan n > 1 bermaksud lukisan LEBIH KECIL daripada sebenar (pengecilan). Skala dengan n < 1 (cth. 2:1) bermaksud lukisan LEBIH BESAR daripada sebenar (pembesaran, biasa untuk lukis objek kecil seperti komponen jam).
+
+=== src\content\form3\bab5\topik-5-1-nisbah-trigonometri.note.js ===
+--hook.body (bullets:false)--
+Seorang pengembara nak tahu tinggi sebatang pokok, tapi tak boleh panjat untuk ukur terus. Dia berdiri 15 meter dari kaki pokok, dan ukur SUDUT DONGAK (angle of elevation) dari matanya ke pucuk pokok ialah 45°. Menariknya — daripada sudut dan jarak SAHAJA, dia boleh KIRA tinggi pokok tanpa panjat langsung! Rahsianya: NISBAH TRIGONOMETRI.
+--insight.body--
+Dalam segi tiga bersudut tegak, RELATIF kepada sudut tirus θ (bukan sudut tegak): SISI BERTENTANGAN (opposite) ialah sisi yang TIDAK menyentuh θ. SISI BERSEBELAHAN (adjacent) ialah sisi yang MENYENTUH θ (tapi BUKAN hipotenus). HIPOTENUS (hypotenuse) ialah sisi TERPANJANG, bertentangan dengan sudut tegak (90°) — sisi ni TETAP sama tak kira sudut θ yang mana kita rujuk.
+
+TIGA NISBAH TRIGONOMETRI ditakrifkan daripada tiga sisi ni — mudah ingat guna singkatan SOH-CAH-TOA: Sin = Opposite/Hypotenuse, Cos = Adjacent/Hypotenuse, Tan = Opposite/Adjacent.
+--formula.body--
+sin θ = (sisi bertentangan) ÷ (hipotenus). kos θ = (sisi bersebelahan) ÷ (hipotenus). tan θ = (sisi bertentangan) ÷ (sisi bersebelahan). PERKAITAN PENTING: tan θ = sin θ ÷ kos θ (boleh diterbitkan terus daripada tiga definisi di atas).
+
+KESAN PERUBAHAN SUDUT: apabila sudut θ MEMBESAR (dari 0° ke 90°), nilai sin θ dan tan θ BERTAMBAH (semakin besar), manakala nilai kos θ BERKURANG (semakin kecil).
+
+NILAI ISTIMEWA (WAJIB HAFAL):
+θ = 30°: sin = 1/2, kos = √3/2, tan = 1/√3 (= √3/3)
+θ = 45°: sin = 1/√2 (= √2/2), kos = 1/√2, tan = 1
+θ = 60°: sin = √3/2, kos = 1/2, tan = √3
+
+SONGSANGAN (inverse): untuk cari SUDUT daripada nilai nisbah, guna kalkulator dengan tatatanda sin⁻¹, kos⁻¹, tan⁻¹. Cth: jika sin θ = 0.5, maka θ = sin⁻¹(0.5) = 30°.
+
+SUDUT DONGAK (angle of elevation) ialah sudut diukur ke ATAS daripada garis mendatar (cth. mata pemerhati ke puncak objek). SUDUT TUNDUK (angle of depression) ialah sudut diukur ke BAWAH daripada garis mendatar (cth. dari tempat tinggi melihat ke objek di bawah).
+
+=== src\content\form3\bab6\topik-6-1-sudut-lilitan-pusat.note.js ===
+--hook.body (bullets:false)--
+Beberapa orang pelajar berdiri di TITIK BERBEZA di tepi sebuah kolam berbentuk bulatan, semuanya di SATU sisi. Mereka semua melihat ke arah DUA tiang lampu di seberang kolam (dua titik tetap pada tepi kolam).
+
+Menariknya — walaupun mereka berdiri di tempat berlainan, SUDUT PANDANGAN (sudut di antara garis penglihatan ke kedua-dua tiang) adalah SAMA untuk semua! Kenapa ni boleh berlaku?
+--insight.body--
+Kau baru bina sudut pusat 70° — TEPAT dua kali ganda sudut lilitan 35° yang dicangkum LENGKOK YANG SAMA. Ini SENTIASA berlaku: SUDUT PUSAT yang dicangkum oleh sesuatu lengkok SENTIASA dua kali ganda SUDUT LILITAN yang dicangkum lengkok yang SAMA.
+
+Inilah jawapan kepada teka-teki kolam tadi juga — SEMUA sudut lilitan yang dicangkum oleh LENGKOK YANG SAMA (antara dua tiang tu) adalah SAMA besar, sebab semuanya berkait dengan SATU sudut pusat yang tetap.
+--formula.body--
+FAKTA 1: Sudut PUSAT yang dicangkum oleh sesuatu lengkok = 2 × sudut LILITAN yang dicangkum lengkok yang SAMA.
+FAKTA 2 (Sudut dalam Segmen Sama): Sudut-sudut LILITAN yang dicangkum oleh LENGKOK (atau perentas) yang SAMA adalah SAMA besar antara satu sama lain — tak kira di mana titik itu berada pada lilitan (asalkan pada segmen yang sama).
+FAKTA 3 (Sudut dalam Semibulatan): Sudut LILITAN yang dicangkum oleh DIAMETER (iaitu separuh bulatan/semibulatan) SENTIASA 90°. Ini kes KHAS Fakta 1 — sebab sudut pusat bagi diameter ialah 180° (garis lurus), maka sudut lilitan = 180° ÷ 2 = 90°.
+
+=== src\content\form3\bab6\topik-6-2-sisi-empat-kitaran.note.js ===
+--hook.body (bullets:false)--
+Sekumpulan pengibar bendera memasang EMPAT tiang kecil, SEMUANYA tepat pada tepi sebuah gelung bulat besar, kemudian sambungkan keempat-empat tiang dengan tali membentuk sisi empat.
+
+Sisi empat yang keempat-empat bucunya terletak PADA lilitan bulatan yang sama ni dipanggil SISI EMPAT KITARAN (cyclic quadrilateral). Ada hubungan istimewa antara sudut-sudut bertentangannya — jom kita siasat.
+--insight.body--
+SISI EMPAT KITARAN ialah sisi empat yang KEEMPAT-EMPAT bucunya terletak PADA lilitan bulatan yang sama. Sifat istimewanya: JUMLAH sepasang sudut PEDALAMAN BERTENTANGAN (opposite interior angles) SENTIASA 180° (bersuplemen). Ini berlaku untuk KEDUA-DUA pasangan sudut bertentangan dalam sisi empat tersebut.
+--formula.body--
+SIFAT 1 (Sudut Bertentangan): Dalam sisi empat kitaran ABCD, ∠A + ∠C = 180° DAN ∠B + ∠D = 180° (kedua-dua pasangan sudut bertentangan bersuplemen).
+
+SIFAT 2 (Sudut Peluaran): SUDUT PELUARAN (exterior angle) pada mana-mana bucu sisi empat kitaran SAMA dengan SUDUT PEDALAMAN pada bucu BERTENTANGANNYA. (Ini sebenarnya akibat terus daripada Sifat 1 — sebab sudut peluaran + sudut pedalaman bersebelahan = 180° pada garis lurus, DAN sudut pedalaman bertentangan + sudut pedalaman bersebelahan pun = 180°, jadi sudut peluaran mesti sama dengan sudut pedalaman bertentangan.)
+
+=== src\content\form3\bab6\topik-6-3-tangen-bulatan.note.js ===
+--hook.body (bullets:false)--
+Bila sebuah roda basikal (bulatan) berhenti di atas jalan raya yang rata, roda tu MENYENTUH jalan PADA SATU TITIK sahaja. Garis jalan tu dipanggil TANGEN kepada bulatan (roda). Ada satu perkaitan geometri yang PASTI berlaku antara jejari roda (dari pusat ke titik sentuhan) dengan jalan tu — jom kita siasat.
+--insight.body--
+Kau baru nampak: jejari OP (dari pusat O ke titik sentuhan P) SENTIASA berserenjang (90°) dengan TANGEN pada titik P tersebut. Ini SENTIASA benar tak kira di mana titik sentuhan P berada pada bulatan.
+
+Sifat ni sangat berguna — ia bermakna segi tiga yang dibentuk oleh pusat O, titik sentuhan P, dan mana-mana titik LUAR T pada tangen, ialah SEGI TIGA BERSUDUT TEGAK (sudut tegak di P) — jadi kita boleh guna TEOREM PYTHAGORAS untuk cari panjang yang tak diketahui!
+--formula.body--
+SIFAT 1 (Tangen-Jejari): Jejari ke titik sentuhan SENTIASA berserenjang (90°) dengan tangen pada titik itu.
+
+SIFAT 2 (Dua Tangen daripada Satu Titik): Jika DUA tangen dilukis daripada SATU titik luar T kepada bulatan yang sama (menyentuh pada titik P dan Q), maka TP = TQ (kedua-dua tangen SAMA panjang), dan garis OT (pusat ke titik luar) membahagi dua sama sudut PTQ (di antara dua tangen) SERTA sudut POQ (di pusat).
+
+SIFAT 3 (Sudut Tangen-Perentas): Sudut di antara TANGEN dengan PERENTAS yang dilukis daripada titik sentuhan SAMA dengan sudut dalam TEMBERENG SELANG-SELI (alternate segment) — iaitu sudut lilitan yang dicangkum oleh perentas itu pada bahagian bulatan yang bertentangan.
+
+TANGEN SEPUNYA (common tangent): satu garis tangen kepada DUA bulatan serentak — jenis masalah ni biasa gabungkan Sifat 1 dengan teorem Pythagoras.
+
+=== src\content\form3\bab6\topik-6-4-sudut-tangen-bulatan.note.js ===
+--hook.body (bullets:false)--
+Soalan SPM sebenar selalunya GABUNGKAN pelbagai fakta bulatan dalam SATU rajah — sudut lilitan, sisi empat kitaran, DAN tangen sekali gus. Ada SATU teorem penting berkaitan tangen yang belum kita tunjuk contoh penuh lagi: TEOREM SUDUT TEMBERENG SELANG-SELI (alternate segment theorem). Jom kita kuasai teorem ni, dan latih gabungkan semuanya.
+--insight.body--
+Bila TANGEN bertemu bulatan pada titik A, dan PERENTAS AB dilukis daripada titik sentuhan A tu, sudut ANTARA tangen dan perentas (di A) SAMA dengan sudut LILITAN yang dicangkum oleh perentas AB pada TEMBERENG SELANG-SELI (segmen di sebelah BERTENTANGAN). "Selang-seli" bermaksud kita rujuk sudut di bahagian bulatan yang BERSEBERANGAN daripada sudut tangen-perentas asal.
+--formula.body--
+Untuk soalan GABUNGAN, kenal pasti fakta yang RELEVAN dan gunakan SATU DEMI SATU:
+• Jejari ⊥ tangen pada titik sentuhan (6.3)
+• Sudut pusat = 2 × sudut lilitan, lengkok sama (6.1)
+• Sudut lilitan dalam segmen sama adalah SAMA (6.1)
+• Sudut dalam semibulatan = 90° (6.1)
+• Sudut bertentangan sisi empat kitaran = 180° (6.2)
+• Sudut tangen-perentas = sudut tembereng selang-seli (6.4, teorem baharu di atas)
+• Jumlah sudut segi tiga = 180° (asas Tingkatan 1)
+
+Lukis rajah, LABEL semua sudut diketahui, kemudian cari sudut yang berkait RAPAT dengan yang dikehendaki — selalunya perlu 2-3 langkah menggunakan fakta berbeza secara BERURUTAN.
+
+=== src\content\form3\bab7\topik-7-1-unjuran-ortogon.note.js ===
+--hook.body (bullets:false)--
+Bayangkan cahaya lampu yang SANGAT jauh (sinar selari) menyuluh LURUS ke atas sebuah kotak (kuboid), dan bayang yang terbentuk pada dinding di belakangnya. Bayang tu TIDAK ada "kedalaman" — ia cuma bentuk RATA (2D) yang mewakili pandangan kotak dari SATU arah sahaja. Inilah konsep UNJURAN ORTOGON (orthogonal projection).
+--insight.body--
+UNJURAN ORTOGON ialah pandangan DUA DIMENSI (rata) bagi sesuatu objek TIGA DIMENSI, dihasilkan dengan "mengunjur" (project) SETIAP titik pada objek secara SERENJANG (tegak lurus, 90°) ke atas satu SATAH (permukaan rata) pandangan. Terdapat dua jenis satah utama: SATAH MENCANCANG (vertical plane — untuk pandangan HADAPAN dan SISI) dan SATAH MENGUFUK (horizontal plane — untuk pandangan ATAS/pelan).
+
+MEMBANDING objek 3D dengan unjuran ortogonnya: objek SEBENAR ada TIGA dimensi (panjang, lebar, tinggi) dan kelihatan berbeza bentuk ikut arah kita pandang. Unjuran ortogon pula HANYA tunjukkan DUA daripada tiga dimensi tu (dimensi "kedalaman" ke arah pandangan HILANG/dimampatkan menjadi rata). Itu sebab kita perlukan LEBIH DARIPADA SATU unjuran (cth. pandangan hadapan + pandangan atas) untuk gambarkan bentuk 3D SEPENUHNYA di atas kertas rata.
+--formula.body--
+Untuk lukis unjuran ortogon: (1) Tentukan ARAH pandangan (cth. dari hadapan, dari atas, dari sisi). (2) Unjurkan SETIAP bucu/tepi objek secara SERENJANG ke satah pandangan tersebut (bayangkan garis lurus 90° daripada setiap titik objek terus ke satah). (3) Sambungkan titik-titik yang terunjur untuk bentuk rangka 2D.
+
+Panjang dan sudut YANG SELARI dengan satah pandangan dikekalkan TEPAT dalam unjuran; dimensi yang TEGAK LURUS dengan satah pandangan ("kedalaman") TIDAK kelihatan dalam unjuran tersebut.
+
+=== src\content\form3\bab7\topik-7-2-pelan-dongakan.note.js ===
+--hook.body (bullets:false)--
+Seorang arkitek reka sebuah gudang berbentuk KUBOID dengan bumbung berbentuk PIRAMID di atasnya (objek gabungan). Untuk hantar reka bentuk ni kepada kontraktor, dia perlu lukis PELAN (pandangan dari atas) dan DONGAKAN (pandangan dari hadapan/sisi) — LENGKAP dengan skala yang tepat, supaya kontraktor boleh bina TANPA sebarang keraguan.
+--insight.body--
+PELAN (plan) ialah unjuran ortogon objek dipandang TEGAK LURUS DARI ATAS (ke satah mengufuk). DONGAKAN HADAPAN (front elevation) ialah unjuran dipandang dari HADAPAN (ke satah mencancang). DONGAKAN SISI (side elevation) ialah unjuran dipandang dari SISI (ke satah mencancang yang lain, biasanya berserenjang dengan arah dongakan hadapan). Ketiga-tiga pandangan ni, bila digabungkan, beri gambaran LENGKAP bentuk 3D — walaupun setiap satu cuma lukisan 2D.
+
+JENIS GARIS dalam lukisan pelan/dongakan (penting untuk kejelasan): GARIS PADU TEBAL untuk sisi yang NAMPAK (visible edges). GARIS SEMPANG (putus-putus) untuk sisi TERLINDUNG (hidden edges, di sebalik objek). GARIS PADU HALUS (nipis) untuk GARIS BINAAN (construction lines) — garis bantu untuk selaraskan pelan dan dongakan semasa melukis, BUKAN sebahagian bentuk sebenar.
+--formula.body--
+(1) Tentukan skala yang sesuai (cth. 1:100). (2) Lukis PELAN dahulu (pandangan dari atas), dengan SEMUA panjang mendatar dan lebar ditukar mengikut skala. (3) Lukis DONGAKAN HADAPAN tepat DI BAWAH pelan, selaraskan lebar menggunakan GARIS BINAAN menegak daripada pelan — pastikan tinggi objek juga ditukar ikut skala. (4) Lukis DONGAKAN SISI (jika perlu) di sebelah, selaras tinggi dengan dongakan hadapan. (5) UNTUK OBJEK GABUNGAN (cth. kuboid + piramid): lukis pelan dan dongakan bagi SETIAP bahagian objek secara berasingan, kemudian GABUNGKAN dalam satu rajah, pastikan kedudukan relatifnya betul.
+
+MENSINTESIS (bina semula bentuk 3D daripada pelan+dongakan yang diberi): bandingkan bentuk pelan (atas) dengan bentuk dongakan (hadapan/sisi) — pelan beri maklumat "tapak" objek, dongakan beri maklumat "profil menegak"nya; gabungkan mental kedua-dua maklumat ni untuk bayangkan bentuk 3D asal.
+
+=== src\content\form3\bab8\topik-8-1-lokus.note.js ===
+--hook.body (bullets:false)--
+Seekor kambing diikat dengan tali sepanjang 5 meter pada sebatang pancang kayu yang tetap. Kambing tu boleh bergerak BEBAS ke mana-mana arah, TETAPI tali menghadkan jaraknya daripada pancang kepada TEPAT 5 meter (bila tali tegang). Kalau kita tandakan SETIAP kedudukan yang mungkin kambing tu berada (bila tali tegang), bentuk APAKAH yang terhasil?
+--insight.body--
+LOKUS (locus) ialah SET SEMUA titik yang kedudukannya memenuhi SATU (atau lebih) SYARAT tertentu. Bagi kambing tadi, syaratnya ialah "jarak TETAP 5 m daripada pancang" — dan set SEMUA titik yang memenuhi syarat ni membentuk BULATAN berjejari 5 m, berpusat pada pancang. Lokus BOLEH jadi pelbagai bentuk bergantung SYARAT yang diberi — bulatan (jarak tetap dari SATU titik), garis lurus (jarak tetap dari SATU garis), atau bentuk lain — kita akan terokai lebih lanjut dalam topik seterusnya.
+
+CONTOH LOKUS DALAM KEHIDUPAN SEBENAR: laluan hujung jarum jam (lokus = bulatan, jarak tetap dari pusat jam), laluan buaian yang berayun (lokus = lengkok bulatan), kawasan litupan isyarat menara telefon (lokus = bulatan, jarak tetap dari menara), orbit bulan mengelilingi bumi (lokus = lengkung hampir bulatan).
+--formula.body--
+Untuk KENAL PASTI lokus sesuatu situasi: (1) Kenal pasti SYARAT yang perlu dipenuhi (cth. jarak tetap, sama jarak daripada dua objek). (2) Bayangkan atau lukis BEBERAPA titik contoh yang memenuhi syarat tu. (3) Kenal pasti BENTUK yang terhasil apabila SEMUA titik yang mungkin disambungkan.
+
+Lokus "jarak TETAP r daripada satu titik tetap" SENTIASA membentuk BULATAN berjejari r, berpusat pada titik tetap tersebut.
+
+=== src\content\form3\bab8\topik-8-2-lokus-dua-dimensi.note.js ===
+--hook.body (bullets:false)--
+Pihak berkuasa nak bina SATU menara bomba yang jaraknya SAMA daripada Kampung A dan Kampung B, supaya masa tindak balas adil untuk kedua-dua kampung. Di manakah SEMUA kedudukan yang mungkin untuk menara tu (memenuhi syarat "sama jarak daripada A dan B")?
+--insight.body--
+Lokus titik yang SAMA JARAK daripada DUA titik tetap A dan B ialah PEMBAHAGI DUA SAMA SERENJANG (perpendicular bisector) bagi garis AB — iaitu garis yang melalui TITIK TENGAH AB, berserenjang (90°) dengan AB. Menara bomba tadi boleh dibina di MANA-MANA titik atas garis ini.
+--formula.body--
+(i) JARAK TETAP daripada SATU titik tetap → BULATAN (jejari = jarak tetap tu, berpusat pada titik tetap).
+(ii) SAMA JARAK daripada DUA titik tetap → PEMBAHAGI DUA SAMA SERENJANG bagi garis yang menyambung kedua-dua titik itu.
+(iii) JARAK TETAP daripada SATU garis lurus → DUA garis SELARI dengan garis asal (satu pada SETIAP belah, masing-masing pada jarak tetap tersebut).
+(iv) SAMA JARAK daripada DUA garis lurus SELARI → SATU garis SELARI, tepat di TENGAH-TENGAH kedua-dua garis asal.
+(v) SAMA JARAK daripada DUA garis lurus BERSILANG → PEMBAHAGI DUA SAMA SUDUT (angle bisector) bagi sudut-sudut yang dibentuk kedua-dua garis — sebenarnya DUA garis pembahagi sudut yang saling berserenjang (membahagi kesemua 4 sudut yang terbentuk).
+
+LOKUS MEMENUHI DUA SYARAT: bina/lukis KEDUA-DUA lokus secara berasingan (ikut syarat masing-masing), kemudian titik yang memenuhi KEDUA-DUA syarat ialah TITIK PERSILANGAN antara dua lokus tersebut.
+
+SYARAT "KURANG/LEBIH DARIPADA" jarak tertentu (bukan "tepat sama dengan"): ini menghasilkan SATU KAWASAN (region), bukan hanya satu garis/lengkung. Cth. "jarak KURANG daripada 5 cm daripada titik P" ialah KAWASAN DI DALAM bulatan jejari 5 cm berpusat P (tidak termasuk garis lilitan itu sendiri).
+
+=== src\content\form3\bab9\topik-9-1-garis-lurus.note.js ===
+--hook.body (bullets:false)--
+Sebuah syarikat telefon caj RM3 yuran tetap SETIAP bulan, PLUS RM2 untuk setiap GB data yang digunakan. Kalau x ialah bilangan GB digunakan dan y ialah jumlah bayaran (RM), perkaitan ni boleh ditulis sebagai PERSAMAAN: y = 2x + 3. Setiap bahagian persamaan ni ada MAKNA penting — jom kita siasat.
+--insight.body--
+Dalam y = mx + c: m ialah KECERUNAN (gradient) — kadar perubahan y bagi SETIAP 1 unit pertambahan x (dalam contoh tadi, m=2 bermaksud setiap +1 GB, bayaran naik RM2). c ialah PINTASAN-Y (y-intercept) — nilai y BILA x=0 (dalam contoh tadi, c=3 ialah yuran tetap bulanan, walaupun x=0 GB digunakan).
+
+SETIAP titik (x, y) yang terletak PADA garis tu mesti MEMENUHI persamaan y = 2x + 3 — kalau titik tak memenuhi persamaan, ia TIDAK terletak pada garis tersebut.
+--formula.body--
+BENTUK LAIN persamaan garis lurus: ax + by = c (bentuk am) — TUKAR kepada y=mx+c dengan menyusun-semula: y = (−a/b)x + (c/b), jadi m = −a/b. BENTUK PINTASAN: x/p + y/q = 1 (p = pintasan-x, q = pintasan-y) — kecerunan m = −q/p.
+
+PERKAITAN TITIK DENGAN PERSAMAAN: satu titik (x₁, y₁) terletak PADA garis y=mx+c JIKA DAN HANYA JIKA GANTIKAN x₁ dan y₁ ke dalam persamaan menghasilkan PERNYATAAN BENAR (kiri = kanan).
+
+KECERUNAN GARIS SELARI: DUA garis adalah SELARI JIKA DAN HANYA JIKA kecerunan (m) kedua-duanya SAMA.
+
+MENENTUKAN PERSAMAAN GARIS: (a) Jika diberi KECERUNAN m dan SATU titik (x₁,y₁): guna y − y₁ = m(x − x₁), kemudian susun semula kepada y=mx+c. (b) Jika diberi DUA titik: cari kecerunan dahulu guna m = (y₂−y₁)/(x₂−x₁), kemudian guna kaedah (a).
+
+TITIK PERSILANGAN DUA GARIS: selesaikan KEDUA-DUA persamaan garis SERENTAK (guna penggantian, penghapusan, atau kaedah graf) — jawapannya ialah SATU titik (x,y) yang memenuhi KEDUA-DUA persamaan serentak.

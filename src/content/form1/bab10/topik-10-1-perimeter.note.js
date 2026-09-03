@@ -21,19 +21,21 @@ export const notaPerimeterContent = {
   insight: {
     mentorLine: "Perasan apa yang kau baru buat untuk cari jumlah keseluruhan?",
     title: "Perimeter = Jumlah SEMUA Sisi!",
-    body:
-      "PERIMETER ialah jumlah ukuran panjang SEMUA sisi sesuatu bentuk. Untuk segiempat tepat, ada 2 pasang " +
-      "sisi yang sama panjang, jadi kita boleh guna jalan pintas: Perimeter = 2 × (panjang + lebar), bukannya " +
-      "jumlahkan satu-satu.",
+    bullets: [
+      "PERIMETER ialah jumlah ukuran panjang SEMUA sisi sesuatu bentuk.",
+      "Untuk segiempat tepat, ada 2 pasang sisi yang sama panjang, jadi kita boleh guna jalan pintas: Perimeter = 2 × (panjang + lebar), bukannya jumlahkan satu-satu.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "Perimeter Segiempat Tepat = 2 × (panjang + lebar)",
-    body:
-      "PERIMETER SEGIEMPAT TEPAT = 2 × (panjang + lebar). PERIMETER SEGIEMPAT SAMA = 4 × sisi. Untuk bentuk " +
-      "LAIN (segi tiga, poligon tak sekata, dan lain-lain), hanya JUMLAHKAN SEMUA sisi terus.",
+    bullets: [
+      "PERIMETER SEGIEMPAT TEPAT = 2 × (panjang + lebar).",
+      "PERIMETER SEGIEMPAT SAMA = 4 × sisi.",
+      "Untuk bentuk LAIN (segi tiga, poligon tak sekata, dan lain-lain), hanya JUMLAHKAN SEMUA sisi terus.",
+    ],
   },
 
   example: {

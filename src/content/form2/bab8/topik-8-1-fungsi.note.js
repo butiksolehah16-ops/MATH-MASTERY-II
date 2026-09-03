@@ -28,23 +28,20 @@ export const notaFungsiContent = {
   insight: {
     mentorLine: "Perasan yang setiap nilai x hanya bagi SATU nilai f(x)?",
     title: "Fungsi = Setiap Input Ada TEPAT SATU Output",
-    body:
-      "Walaupun x berubah (1, 2, 3, 4), setiap satu nilai x tu HANYA memberi SATU nilai f(x) — tiada x yang " +
-      "bagi dua jawapan berbeza. Itulah syarat sesuatu perkaitan dipanggil FUNGSI: setiap input mesti ada " +
-      "TEPAT SATU output (boleh jadi banyak input bagi SATU output yang sama — itu masih fungsi — tapi SATU " +
-      "input TAK BOLEH bagi lebih daripada satu output).",
+    bullets: [
+      "Walaupun x berubah (1, 2, 3, 4), setiap satu nilai x tu HANYA memberi SATU nilai f(x) — tiada x yang bagi dua jawapan berbeza.",
+      "Itulah syarat sesuatu perkaitan dipanggil FUNGSI: setiap input mesti ada TEPAT SATU output (boleh jadi banyak input bagi SATU output yang sama — itu masih fungsi — tapi SATU input TAK BOLEH bagi lebih daripada satu output).",
+    ],
   },
 
   formula: {
     mentorLine: "Ini notasi rasmi fungsi — simpan dalam kepala kamu.",
     title: "Notasi Fungsi f(x)",
     expression: "f(x) bermaksud \"nilai fungsi f pada x\"",
-    body:
-      "Fungsi ditulis sebagai f(x), dibaca \"f bagi x\" atau \"f pada x\". Contohnya f(x) = 2x + 1 bermaksud " +
-      "\"gandakan x, kemudian tambah 1\". Untuk cari f(4), gantikan x dengan 4: f(4) = 2(4) + 1 = 9. Sesuatu " +
-      "perkaitan ADALAH fungsi jika setiap input (x) ada TEPAT SATU output (satu-kepada-satu ATAU " +
-      "banyak-kepada-satu). Ia BUKAN fungsi jika ada satu input dengan LEBIH daripada satu output " +
-      "(satu-kepada-banyak).",
+    bullets: [
+      "Fungsi ditulis sebagai f(x), dibaca \"f bagi x\" atau \"f pada x\". Contohnya f(x) = 2x + 1 bermaksud \"gandakan x, kemudian tambah 1\". Untuk cari f(4), gantikan x dengan 4: f(4) = 2(4) + 1 = 9.",
+      "Sesuatu perkaitan ADALAH fungsi jika setiap input (x) ada TEPAT SATU output (satu-kepada-satu ATAU banyak-kepada-satu). Ia BUKAN fungsi jika ada satu input dengan LEBIH daripada satu output (satu-kepada-banyak).",
+    ],
   },
 
   example: {

@@ -22,20 +22,21 @@ export const notaGarisDanSudutContent = {
   insight: {
     mentorLine: "Perasan bentuk yang terjadi bila sudut sampai 180°?",
     title: "180° = Garis Lurus!",
-    body:
-      "Kau baru bina sudut sehingga 180° — bila jejari tu tepat BERTENTANGAN dengan garis asal, ia membentuk " +
-      "SATU GARIS LURUS. Ini bermakna JUMLAH sudut pada satu garis lurus SENTIASA 180°. Farah berpusing " +
-      "180° untuk menghadap tepat ke belakang.",
+    bullets: [
+      "Kau baru bina sudut sehingga 180° — bila jejari tu tepat BERTENTANGAN dengan garis asal, ia membentuk SATU GARIS LURUS.",
+      "Ini bermakna JUMLAH sudut pada satu garis lurus SENTIASA 180°. Farah berpusing 180° untuk menghadap tepat ke belakang.",
+    ],
   },
 
   formula: {
     mentorLine: "Ini konsep rasmi yang kau akan guna sepanjang topik ni — simpan dalam kepala.",
     title: "Formula Rasmi",
     expression: "Garis lurus = 180°, Pusingan penuh = 360°",
-    body:
-      "SUDUT PADA GARIS LURUS = 180°. SUDUT PADA PUSAT (satu pusingan penuh) = 360°. SUDUT REFLEKS ialah " +
-      "sudut yang LEBIH BESAR daripada 180° tetapi KURANG daripada 360°. SUDUT BERKOMPLEMEN: dua sudut yang " +
-      "jumlahnya 90°. SUDUT BERSUPLEMEN: dua sudut yang jumlahnya 180°.",
+    bullets: [
+      "SUDUT PADA GARIS LURUS = 180°. SUDUT PADA PUSAT (satu pusingan penuh) = 360°.",
+      "SUDUT REFLEKS ialah sudut yang LEBIH BESAR daripada 180° tetapi KURANG daripada 360°.",
+      "SUDUT BERKOMPLEMEN: dua sudut yang jumlahnya 90°. SUDUT BERSUPLEMEN: dua sudut yang jumlahnya 180°.",
+    ],
   },
 
   example: {
