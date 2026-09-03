@@ -120,9 +120,19 @@ export default function NumberLineExplorer({
 
       {done && (
         <p className="number-line__result">
-          Sampai! {start}
-          {unitLabel} {steps < 0 ? "−" : "+"} {distance} = {target}
-          {unitLabel}
+          {stepUnit === 1 ? (
+            <>
+              Sampai! {start}
+              {unitLabel} {steps < 0 ? "−" : "+"} {distance} = {target}
+              {unitLabel}
+            </>
+          ) : (
+            <>
+              Sampai! {totalClicks} × {stepUnit}
+              {unitLabel} = {distance}
+              {unitLabel}
+            </>
+          )}
         </p>
       )}
     </div>
