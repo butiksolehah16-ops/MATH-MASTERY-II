@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { getExplorationVisual } from "./visuals/registry.js";
+import { getExplorationVisual, getFigure } from "./visuals/registry.js";
 import { shuffleArray } from "../shared/shuffle.js";
 import "./NoteStepper.css";
 
@@ -31,6 +31,16 @@ function BodyContent({ bullets, body }) {
     );
   }
   return <p className="note-stepper__body">{body}</p>;
+}
+
+// Paparkan rajah rujukan statik (cth. galeri bentuk 3D) bila sub-fasa
+// bekalkan medan `figure` — kosongkan (null) kalau tiada atau kunci tak
+// dikenali, supaya kandungan lama (tiada `figure`) terus berfungsi.
+function SubPhaseFigure({ figureKey }) {
+  const Figure = getFigure(figureKey);
+  if (!Figure) return null;
+  // eslint-disable-next-line react/static-components -- Figure is a static-registry lookup (FIGURE_REGISTRY), not a fresh component per render
+  return <Figure />;
 }
 
 // Note Stepper Engine — orkestrat aliran "cikgu terangkan" (spec ms. 40-46):
@@ -107,6 +117,7 @@ export default function NoteStepper({ content, onComplete }) {
           <>
             <h3 className="note-stepper__title">{content.hook.title}</h3>
             <BodyContent bullets={content.hook.bullets} body={content.hook.body} />
+            <SubPhaseFigure figureKey={content.hook.figure} />
           </>
         )}
 
@@ -126,6 +137,7 @@ export default function NoteStepper({ content, onComplete }) {
           <>
             <h3 className="note-stepper__title">{content.insight.title}</h3>
             <BodyContent bullets={content.insight.bullets} body={content.insight.body} />
+            <SubPhaseFigure figureKey={content.insight.figure} />
           </>
         )}
 
@@ -134,6 +146,7 @@ export default function NoteStepper({ content, onComplete }) {
             <h3 className="note-stepper__title">{content.formula.title}</h3>
             <p className="note-stepper__expression">{content.formula.expression}</p>
             <BodyContent bullets={content.formula.bullets} body={content.formula.body} />
+            <SubPhaseFigure figureKey={content.formula.figure} />
           </>
         )}
 

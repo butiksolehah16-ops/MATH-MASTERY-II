@@ -6,6 +6,7 @@ export const notaPoligonContent = {
   hook: {
     mentorLine: "Bab baharu — kita terokai bentuk POLIGON! Jom mula dengan situasi sebenar.",
     title: "Papan Tanda Oktagon",
+    figure: "polygon-names",
     body:
       "Papan tanda 'BERHENTI' berbentuk OKTAGON — bentuk tertutup dengan 8 sisi lurus. Dari SATU bucu sahaja, " +
       "berapa banyak garis pepenjuru (diagonal) boleh dilukis ke bucu-bucu lain?",

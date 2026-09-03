@@ -23,6 +23,7 @@ export const notaSifatBentuk3dContent = {
   insight: {
     mentorLine: "Perasan macam mana bentuk melengkung (silinder, kon, sfera) berbeza daripada bentuk bersudut tajam?",
     title: "Muka, Tepi, dan Bucu",
+    figure: "shapes-3d",
     bullets: [
       "MUKA (face) ialah permukaan rata ATAU melengkung yang membentuk sempadan luar sesuatu pepejal. TEPI (edge) ialah garis di mana DUA muka bertemu. BUCU (vertex) ialah titik di mana tepi-tepi bertemu.",
       "Bentuk bersudut tajam macam KUBOID dan PIRAMID ada muka rata sahaja, dengan tepi dan bucu yang jelas.",

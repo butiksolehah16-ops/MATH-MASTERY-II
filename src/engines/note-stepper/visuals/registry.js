@@ -24,6 +24,8 @@ import TransformationExplorer from "./TransformationExplorer.jsx";
 import TrigRatioExplorer from "./TrigRatioExplorer.jsx";
 import TangentCircleExplorer from "./TangentCircleExplorer.jsx";
 import PlaceholderVisual from "./PlaceholderVisual.jsx";
+import ShapeGallery3D from "./ShapeGallery3D.jsx";
+import PolygonGallery from "./PolygonGallery.jsx";
 
 // Slot visual eksplorasi ikut jenis topik (spec ms. 69-73):
 //   Integer/nombor       -> garis nombor interaktif
@@ -68,4 +70,18 @@ const VISUAL_REGISTRY = {
 
 export function getExplorationVisual(visualType) {
   return VISUAL_REGISTRY[visualType] ?? PlaceholderVisual;
+}
+
+// Rajah rujukan STATIK (bukan eksplorasi interaktif) yang boleh dilekatkan
+// pada mana-mana sub-fasa Nota (hook/insight/formula) melalui medan `figure`
+// dalam kandungan — cth. `insight: { ..., figure: "shapes-3d" }`. Berasingan
+// daripada VISUAL_REGISTRY sebab exploration SENTIASA satu visual interaktif
+// bersama onFinished, manakala figure cuma paparan rujukan tanpa interaksi.
+const FIGURE_REGISTRY = {
+  "shapes-3d": ShapeGallery3D,
+  "polygon-names": PolygonGallery,
+};
+
+export function getFigure(figureKey) {
+  return FIGURE_REGISTRY[figureKey] ?? null;
 }

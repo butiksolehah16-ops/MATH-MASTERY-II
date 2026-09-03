@@ -1,0 +1,48 @@
+.polygon-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(72px, 1fr));
+  gap: 8px;
+  margin: 4px 0 2px;
+}
+
+.polygon-gallery__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  margin: 0;
+  padding: 8px 4px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+}
+
+.polygon-gallery__svg {
+  width: 100%;
+  max-width: 56px;
+  height: auto;
+}
+
+.polygon-gallery__svg polygon {
+  fill: color-mix(in srgb, var(--chapter-theme, var(--accent)) 12%, transparent);
+  stroke: var(--chapter-theme, var(--accent));
+  stroke-width: 3;
+  stroke-linejoin: round;
+}
+
+.polygon-gallery__item figcaption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-1);
+  text-align: center;
+}
+
+.polygon-gallery__sides {
+  font-size: 9.5px;
+  font-weight: 600;
+  color: var(--text-2);
+}
